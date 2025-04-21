@@ -1,0 +1,128 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-88, total number of articles is 88.**
+
+{"id": 1, "domain": "reviewjournal.com", "title": "For the Left, is there anything ‘taxing the rich’ can’t do?"}
+{"id": 2, "domain": "lemonde.fr", "title": "France wants to make one-off wealth tax permanent"}
+{"id": 3, "domain": "jonathanturley.org", "title": "Weak Essay? Student Rejected by Top Universities Despite Near Perfect Scores and $30 Million App"}
+{"id": 4, "domain": "babylonbee.com", "title": "Concentration Camp Prisoners Concerned China Being Bullied By America"}
+{"id": 5, "domain": "amgreatness.com", "title": "It’s Not Easy Being Green › Climate alarmism, cloaked in pseudoscience and moral posturing, masks a deeper agenda of power, profit, and control—often at the expense of truth and prosperity."}
+{"id": 6, "domain": "nypost.com", "title": "CDC doctor monitoring bad COVID vaccine reactions may have deleted files, alleges Sen. Ron Johnson"}
+{"id": 7, "domain": "foxnews.com", "title": "Trump vows nobody getting ‘off the hook’ for ‘unfair’ trade balances, says there was no tariff ‘exception’"}
+{"id": 8, "domain": "nypost.com", "title": "Taylor Lorenz defends Luigi Mangione fangirls on CNN as a 'morally good man'"}
+{"id": 9, "domain": "enjoyer.com", "title": "The Michigan Economic Development Corp funneled nearly $300 million to queer dance troupes and other random nonprofits last year"}
+{"id": 10, "domain": "breitbart.com", "title": "Federal Judge Orders USDA to Unfreeze Funding to Maine"}
+{"id": 11, "domain": "kesq.com", "title": "A 17-year-old in Wisconsin allegedly killed his parents as part of a plot to assassinate Trump, FBI says"}
+{"id": 12, "domain": "wsj.com", "title": "See How Government Spending Is Up Even as Musk Touts Savings"}
+{"id": 13, "domain": "twitchy.com", "title": "Hamas Instructs Its Terrorists to Hide Among Civilians When They Hear Drones"}
+{"id": 14, "domain": "frontpagemag.com", "title": "Jihad, Texas Style"}
+{"id": 15, "domain": "realclearinvestigations.com", "title": "Paying a Heavy Cost for Going After a Tax Cheat Named Hunter Biden"}
+{"id": 16, "domain": "x.com", "title": "So where were all you libs when Biden was placing tariffs on all kinds of sh*t from China?"}
+{"id": 17, "domain": "self.Conservative", "title": "Half of polled liberals believe that killing the President is justified."}
+{"id": 18, "domain": "x.com", "title": "Owner of Modelo Beer says sales have fizzled due to President Trump’s deportations."}
+{"id": 19, "domain": "foxnews.com", "title": "Josh Shapiro chokes up while delivering post-arson press conference | Fox News Video"}
+{"id": 20, "domain": "foxbusiness.com", "title": "Trump says specific tariff will be placed on semiconductor industry, rate to be announced within week"}
+{"id": 21, "domain": "foxnews.com", "title": "US northern border faces Great Lakes threat from ‘bad actors’ pressing waterfront weaknesses: expert"}
+{"id": 22, "domain": "x.com", "title": "Go Get'em Tommy!"}
+{"id": 23, "domain": "foxbusiness.com", "title": "'Necessary' or 'bullying our friends?' Americans differ starkly on Trump tariffs"}
+{"id": 24, "domain": "foxnews.com", "title": "Blue state ‘prioritizing the criminals’ with $239M taxpayer-funded prison project, prosecutor says"}
+{"id": 25, "domain": "x.com", "title": "While Hollywood’s woke version of “Snow White” told us we didn’t need princes"}
+{"id": 26, "domain": "foxnews.com", "title": "Trump commends Rory McIlroy's 'tremendous courage' fighting for Masters win on Sunday: 'It was amazing'"}
+{"id": 27, "domain": "newsmax.com", "title": "Trump: CBS, '60 Minutes' Attacks 'Unlawful, Illegal'"}
+{"id": 28, "domain": "foxnews.com", "title": "Trump's 13th week in office expected to include tariff negotiation blitz, visit from El Salvador leader"}
+{"id": 29, "domain": "foxnews.com", "title": "Trump White House policy to ignore reporters in emails brings praise and harsh criticism"}
+{"id": 30, "domain": "nypost.com", "title": "1199 SEIU boss George Gresham accused of corruption — but no Democrat will investigate"}
+{"id": 31, "domain": "foxnews.com", "title": "Suspect admits he firebombed Governor Shapiro’s mansion on Passover, with intention of assault with hammer"}
+{"id": 32, "domain": "v.redd.it", "title": "Trump to meet with El Salvador president after deporting 10 more alleged gang members"}
+{"id": 33, "domain": "redstate.com", "title": "Liz Warren Trots Over to CNN to Tell Jake Tapper About Her 'Super-Duper Strategy' to Beat Trump"}
+{"id": 34, "domain": "pjmedia.com", "title": "Washington Post’s Clinging to Fake Story Reminds Us What the Media Really Is"}
+{"id": 35, "domain": "self.Conservative", "title": "They’ll always protect their echo chamber. Always."}
+{"id": 36, "domain": "foxnews.com", "title": "Taylor Lorenz's 'heinous' defense of Luigi Mangione as a 'morally good man' disgusts X users"}
+{"id": 37, "domain": "foxnews.com", "title": "WA sheriff rips state for sanctuary city policies: We need to protect our citizens | Fox News Video"}
+{"id": 38, "domain": "foxnews.com", "title": "Scoop: GOP group dedicated to electing Republicans at state level spotlights record fundraising haul"}
+{"id": 39, "domain": "foxnews.com", "title": "Maine AG swipes Trump administration over judge's funding-freeze ruling amid athlete battle"}
+{"id": 40, "domain": "cnbc.com", "title": "Why Trump’s nuclear talks with Iran could be far more successful than Biden’s"}
+{"id": 41, "domain": "dailywire.com", "title": "Arson Suspect Planned On Beating Josh Shapiro With Hammer: Police"}
+{"id": 42, "domain": "fox29.com", "title": "Chicago's Cinco de Mayo parade canceled over fear tied to Trump's immigration policies"}
+{"id": 43, "domain": "barrons.com", "title": "Nvidia to Make AI Supercomputers in Texas and Plans Up to $500 Billion in U.S. AI Production"}
+{"id": 44, "domain": "notthebee.com", "title": "\"Registered socialist\" arrested for firebombing mansion of Pennsylvania's Democrat governor during Passover"}
+{"id": 45, "domain": "freebeacon.com", "title": "At Harvard-Hosted 'Wikipedia Edit-a-Thon,' Law Students Target the Pages of Firms That Criticized School's Response to Antisemitism"}
+{"id": 46, "domain": "twitchy.com", "title": "They Said WHAT About Kash Patel? The NYT Hits All-Time LOW with THIS Claim About Russiagate FBI Analyst"}
+{"id": 47, "domain": "pjmedia.com", "title": "Trump Answers Nearly 20 TIMES More Media Questions Than Old Joe Biden Did in Four Years"}
+{"id": 48, "domain": "foxnews.com", "title": "Top US hospital hit with scathing ad campaign over 'extreme woke' agenda | Fox News"}
+{"id": 49, "domain": "breitbart.com", "title": "British Army Drafted by Government to Help Birmingham Trash Crisis"}
+{"id": 50, "domain": "i.redd.it", "title": "It's (D)ifferent"}
+{"id": 51, "domain": "dailywire.com", "title": "Stephen Miller Blames DOJ ‘Saboteur’ For Claiming Salvadoran Migrant Mistakenly Deported"}
+{"id": 52, "domain": "v.redd.it", "title": "President Nayib Bukele says Kilmar Garcia cannot be returned to US"}
+{"id": 53, "domain": "genesiustimes.com", "title": "Trade war escalates: Trump slaps 150% tariff on Mitch McConnell's wife • Genesius Times"}
+{"id": 54, "domain": "townhall.com", "title": "The Pentagon Must Go on the Offensive to Defeat Politicized Officers"}
+{"id": 55, "domain": "spectator.org", "title": "Inflation Cools Off: Media Hardest Hit"}
+{"id": 56, "domain": "dailywire.com", "title": "Tech Giant Commits $500 Billion To Make AI Supercomputers ‘Entirely In The U.S.’"}
+{"id": 57, "domain": "justthenews.com", "title": "While publicly rebuking Russia, Joe Biden opened 2014 back door for Moscow gas to flow to Ukraine"}
+{"id": 58, "domain": "blogs.nvidia.com", "title": "NVIDIA to Manufacture American-Made AI Supercomputers in US for First Time"}
+{"id": 59, "domain": "redstate.com", "title": "Shocked! Shocked! Boston's Trump Derangement Syndrome-Laden Mayor's Campaign Funded by Chinese Official"}
+{"id": 60, "domain": "fox4news.com", "title": "Judge Reduces Teen Track Star Killer Karmelo Anthony’s Bond to $250,000, Places Him on House Arrest"}
+{"id": 61, "domain": "drugtopics.com", "title": "FDA Grants Fast Track Designation for Potential H5N1 Bird Flu Vaccine"}
+{"id": 62, "domain": "foxnews.com", "title": "Omar to seek House re-election, quashing Senate speculation | Fox News"}
+{"id": 63, "domain": "thespectator.com", "title": "How to deal with the student mob"}
+{"id": 64, "domain": "timesofindia.indiatimes.com", "title": "Megyn Kelly blasts medical community over her Covid vaccine-linked condition: 'They lied to us'"}
+{"id": 65, "domain": "spectator.org", "title": "Scientists Claim Climate Change Is Causing People to Commit Suicide"}
+{"id": 66, "domain": "hoover.org", "title": "Hoover Digest 2025: Issue No. 2"}
+{"id": 67, "domain": "redstate.com", "title": "Trump and Bukele Torch CNN's Kaitlan Collins in Oval Office Showdown Over Deported MS-13 Gangbanger"}
+{"id": 68, "domain": "nationalpost.com", "title": "Carney apologizes for fake Trump-style buttons, Liberal staffers 'reassigned'"}
+{"id": 69, "domain": "econtalk.org", "title": "Rational and Religious (with Ross Douthat)"}
+{"id": 70, "domain": "self.Conservative", "title": "Critical thought on the Trump Administration."}
+{"id": 71, "domain": "jpost.com", "title": "Yemeni gov't reportedly preparing 80,000 man assault on Houthi-controlled Hodeidah port"}
+{"id": 72, "domain": "x.com", "title": "The sorry political landscape currently in Europe"}
+{"id": 73, "domain": "wisn.com", "title": "FBI: Waukesha teen killed parents in extremist plot to assassinate Trump"}
+{"id": 74, "domain": "pjmedia.com", "title": "Trump Meets with Nayib Bukele, Destroys Fake New"}
+{"id": 75, "domain": "pjmedia.com", "title": "Trump ‘Honored’ to Be Suing 'Fake News' CBS, 60 Minutes"}
+{"id": 76, "domain": "dailycaller.com", "title": "EXCLUSIVE: Anti-Trump ‘Resistance’ Leader’s Campaign Bankrolled By Dem Power Broker Tied To Chinese Intel Agency"}
+{"id": 77, "domain": "justice.gov", "title": "Albuquerque Man Charged in Connection with Arson Attacks on Tesla Dealership and Republican Party of New Mexico Office"}
+{"id": 78, "domain": "washingtonexaminer.com", "title": "IRS leadership has history of bankrolling Democrats, supporting left-wing movements"}
+{"id": 79, "domain": "self.Conservative", "title": "Have dems lost their minds?"}
+{"id": 80, "domain": "nypost.com", "title": "Harvard refuses Trump admin demands to curtail antisemitism on campus"}
+{"id": 81, "domain": "babylonbee.com", "title": "Gretchen Whitmer Sneaks Into White House Again"}
+{"id": 82, "domain": "ice.gov", "title": "Boston ICE arrest illegal immigrant convicted of endangering children"}
+{"id": 83, "domain": "thefederalist.com", "title": "NC Supreme Court Allows 60K Votes Lacking ID To Count"}
+{"id": 84, "domain": "notthebee.com", "title": "Concert ends in chaos after Mexican artist refuses to play songs that glorify cartels"}
+{"id": 85, "domain": "breitbart.com", "title": "Arizona to Remove Almost 50K Non-Citizens from Voter Rolls"}
+{"id": 86, "domain": "breitbart.com", "title": "Modelo Owner Complains Trump’s Crackdown on Illegal Immigration Hurts Sales"}
+{"id": 87, "domain": "breitbart.com", "title": "Nigel Farage Calls for ‘DOGE’ Teams to Root Out Waste and Inefficiencies in English Councils"}
+{"id": 88, "domain": "foxnews.com", "title": "New Mexico man charged in Tesla, GOP attacks"}
+
+====================Input File End======================
+
+
+

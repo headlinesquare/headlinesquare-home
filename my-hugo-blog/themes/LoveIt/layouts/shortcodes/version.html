@@ -1,0 +1,17 @@
+{{- $version := .Get 0 -}}
+{{- $url := printf "https://github.com/dillonzq/LoveIt/releases/tag/v%v" $version -}}
+{{- $type := .Get 1 | default "new" | lower -}}
+{{- $label := T $type -}}
+{{- $colorMap := dict "new" "00b1ff" -}}
+{{- $colorMap  = dict "changed" "81bd65" | merge $colorMap -}}
+{{- $colorMap  = dict "deleted" "ff5252" | merge $colorMap -}}
+{{- $colorMap  = dict "deprecated" "ff9101" | merge $colorMap -}}
+{{- $color := index $colorMap $type | default (index $colorMap "new") -}}
+{{- $pathTemplate := cond hugo.IsMultilingual (printf "svg/version/%%v-%%v.%v.svg" .Page.Language.Lang) "svg/version/%v-%v.svg" -}}
+{{- $path := printf $pathTemplate $version $type -}}
+{{- $resource := resources.Get "svg/version.template.svg" -}}
+{{- $resource = $resource | resources.ExecuteAsTemplate $path (dict "version" $version "label" $label "color" $color) | minify -}}
+{{- $alt := printf "LoveIt %v | %v" $label $version -}}
+<a href="{{ $url }}" rel="noopener noreffer" target="_blank">
+    {{- dict "Src" $resource.RelPermalink "Alt" $alt "Class" "version" | partial "plugin/img.html" -}}
+</a>

@@ -1,0 +1,124 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-84, total number of articles is 84.**
+
+{"id": 1, "domain": "theblaze.com", "title": "Trump admin moves to end taxpayer funding for PBS, NPR"}
+{"id": 2, "domain": "nypost.com", "title": "How Democrats used NGOs to end-run voters: A ‘parallel government’"}
+{"id": 3, "domain": "foxnews.com", "title": "Maryland jury finds illegal immigrant guilty of Rachel Morin&#x27;s murder"}
+{"id": 4, "domain": "flvoicenews.com", "title": "WH official Stephen Miller: Trump does not need to bring back deported alien from El Salvador"}
+{"id": 5, "domain": "cis.org", "title": "One of the best summaries for the recent Abrego Garcia scandal: \"Judge Orders Return of Alien Removed to El Salvador in ‘Administrative Error’\""}
+{"id": 6, "domain": "redstate.com", "title": "Liberal Women Go to Space, Somehow Manage to Come Back Even More Insufferable"}
+{"id": 7, "domain": "thefederalist.com", "title": "NYT Lies About Patel Suspending Analyst Key To FBI Corruption"}
+{"id": 8, "domain": "babylonbee.com", "title": "Terrified Luigi Mangione Files Restraining Order Against Taylor Lorenz"}
+{"id": 9, "domain": "amgreatness.com", "title": "China Would Lose a ‘Trade War’ With the US—’Gradually, then Suddenly’"}
+{"id": 10, "domain": "realclearworld.com", "title": "Trump's Team of Realists"}
+{"id": 11, "domain": "havenhomecare.info", "title": "Trump Administration Freezes $2.2 Billion In Harvard Grants Amid Campus Activism Dispute"}
+{"id": 12, "domain": "foxnews.com", "title": "Trump admin blocked from revoking status of more than 500,000 migrants by federal judge | Fox News"}
+{"id": 13, "domain": "thespectator.com", "title": "Is Kamala Harris turning into Meghan Markle?"}
+{"id": 14, "domain": "mafamily.org", "title": "Parents in Burlington, Massachusetts Demand Answers After Students Were Asked Sexually Explicit Questions in Survey"}
+{"id": 15, "domain": "frontpagemag.com", "title": "Trump's Negotiations With The Mullahs | Let’s hope this isn't another Western fool’s errand."}
+{"id": 16, "domain": "freebeacon.com", "title": "ICE Arrests Columbia Student Activist Who Endorsed Oct. 7 Attack"}
+{"id": 17, "domain": "notthebee.com", "title": "Read this Missouri senator's reasoning for making Easter a federal holiday"}
+{"id": 18, "domain": "newsnationnow.com", "title": "Sewage from Mexico to US ‘has to stop:’ San Diego politician"}
+{"id": 19, "domain": "foxnews.com", "title": "DOT saves taxpayers over $60M by terminating Texas high-speed rail contract"}
+{"id": 20, "domain": "foxnews.com", "title": "DOGE uncovers massive VA contract for ‘salary survey data and analysis' — says it canceled it, saving millions"}
+{"id": 21, "domain": "foxnews.com", "title": "White House reportedly bars Associated Press from Oval Office event despite court order"}
+{"id": 22, "domain": "foxnews.com", "title": "National Guard deployed to blue city overrun with juvenile crime, fentanyl is 'not enough,' state GOP says"}
+{"id": 23, "domain": "channelnewsasia.com", "title": "China tells airlines to suspend Boeing jet deliveries amid trade dispute"}
+{"id": 24, "domain": "foxnews.com", "title": "Pennsylvania governor's mansion arson suspect Cody Balmer was out on bail at time of firebombing"}
+{"id": 25, "domain": "foxnews.com", "title": "No 'Real ID' appointments open in New Jersey as residents sound off: ‘Get with the times, NJ'"}
+{"id": 26, "domain": "telegraph.co.uk", "title": "How Sweden’s multicultural dream went fatally wrong"}
+{"id": 27, "domain": "foxnews.com", "title": "Jeff Bezos falls after Blue Origin New Shepard capsule lands | Fox News Video"}
+{"id": 28, "domain": "foxbusiness.com", "title": "Zuckerberg endures early grilling on day 1 of Meta monopoly trial"}
+{"id": 29, "domain": "latintimes.com", "title": "Nancy Pelosi Torn Apart for Telling Republicans 'Hands Off Our Medicaid' Despite Years of Blocking Universal Healthcare"}
+{"id": 30, "domain": "nypost.com", "title": "Nancy Pelosi adamantly refusing to step down — embodying the problem with Democratic leadership: sources"}
+{"id": 31, "domain": "newsmax.com", "title": "China's Port Traffic Slows Sharply Amid US Tariffs"}
+{"id": 32, "domain": "townhall.com", "title": "CNN Was Forced to Say This After Trump's Oval Office Event Yesterday. It's Pure Comedy."}
+{"id": 33, "domain": "townhall.com", "title": "The Reason Why Chicago Canceled Their Cinco de Mayo Parade Is Hilarious"}
+{"id": 34, "domain": "kare11.com", "title": "Minnesota woman admits to 25-year social security fraud scheme"}
+{"id": 35, "domain": "americanmilitarynews.com", "title": "Video: Pentagon cuts $5.1 billion in 'wasteful spending'"}
+{"id": 36, "domain": "aol.com", "title": "Top vaccine official resigns from FDA, criticizes RFK Jr."}
+{"id": 37, "domain": "jonathanturley.org", "title": "Biden’s Administration May Have Suppressed COVID Evidence Contradicting Chinese Claims – JONATHAN TURLEY"}
+{"id": 38, "domain": "the-sun.com", "title": "Family of ‘killer’ Karmelo Anthony to buy new house & security with donated $430k as he’s freed in Austin Metcalf murder"}
+{"id": 39, "domain": "breitbart.com", "title": "MSNBC’s Sanders: We Don’t Know Motives of Shapiro Attacker, But Trump ‘Ratcheted the Temperature Up’"}
+{"id": 40, "domain": "kold.com", "title": "Downtown terror: Family speaks out after brutal Tucson hatchet attack"}
+{"id": 41, "domain": "nypost.com", "title": "China issues warning on Trump's 'shameless' tariff war: “Let those peasants in the United States wail in front of the 5,000 years of Chinese civilization.\""}
+{"id": 42, "domain": "tomklingenstein.com", "title": "Shooting Dead Enemies"}
+{"id": 43, "domain": "wfin.com", "title": "Biden to address disability advocates in first major speech since leaving White House"}
+{"id": 44, "domain": "notthebee.com", "title": "The vice president is out here sniping people in the comment section and I love it"}
+{"id": 45, "domain": "city-journal.org", "title": "The Right Is Winning the Battle Over Higher Education"}
+{"id": 46, "domain": "thespectator.com", "title": "What the left calls ‘chaos,’ the rest of us call ‘winning’ — One by one, countries line up to make a deal with the world’s largest economy"}
+{"id": 47, "domain": "breitbart.com", "title": "Judge Indira Talwani Stops Trump Admin from Ending Biden Amnesty that Was ‘Created out of Thin Air’"}
+{"id": 48, "domain": "foxnews.com", "title": "Judge rules on DOJ's request to drop gun case against accused MS-13 leader"}
+{"id": 49, "domain": "hotair.com", "title": "Why The Latest Blue Origin Flight Is So Annoying"}
+{"id": 50, "domain": "redstate.com", "title": "China Losing It Over 'Extremely Shameless' Tariff War With Trump: 'Peasants in the US Will Suffer!'"}
+{"id": 51, "domain": "foxnews.com", "title": "Democratic Governor Newsom signs $2.8 billion bailout for healthcare program overrun by illegal aliens"}
+{"id": 52, "domain": "aclu.org", "title": "ACLU Obama Deportation - \"The Obama administration has prioritized speed over fairness in the removal system, sacrificing individualized due process\""}
+{"id": 53, "domain": "self.Conservative", "title": "Conservatives of Reddit, how do things really look in your day-to-day life after Trump’s presidency began?"}
+{"id": 54, "domain": "breitbart.com", "title": "AMD to Manufacture Processor Chips in America for First Time Ever"}
+{"id": 55, "domain": "nypost.com", "title": "Honda to boost US manufacturing, shift production from Canada, Mexico in response to Trump tariffs"}
+{"id": 56, "domain": "dailyvoice.com", "title": "Incest, Child Rape: Woman In US Illegally Faces Horrific Crimes Against Child In Massachusetts"}
+{"id": 57, "domain": "breitbart.com", "title": "Nolte — Peak Trump: President Surges To Highest Approval Rating Since Inauguration"}
+{"id": 58, "domain": "hoover.org", "title": "Thomas Sowell: Facts Against Rhetoric, Capitalism, Culture—And, Yes, The Tariffs"}
+{"id": 59, "domain": "washingtontimes.com", "title": "FBI's 'Crossfire Hurricane' files show the fervor to frame Trump - Washington Times"}
+{"id": 60, "domain": "foxnews.com", "title": "Pam Bondi calls out 'detached from reality' Dems for demanding alleged MS-13 gang member be returned to US"}
+{"id": 61, "domain": "babylonbee.com", "title": "Harvard Warns Loss Of Federal Funding Will Cripple Their Ability To Find A Final Solution"}
+{"id": 62, "domain": "hotair.com", "title": "Keith Ellison: Recording #2 Emerges"}
+{"id": 63, "domain": "hotair.com", "title": "Newsom Signs Bill to Cover Free Healthcare for Illegal Immigrants (He Should Thank Trump)"}
+{"id": 64, "domain": "notthebee.com", "title": "White House prepares plan to end ALL funding for PBS, NPR"}
+{"id": 65, "domain": "nypost.com", "title": "Astronaut corrects CBS anchor after he uses term ‘mankind’"}
+{"id": 66, "domain": "aol.com", "title": "Exclusive-Top Hegseth adviser put on leave in Pentagon leak probe"}
+{"id": 67, "domain": "theblaze.com", "title": "Democrat lawmaker flat-out admits Democrats regularly discuss 'legal strategy' to thwart Trump administration"}
+{"id": 68, "domain": "campusreform.org", "title": "Bipartisan bill would protect women in college, keep men out of sororities"}
+{"id": 69, "domain": "dailywire.com", "title": "WH Press Secretary Karoline Leavitt said “it’s mind-boggling” how far Democrats are going to defend accused illegal immigrant gang members over American citizens"}
+{"id": 70, "domain": "dailywire.com", "title": "Hegseth Adviser Placed On Leave Amid Defense Department Leak Probe"}
+{"id": 71, "domain": "dailywire.com", "title": "EXCLUSIVE: FBI Must Investigate Biden Coverup Of Aborted Babies Found In DC, Lawmakers Say"}
+{"id": 72, "domain": "dailywire.com", "title": "Republican Hospitalized Hours After Launching New House Campaign In Texas"}
+{"id": 73, "domain": "foxnews.com", "title": "Top Hegseth advisor Dan Caldwell placed on administrative leave by Defense Department"}
+{"id": 74, "domain": "dailywire.com", "title": "Dem Senator’s Ultimatum: Bring Back Deported MS-13 Suspect Or I’ll Go To El Salvador"}
+{"id": 75, "domain": "notthebee.com", "title": "Woke female celebs are angry about Blue Origin's all-female launch to space"}
+{"id": 76, "domain": "breitbart.com", "title": "Kansas Republicans Override Dem Governor’s Veto of Pro-Life Bill Calling for Educating Fetal Development"}
+{"id": 77, "domain": "notthebee.com", "title": "Climate wackos are apparently going after dogs now and I can't wait to see how it works out for them"}
+{"id": 78, "domain": "babylonbee.com", "title": "California Mandates Homeowners Install Wheelchair Ramps On Porches For Disabled Burglars"}
+{"id": 79, "domain": "thefederalist.com", "title": "The 'Maryland Man’ Hoax Is Designed Demonize Border Security"}
+{"id": 80, "domain": "redstate.com", "title": "A Judge's Order Stopping the Repatriation of Illegals Lays Bare Our Two-Tiered Justice System"}
+{"id": 81, "domain": "hotair.com", "title": "'DELETE DELETE DELETE': Trump's Mass Deregulation Push About to Launch"}
+{"id": 82, "domain": "newsmax.com", "title": "Pentagon's Defense Digital Service Team Resigns En Masse"}
+{"id": 83, "domain": "redstate.com", "title": "Whoopi Has Brief Moment of Clarity, Shockingly Backs Key Trump Proposal—ABC Cuts to Commercial"}
+{"id": 84, "domain": "newsmax.com", "title": "25% of IRS Workers Plan Exit via Trump Buyout"}
+
+====================Input File End======================
+
+
+

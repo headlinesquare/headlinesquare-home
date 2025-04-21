@@ -1,0 +1,33 @@
+
+python reddit_news_HTML.py politics --start 2025-03-22T19:00:00-04:00 --cutoff 2025-03-23T19:00:00-04:00 --reset --output politics_0323_v2.jsonl
+python reddit_news_HTML.py politics --start 2025-03-23T19:00:00-04:00 --cutoff 2025-03-24T19:00:00-04:00 --reset --output politics_0324_v2.jsonl
+python reddit_news_HTML.py politics --start 2025-03-24T19:00:00-04:00 --cutoff 2025-03-25T19:00:00-04:00 --reset --output politics_0325.jsonl
+
+python reddit_news_HTML_0330.py politics --start 2025-03-27T19:00:00-04:00 --cutoff 2025-03-30T19:00:00-04:00 --reset --daily_page --output politics.jsonl
+
+python reddit_news_HTML_0330.py politics --start 2025-03-30T19:00:00-04:00 --cutoff 2025-03-31T19:00:00-04:00 --reset --daily_page --output politics.jsonl
+python reddit_news_HTML_0330.py politics --start 2025-04-08T19:00:00-04:00 --cutoff 2025-04-09T19:00:00-04:00 --reset --daily_page --output politics.jsonl
+
+python reddit_news_HTML.py Conservative --start 2025-03-22T19:00:00-04:00 --cutoff 2025-03-23T19:00:00-04:00 --reset --output conservative_0323_v2.jsonl
+python reddit_news_HTML.py Conservative --start 2025-03-23T19:00:00-04:00 --cutoff 2025-03-24T19:00:00-04:00 --reset --output conservative_0324_v2.jsonl
+python reddit_news_HTML.py Conservative --start 2025-03-24T19:00:00-04:00 --cutoff 2025-03-25T19:00:00-04:00 --reset --output conservative_0325.jsonl
+
+python reddit_news_HTML_0330.py Conservative --start 2025-03-27T19:00:00-04:00 --cutoff 2025-03-30T19:00:00-04:00 --reset --daily_page --output conservative.jsonl
+python reddit_news_HTML_0330.py Conservative --start 2025-03-30T19:00:00-04:00 --cutoff 2025-03-31T19:00:00-04:00 --reset --daily_page --output conservative.jsonl
+python reddit_news_HTML_0330.py Conservative --start 2025-04-08T19:00:00-04:00 --cutoff 2025-04-09T19:00:00-04:00 --reset --daily_page --output conservative.jsonl
+
+
+
+
+python reddit_news_HTML_0409.py politics --start 2025-04-08T19:00:00-04:00 --cutoff 2025-04-09T19:00:00-04:00 --reset --daily_page --output politics.jsonl
+python reddit_news_HTML_0409.py Conservative --start 2025-04-08T19:00:00-04:00 --cutoff 2025-04-09T19:00:00-04:00 --reset --daily_page --output conservative.jsonl
+
+python reddit_news_HTML_0409.py politics --start 2025-04-09T19:00:00-04:00 --cutoff 2025-04-10T19:00:00-04:00 --reset --daily_page --output politics.jsonl
+python reddit_news_HTML_0409.py Conservative --start 2025-04-09T19:00:00-04:00 --cutoff 2025-04-10T19:00:00-04:00 --reset --daily_page --output conservative.jsonl
+
+
+python reddit_news_HTML_0409.py politics --start 2025-04-12T19:00:00-04:00 --cutoff 2025-04-13T19:00:00-04:00 --reset --daily_page --output output\politics.jsonl
+python reddit_news_HTML_0409.py Conservative --start 2025-04-12T19:00:00-04:00 --cutoff 2025-04-13T19:00:00-04:00 --reset --daily_page --output output\conservative.jsonl
+
+python order_reversal.py output\politics_04132025_curated.jsonl
+python order_reversal.py output\conservative_04132025_curated.jsonl

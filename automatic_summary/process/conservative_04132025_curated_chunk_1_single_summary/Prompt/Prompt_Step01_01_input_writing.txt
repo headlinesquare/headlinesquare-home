@@ -1,0 +1,120 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-80, total number of articles is 80.**
+
+{"id": 1, "domain": "x.com", "title": "Let's See Some Names & Nubers!"}
+{"id": 2, "domain": "x.com", "title": "Just Give Us Some Proof!"}
+{"id": 3, "domain": "dailywire.com", "title": "Trump Exempts Smartphones, Other Electronics From Additional Tariff On China"}
+{"id": 4, "domain": "redstate.com", "title": "Investigation of Drone Attack on US Base in Jordan Reveals Complacency and Incompetence at All Levels"}
+{"id": 5, "domain": "spectator.org", "title": "America’s Math Collapse: Harvard Institutes Remedial Math"}
+{"id": 6, "domain": "pjmedia.com", "title": "It’s Starting to Look Really Bad for Letitia James"}
+{"id": 7, "domain": "babylonbee.com", "title": "7 Surprising Findings From Trump's Physical — Blood type came back USA-positive"}
+{"id": 8, "domain": "foxnews.com", "title": "Trump team holds 'constructive' face-to-face nuclear talks with Iran, will meet again next weekend"}
+{"id": 9, "domain": "foxnews.com", "title": "Trump orders military to take control of federal land at southern border"}
+{"id": 10, "domain": "foxnews.com", "title": "Ex-ESPN employee Jemele Hill 'disappointed' Dodgers visiting Trump at White House"}
+{"id": 11, "domain": "oag.state.tx.us", "title": "Attor­ney Gen­er­al Ken Pax­ton Announces Inves­ti­ga­tion into USA Fenc­ing for Vio­lat­ing State Law"}
+{"id": 12, "domain": "hindustantimes.com", "title": "Beijing moves to soothe India over $100 billion trade deficit"}
+{"id": 13, "domain": "v.redd.it", "title": "Donald Trump has arrived for UFC 314 in Miami"}
+{"id": 14, "domain": "self.Conservative", "title": "BTW, has all that Epstein stuff been resolved yet?"}
+{"id": 15, "domain": "dailywire.com", "title": "DOGE Review Finds Three Dem States Account For Most Unemployment Fraud Since 2020"}
+{"id": 16, "domain": "newsbusters.org", "title": "CNN ‘Extremism Expert’ Claims All Extremism is on the Right, No Equivalent on the Left at This Time (VIDEO)"}
+{"id": 17, "domain": "irishstar.com", "title": "Michigan Governor Gretchen Whitmer hides in shame in viral Oval Office photo"}
+{"id": 18, "domain": "foxnews.com", "title": "LA County homeless spending under the microscope of newly appointed US attorney; $2.3B in homeless funding is unaccounted for in LA County alone"}
+{"id": 19, "domain": "apnews.com", "title": "Trump receives a standing ovation as he enters a UFC event in Miami"}
+{"id": 20, "domain": "zachgoldberg.substack.com", "title": "After Harvard: The Fight Against Race-Based Admissions at the US Naval Academy"}
+{"id": 21, "domain": "foxnews.com", "title": "Trump walks out at UFC 314 to roaring crowd chanting 'U-S-A!'"}
+{"id": 22, "domain": "foxnews.com", "title": "Dana White dishes on visit with Trump, Bill Maher and Kid Rock | Fox News Video"}
+{"id": 23, "domain": "foxbusiness.com", "title": "American consumers see tariff surcharges on their receipts amid trade war"}
+{"id": 24, "domain": "foxnews.com", "title": "Bernie Sanders says largest ‘Fighting Oligarchy’ rally with AOC is making Trump, Musk ‘very nervous’"}
+{"id": 25, "domain": "breitbart.com", "title": "UK Lawmakers Debate Measures to Prevent Chinese Owners from Closing British Steel Factory"}
+{"id": 26, "domain": "foxnews.com", "title": "SNL mocks Trump as Jesus in Easter sketch targeting economy and faith"}
+{"id": 27, "domain": "self.Conservative", "title": "Don't visit Ukraine if you are a military age male"}
+{"id": 28, "domain": "justice.gov", "title": "Boston City Councilor Agrees to Plead Guilty to Federal Public Corruption Charges"}
+{"id": 29, "domain": "breitbart.com", "title": "Chinese National Convicted of Acting as Spy for China Arrested by ICE Agents"}
+{"id": 30, "domain": "self.Conservative", "title": "Election"}
+{"id": 31, "domain": "foxnews.com", "title": "White House plans 'extraordinary' Holy Week as Trump honors Easter with 'the observance it deserves'"}
+{"id": 32, "domain": "agdaily.com", "title": "Trump offers legal path for illegal farm workers"}
+{"id": 33, "domain": "foxnews.com", "title": "Viral CIA file about aliens attacking soldiers takes off with UFO intrigue"}
+{"id": 34, "domain": "foxnews.com", "title": "Trump says ‘legendary’ crowd reaction at UFC 314 shows the administration is ‘doing a good job’"}
+{"id": 35, "domain": "foxnews.com", "title": "Pro-life journalist assaulted on street assigns blame to Democratic rhetoric"}
+{"id": 36, "domain": "foxnews.com", "title": "Princeton president vows not to cave to Trump, yet acknowledges antisemitism on campus"}
+{"id": 37, "domain": "newsmax.com", "title": "China Admits Conducting Cyberattacks Against US | Newsmax.com"}
+{"id": 38, "domain": "babylonbee.com", "title": "'Minecraft' Revealed To Be Psyop To Prepare Kids For Return Of American Coal Mines"}
+{"id": 39, "domain": "afn.net", "title": "Huckabee, now ambassador to Israel, vows to work for 'peace of Jerusalem'"}
+{"id": 40, "domain": "foxnews.com", "title": "Inside Donald Trump’s relationship with God, in his own words: 'I was saved'"}
+{"id": 41, "domain": "townhall.com", "title": "State Department Recognizes El Salvador As Being Safer to Visit Than Many European Nations"}
+{"id": 42, "domain": "foxnews.com", "title": "Florida police officer injured after illegal alien crashes into marked patrol car"}
+{"id": 43, "domain": "foxnews.com", "title": "ICE highlights arrests of 5 illegal aliens convicted of violent crimes, including against children"}
+{"id": 44, "domain": "apnews.com", "title": "Judge allows requirement that everyone in the US illegally must register to move forward"}
+{"id": 45, "domain": "x.com", "title": "Here We Go Sports Fans!"}
+{"id": 46, "domain": "realclearpolitics.com", "title": "A Tale of Two Sanctuary Cities: Chicago Hits Back at Trump, L.A. Stays Quiet"}
+{"id": 47, "domain": "amgreatness.com", "title": "Trump, Trade, and the Tragedy of the Working Class"}
+{"id": 48, "domain": "manhattancontrarian.com", "title": "Is There Any Fraud In The Medicaid Program? Here's A Place To Start Looking"}
+{"id": 49, "domain": "notthebee.com", "title": "Letitia James is suing Donald Trump. Again."}
+{"id": 50, "domain": "x.com", "title": "Sunday. Christian holiday before Easter. Barbaric brutal murder of civilians in Sumy. Russians did it intentionally."}
+{"id": 51, "domain": "spotlightpa.org", "title": "Fire at Josh Shapiro’s residence caused by arson: PA police"}
+{"id": 52, "domain": "fortune.com", "title": "Harvard Professors Sue Trump Administration to Block Review of Nearly $9 Billion in Federal Funds"}
+{"id": 53, "domain": "foxnews.com", "title": "Federal Judge Upholds Trump Policy Allowing ICE to Conduct Enforcement Operations at Churches and Places of Worship"}
+{"id": 54, "domain": "self.Conservative", "title": "FOX Sunday Morning"}
+{"id": 55, "domain": "redstate.com", "title": "Yikes: PA Gov. Josh Shapiro's Home Set on Fire by Arsonist While He and Family Slept"}
+{"id": 56, "domain": "unherd.com", "title": "EU faces a choice deeper than America vs China"}
+{"id": 57, "domain": "notthebee.com", "title": "Soccer coach in California charged with sexually abusing, murdering 13-year-old boy turns out to be an illegal alien"}
+{"id": 58, "domain": "nypost.com", "title": "Trump is asking tough tariff questions critics won't answer"}
+{"id": 59, "domain": "hotair.com", "title": "Political Money-Grab"}
+{"id": 60, "domain": "dailywire.com", "title": "From Tariffs To Talks: Trump Adviser Reports 130 Countries Now Seek A Deal"}
+{"id": 61, "domain": "youtube.com", "title": "U.S. Tariffs Hit Hard, Chinese Factories Collapse, Selling Equipment, Worse Than the Pandemic | China Observer"}
+{"id": 62, "domain": "foxnews.com", "title": "Pennsylvania Gov Josh Shapiro and family evacuated from governor’s mansion after suspected arsonist sets fire"}
+{"id": 63, "domain": "foxnews.com", "title": "Pete Hegseth says Hakeem Jeffries' 'dumb effing individuals' jab is evidence of how far Dems 'have fallen'"}
+{"id": 64, "domain": "redstate.com", "title": "DOGE Has a New Portal For the Airing of Grievances"}
+{"id": 65, "domain": "breitbart.com", "title": "Disney-Marvel 'Fantastic Four' Wades into ‘Gender Politics' -- Leading Lady Sue Storm Won't Be a 'Doormat'"}
+{"id": 66, "domain": "breitbart.com", "title": "Hassett: Trump Administration Is Negotiating with 130 Countries on Tariffs"}
+{"id": 67, "domain": "dailywire.com", "title": "Pennsylvania Governor Evacuates Home With Family After Suspected Arson"}
+{"id": 68, "domain": "frontpagemag.com", "title": "Mahmoud Khalil Blasts Judge Over Deportation"}
+{"id": 69, "domain": "dailywire.com", "title": "Gretchen Whitmer Mocked For Trying To Hide Her Face From Cameras In Oval Office"}
+{"id": 70, "domain": "foxnews.com", "title": "Results of President Trump's physical released, here's what they say"}
+{"id": 71, "domain": "foxnews.com", "title": "SCOOP: Arizona to begin removing as many as 50K noncitizens from voter rolls following lawsuit"}
+{"id": 72, "domain": "foxnews.com", "title": "Speaker Mike Johnson says he's no 'big fan' of rumored idea to raise top tax rate"}
+{"id": 73, "domain": "foxnews.com", "title": "Gretchen Whitmer ribbed online for seeming to hide face in Oval Office"}
+{"id": 74, "domain": "foxnews.com", "title": "Suspect arrested after arson attack on PA governor’s mansion"}
+{"id": 75, "domain": "thenewamerican.com", "title": "Australian Dad Gets Custody of 12-year-old Son Whose Mom Wanted Him on Puberty Blockers"}
+{"id": 76, "domain": "nypost.com", "title": "Suspect arrested in arson attack on Pennsylvania Gov. Josh Shapiro’s residence as family slept inside"}
+{"id": 77, "domain": "foxnews.com", "title": "Florida assistant principal arrested after making 13-year-old student rub her feet 'like he loved her': police"}
+{"id": 78, "domain": "foxnews.com", "title": "Cory Booker insists there's 'enough smoke' to investigate Trump on insider trading with tariff reversal"}
+{"id": 79, "domain": "foxnews.com", "title": "Washington Post columnist clashes with Bill Maher on ‘falling into the trap’ of talking to Trump"}
+{"id": 80, "domain": "foxbusiness.com", "title": "Sticker shock: Why US cars are frozen out of the European market"}
+
+====================Input File End======================
+
+
+

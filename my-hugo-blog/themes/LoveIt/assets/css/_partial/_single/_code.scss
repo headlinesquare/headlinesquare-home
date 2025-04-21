@@ -1,0 +1,207 @@
+code {
+  display: inline-block;
+  max-width: 100%;
+  padding: 0 .4rem;
+  @include overflow-wrap(break-word);
+  @include line-break(anywhere);
+  font-size: var(--code-font-size);
+  font-family: var(--code-font-family);
+  color: $code-color;
+
+  [theme=dark] & {
+    color: $code-color-dark;
+  }
+}
+
+pre {
+  margin: 0;
+  padding: 8px;
+  @include tab-size(4);
+
+  code {
+    padding: 0;
+  }
+
+  img {
+    min-height: 1em;
+    max-height: 1.2em;
+    vertical-align: text-bottom;
+  }
+}
+
+code, pre {
+  background: $code-background-color;
+
+  [theme=dark] & {
+    background: $code-background-color-dark;
+  }
+}
+
+.code-block {
+  line-height: 1.25rem;
+  margin: .5rem 0;
+
+  .code-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: var(--global-font-family);
+    font-weight: bold;
+    color: $code-info-color;
+    background: darken($code-background-color, 8%);
+
+    [theme=dark] & {
+      color: $code-info-color-dark;
+      background: darken($code-background-color-dark, 6%);
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    .code-title {
+      width: 100%;
+      padding: .4rem;
+    }
+
+    .code-title::after {
+      padding-left: .2rem;
+      content: "Code";
+    }
+
+    @each $type, $text in $code-type-list {
+      &.#{$type} .code-title::after {
+        content: $text;
+      }
+    }
+
+    .arrow {
+      padding: 0 .2rem;
+      @include transition(transform 0.2s ease);
+    }
+
+    .ellipses {
+      padding: .4rem;
+    }
+
+    .copy {
+      display: none;
+      padding: .4rem;
+
+      &:hover {
+        cursor: pointer;
+        color: $global-link-hover-color;
+
+        [theme=dark] & {
+          color: $global-link-hover-color-dark;
+        }
+      }
+    }
+  }
+
+  .highlight {
+    position: relative;
+    max-height: 0;
+    overflow-y: hidden;
+    @include details-transition-open;
+    background: $code-background-color;
+
+    [theme=dark] & {
+      background: $code-background-color-dark;
+    }
+
+    .hl {
+      background-color: darken($code-background-color, 10%);
+
+      [theme=dark] & {
+        background-color: darken($code-background-color-dark, 5%);
+      }
+    }
+
+    code {
+      min-width: 100%;
+
+      span.line {
+        display: block;
+        min-width: 100%;
+      }
+    }
+
+    .c, /* Comment */
+    .ch /* CommentHashbang */,
+    .cm /* CommentMultiline */,
+    .c1 /* CommentSingle */,
+    .cs /* CommentSpecial */,
+    .cp /* CommentPreproc */,
+    .cpf /* CommentPreprocFile */ {
+      font-style: italic
+    }
+    .gl /* GenericUnderline */ {
+      text-decoration: underline
+    }
+
+    @each $class, $color in $code-highlight-color-map {
+      .#{$class} { color: $color; }
+    }
+
+    [theme=dark] & {
+      @each $class, $color in $code-highlight-color-map-dark {
+        .#{$class} { color: $color; }
+      }
+    }
+  }
+
+  &.open {
+    .code-header {
+      background: darken($code-background-color, 3%);
+
+      [theme=dark] & {
+        background: darken($code-background-color-dark, 3%);
+      }
+
+      .arrow {
+        @include transform(rotate(90deg));
+      }
+
+      .ellipses {
+        display: none;
+      }
+
+      .copy {
+        display: inline;
+      }
+    }
+
+    .highlight {
+      max-height: 20000px;
+      @include details-transition-close;
+    }
+  }
+
+  &:not(.open) {
+    ::-webkit-scrollbar {
+      height: 0;
+    }
+  }
+
+  &.code-line-numbers {
+    span.line::before {
+      display: inline-block;
+      counter-increment: code-block;
+      content: counter(code-block);
+      min-width: 4ch;
+      text-align: right;
+      text-wrap: nowrap;
+      box-sizing: border-box;
+      border-width: 0;
+      margin-right: 1rem;
+      color: $code-info-color;
+
+      [theme=dark] & {
+        color: $code-info-color-dark;
+      }
+    }
+  }
+}

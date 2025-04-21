@@ -1,0 +1,293 @@
+
+============================================================
+    REASONING_MODEL: openai/o3-mini-high
+    WRITING_MODEL: anthropic/claude-3.7-sonnet:thinking
+============================================================
+
+
+
+
+====================
+    Round 1
+    User: 
+====================
+
+**Imagine you are Chief News Analyst for both Democratic and Republican leadership in Congress.**
+
+This is not normal politics — America faces an unprecedented situation. The time is April, 2025. The executive branch, led by President Trump [47th President of the USA, inaugurated in January, 2025] and tech czar Elon Musk [The Head of the newly formed Department of Government Efficiency (DOGE)], expands their power dramatically. Proponents say that it leads to a golden age of America. Critics say that it is an enormously authoritarian and kleptocratic power grab. 
+
+Your task is to transform today’s curated Reddit news feed (below) into a **Daily Briefing** that both parties can use to understand immediate crises and coordinate responses. The news feed are collected from one specific political subreddit, which may or may not be politically neutral. But your task is to synthesize all the news objectively by analyzing their importance, factual accuracy, and interpretation bias, considering their source domains, headlines, but **not** user engagements at this moment, as we are still developing that function.
+
+You will be given today’s top posts — one JSON object per line, with creation ID, source domain, headline. The lines are strictly ranked based on article submission time to this subreddit. For example, the news coverage cycle is from 18:00 yesterday to 18:00 today. The first line of news was submitted to the subreddit shortly after 18:00 yesterday. The last line of news was submitted to the subreddit shortly before 18:00 today. After the precise moment that a political event happens, it takes an unspecified time delay, maybe as short as 15 minutes, maybe more than a day, for the political event to be submitted to the subreddit. But statistically, or on average, earlier events should be reported earlier in the subreddit than the time when later events are reported to the subreddit. We can't simply say, for example, that all the news stories in the second half of the day list, **happen** later than all the news stories in the first half of the day list, just because the second half is **reported** later. But when you randomly pick two stories, A and B, with A from the first half and B from the second half, the probability that B happens after A is higher than the probability that A happens after B. This heuristic method may be helpful for you to assemble news stories from fragmented news headlines. 
+
+---
+
+**You should produce a detailed briefing, following specific rules.**
+
+Due to the complexity of the task, you should do this meticulously in multiple replies. In each reply you only do one step. You will only begin your Step 1 after you received all the JSON lines. There are 8 steps + 8 checks, 16 cycles.
+
+The workflow is:
+
+Step 1 (logic-heavy): Raw document given, define the categories of news
+    First Check After Step 1
+Step 2 (logic-heavy): Put Articles into Categories
+    Sorting and First Check After Step 2
+    Second Check After Step 2
+Step 3 (logic-heavy): Scoring
+    First Check After Step 3
+Step 4 (logic-heavy): Sorting
+    First Check After Step 4
+    Second Check After Step 4
+Step 5 (writing-heavy): Summarizing
+    First Check After Step 5
+Step 6 (writing-heavy): Composing
+    First Check After Step 6
+Step 7 (logic-heavy): Add the URLs
+    First Check After Step 7
+Step 8 (writing-heavy): Finalizing
+
+You will keep editing a document which passes through multiple steps of processing. For each step, you only need to edit the document from my input or your last output. Let's define "a round of conversation" as my prompt + your output, basically my turn + your turn. Due to the sequential nature of the workflow, each step only depends on the introduction round, which is the very first round of our conversation, and our last two rounds of conversation, not anything in between. Therefore, to facilitate your multi-turn workflow, only the initial introduction round and the last two rounds of conversations will be provided to you as conversation history. In this way, your context length won't be exceeded, and you stay focus better. For each new round, please focus on the tasks defined in my latest prompt and build upon your output from your last two rounds. You also need to remember the background knowledge introduced in the first round.
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+---
+
+All following Reddit news posts are from a specific subreddit. Here is introduction_to_subreddit.txt.
+
+====================Input File Start====================
+
+**All following Reddit news posts are from the subreddit r/politics.**
+
+The r/politics subreddit on Reddit is a community focused on discussing and sharing news, analysis, and commentary related to U.S. politics. It's primarily a hub for:
+Breaking political news
+Opinion pieces and editorials
+Legislation and policy discussions
+Elections, political figures, and government actions
+
+It's moderated to focus on U.S.-centric content and generally avoids memes or low-effort posts. The subreddit can have a progressive or liberal-leaning tone, depending on the community's engagement, though it hosts a range of political perspectives.
+
+====================Input File End======================
+
+---
+
+Please tell me you are ready, and I will provide the JSONL lines in my next prompt.
+
+
+====================
+    Round 1
+    Assistant: 
+====================
+
+I'm ready to receive the JSONL lines for analysis. Once you provide them, I'll begin the step-by-step process of creating a comprehensive Daily Briefing for both Democratic and Republican leadership in Congress, following the workflow you've outlined.
+
+I understand I'll be analyzing news from r/politics (which tends to have a progressive/liberal leaning but hosts various political perspectives) within our fictional April 2025 scenario where President Trump and Elon Musk are expanding executive power.
+
+Please provide the JSONL data and I'll begin with Step 1: defining the categories of news.
+
+
+====================
+    Round 2
+    User: 
+====================
+
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 225-335, total number of articles is 111.**
+
+{"id": 225, "domain": "newsweek.com", "title": "Trump's approval rating worst of post-WWII presidents"}
+{"id": 226, "domain": "thetimes.com", "title": "Trump team set to approve copper mine on sacred Native American land"}
+{"id": 227, "domain": "reuters.com", "title": "US judge halts Trump plan for rapid deportations to third countries"}
+{"id": 228, "domain": "wset.com", "title": "Local library faces looming DOGE funding cuts threatening essential online services"}
+{"id": 229, "domain": "esquire.com", "title": "A Conservative Judge Just Torched the Administration's Case For Wrongly Deporting a Man to El Salvador"}
+{"id": 230, "domain": "reuters.com", "title": "US consumer safety agency to stop collecting swaths of data after CDC cuts"}
+{"id": 231, "domain": "theguardian.com", "title": "Federal judge blocks Musk team’s effort to shutter top consumer agency"}
+{"id": 232, "domain": "newsweek.com", "title": "Republicans Want to Expand Medicaid, New Poll Shows"}
+{"id": 233, "domain": "prospect.org", "title": "CFPB Slashed to the Bone, Threatening Financial Markets"}
+{"id": 234, "domain": "newsweek.com", "title": "Trump Admin Declares China 'Lab Leak' the True Origins of COVID-19"}
+{"id": 235, "domain": "truthout.org", "title": "More Than 150 Campuses Held Day of Action Against Trump’s Attacks on Higher Ed"}
+{"id": 236, "domain": "thehill.com", "title": "Trump on Russia-Ukraine talks: ‘Nobody’s playing me’"}
+{"id": 237, "domain": "19thnews.org", "title": "RFK Jr. says he wants to curb measles. His former nonprofit keeps undermining his message."}
+{"id": 238, "domain": "nbcnews.com", "title": "Trump is replacing the acting IRS commissioner, part of a dispute between treasury and Elon Musk"}
+{"id": 239, "domain": "wpr.org", "title": "'The federal government will find you': Immigration officials wrongfully told a Fox Valley man to leave the US"}
+{"id": 240, "domain": "newrepublic.com", "title": "El Salvador Staged Detail in Photo of Dem Senator and Abrego Garcia"}
+{"id": 241, "domain": "statnews.com", "title": "White House trumpets Covid lab leak theory on web page that was devoted to health information"}
+{"id": 242, "domain": "thetimes.com", "title": "Trump: If Ukraine-Russia peace deal’s too difficult we’ll ‘take a pass’"}
+{"id": 243, "domain": "thedailybeast.com", "title": "‘Fox & Friends’ Beg Trump for Tariff Answers: ‘How Long Is the Pain Going to Last?’ - The morning hosts implored the president to announce some “wins” to “calm people down a bit.”"}
+{"id": 244, "domain": "jewishinsider.com", "title": "First American lawmakers travel to post-Assad Syria to meet with new president"}
+{"id": 245, "domain": "cbsnews.com", "title": "RFK assassination files released by Trump administration"}
+{"id": 246, "domain": "axios.com", "title": "White House pushes COVID lab leak theory with new website"}
+{"id": 247, "domain": "latintimes.com", "title": "Trump Slams 'Grandstander' Senator Van Hollen for Visiting Abrego Garcia in El Salvador: 'Looked Like a Fool'"}
+{"id": 248, "domain": "thehill.com", "title": "Trump administration replaces federal COVID-19 response page with ‘lab leak’ explainer"}
+{"id": 249, "domain": "cnn.com", "title": "White House touts Covid-19 ‘lab leak’ theory on new website"}
+{"id": 250, "domain": "apnews.com", "title": "A US citizen was held for pickup by ICE even after proving he was born in the country"}
+{"id": 251, "domain": "thetimes.com", "title": "Donald-25: the new virus that’s devastating the world economy"}
+{"id": 252, "domain": "apnews.com", "title": "Trump turns a COVID information website into a promotion page for the lab leak theory"}
+{"id": 253, "domain": "adn.com", "title": "Trump administration cuts $1.5 million from grants for research of Indigenous boarding schools"}
+{"id": 254, "domain": "latintimes.com", "title": "White House Boasts Abrego Garcia Is 'Never Coming Back' to the US While Trolling NYT"}
+{"id": 255, "domain": "cnsmaryland.org", "title": "U.S. dominance in science at risk with Trump cuts, scientists warn"}
+{"id": 256, "domain": "theatlantic.com", "title": "Trump Is Flirting With Economic Disaster"}
+{"id": 257, "domain": "theatlantic.com", "title": "The Lies About Josh Shapiro Have Consequences"}
+{"id": 258, "domain": "congress.gov", "title": "H.R.2968 - To limit the authority of the Small Business Administration to facilitate access to voter registration, and for other purposes"}
+{"id": 259, "domain": "thehill.com", "title": "American Citizen Held by ICE Released"}
+{"id": 260, "domain": "thebulwark.com", "title": "Trump’s Zeal to Ruin Immigrant Lives Could Backfire"}
+{"id": 261, "domain": "wired.com", "title": "Judge Blocks DOGE From Laying Off 90 Percent of CFPB"}
+{"id": 262, "domain": "newsweek.com", "title": "RFK Jr.'s Ideas Are Catching on Across the U.S"}
+{"id": 263, "domain": "apnews.com", "title": "Judge won’t take further steps to enforce his order in AP case against Trump administration"}
+{"id": 264, "domain": "congress.gov", "title": "H.R.2939 - To amend title 18, United States Code, to prohibit taking or transmitting video of defense information, and for other purposes"}
+{"id": 265, "domain": "news10.com", "title": "Republican bill would delay transgender bathroom rules"}
+{"id": 266, "domain": "newsweek.com", "title": "Trump adviser suggests critics of deportations are committing a crime"}
+{"id": 267, "domain": "cnn.com", "title": "Trump’s pick for acting commissioner is out at IRS days after his appointment"}
+{"id": 268, "domain": "theguardian.com", "title": "Reeves to make case for trade deal in first meeting with US treasury secretary"}
+{"id": 269, "domain": "commondreams.org", "title": "'Arbitrary, Outlandish, and Unjustified': Raskin Warns Trump Against Invoking Insurrection Act"}
+{"id": 270, "domain": "peoplesworld.org", "title": "Dispossessed federal workers build ‘Muskville’ encampment in D.C."}
+{"id": 271, "domain": "hirono.senate.gov", "title": "Hirono, Booker, Castro, Jayapal Lead Over 100 Colleagues in Opposing HHS Proposed Rule to Take ACA Eligibility Away from DACA Recipients"}
+{"id": 272, "domain": "bloomberg.com", "title": "Trump Puts More Federal Civil Servants Under President’s Control"}
+{"id": 273, "domain": "salon.com", "title": "\"They want to rob it\": Former Social Security head says Musk, Trump are \"wrecking\" agency to raid it"}
+{"id": 274, "domain": "foxnews.com", "title": "Trump White House trashes NY Times over headline about deported El Salvadoran"}
+{"id": 275, "domain": "reuters.com", "title": "Volvo To Cut Up To 800 American Jobs As Trump's Tariffs Bite"}
+{"id": 276, "domain": "inquirer.com", "title": "Mack Trucks is laying off hundreds of workers at Lehigh Valley factory amid uncertainty and Trump’s tariffs"}
+{"id": 277, "domain": "thedailybeast.com", "title": "Trump Says Egg Prices ‘Getting Too Low’ Ahead of Easter Surge"}
+{"id": 278, "domain": "thehill.com", "title": "Van Hollen gives remarks after visit with Abrego Garcia"}
+{"id": 279, "domain": "congress.gov", "title": "H.R.2935 - To establish a Commission on the Federal Regulation of Cannabis to study a prompt and plausible pathway to the Federal regulation of cannabis, and for other purposes"}
+{"id": 280, "domain": "local10.com", "title": "Trump to invoke Schedule F to make it easier to fire some federal workers"}
+{"id": 281, "domain": "wbur.org", "title": "Tariffs against China threaten the booming board game industry"}
+{"id": 282, "domain": "wired.com", "title": "DOGE Is Just Getting Warmed Up"}
+{"id": 283, "domain": "variety.com", "title": "Trump Appoints Fox News Host Mark Levin to Homeland Security Advisory Council"}
+{"id": 284, "domain": "huffpost.com", "title": "White House Insults Both Wrongly Deported Man And Rule Of Law On Social Media"}
+{"id": 285, "domain": "politico.com", "title": "Trump says US could walk away from Russia-Ukraine war deal"}
+{"id": 286, "domain": "nytimes.com", "title": "A Startling Admission From a G.O.P. Senator: ‘We Are All Afraid’"}
+{"id": 287, "domain": "lgbtqnation.com", "title": "Trump administration opens a “snitch line” to report trans kids getting health care. The new portal launch coincides with an investigation into a major children's hospital."}
+{"id": 288, "domain": "theatlantic.com", "title": "Trump Is Flirting With Economic Disaster"}
+{"id": 289, "domain": "nytimes.com", "title": "Trump Shifted on Tariffs After Bond Holders Got Jittery. He Held Millions Himself."}
+{"id": 290, "domain": "thedailybeast.com", "title": "Trump’s Justice Department Steps In for Him on E. Jean Carroll Appeal"}
+{"id": 291, "domain": "politico.com", "title": "Latest IRS acting chief ousted amid Musk vs. Bessent turf feud"}
+{"id": 292, "domain": "cbsnews.com", "title": "Trump administration may form task force to handle China tariff impact"}
+{"id": 293, "domain": "msnbc.com", "title": "‘We need to bring him home’: Sen. Chris Van Hollen speaks after returning from visit El Salvador"}
+{"id": 294, "domain": "newsweek.com", "title": "Kilmar Abrego Garcia Moved Out of Notorious CECOT, Van Hollen Says"}
+{"id": 295, "domain": "theguardian.com", "title": "Why do Trump voters have no regrets? Because the people they hate are getting hurt more"}
+{"id": 296, "domain": "mpbonline.org", "title": "Transitioning teen cannot change name, Mississippi Supreme Court rules"}
+{"id": 297, "domain": "news10.com", "title": "Comptroller: Tax revenues outpace projections as federal cuts loom over budget"}
+{"id": 298, "domain": "thehill.com", "title": "Wall Street Journal defends Powell from Trump attacks"}
+{"id": 299, "domain": "al.com", "title": "Who is Republicans’ favorite politician? Donald Trump won’t like these poll results"}
+{"id": 300, "domain": "newsfromthestates.com", "title": "First Black woman elected to Kentucky Supreme Court takes oath"}
+{"id": 301, "domain": "washingtonpost.com", "title": "‘Hands-Off’ protests return Saturday. Here’s what to know."}
+{"id": 302, "domain": "truthout.org", "title": "Chinese Students and Scholars Faced Targeting Before Trump. Now It’s Escalating."}
+{"id": 303, "domain": "newrepublic.com", "title": "Marco Rubio Makes Humiliating Admission About Ukraine War"}
+{"id": 304, "domain": "cnn.com", "title": "For now, Pentagon and DHS won’t recommend that Trump invoke the Insurrection Act"}
+{"id": 305, "domain": "cnn.com", "title": "Mid-commute traffic stop left US citizen detained under an ICE order. Then, a Florida judge verified his US birth certificate"}
+{"id": 306, "domain": "cnn.com", "title": "YouTube, Amazon and Meta sign up to sponsor White House Easter Egg Roll"}
+{"id": 307, "domain": "cnn.com", "title": "Sen. Chris Van Hollen says Abrego Garcia described being ‘traumatized’ at CECOT, has been moved to different detention center"}
+{"id": 308, "domain": "huffpost.com", "title": "The Battle For American Thought"}
+{"id": 309, "domain": "npr.org", "title": "The State Department is changing its mind about what it calls human rights"}
+{"id": 310, "domain": "bloomberg.com", "title": "US Open to Recognizing Crimea as Russian in Ukraine Peace Deal"}
+{"id": 311, "domain": "congress.gov", "title": "H.R.2966 - To require the Administrator of the Small Business Administration to require an applicant for certain loans of the Administration to provide certain citizenship status documentation, and for other purposes"}
+{"id": 312, "domain": "thehill.com", "title": "Michigan Democrat backs Trump’s China tariffs, knocks approach as ‘chaotic’"}
+{"id": 313, "domain": "usatoday.com", "title": "Will Trump invoke Insurrection Act or declare martial law?"}
+{"id": 314, "domain": "apnews.com", "title": "Legal group sues Costa Rica alleging the rights of 81 children deported by Trump were violated"}
+{"id": 315, "domain": "latintimes.com", "title": "Trump Admin Bombarded With Demands for Epstein Files After Releasing RFK Assassination Files: 'Promises Made, Promises Broken'"}
+{"id": 316, "domain": "congress.gov", "title": "H.R.2969 - To allow the Secretary of the Interior to enter into memoranda of understanding for the purpose of scientific and technical cooperation in the mapping of critical minerals and rare earth elements, and for other purposes"}
+{"id": 317, "domain": "cnn.com", "title": "For now, Pentagon and DHS won’t recommend that Trump invoke the Insurrection Act"}
+{"id": 318, "domain": "reason.com", "title": "150 economists sign letter opposing Trump's protectionist agenda"}
+{"id": 319, "domain": "wired.com", "title": "DOGE Is Building a Master Database to Surveil and Track Immigrants"}
+{"id": 320, "domain": "statnews.com", "title": "Medical journal receives U.S. attorney letter seeking information about alleged bias"}
+{"id": 321, "domain": "nytimes.com", "title": "Appeals Court Denies Trump Administration’s Bid to End Deportation Protections for Venezuelans"}
+{"id": 322, "domain": "politico.com", "title": "Defense secretary's chief of staff to leave top job in wake of DOD turmoil"}
+{"id": 323, "domain": "reuters.com", "title": "Trump ‘ready’ to recognize Crimea as part of Russia in Ukraine deal, Bloomberg reports"}
+{"id": 324, "domain": "nytimes.com", "title": "Read the Letter From Kristi Noem to Harvard"}
+{"id": 325, "domain": "washingtonpost.com", "title": "Immigrants prove they are alive, forcing Social Security to undo death label"}
+{"id": 326, "domain": "independent.co.uk", "title": "Trump insists neither Russia nor Ukraine are ‘playing’ him as peace talks continue"}
+{"id": 327, "domain": "independent.co.uk", "title": "‘Will end badly for him’: Republican Karl Rove says Americans are already tired of Trump"}
+{"id": 328, "domain": "thehill.com", "title": "Van Hollen on Abrego Garcia meeting: ‘Nobody drank any margaritas’"}
+{"id": 329, "domain": "theatlantic.com", "title": "How America Can Avoid Becoming Russia"}
+{"id": 330, "domain": "thehill.com", "title": "Van Hollen recounts tearful exchange with mistakenly deported man"}
+{"id": 331, "domain": "latintimes.com", "title": "Senator Who Visited Abrego Garcia Exposes 'Margarita-Gate' Setup By El Salvadoran President Bukele"}
+{"id": 332, "domain": "rollingstone.com", "title": "Senator says Bukele staged margaritas at Abrego Garcia meeting, wanted it by pool"}
+{"id": 333, "domain": "marketplace.org", "title": "Why are SNAP benefits so easy to steal?"}
+{"id": 334, "domain": "theguardian.com", "title": "Trump White House replaces Covid website with treatise on ‘lab leak’ theory | Trump administration"}
+{"id": 335, "domain": "thedailybeast.com", "title": "Trump Makes It Even Easier for Him to Fire 50,000 Civil Servants - The president’s latest move targets federal workers with “important policy-determining, policy-making, policy-advocating, or confidential duties.”"}
+
+====================Input File End======================
+
+
+====================
+    Round 2
+    Assistant: 
+====================
+
+# step1.txt
+
+After analyzing today's news collection from r/politics, I've identified the following hierarchical categorization system that should effectively organize all articles while maintaining cognitive clarity:
+
+Area 1: Executive Branch Operations
+    Topic 1.1: Presidential Actions & Statements
+    Topic 1.2: DOGE Implementation & Government Restructuring
+    Topic 1.3: Personnel Changes & Appointments
+    Topic 1.4: Federal Agency Modifications
+
+Area 2: Immigration & Border Enforcement
+    Topic 2.1: Deportation Policies & Actions
+    Topic 2.2: The Abrego Garcia Case & Controversy
+    Topic 2.3: Legal Challenges to Immigration Enforcement
+    Topic 2.4: Immigration System Changes
+
+Area 3: Economic Policy
+    Topic 3.1: Tariffs & Trade Relations
+    Topic 3.2: Industry & Employment Impacts
+    Topic 3.3: Financial Regulation & Markets
+    Topic 3.4: Federal Budget & Funding Issues
+
+Area 4: Foreign Policy & International Relations
+    Topic 4.1: Russia-Ukraine Conflict
+    Topic 4.2: China Relations & Policy
+    Topic 4.3: Other International Engagements
+    Topic 4.4: Global Security Concerns
+
+Area 5: Legal & Judicial Developments
+    Topic 5.1: Court Rulings Against Administration
+    Topic 5.2: Justice Department Actions
+    Topic 5.3: Constitutional & Civil Liberties Concerns
+    Topic 5.4: Legal Authority Disputes
+
+Area 6: Congressional Activity
+    Topic 6.1: Proposed Legislation & Bills
+    Topic 6.2: Congressional Oversight & Investigations
+    Topic 6.3: Partisan Responses & Positioning
+    Topic 6.4: Political Polling & Public Opinion
+
+Area 7: Public Health & Social Issues
+    Topic 7.1: COVID-19 Policies & Lab Leak Theory
+    Topic 7.2: Healthcare Access & Policy
+    Topic 7.3: Civil Rights & Identity Politics
+    Topic 7.4: Environmental & Indigenous Issues
+
