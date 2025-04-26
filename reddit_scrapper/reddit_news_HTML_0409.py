@@ -229,7 +229,11 @@ def main():
         while i < len(valid_posts):
             post = valid_posts[i]
             created = datetime.fromtimestamp(post["created_utc"], timezone.utc)
-            if created > end_dt:
+            
+            # A bug corrected on April 25, 2025. 
+            # This line used to be 'if created > end_dt:'
+            
+            if created >= end_dt:
                 i += 1
                 continue
 

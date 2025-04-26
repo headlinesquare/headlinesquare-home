@@ -1,0 +1,133 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-93, total number of articles is 93.**
+
+{"id": 1, "domain": "floridapolitics.com", "title": "Jason Pizzo switches to NPA, resigns as Democratic Leader, declares ‘Democratic Party in Florida is dead’"}
+{"id": 2, "domain": "x.com", "title": "Judge Juan Cano and wife arrested for harboring illegal immigrant and Tren de Aragua gang member."}
+{"id": 3, "domain": "texasscorecard.com", "title": "House Leadership Accused of Holding Pro-Life Bill Hostage to Islamic Holiday Push - Texas Scorecard"}
+{"id": 4, "domain": "foxnews.com", "title": "Ex-New Mexico judge, wife arrested for allegedly harboring illegal Venezuelan gang member"}
+{"id": 5, "domain": "cbn.com", "title": "Islamic Shariah Tribunal Begins Operating in Texas | CBN News"}
+{"id": 6, "domain": "city-journal.org", "title": "Trump Takes His Biggest Step Yet Toward Restoring Meritocracy. The administration’s executive order eliminating disparate-impact theory restores the 1964 Civil Rights Act to its original meaning."}
+{"id": 7, "domain": "trumpstore.com", "title": "Trump releases \"Trump 2028\" merchandise"}
+{"id": 8, "domain": "notthebee.com", "title": "So do we have a nation anymore or nah? Check out this activist judge (you may remember she sent a Christian grandma to jail last year)"}
+{"id": 9, "domain": "pjmedia.com", "title": "Ilhan Omar Dishes on What the Dems Will Do If They're Back in the Saddle After the 2026 Elections"}
+{"id": 10, "domain": "hotair.com", "title": "Trump's Latest Executive Order Takes on Disparate-Impact Theory"}
+{"id": 11, "domain": "nypost.com", "title": "Fines on Meta, Apple don't bring big reckoning to Big Tech"}
+{"id": 12, "domain": "redstate.com", "title": "Here's the Rest of the Story About that ICE 'Raid' on Day Laborers at a California Home Depot"}
+{"id": 13, "domain": "spectator.org", "title": "Five Quick Things: AOC 2028? Yes, Please!"}
+{"id": 14, "domain": "nypost.com", "title": "Trump's 'STOP' is like Biden's 'Don't' — empty threats to a dictator"}
+{"id": 15, "domain": "thefederalist.com", "title": "Universities Across US Still Grant Hundreds Of DEI Scholarships"}
+{"id": 16, "domain": "x.com", "title": "DOJ cancels Hundreds of millions of federal grant dollars meant to prevent “gun violence” to thousands of organizations nationwide"}
+{"id": 17, "domain": "timesofindia.indiatimes.com", "title": "\"He said I'm Christian, they shot him, I couldn't save him\": Christian man's wife cries after Muslim terrorist in India selectively kill 26 non-Muslims"}
+{"id": 18, "domain": "foxnews.com", "title": "White House torches Tim Walz's speech about Trump's 'gulags,' 'chaos': 'His largest city burned to the ground'"}
+{"id": 19, "domain": "foxnews.com", "title": "Karen Read says she poured extra shots into her cocktails before John O'Keefe's death"}
+{"id": 20, "domain": "foxnews.com", "title": "Christian family says school district won't allow daughter to graduate over mandatory health class"}
+{"id": 21, "domain": "foxnews.com", "title": "Good samaritans stop kidnapping in progress of mother and two small children in Florida | Fox News Video"}
+{"id": 22, "domain": "i.redd.it", "title": "You voted for Trump because you're not educated"}
+{"id": 23, "domain": "twitchy.com", "title": "Roadside Distraction: Dem Frederica Wilson Does Bizarre Rant in Wooded Area Near Highway as Cars Zip By – Twitchy"}
+{"id": 24, "domain": "foxnews.com", "title": "Rising Michigan senator urges Democrats to stop being 'weak and woke' and 'f---ing retake the flag'"}
+{"id": 25, "domain": "foxnews.com", "title": "Russian general killed in Moscow-area car bombing, investigators say"}
+{"id": 26, "domain": "foxnews.com", "title": "US national anthem performance before Stanley Cup playoff game sparks outrage among fans"}
+{"id": 27, "domain": "foxnews.com", "title": "Luigi Mangione heads to federal court as DOJ debuts death penalty 'shift': ex-federal prosecutor"}
+{"id": 28, "domain": "foxnews.com", "title": "Need REAL ID in a hurry? Here are some alternative options outside the DMV"}
+{"id": 29, "domain": "foxnews.com", "title": "Federal judge declares Trump admin blocking federal money to sanctuary cities unconstitutional"}
+{"id": 30, "domain": "forbes.com", "title": "China Reportedly Wants To Exempt Some U.S. Items From 125% Tariffs"}
+{"id": 31, "domain": "breitbart.com", "title": "'Two-Tier Justice:' Soros-Backed Minnesota Prosecutor Mary Moriarty Slammed for Not Filing Charges Against Tesla Vandal - DID file felony charges against a 19-year-old woman who reportedly keyed her co-worker’s car"}
+{"id": 32, "domain": "thehill.com", "title": "China cancels 12,000 metric tons of US pork shipments"}
+{"id": 33, "domain": "penncapital-star.com", "title": "Pa. Air National Guard member charged in conspiracies to vandalize synagogue, build bombs • Pennsylvania Capital-Star"}
+{"id": 34, "domain": "dailywire.com", "title": "Morning Brief: Russia Bombards Ukraine Amid Peace Talks, SCOTUS School Case & Sextortion Awareness"}
+{"id": 35, "domain": "dailywire.com", "title": "Conservative Party Surges Ahead Of Canadian Election As Concerns Over Trump Seem To Wane: Poll"}
+{"id": 36, "domain": "dailywire.com", "title": "Washington 1st State To Recognize Islamic Holidays As State Holidays"}
+{"id": 37, "domain": "aclu.org", "title": "President Obama deported 313,000 illegal aliens in 2012 without any judicial review"}
+{"id": 38, "domain": "notthebee.com", "title": "Police say Mr. Mohamed here was planning to kill a bunch of people within the next day when he got caught shoplifting from a Minnesota gun shop"}
+{"id": 39, "domain": "tabletmag.com", "title": "What RFK Jr. Gets Right—and Wrong—About Autism. Is it really an epidemic? Are rates increasing? Answering these questions and more."}
+{"id": 40, "domain": "amgreatness.com", "title": "Do Elite Universities Really Wish to Fight the Federal Government?"}
+{"id": 41, "domain": "freebeacon.com", "title": "Internal Documents Reveal Pervasive Pattern of Racial Discrimination at Harvard Law Review"}
+{"id": 42, "domain": "verity.news", "title": "Verity - Judge Blocks Trump's Voter Registration Citizenship Mandate"}
+{"id": 43, "domain": "theblaze.com", "title": "Unilever crushes dreams of woke co-founder of Ben and Jerry's"}
+{"id": 44, "domain": "x.com", "title": "Wisconsin judge Hannah Dugan arrested by the FBI for obstructing ICE arrest"}
+{"id": 45, "domain": "redstate.com", "title": "Gloves Off: Trump Administration Arrests Sitting Judge in Wisconsin for Harboring an Illegal Alien"}
+{"id": 46, "domain": "foxnews.com", "title": "FBI arrests Wisconsin judge, alleging she obstructed arrest of illegal alien, sources say | Fox News"}
+{"id": 47, "domain": "nypost.com", "title": "Wisconsin 's Democratic Judge Hannah Dugan arrested by FBI for allegedly helping illegal immigrant evade ICE in her courtroom"}
+{"id": 48, "domain": "self.Conservative", "title": "Still awaiting the Hegseth 'bombshells' the leaker was promising."}
+{"id": 49, "domain": "x.com", "title": "Kash deleted the previous post but has confirmed the arrest of Judge Dugan who intentionally misdirected federal agents away from the subject to be arrested in her courthouse, Eduardo Flores Ruiz, allowing the subject — an illegal alien — to evade arrest."}
+{"id": 50, "domain": "jpost.com", "title": "State Dept. indicts self-proclaimed Hamas operative in US army for explosives plot"}
+{"id": 51, "domain": "washingtonexaminer.com", "title": "Inside the movement to stop foreign cash from swaying ballot initiatives"}
+{"id": 52, "domain": "fee.org", "title": "Bolivia’s state-run energy model has produced a fuel shortage. How did a nation that once enjoyed a gas surplus run dry in less than two decades?"}
+{"id": 53, "domain": "townhall.com", "title": "While Congressional Democrats Were in El Salvador, Bernie Moreno Went to Israel"}
+{"id": 54, "domain": "crossdockinsights.com", "title": "USDA projects biggest agricultural trade deficit in 2025"}
+{"id": 55, "domain": "jonathanturley.org", "title": "“We Need an Uprising”: Democratic Rep. Calls on People to “Threaten” Congress and “Take to the Streets”"}
+{"id": 56, "domain": "city-journal.org", "title": "Why the U.S. Shouldn’t Copy Canada’s Experiment with Free Drugs"}
+{"id": 57, "domain": "freebeacon.com", "title": "Columbia Radicals Ditch Reported Encampment Plans After University Threatens Arrests"}
+{"id": 58, "domain": "dailywire.com", "title": "Former Judge And Wife Arrested, Accused Of Housing Suspected Venezuelan Gang Member"}
+{"id": 59, "domain": "dailywire.com", "title": "Team Trump Arrives In Russia As Ukraine Hit By More Strikes, Top Russian General Assassinated"}
+{"id": 60, "domain": "foxnews.com", "title": "Ousted Rep. George Santos faces sentencing in federal fraud case, sentenced to 87 months"}
+{"id": 61, "domain": "dailywire.com", "title": "These Leftist World Leaders Saw A Surge In Support After Trump Took Office"}
+{"id": 62, "domain": "dailywire.com", "title": "Trump DOJ Strips Hamas-Linked UN Agency Of Immunity For October 7 Massacre"}
+{"id": 63, "domain": "nypost.com", "title": "Illegal migrant cut loose by Biden admin accused of raping 13-year-old boy during twisted game of hide-and-seek"}
+{"id": 64, "domain": "foxnews.com", "title": "FBI arrests Wisconsin judge, alleging she obstructed arrest of illegal alien"}
+{"id": 65, "domain": "breitbart.com", "title": "Hakeem Jeffries Brags About Stopping Efforts to Ensure Only Citizens Vote"}
+{"id": 66, "domain": "defense.gov", "title": "Pete Hegseth Shows Susan Rice and fellow Swamp Creatures the door"}
+{"id": 67, "domain": "tomklingenstein.com", "title": "Keeping the Cold Civil War Cold"}
+{"id": 68, "domain": "semafor.com", "title": "Tuberville tells senators he’s running for governor"}
+{"id": 69, "domain": "thespectator.com", "title": "Another spring, another round of antisemitism on campus"}
+{"id": 70, "domain": "nypost.com", "title": "Great news: No more Biden shenanigans on foreign money pouring into US colleges!"}
+{"id": 71, "domain": "dailywire.com", "title": "Education Department Investigating UC Berkeley For Improper Reporting On China Ties"}
+{"id": 72, "domain": "babylonbee.com", "title": "Federal Judge Travels Back In Time To Overturn Trump’s Birth"}
+{"id": 73, "domain": "notthebee.com", "title": "Washington state now gives $120,000 \"forgivable loans\" for new homebuyers. But only if they're not white."}
+{"id": 74, "domain": "nypost.com", "title": "Gen Z grads say their college degrees are worthless thanks to AI"}
+{"id": 75, "domain": "thetimes.com", "title": "Kyiv affirms Crimea claim as Russia praises US talks"}
+{"id": 76, "domain": "foxbusiness.com", "title": "Signs of China ‘caving’ to Trump emerge amid tariff exemptions"}
+{"id": 77, "domain": "breitbart.com", "title": "Report: Apple to Shift All U.S. iPhone Assembly from China to India"}
+{"id": 78, "domain": "breitbart.com", "title": "Florida's Senate Democrat Leader Steps Down: 'The Democratic Party in Florida Is Dead'"}
+{"id": 79, "domain": "foxbusiness.com", "title": "China weighs exempting some goods from US tariffs as economic fallout is felt"}
+{"id": 80, "domain": "wtvr.com", "title": "Republican candidate John Reid addresses photos: 'I'm mad as hell'"}
+{"id": 81, "domain": "newsmax.com", "title": "19 States Sue Trump Over Push to End Diversity Programs in Public Schools"}
+{"id": 82, "domain": "twitchy.com", "title": "Follow the Science! New Study Shows Earth's Had Centuries of Warming, Cooling Cycles"}
+{"id": 83, "domain": "foxnews.com", "title": "Pam Bondi slams Wisconsin judge arrested by FBI for obstruction of migrant arrest"}
+{"id": 84, "domain": "foxnews.com", "title": "Voters rate how the Democrats are performing"}
+{"id": 85, "domain": "foxnews.com", "title": "Voters grade Trumps job performance on border security"}
+{"id": 86, "domain": "yahoo.com", "title": "Russian Foreign Minister Lavrov says Moscow on track to sign a Ukraine peace deal"}
+{"id": 87, "domain": "redstate.com", "title": "New Poll Confirms What We Already Knew About Dem-Voting Government Employees and Donald Trump"}
+{"id": 88, "domain": "townhall.com", "title": "Pam Bondi Divulges the Disturbing Details on Two Judges Arrested for Protecting Illegal Immigrants"}
+{"id": 89, "domain": "breitbart.com", "title": "Report: FBI Arrests Judge Who Helped Illegal Migrant Dodge Deportation"}
+{"id": 90, "domain": "babylonbee.com", "title": "'Christianity Today' Announces It Has Converted To Islam"}
+{"id": 91, "domain": "twitchy.com", "title": "Mike Rowe Drops Some TRUTH Bombs on Employment, Trades, and College Degrees"}
+{"id": 92, "domain": "thegloriousamerican.com", "title": "Oregon Sex Reassignment Surgeon Sued For Only Offering Two Gnders"}
+{"id": 93, "domain": "thespectator.com", "title": "How freeing the peso has impacted Argentina's economy"}
+
+====================Input File End======================
+
+
+

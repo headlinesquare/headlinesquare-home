@@ -1,0 +1,133 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-93, total number of articles is 93.**
+
+{"id": 1, "domain": "dailywire.com", "title": "Eva Longoria Insists DEI Is A ‘Moral Imperative’ And ‘Just Good Business’"}
+{"id": 2, "domain": "dailywire.com", "title": "China Is Flooding America With Illegal Vapes — And More Than 90% Fly Under the Radar"}
+{"id": 3, "domain": "dailywire.com", "title": "No. 2 Senate Democrat Dick Durbin To Retire"}
+{"id": 4, "domain": "dailywire.com", "title": "‘America First Does Not Mean America Alone’: Bessent Calls For ‘Deeper’ Trade Relationships"}
+{"id": 5, "domain": "self.Conservative", "title": "Could we get an actual honest discussion about deportation \"due process\"?"}
+{"id": 6, "domain": "freebeacon.com", "title": "'Waste That S—t': In Interview With Free Beacon, Fetterman Tells Trump To Dump Iran Talks and Destroy Tehran's Nuclear Facilities"}
+{"id": 7, "domain": "hotair.com", "title": "Abbas to 'Sons of Dogs' Hamas: Release All Hostages and Get Out"}
+{"id": 8, "domain": "nypost.com", "title": "Don't fall for 'Iran deal' lie, Mr. President — the mullahs can’t be trusted"}
+{"id": 9, "domain": "thefederalist.com", "title": "Waste And Abuse: 4 Admissions Of Social Security Fraud In April Alone"}
+{"id": 10, "domain": "self.Conservative", "title": "Scripted \"Letter\" via Solar United Neighbors Action"}
+{"id": 11, "domain": "x.com", "title": "CA Twice Deported Illegal Alien convicted of killing two teens in high-speed crash while intoxicated to be released early, serving a sentence just over 3 years."}
+{"id": 12, "domain": "foxnews.com", "title": "James Carville questions if Americans should wait until Trump is 'Hitler' before taking action"}
+{"id": 13, "domain": "insidenewshub.com", "title": "‘Pretty Crazy’: Vance Recounts Final Encounter With Pope Before His Death"}
+{"id": 14, "domain": "newsmax.com", "title": "Sam Antar to Newsmax: Hochul to Push Out N.Y. AG James"}
+{"id": 15, "domain": "kait8.com", "title": "Arkansas lawmakers ask President Trump to ‘reconsider’ disaster declaration denial"}
+{"id": 16, "domain": "self.Conservative", "title": "Mark Steyns weekly Q&A 'The Girls That Married Dear Old Dad' 4-16-25'"}
+{"id": 17, "domain": "self.Conservative", "title": "Letitia James Is In BIG TROUBLE Democratic Forensic Accountant Explains"}
+{"id": 18, "domain": "self.Conservative", "title": "Why is there little to no conversation on this site about corrupt DHR/CPS breaking up families?"}
+{"id": 19, "domain": "foxnews.com", "title": "MD school district suspends student who asked for American flags in classrooms | Fox News"}
+{"id": 20, "domain": "nypost.com", "title": "Andrew Cuomo ambushed by protesters during NYC mayoral candidate forum: ‘Cuomo lies, people die’"}
+{"id": 21, "domain": "foxnews.com", "title": "Illegal immigrant charged with murder of Maryland mom days after Van Hollen's return from El Salvador"}
+{"id": 22, "domain": "foxnews.com", "title": "Gorsuch and Maryland school district lawyer have wild exchange over children's storybook: 'Not bondage'"}
+{"id": 23, "domain": "foxnews.com", "title": "Trump notices 'Let's Go Brandon' sticker during Oval Office event: 'Who is that?' | Fox News Video"}
+{"id": 24, "domain": "foxnews.com", "title": "Deported ‘Maryland man’ championed by Dems was pulled over driving car belonging to human smuggler"}
+{"id": 25, "domain": "foxnews.com", "title": "Former US Army intelligence analyst sentenced for selling sensitive documents to Chinese national"}
+{"id": 26, "domain": "liveaction.org", "title": "Wyoming's one abortion business resumes operation after judge blocks safety regulations"}
+{"id": 27, "domain": "newsmax.com", "title": "Harvard Poll: Young Americans' Support for Dems Plummets"}
+{"id": 28, "domain": "okeefemediagroup.com", "title": "DoD Branch Chief Calls President Trump “Illegitimate,” Vows to “Resist Him, Everything He Does,” Claims Pete Hegseth Is “Insanely Young” and Unfit to Lead: “Nobody I Know Should Be the Secretary of Defense” - O'Keefe Media Group"}
+{"id": 29, "domain": "ndtv.com", "title": "\"Said He Was Christian, Shot Dead\": How Indore (Indian) Man Was Killed In Pahalgam by Pakistan-sponsored terrorists"}
+{"id": 30, "domain": "i.redd.it", "title": "Trump to Putin: STOP! Let’s get the Peace Deal DONE!"}
+{"id": 31, "domain": "whitehouse.gov", "title": "Fact Sheet: President Donald J. Trump Signs Landmark Order to Restore Equality of Opportunity and Meritocracy"}
+{"id": 32, "domain": "notus.org", "title": "‘David Hogg Has to Decide’: Irate Democrats Want Hogg to End His Primary Gambit — Or They Want Him Gone"}
+{"id": 33, "domain": "libertynation.com", "title": "Chuck Schumer a Likely Casualty of the Democrat Civil War"}
+{"id": 34, "domain": "washingtonexaminer.com", "title": "Biden administration spent millions on studies and programs related to ‘men who have sex with men’"}
+{"id": 35, "domain": "foxnews.com", "title": "Democrats embracing crasser, more profane 'dark woke' mentality | Fox News"}
+{"id": 36, "domain": "realtor.com", "title": "New-Home Sales Make a Surprising Jump Led by Affordable Inventory"}
+{"id": 37, "domain": "foxnews.com", "title": "Soros prosecutor ripped for 'free pass' to Walz employee not charged over Tesla vandalism"}
+{"id": 38, "domain": "foxnews.com", "title": "Harvard's endowment holds $7 million per student, still receives $550M from govt annually"}
+{"id": 39, "domain": "foxnews.com", "title": "'Biden effect' hits the Senate: Wave of retirements clears path for younger Dems"}
+{"id": 40, "domain": "americanexperiment.org", "title": "Rise of bureaucracy"}
+{"id": 41, "domain": "babylonbee.com", "title": "South American Countries Outraged At Being Flooded With Own Citizens | Babylon Bee"}
+{"id": 42, "domain": "notthebee.com", "title": "Yes, Justice Ketanji Brown Jackson just said what you think she said"}
+{"id": 43, "domain": "breitbart.com", "title": "Judge bars Trump from denying federal funds to ‘sanctuary’ cities that limit immigration cooperation - Breitbart"}
+{"id": 44, "domain": "city-journal.org", "title": "How Activist Judges Could Hasten the Filibuster’s Demise"}
+{"id": 45, "domain": "thespectator.com", "title": "Mission creep has infected the IMF and the World Bank"}
+{"id": 46, "domain": "babylonbee.com", "title": "Support Grows For Requiring Supreme Court Justices To Pass Cognitive Tests"}
+{"id": 47, "domain": "breitbart.com", "title": "Minnesota AG Keith Ellison Hides Ties to Somali Muslim Charity Fraud"}
+{"id": 48, "domain": "dailywire.com", "title": "Ben Shapiro Confronts Zelensky On Christian Persecution And Conscription In Exclusive Interview"}
+{"id": 49, "domain": "x.com", "title": "NIKE funds research on medical intervention needed for males to \"fairly\" compete in girls’ and women’s sports."}
+{"id": 50, "domain": "dailywire.com", "title": "Trump To Sign Order Targeting Dem Fundraising Giant ActBlue For Illegal Campaign Donations"}
+{"id": 51, "domain": "bakersfieldnow.com", "title": "Biden's regulations cost Americans $2 trillion, adding $16k per household, says new report"}
+{"id": 52, "domain": "dailywire.com", "title": "Trump Takes Sledgehammer To DEI In Latest Round Of Executive Orders Targeting Education"}
+{"id": 53, "domain": "dailywire.com", "title": "Russia Hits Ukrainian Capital With Worst Bombing Strike Since Summer 2024"}
+{"id": 54, "domain": "hotair.com", "title": "For All The $$$ Degrees, Huge Chunk o' Student Loan Borrowers Still Dumb as a Box o' Rocks"}
+{"id": 55, "domain": "redstate.com", "title": "Justice Ketanji Brown Jackson Shows She's Either the Dumbest or Most Evil Justice on the Supreme Court"}
+{"id": 56, "domain": "spectator.co.uk", "title": "Why won’t Hitler conspiracies die?"}
+{"id": 57, "domain": "notthebee.com", "title": "The Trump Store really just dropped this new merch 🤣"}
+{"id": 58, "domain": "spectator.org", "title": "James Carville v. David Hogg? Yes, Please!"}
+{"id": 59, "domain": "foxnews.com", "title": "Democrats' vice chair gets ultimatum: stay neutral in primaries or step down from party leadership"}
+{"id": 60, "domain": "foxnews.com", "title": "Trump-appointed judge orders administration to return second deported migrant"}
+{"id": 61, "domain": "kptv.com", "title": "DEA: Cartels using children to distribute fentanyl in Portland"}
+{"id": 62, "domain": "avweb.com", "title": "Worries Growing In U.S. Over Airservices Australia ATC Recruiting Initiative"}
+{"id": 63, "domain": "hoover.org", "title": "Clearing The Air On Tariffs And Trade Deficits"}
+{"id": 64, "domain": "twitchy.com", "title": "Sounds SUPER Insurrection-Y: Jessica Tarlov Pushing for a 'National Civic Uprising' Goes REALLY Wrong"}
+{"id": 65, "domain": "notthebee.com", "title": "Ever seen a secret Chinese nuclear sub? Come see what Google Earth captured on satellite"}
+{"id": 66, "domain": "dailycaller.com", "title": "‘Notorious For Its Lax Standards’: Trump To Order Probe Into Dem Fundraising Juggernaut ActBlue"}
+{"id": 67, "domain": "dailycaller.com", "title": "University Under Review For ‘Inaccurate’ Foreign Funding Disclosures Raked In Millions From China"}
+{"id": 68, "domain": "youtube.com", "title": "Elizabeth Warren EMBARASSED Herself On A Podcast"}
+{"id": 69, "domain": "redstate.com", "title": "Kamala's Latest Email Proves Things Are 'Not Great' for the Democrat Party These Days"}
+{"id": 70, "domain": "notthebee.com", "title": "Report: Boston’s ultra-woke, anti-Trump mayor received some major funding from a member of the CCP"}
+{"id": 71, "domain": "foxnews.com", "title": "George Soros' son fumes at left-wing climate group over latest obsession: 'What the hell'"}
+{"id": 72, "domain": "hotair.com", "title": "I Hear the Train A' Comin': Fixin' to Cut the Legs Out From Under ActBlue"}
+{"id": 73, "domain": "justthenews.com", "title": "'More like ISIS than the mafia': Waltz suggests cartels, gangs could face military action"}
+{"id": 74, "domain": "dailywire.com", "title": "The Education System Is Failing, But Change Is Coming"}
+{"id": 75, "domain": "commentary.org", "title": "Objectively Pro-Hamas"}
+{"id": 76, "domain": "dailywire.com", "title": "Trump Asks SCOTUS To Uphold His Ban On Troops In The Military"}
+{"id": 77, "domain": "dailywire.com", "title": "Med Schools Replace Medical Merit With Obesity Denial And DEI Doctrine, Watchdog Reports"}
+{"id": 78, "domain": "westernstandard.news", "title": "WATCH: Carney dismisses concerns over Liberal candidate who oversaw 600% increase in drug overdoses"}
+{"id": 79, "domain": "dailywire.com", "title": "Media Outlets Peddle Pentagon Makeup Studio Story In Latest Effort To Smear Pete Hegseth"}
+{"id": 80, "domain": "dailywire.com", "title": "Federal Judge Blocks Trump’s Proof-Of-Citizenship Voting Requirement"}
+{"id": 81, "domain": "dailywire.com", "title": "Mourners Complain After Some People Taking Selfies With Late Pope Francis"}
+{"id": 82, "domain": "redstate.com", "title": "Washington's Governor Ferguson Commits Reparations Outrage – RedState"}
+{"id": 83, "domain": "twitchy.com", "title": "Two-Tier Justice: As MN Tesla Vandal Skates With No Charges, Hennepin DA Throws Book at Young Woman – Twitchy"}
+{"id": 84, "domain": "self.Conservative", "title": "What happened with the conspiracy theory of Trump and April 20th?"}
+{"id": 85, "domain": "washingtontimes.com", "title": "Investigation Of China’s DeepSeek Finds America Losing Edge In Tech Talent"}
+{"id": 86, "domain": "babylonbee.com", "title": "Sad: This Guy Spent $500k On Ivy League Education And All He Knows How To Do Is Chant ‘Free Palestine’"}
+{"id": 87, "domain": "freebeacon.com", "title": "Columbia Threatens Arrests If Student Radicals Move Forward With Planned Pro-Hamas Encampments"}
+{"id": 88, "domain": "redstate.com", "title": "Wild: Florida Democrat Senate Leader Leaves Party in Shocking Scene, Nikki Fried Copes and Seethes"}
+{"id": 89, "domain": "dailywire.com", "title": "FBI: Maduro’s Venezuelan Govt Helping Tren De Aragua Terrorist Group Migrate To U.S."}
+{"id": 90, "domain": "dailywire.com", "title": "Tulsi Gabbard Targets ‘Deep-State’ Intelligence Leakers With Criminal Referrals"}
+{"id": 91, "domain": "foxnews.com", "title": "Judge blocks Trump order requiring proof of citizenship to register to vote"}
+{"id": 92, "domain": "thefederalist.com", "title": "Trump Fight To Fire Bureaucrats Is A Supreme Battle Worth Having"}
+{"id": 93, "domain": "notthebee.com", "title": "This Illinois pastor made an Easter sermon about Jesus being undocumented ... just like Kilmar Abrego Garcia"}
+
+====================Input File End======================
+
+
+
