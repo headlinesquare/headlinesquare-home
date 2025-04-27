@@ -1,0 +1,123 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-83, total number of articles is 83.**
+
+{"id": 1, "domain": "foxnews.com", "title": "Nearly 800 illegal aliens arrested in massive Florida ICE operation: 'Tidal Wave'"}
+{"id": 2, "domain": "hotair.com", "title": "Harvard, Fauci, and the CCP Conspired Together in COVID Coverup"}
+{"id": 3, "domain": "townhall.com", "title": "Jon Ossoff Really Doesn't Look to Be Making Reelection Easy on Himself"}
+{"id": 4, "domain": "thefp.com", "title": "‘Reminiscent of the KKK’: Columbia Janitors Sue Protesters Who Took Over Hamilton Hall"}
+{"id": 5, "domain": "nypost.com", "title": "The left blindly abhors Elon Musk, but Americans owe him thanks"}
+{"id": 6, "domain": "dailywire.com", "title": "Trump Rolls Out New Project To Honor Heroes Ahead Of America’s 250th Birthday"}
+{"id": 7, "domain": "x.com", "title": "US Border Patrol and Mexican government joint operation dismantle cartel lookout sites on southern border"}
+{"id": 8, "domain": "twitchy.com", "title": "Follow the Science! New Study Shows Earth's Had Centuries of Warming, Cooling Cycles"}
+{"id": 9, "domain": "tennesseestar.com", "title": "Governor Katie Hobbs Continues Record for Vetoes, Rejects Arizona ICE Act, Bills on Election Integrity, and Bills Against Vaccine Mandates"}
+{"id": 10, "domain": "wkbw.com", "title": "Buffalo detective accuses Buffalo Public Schools officials of failing to report abuse in viral Youtube podcast"}
+{"id": 11, "domain": "twitchy.com", "title": "Scott Jennings Schools CNN Panelists on why President AOC Would Be a Nightmare for the American Dream"}
+{"id": 12, "domain": "nypost.com", "title": "Mask-wearing thief who allegedly stole Kristi Noem’s Gucci bag containing $3K in cash, passport arrested: sources"}
+{"id": 13, "domain": "frontpagemag.com", "title": "Muslims Run the 'Israel' Playbook Against India | When is the world going to stop falling for it?"}
+{"id": 14, "domain": "pjmedia.com", "title": "Trump Ruthlessly Destroys Jasmine Crockett's Phony Facade"}
+{"id": 15, "domain": "viewfromthewing.com", "title": "He Tweeted About A Pride Pin—Delta Banned Him For Life, And Their CEO Wants Him Banned Everywhere"}
+{"id": 16, "domain": "foxnews.com", "title": "Man charged with murder after blaze he allegedly set kills Chicago fire captain"}
+{"id": 17, "domain": "foxnews.com", "title": "5 quotes from Cardinal Robert Sarah, a favorite among conservatives to succeed Pope Francis"}
+{"id": 18, "domain": "dailywire.com", "title": "Trump Labor Dept Threatens States Giving Unemployment Benefits To Illegals"}
+{"id": 19, "domain": "dailywire.com", "title": "Massive Explosion Rocks Major Iranian Port, Killing 14 And Injuring 750"}
+{"id": 20, "domain": "dailywire.com", "title": "The UFC Is Thriving On Courage And Patriotism"}
+{"id": 21, "domain": "foxnews.com", "title": "Suspect arrested for alleged theft of Kristi Noem's bag containing $3K in cash: reports"}
+{"id": 22, "domain": "foxnews.com", "title": "Vancouver driver plows into crowd of people attending Filipino festival, killing multiple victims"}
+{"id": 23, "domain": "foxnews.com", "title": "Wisconsin judge threatens to boycott courtroom over Hannah Dugan arrest"}
+{"id": 24, "domain": "kare11.com", "title": "Hennepin County prosecutors to consider race in plea deals under new policy | kare11.com"}
+{"id": 25, "domain": "foxnews.com", "title": "Axios reporter hits media for whiffing on coverage of Biden’s decline at White House Correspondents’ Dinner"}
+{"id": 26, "domain": "dailywire.com", "title": "The Group Behind The MCAT Said It Was Ditching DEI. Insiders Say It Lied."}
+{"id": 27, "domain": "foxnews.com", "title": "Trump may be on path to peace in Ukraine, Washington Post columnist admits"}
+{"id": 28, "domain": "foxnews.com", "title": "Democrat faults his own party for picking wrong battle with case of deported MS-13 suspect"}
+{"id": 29, "domain": "apnews.com", "title": "Trump wants denuclearization talks with Russia and China, hopes for defense spending cuts"}
+{"id": 30, "domain": "azfamily.com", "title": "Arizona Department of Agriculture employee accused of human smuggling"}
+{"id": 31, "domain": "foxnews.com", "title": "SCOOP: Republicans roll out $69B funding plan for new CBP agents, building border wall in Trump budget bill"}
+{"id": 32, "domain": "foxnews.com", "title": "Pope Francis' tomb opens to visitors at Roman basilica, as 200K attend special Mass at St Peter's Square"}
+{"id": 33, "domain": "foxnews.com", "title": "Georgia sheriff's deputy killed, another injured during traffic stop"}
+{"id": 34, "domain": "frontpagemag.com", "title": "Every Religion Except Islam is a \"Supremacist Ideology\" | Every non-Muslim country is a \"colonial settler state\""}
+{"id": 35, "domain": "freebeacon.com", "title": "Whistling Past the White House: How the Democratic Party's Lack of 'Balls' Caused the Most Predictable Political Crisis in History"}
+{"id": 36, "domain": "babylonbee.com", "title": "Trump Stuns Pope Funeral Attendees With Breathtaking Rendition Of 'Ave Maria'"}
+{"id": 37, "domain": "genesiustimes.com", "title": "Millions of new tariff experts unsure how to pay off their student loan debt • Genesius Times"}
+{"id": 38, "domain": "x.com", "title": "Busted underground nightclub harboring illegals in CO had active military members for security"}
+{"id": 39, "domain": "redstate.com", "title": "Kristi Noem's Gucci Purse Snatcher Is a Chilean Illegal Alien Who Served Time in the U.K."}
+{"id": 40, "domain": "dailywire.com", "title": "Andy McCabe Dumps Cold Water On Dem Outrage Over Arrested Judge"}
+{"id": 41, "domain": "breitbart.com", "title": "Illegal Migrants Cost Texas $121.8 Million in Unpaid Health Care in Just One Month"}
+{"id": 42, "domain": "foxbusiness.com", "title": "Tech expert says ‘we’ve got problems’ if new Chinese robots can do this | Fox Business Video"}
+{"id": 43, "domain": "outkick.com", "title": "'Just Embroiled In Controversy': XX-XY Founder Jennifer Sey Unloads On Nike About Youth Study"}
+{"id": 44, "domain": "foxnews.com", "title": "Biden relegated to back of world leaders section at pope's funeral: 'No longer part of cool kids club'"}
+{"id": 45, "domain": "self.Conservative", "title": "SVU Detective Alleges Buffalo Schools Are Hiding Abuse From Parents and the State"}
+{"id": 46, "domain": "foxnews.com", "title": "Ivanka Trump makes Costa Rica splash vacationing with extended family for spring break"}
+{"id": 47, "domain": "foxnews.com", "title": "WHCA president declares press is not 'the opposition' while taking aim at Trump"}
+{"id": 48, "domain": "foxnews.com", "title": "Left-wing DA forcing prosecutors to consider 'racial identity' in plea deals"}
+{"id": 49, "domain": "x.com", "title": "AOC in 2023: Biden should ignore the courts"}
+{"id": 50, "domain": "foxnews.com", "title": "Trump's First 100 Days: Gitmo took early role in deportations prior to El Salvador prison deal"}
+{"id": 51, "domain": "hotair.com", "title": "Insane: Hennepin County Prosecutor Mandates Race Be Considered When Prosecuting Offenders"}
+{"id": 52, "domain": "nypost.com", "title": "The Dems’ far-left agenda is just starting — and the worst is yet to come"}
+{"id": 53, "domain": "nypost.com", "title": "Vancouver Filipino festival attack death toll rises to 11"}
+{"id": 54, "domain": "townhall.com", "title": "How the White House Correspondents' Dinner Doubled Down on Being the Most Insufferable Event of the Year"}
+{"id": 55, "domain": "notthebee.com", "title": "The media freaked out because President Trump wore a blue suit to Pope Francis's funeral, but they forgot to mention a few others who did the same"}
+{"id": 56, "domain": "redstate.com", "title": "Shocker: Bernie Sanders Actually Gets Something Right, Tells the Truth About the Democrat Party"}
+{"id": 57, "domain": "thespectator.com", "title": "Canadians need saving from Mark Carney, not Donald Trump"}
+{"id": 58, "domain": "frontpagemag.com", "title": "Wisconsin Gov Orders State Employees to Obstruct ICE"}
+{"id": 59, "domain": "x.com", "title": "Bukele to US: we fixed our country by impeaching activist judges first"}
+{"id": 60, "domain": "unherd.com", "title": "Gail Slater’s war on monopoly — Trump’s antitrust czar is remaking the Right"}
+{"id": 61, "domain": "twitchy.com", "title": "‘It’s News to Us!’: ‘Journos’ Chided for ‘Missing’ Biden’s Cognitive Decline They Knew About All Along"}
+{"id": 62, "domain": "breitbart.com", "title": "Bernie Sanders: Democrats Lack ‘Vision for the Future’"}
+{"id": 63, "domain": "foxnews.com", "title": "Trump should raze HUD headquarters to drain DC swamp"}
+{"id": 64, "domain": "foxnews.com", "title": "UN cash app for Gazans exploited by Hamas as terror group steals aid money meant for civilians"}
+{"id": 65, "domain": "timesofisrael.com", "title": "Antisemitic posts by Gazan reporter appearing on BBC Arabic emerge: 'We shall burn you as Hitler did'"}
+{"id": 66, "domain": "notthebee.com", "title": "The media freaked out because President Trump wore a blue suit to Pope Francis's funeral, but they forgot to mention a few others who did the same"}
+{"id": 67, "domain": "dailycaller.com", "title": "Labor Dept Warns States About Illegal Migrants Receiving Unemployment Benefits, Threatens Loss Of Federal Funds"}
+{"id": 68, "domain": "redstate.com", "title": "Heartbreak for Democrats As New CBS News Poll Reveals the Results of Their Kilmar Abrego Garcia Campaign"}
+{"id": 69, "domain": "hotair.com", "title": "No, Trump Did Not Deport a US Citizen to Honduras"}
+{"id": 70, "domain": "dailywire.com", "title": "Irony Meters Explode Over Award Presented At WHCD — And What It Was For"}
+{"id": 71, "domain": "spectator.co.uk", "title": "What is more worrying than war between India and Pakistan?"}
+{"id": 72, "domain": "self.Conservative", "title": "Why the sudden shift in attitude towards Ukraine in this sub?"}
+{"id": 73, "domain": "x.com", "title": "New York Lawmakers Aim to shut down 5 Tesla dealerships prompted by Elon Musk alliance with President Trump"}
+{"id": 74, "domain": "redstate.com", "title": "More Minnesota Madness: Left-Wing Prosecutor Wants to Know This About You Before Negotiating Deal"}
+{"id": 75, "domain": "babylonbee.com", "title": "Joe Biden Arrested For Harboring 11 Million Illegal Aliens"}
+{"id": 76, "domain": "jonathanturley.org", "title": "Raskin: Trump Officials Can Be Arrested for “Kidnapping” Undocumented Persons"}
+{"id": 77, "domain": "redstate.com", "title": "Leftists Will Be Triggered by Trump Saying He Is Bringing Back a Cherished US Holiday"}
+{"id": 78, "domain": "nypost.com", "title": "How the Democrats are waging war against the 'rule of law'"}
+{"id": 79, "domain": "nypost.com", "title": "Illegal migrant accused of snatching Kristi Noem’s Gucci bag identified serial criminal"}
+{"id": 80, "domain": "dailywire.com", "title": "Schumer Won’t Rule Out Prioritizing Another Trump Impeachment"}
+{"id": 81, "domain": "dailywire.com", "title": "Trump Says Putin Might Have To Be ‘Dealt With Differently’"}
+{"id": 82, "domain": "oann.com", "title": "Trump Vows To Bring ‘Columbus Day Back From The Ashes'"}
+{"id": 83, "domain": "oann.com", "title": "People's Party Of Canada Candidate Meghan Murphy Has Her Bank Accounts Suspended Without Cause"}
+
+====================Input File End======================
+
+
+

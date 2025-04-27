@@ -9,6 +9,8 @@ REM python -u newsroom_daily_work.py >> logfile.txt 2>&1
 python newsroom_daily_work.py
 REM python -u newsroom_daily_work.py 2>&1 | powershell -Command "tee -FilePath logfile.txt"
 
+timeout /t 300
+
 REM to push the home folder to headlinesquare-home
 cd ..
 robocopy "Blog" "headlinesquare-home" /E /XD ".git"
