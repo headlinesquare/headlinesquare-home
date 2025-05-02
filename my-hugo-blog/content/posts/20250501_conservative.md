@@ -1,0 +1,133 @@
++++
+date = '2025-05-01T19:15:00-04:00'
+draft = false
+title = '[Thursday, May 01] US News Headlines from r/Conservative'
++++
+
+## 1. Trump Administration and Executive Branch
+
+### 1.1 Department of Government Efficiency (DOGE) Activities
+The Department of Government Efficiency, led by Elon Musk, has reached its 100-day milestone with significant claimed achievements. DOGE reports cutting $200 billion in government spending [1]. Musk has been working from what is described as a "comically tiny office" while establishing the department's operations and maintaining an informal working relationship with President Trump [2].
+
+[1] 100 Days Of DOGE: Elon Musk's Initiative Says It Cut $200 Billion. What's Next?, https://www.dailywire.com/news/doge-says-it-saved-more-than-200-billion-in-trumps-first-100-days?topStoryPosition=undefined&author=Luke+Rosiak&category=News&elementPosition=0&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=100+Days+Of+DOGE%3A+Elon+Musk's+Initiative+Says+It+Cut+%24200+Billion.+What's+Next%3F  
+[2] Ice cream from Trump and a 'comically tiny office': Inside Elon Musk's wild 3 months getting DOGE rolling, https://www.foxnews.com/politics/inside-elon-musks-wild-3-months-getting-doge-rolling  
+
+### 1.2 Personnel Changes and Cabinet Appointments
+National Security Adviser Mike Waltz and his deputy, Alex Wong, have both resigned from their positions [1][2]. These departures are reportedly part of a "purge" following a "Signal chat leak" within the National Security Council [3]. Following this shakeup, President Trump has nominated Waltz to serve as UN ambassador while Senator Marco Rubio will serve as acting national security advisor [4].
+
+[1] National Security Adviser Mike Waltz and his deputy, Alex Wong are resigning, https://x.com/2waytvapp/status/1917933048311501266?s=46  
+[2] Flurry Of Reports Claim Mike Waltz Out As National Security Adviser, https://www.dailywire.com/news/flurry-of-reports-claim-mike-waltz-out-as-national-security-adviser?topStoryPosition=undefined&author=Virginia+Kruta&category=News&elementPosition=3&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Flurry+Of+Reports+Claim+Mike+Waltz+Out+As+National+Security+Adviser  
+[3] Mike Waltz, other National Security Council staffers out in latest Trump purge following Signal chat leak, https://www.foxnews.com/politics/mike-waltz-other-national-security-council-staffers-out-latest-trump-purge-following-signal-chat-leak  
+[4] Trump announces Mike Waltz as UN ambassador pick. Marco Rubio to act as interim security advisor, https://www.foxnews.com/politics/trump-announces-mike-waltz-un-ambassador-pick  
+
+### 1.3 Policy Implementation and Executive Actions
+The administration has implemented several notable policy initiatives. A significant diplomatic achievement includes securing the release of the "47th wrongfully detained American citizen abroad" [1]. The White House has announced plans to implement a "system of merit" while dismantling what it terms DEI "strangulation" [2]. The administration has also intervened in regulatory disputes, supporting a ranching family fighting "Biden-era charges" in a land battle [3].
+
+[1] Trump Admin Secures Release Of 47th Wrongfully Detained American Citizen Abroad, https://www.dailywire.com/news/trump-admin-secures-release-of-47th-wrongfully-detained-american-citizen-abroad?author=Kassy+Akiva&category=News&elementPosition=7&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Trump+Admin+Secures+Release+Of+47th+Wrongfully+Detained+American+Citizen+Abroad  
+[2] White House vows to implement 'system of merit' in US, dismantle DEI 'strangulation', https://www.foxnews.com/politics/white-house-vows-implement-system-merit-us-dismantle-dei-strangulation  
+[3] Ranching family fights off Biden-era charges with Trump admin's help in land battle, https://www.foxnews.com/us/ranching-family-fights-off-biden-era-charges-trump-admins-help-land-battle  
+
+## 2. Immigration and Border Security
+
+### 2.1 Enforcement Operations and Deportations
+Immigration enforcement operations have intensified across multiple regions. In Florida, ICE in coordination with state law enforcement has conducted a major operation resulting in the arrest of "nearly 800 illegal aliens" [1]. In Colorado, ICE has imposed fines exceeding $8 million on Denver businesses for "knowingly hiring unauthorized workers" [2]. At the northern border, authorities have apprehended "Venezuelan gangsters... by the dozens" since President Trump's inauguration [3].
+
+[1] ICE, Florida law enforcement arrest nearly 800 illegal aliens in massive operation, https://www.wesh.com/article/ice-florida-arrest-800-undocumented-immigrants/64612505  
+[2] Denver businesses fined over $8M for knowingly hiring unauthorized workers: ICE | Fox Business, https://www.foxbusiness.com/industrials/denver-businesses-fined-over-8m-total-knowingly-hiring-unauthorized-workers-ice  
+[3] Venezuelan gangsters nabbed at northern border gateway by the dozens since Trump inauguration, https://www.foxnews.com/us/venezuelan-gangsters-nabbed-northern-border-gateway-dozens-since-trump-inauguration  
+
+### 2.2 Border Policy Implementation
+Border enforcement changes under the Trump administration are being contrasted with previous policies. An Arizona rancher claims he has "not seen a body since Trump was elected" [1] and sources indicate that Border Patrol agent morale, recruitment, and prosecution rates have increased [2]. A Louisiana widow has stated that "Trump's border crackdown could save families like hers from being torn apart" [3]. A Democratic lawmaker has "demanded Congress act on securing US border" following a visit to an ICE facility [4].
+
+[1] 'I've not see a body since Trump was elected' says AZ border rancher, https://www.kgun9.com/news/national-politics/president-trumps-first-100-days/i-havent-seen-a-body-border-rancher-says-migrants-are-no-longer-coming-through-his-ranch  
+[2] Border Patrol agent morale, staff recruitment, prosecution rates way up, https://www.kgun9.com/news/national-politics/president-trumps-first-100-days/tucson-sector-chief-welcomes-military-help-at-border  
+[3] Louisiana widow says Trump's border crackdown could save families like hers from being torn apart, https://www.foxnews.com/media/louisiana-widow-says-trumps-border-crackdown-could-save-families-like-hers-from-being-torn-apart  
+[4] Dem lawmaker demands Congress act on securing US border after ICE facility visit, https://www.foxnews.com/politics/dem-lawmaker-demands-congress-act-securing-us-border-after-transparent-ice-facility-visit  
+
+### 2.3 Legal Challenges to Immigration Policies
+Legal challenges to immigration enforcement actions are creating uncertainty. A California judge's ruling on warrantless migrant arrests has reportedly "sown confusion" [1]. President Trump has urged the Supreme Court to remove legal protections for approximately 350,000 Venezuelan migrants [2]. A federal judge has "opened the door" to allowing targets of the Alien Enemies Act to sue the Trump administration [3].
+
+[1] California judge's ruling on warrantless migrant arrests sows confusion, https://www.washingtonexaminer.com/policy/immigration/3397105/california-judges-ruling-warrantless-migrant-arrests-sows-confusion/  
+[2] Trump Urges Supreme Court to Strip Legal Protections From 350,000 Venezuelan Migrants, https://www.newsmax.com/politics/trump-venezuela-immigrants-deportation-protection/2025/05/01/id/1209182/  
+[3] Federal judge opens door to Alien Enemies Act targets suing Trump administration, https://www.foxnews.com/politics/federal-judge-opens-door-alien-enemies-act-targets-suing-trump-admin  
+
+## 3. International Relations and National Security
+
+### 3.1 China Relations and COVID-19 Accusations
+Tensions between the United States and China have escalated over COVID-19 origins. Following the White House's declaration identifying a lab leak as the "true origins" of the virus, Chinese officials have responded by blaming the United States for originating COVID-19 [1]. China has accused the U.S. of turning a "deaf ear to the numerous questions over its conduct" regarding the pandemic's origins [2].
+
+[1] China blames US for originating COVID-19 weeks after White House declared lab leak as 'true origins', https://nypost.com/2025/04/30/world-news/china-blames-us-for-originating-covid-19-weeks-after-white-house-declared-lab-leak-as-true-origins/  
+[2] China blames US for origin of COVID-19 and turning 'deaf ear to the numerous questions over its conduct', https://www.foxnews.com/world/china-blames-us-origin-covid-19-turning-deaf-ear-numerous-questions-over-its-conduct  
+
+### 3.2 Ukraine, Russia, and Eastern Europe
+The United States and Ukraine have signed a minerals deal [1], which Russia has criticized. Russia has made claims about Ukraine's future, stating that Ukraine "is about to disappear" [2]. Estonia's foreign minister has stated that for Putin, "US is the main enemy" [3]. President Trump has engaged in diplomatic discussions with Ukrainian President Zelenskyy at the Vatican [4].
+
+[1] Ukraine signs minerals deal with US | Fox News Video, https://www.foxnews.com/video/6372131073112  
+[2] Russia Hits U.S. Over Minerals Deal, Says Ukraine 'Is About To Disappear', https://www.dailywire.com/news/russia-hits-u-s-over-minerals-deal-says-ukraine-is-about-to-disappear  
+[3] For Putin, 'US is the main enemy,' Estonian foreign minister says, https://www.foxnews.com/world/putin-us-main-enemy-estonian-foreign-minister-says  
+[4] President Trump reveals what he told Zelenskyy during viral meeting at the Vatican, https://www.foxnews.com/politics/president-trump-reveals-what-he-told-zelenskyy-during-viral-meeting-vatican  
+
+### 3.3 Middle East Policy
+The Trump administration has targeted a "$500-Million Iranian smuggling network in fresh batch of sanctions" [1]. Parents of Hamas hostages have appealed to President Trump to be "tough with enemies and friends" amid ongoing Israeli military operations in Gaza [2]. Concerns have emerged about potential negotiations with Iran, with arguments against pursuing what is termed a "bad Iran deal" [3].
+
+[1] Trump Admin Targets $500-Million Iranian Smuggling Network in Fresh Batch of Sanctions, https://freebeacon.com/national-security/trump-admin-targets-500-million-iranian-smuggling-network-in-fresh-batch-of-sanctions/  
+[2] Parents of Hamas hostages urge Trump to be 'tough with enemies and friends' amid Israeli siege in Gaza, https://www.foxnews.com/world/parents-hamas-hostages-urge-trump-tough-enemies-friends-amid-israeli-siege-gaza  
+[3] A bad Iran deal is worse than no deal, Mr. President, https://nypost.com/2025/05/01/opinion/a-bad-iran-deal-is-worse-than-no-deal-mr-president/  
+
+## 4. Economic Policy
+
+### 4.1 Tariffs and International Trade
+President Trump's tariffs are having significant global and domestic impacts. In China, workers have begun protesting as factories shut down in response to these policies [1], with reports describing worker riots and factory closures [2]. The Senate rejected a Democratic resolution aimed at blocking Trump's global tariffs [3]. Mercedes has announced plans to manufacture an additional vehicle model in the United States following the implementation of the tariffs [4].
+
+[1] Hundreds of Chinese Workers Protest as Factories Shut Down Due to Trump Tariffs, https://www.breitbart.com/asia/2025/04/30/hundreds-chinese-workers-protest-factories-shut-down-trump-tariffs/  
+[2] China Erupts: Furious Workers Riot As Factories Collapse Under Trump's Tariffs, https://dailycallernewsfoundation.org/2025/05/01/china-erupts-riot-factories-trump-tariffs/  
+[3] Senate Nixes Dem Resolution to Block Trump's Global Tariffs, https://www.newsmax.com/world/globaltalk/trump-tariffs-economy/2025/04/30/id/1209029/  
+[4] Mercedes Says It Will Make Another Car In The U.S. After Trump Tariffs, https://www.dailywire.com/news/mercedes-says-it-will-make-another-car-in-the-u-s-after-trump-tariffs?topStoryPosition=undefined&author=Zach+Jewell&category=News&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Mercedes+Says+It+Will+Make+Another+Car+In+The+U.S.+After+Trump+Tariffs  
+
+### 4.2 Domestic Economic Initiatives
+Republican lawmakers have unveiled a plan to overhaul the student loan system that would force educational institutions to "foot the bill for defaulted accounts" [1]. The Senate has passed a resolution to repeal what it termed "unjustified burdens" from a Biden-era appliance rule [2]. A Wall Street Journal report warns that Fannie Mae and Freddie Mac "may foment another crisis" [3].
+
+[1] GOP lawmakers unveil plan to overhaul student loan system, forcing schools to foot the bill for defaulted accounts, https://nypost.com/2025/04/30/us-news/gop-lawmakers-unveil-plan-to-overhaul-student-loan-system-forcing-schools-to-foot-the-bill-for-defaulted-accounts/  
+[2] 'Unjustified Burdens': Senate Passes Resolution to Repeal Biden-Era Appliance Rule, https://www.dailysignal.com/2025/04/30/unjustified-burdens-senate-passes-resolution-to-repeal-biden-era-appliance-rule/  
+[3] Fannie and Freddie May Foment Another Crisis, https://www.wsj.com/opinion/fannie-and-freddie-may-foment-another-crisis-mortgage-interest-rate-housing-loan-1e383ea2?st=Vi1yw1&reflink=desktopwebshare_permalink  
+
+## 5. Justice and Legal Developments
+
+### 5.1 COVID-19 Origins and Accountability
+Director of National Intelligence Tulsi Gabbard is reportedly investigating Dr. Anthony Fauci for potential perjury and his alleged role in funding gain-of-function research at the Wuhan laboratory linked to COVID-19 [1].
+
+[1] DNI Tulsi Gabbard is investigating Dr. Fauci for perjury and his role in funding Wuhan gain-of-function research tied to COVID-19., https://x.com/saikate108/status/1917851853955686511?s=46  
+
+### 5.2 Constitutional Challenges and Political Accountability
+Senator Rubio has revealed that an "obscure Biden administration office kept 'disinformation' dossier on Trump official" [1]. Robert F. Kennedy Jr. has claimed that the Department of Health and Human Services under Biden "became a collaborator in child trafficking" with assertions that "over 300K children were lost" [2]. Secretary of State Marco Rubio has stated that the "conduct of our foreign policy belongs to the President and the executive branch NOT some Judge" [3].
+
+[1] Rubio reveals obscure Biden administration office kept 'disinformation' dossier on Trump official, https://www.foxnews.com/politics/rubio-reveals-obscure-office-under-biden-kept-disinformation-dossier-trump-official  
+[2] RFK Jr. Claims Biden's HHS 'Became a Collaborator in Child Trafficking', https://www.breitbart.com/politics/2025/04/30/rfk-jr-claims-bidens-hhs-became-a-collaborator-in-child-trafficking/  
+[3] Secretary Of State Marco Rubio: " Conduct of our foreign policy belongs to the President and the executive branch NOT some Judge", https://x.com/tpantheman/status/1918002923767804051?s=46  
+
+## 6. Political Opposition and Media Response
+
+### 6.1 Former Biden Administration Actions and Democratic Response
+A lawsuit claims the Biden administration released convicted sex offenders and concealed documents until the Trump administration took office [1]. In Congress, 35 Democratic representatives voted with Republicans to block a Biden administration rule that would have allowed Governor Newsom's gas car ban [2]. Former Vice President Kamala Harris delivered her "first speech since leaving office," criticizing President Trump and characterizing his administration as "absolute chaos" [3].
+
+[1] Biden Regime Released Convicted Sex Offenders, Hid Documents Until Trump Took Office, Lawsuit Reveals, https://independentnewsroom.com/p/exclusive-biden-regime-released-convicted-sex-offenders-hid-documents-until-trump-took-office-lawsui  
+[2] 35 Democrats vote with GOP to block Biden rule allowing Newsom's gas car ban, https://www.foxnews.com/politics/35-democrats-vote-gop-block-biden-rule-allowing-newsoms-gas-car-ban  
+[3] Kamala Harris comes knives out against Trump in first speech since leaving office: 'Absolute chaos', https://www.foxnews.com/politics/kamala-harris-comes-knives-out-against-trump-first-speech-since-leaving-office-absolute-chaos  
+
+### 6.2 Media and Political Criticism
+Senate Minority Leader Chuck Schumer has faced questioning about Trump's approval ratings [1] and criticism from golfer Phil Mickelson over SAVE Act criticisms [2]. Representative Ilhan Omar allegedly responded with profanity to a conservative reporter asking questions outside the Capitol [3]. Television host Bill Maher, despite having a "friendly summit" with Trump, has characterized the president's first 100 days as a "s---show" [4].
+
+[1] Chuck Schumer tried to bash on Trump's approval rating but then a reporter asked an important follow-up question, https://notthebee.com/article/chuck-schumer-tried-to-bash-on-trumps-approval-rating-but-then-a-reporter-asked-about-his  
+[2] Phil Mickelson rips 'traitor' Chuck Schumer over SAVE Act criticisms: 'He is not representing America', https://www.foxnews.com/sports/phil-mickelson-rips-traitor-chuck-schumer-over-save-act-criticisms-he-not-representing-america  
+[3] Ilhan Omar snaps at conservative reporter to 'f--- off' for asking questions outside Capitol, https://www.foxnews.com/media/ilhan-omar-snaps-conservative-reporter-f-off-asking-questions-outside-capitol  
+[4] Despite his friendly summit with Trump, Bill Maher calls president's first 100 days a 's---show', https://www.foxnews.com/media/despite-friendly-summit-trump-bill-maher-calls-presidents-first-days-s-show  
+
+## 7. Cultural and Social Issues
+
+### 7.1 Education and Academic Institutions
+There are calls to "investigate DEI at the UC Schools" with allegations that "their race-based hiring likely violates state and federal law" [1]. Supreme Court conservatives have "signaled support for public religious charter schools" [2]. Harvard faculty are allegedly offering their salaries to "fight Trump" [3], while medical school administrators were filmed "pledging to resist Trump executive orders" [4].
+
+[1] Investigate DEI at the UC Schools. Their race-based hiring likely violates state and federal law., https://www.wsj.com/opinion/investigate-dei-at-the-uc-schools-diversity-equity-inclusion-students-university-e808c172  
+[2] Supreme Court Conservatives Signal Support For Public Religious Charter Schools, https://www.dailywire.com/news/supreme-court-conservatives-signal-support-for-public-religious-charter-schools?author=Nathan+Gay&category=News&elementPosition=5&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Supreme+Court+Conservatives+Signal+Support+For+Public+Religious+Charter+Schools  
+[3] Harvard Faculty Offer Their Salaries to Fight Trump, Plus a Mole Hunt at the Law Review, https://hotair.com/john-s-2/2025/05/01/harvard-faculty-offer-their-salaries-to-fight-trump-plus-a-mole-hunt-at-the-law-review-n3802333  
+[4] WATCH: Unearthed footage exposes medical school administrators pledging to resist Trump executive orders, https://www.foxnews.com/politics/unearthed-footage-exposes-medical-school-administrators-pledging-resist-trump-executive-orders
