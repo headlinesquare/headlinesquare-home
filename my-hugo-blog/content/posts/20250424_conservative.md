@@ -13,22 +13,22 @@ President Trump has signed several significant executive orders in April 2025, i
 Internal resistance appears within federal agencies, with an O'Keefe Media Group report alleging a DoD Branch Chief called President Trump "illegitimate" and vowed to "resist him, everything he does," while criticizing Defense Secretary Pete Hegseth as "insanely young" and unfit [6]. The administration continues efforts to restructure the federal bureaucracy, with reports characterizing the fight to fire certain bureaucrats as "a supreme battle worth having" [7].
 
 References:  
-[1] Fact Sheet: President Donald J. Trump Signs Landmark Order to Restore Equality of Opportunity and Meritocracy, https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-signs-landmark-order-to-restore-equality-of-opportunity-and-meritocracy/;  
-[2] Trump To Sign Order Targeting Dem Fundraising Giant ActBlue For Illegal Campaign Donations, https://www.dailywire.com/news/trump-to-sign-order-targeting-dem-fundraising-giant-actblue-for-illegal-campaign-donations?topStoryPosition=undefined&author=Mary+Margaret+Olohan&category=News&elementPosition=2&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Trump+To+Sign+Order+Targeting+Dem+Fundraising+Giant+ActBlue+For+Illegal+Campaign+Donations;  
-[3] 'Notorious For Its Lax Standards': Trump To Order Probe Into Dem Fundraising Juggernaut ActBlue, https://dailycaller.com/2025/04/24/trump-to-order-actblue-probe-memo/;  
-[4] Trump Takes Sledgehammer To DEI In Latest Round Of Executive Orders Targeting Education, https://www.dailywire.com/news/trump-takes-sledgehammer-to-dei-in-latest-round-of-executive-orders-targeting-education?topStoryPosition=undefined&author=Leif+Le+Mahieu&category=News&elementPosition=4&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Trump+Takes+Sledgehammer+To+DEI+In+Latest+Round+Of+Executive+Orders+Targeting+Education;  
-[5] Trump Asks SCOTUS To Uphold His Ban On Troops In The Military, https://www.dailywire.com/news/trump-asks-scotus-to-uphold-his-ban-on-transgender-troops-in-the-military?topStoryPosition=undefined&author=Mary+Margaret+Olohan&category=News&elementPosition=3&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Trump+Asks+SCOTUS+To+Uphold+His+Ban+On+Transgender+Troops+In+The+Military;  
-[6] DoD Branch Chief Calls President Trump "Illegitimate," Vows to "Resist Him, Everything He Does," Claims Pete Hegseth Is "Insanely Young" and Unfit to Lead: "Nobody I Know Should Be the Secretary of Defense" - O'Keefe Media Group, https://okeefemediagroup.com/draining-the-deep-state-dod-branch-chief-calls-president-trump-illegitimate-vows-to-resist-him-everything-he-does-claims-pete-hegseth-is-insanely-young/;  
-[7] Trump Fight To Fire Bureaucrats Is A Supreme Battle Worth Having, https://thefederalist.com/2025/04/24/trumps-fight-to-fire-leftist-bureaucrats-is-a-supreme-battle-worth-fighting/;  
+[1] Fact Sheet: President Donald J. Trump Signs Landmark Order to Restore Equality of Opportunity and Meritocracy, https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-signs-landmark-order-to-restore-equality-of-opportunity-and-meritocracy/  
+[2] Trump To Sign Order Targeting Dem Fundraising Giant ActBlue For Illegal Campaign Donations, https://www.dailywire.com/news/trump-to-sign-order-targeting-dem-fundraising-giant-actblue-for-illegal-campaign-donations?topStoryPosition=undefined&author=Mary+Margaret+Olohan&category=News&elementPosition=2&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Trump+To+Sign+Order+Targeting+Dem+Fundraising+Giant+ActBlue+For+Illegal+Campaign+Donations  
+[3] 'Notorious For Its Lax Standards': Trump To Order Probe Into Dem Fundraising Juggernaut ActBlue, https://dailycaller.com/2025/04/24/trump-to-order-actblue-probe-memo/  
+[4] Trump Takes Sledgehammer To DEI In Latest Round Of Executive Orders Targeting Education, https://www.dailywire.com/news/trump-takes-sledgehammer-to-dei-in-latest-round-of-executive-orders-targeting-education?topStoryPosition=undefined&author=Leif+Le+Mahieu&category=News&elementPosition=4&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Trump+Takes+Sledgehammer+To+DEI+In+Latest+Round+Of+Executive+Orders+Targeting+Education  
+[5] Trump Asks SCOTUS To Uphold His Ban On Troops In The Military, https://www.dailywire.com/news/trump-asks-scotus-to-uphold-his-ban-on-transgender-troops-in-the-military?topStoryPosition=undefined&author=Mary+Margaret+Olohan&category=News&elementPosition=3&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Trump+Asks+SCOTUS+To+Uphold+His+Ban+On+Transgender+Troops+In+The+Military  
+[6] DoD Branch Chief Calls President Trump "Illegitimate," Vows to "Resist Him, Everything He Does," Claims Pete Hegseth Is "Insanely Young" and Unfit to Lead: "Nobody I Know Should Be the Secretary of Defense" - O'Keefe Media Group, https://okeefemediagroup.com/draining-the-deep-state-dod-branch-chief-calls-president-trump-illegitimate-vows-to-resist-him-everything-he-does-claims-pete-hegseth-is-insanely-young/  
+[7] Trump Fight To Fire Bureaucrats Is A Supreme Battle Worth Having, https://thefederalist.com/2025/04/24/trumps-fight-to-fire-leftist-bureaucrats-is-a-supreme-battle-worth-fighting/  
 
 ### 1.2 Legal Challenges to Administration Policies
 
 Federal judges have issued multiple rulings challenging Trump administration policies. A Trump-appointed judge ordered the return of a second deported migrant [1]. Other federal judges blocked Trump's proof-of-citizenship voting requirement [2] and barred the administration from denying federal funds to "sanctuary" cities [3]. These rulings underscore the judicial checks on key executive initiatives.
 
 References:  
-[1] Trump-appointed judge orders administration to return second deported migrant, https://www.foxnews.com/politics/trump-appointed-judge-orders-administration-return-second-deported-migrant;  
-[2] Federal Judge Blocks Trump's Proof-Of-Citizenship Voting Requirement, https://www.dailywire.com/news/federal-judge-blocks-trumps-proof-of-citizenship-voting-requirement;  
-[3] Judge bars Trump from denying federal funds to 'sanctuary' cities that limit immigration cooperation - Breitbart, https://www.breitbart.com/news/judge-bars-trump-from-denying-federal-funds-to-sanctuary-cities-that-limit-immigration-cooperation/;  
+[1] Trump-appointed judge orders administration to return second deported migrant, https://www.foxnews.com/politics/trump-appointed-judge-orders-administration-return-second-deported-migrant  
+[2] Federal Judge Blocks Trump's Proof-Of-Citizenship Voting Requirement, https://www.dailywire.com/news/federal-judge-blocks-trumps-proof-of-citizenship-voting-requirement  
+[3] Judge bars Trump from denying federal funds to 'sanctuary' cities that limit immigration cooperation - Breitbart, https://www.breitbart.com/news/judge-bars-trump-from-denying-federal-funds-to-sanctuary-cities-that-limit-immigration-cooperation/  
 
 ## 2. Immigration and Border Security
 
@@ -37,9 +37,9 @@ References:
 High-profile criminal cases involving illegal immigrants have drawn national attention. Fox News reports an illegal immigrant charged with murdering a Maryland mother "days after Van Hollen's return from El Salvador" [1]. In another case, a "Maryland man" previously championed by Democrats was pulled over in a vehicle belonging to a human smuggler [2]. In California, a twice-deported illegal immigrant convicted of killing two teenagers while intoxicated will be released early after serving "just over 3 years" [3].
 
 References:  
-[1] Illegal immigrant charged with murder of Maryland mom days after Van Hollen's return from El Salvador, https://www.foxnews.com/politics/illegal-immigrant-charged-murder-maryland-mom-days-after-van-hollens-el-salvador-return;  
-[2] Deported 'Maryland man' championed by Dems was pulled over driving car belonging to human smuggler, https://www.foxnews.com/politics/deported-maryland-man-championed-dems-pulled-over-driving-car-belonging-human-smuggler;  
-[3] CA Twice Deported Illegal Alien convicted of killing two teens in high-speed crash while intoxicated to be released early, serving a sentence just over 3 years., https://x.com/tpantheman/status/1915212333376262591?s=46;  
+[1] Illegal immigrant charged with murder of Maryland mom days after Van Hollen's return from El Salvador, https://www.foxnews.com/politics/illegal-immigrant-charged-murder-maryland-mom-days-after-van-hollens-el-salvador-return  
+[2] Deported 'Maryland man' championed by Dems was pulled over driving car belonging to human smuggler, https://www.foxnews.com/politics/deported-maryland-man-championed-dems-pulled-over-driving-car-belonging-human-smuggler  
+[3] CA Twice Deported Illegal Alien convicted of killing two teens in high-speed crash while intoxicated to be released early, serving a sentence just over 3 years., https://x.com/tpantheman/status/1915212333376262591?s=46  
 
 ## 3. Domestic Political Landscape
 
@@ -48,21 +48,21 @@ References:
 The Democratic Party is experiencing significant internal changes. Senate Majority Whip Dick Durbin announced his retirement [1], part of what Fox News has termed the "Biden effect" that is clearing the way for younger Democrats [2]. A Harvard poll revealed that young Americans' support for Democrats has "plummeted" [3]. Additional internal conflicts include Florida's Democratic Senate Leader leaving the party in a "shocking scene" [4], the vice chair receiving an ultimatum regarding neutrality in primaries [5], and mounting pressure on David Hogg to end his primary challenge [6].
 
 References:  
-[1] No. 2 Senate Democrat Dick Durbin To Retire, https://www.dailywire.com/news/no-2-senate-democrat-dick-durbin-to-retire?author=Daniel+Chaitin&category=News&elementPosition=15&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=No.+2+Senate+Democrat+Dick+Durbin+To+Retire;  
-[2] 'Biden effect' hits the Senate: Wave of retirements clears path for younger Dems, https://www.foxnews.com/politics/biden-effect-hits-senate-wave-retirements-clears-path-younger-dems;  
-[3] Harvard Poll: Young Americans' Support for Dems Plummets, https://www.newsmax.com/politics/poll-young-americans-donald-trump/2025/04/23/id/1208085/;  
-[4] Wild: Florida Democrat Senate Leader Leaves Party in Shocking Scene, Nikki Fried Copes and Seethes, https://redstate.com/bonchie/2025/04/24/wild-florida-democrat-senate-leader-leaves-party-in-shocking-scene-nikki-fried-responds-n2188274;  
-[5] Democrats' vice chair gets ultimatum: stay neutral in primaries or step down from party leadership, https://www.foxnews.com/politics/democrats-vice-chair-gets-ultimatum-neutral-primaries-down-party-leadership;  
-[6] 'David Hogg Has to Decide': Irate Democrats Want Hogg to End His Primary Gambit — Or They Want Him Gone, https://www.notus.org/democrats/david-hogg-irate-democrats-end-primary-gambit-or-gone;  
+[1] No. 2 Senate Democrat Dick Durbin To Retire, https://www.dailywire.com/news/no-2-senate-democrat-dick-durbin-to-retire?author=Daniel+Chaitin&category=News&elementPosition=15&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=No.+2+Senate+Democrat+Dick+Durbin+To+Retire  
+[2] 'Biden effect' hits the Senate: Wave of retirements clears path for younger Dems, https://www.foxnews.com/politics/biden-effect-hits-senate-wave-retirements-clears-path-younger-dems  
+[3] Harvard Poll: Young Americans' Support for Dems Plummets, https://www.newsmax.com/politics/poll-young-americans-donald-trump/2025/04/23/id/1208085/  
+[4] Wild: Florida Democrat Senate Leader Leaves Party in Shocking Scene, Nikki Fried Copes and Seethes, https://redstate.com/bonchie/2025/04/24/wild-florida-democrat-senate-leader-leaves-party-in-shocking-scene-nikki-fried-responds-n2188274  
+[5] Democrats' vice chair gets ultimatum: stay neutral in primaries or step down from party leadership, https://www.foxnews.com/politics/democrats-vice-chair-gets-ultimatum-neutral-primaries-down-party-leadership  
+[6] 'David Hogg Has to Decide': Irate Democrats Want Hogg to End His Primary Gambit — Or They Want Him Gone, https://www.notus.org/democrats/david-hogg-irate-democrats-end-primary-gambit-or-gone  
 
 ### 3.2 Political Rhetoric
 
 Political discourse remains increasingly charged. Democratic strategist James Carville questioned whether Americans should wait until Trump is "Hitler" before taking action [1]. Additionally, media outlets are accused of peddling a "Pentagon makeup studio story" in an effort to smear Defense Secretary Pete Hegseth [2]. Jessica Tarlov has come under fire for "pushing for a 'national civic uprising'" [3].
 
 References:  
-[1] James Carville questions if Americans should wait until Trump is 'Hitler' before taking action, https://www.foxnews.com/media/james-carville-questions-americans-should-wait-until-trump-hitler-before-taking-action;  
-[2] Media Outlets Peddle Pentagon Makeup Studio Story In Latest Effort To Smear Pete Hegseth, https://www.dailywire.com/news/media-peddle-pentagon-makeup-studio-story-effort-smear-pete-hegseth?author=Virginia+Kruta&category=News&elementPosition=3&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Media+Outlets+Peddle+Pentagon+Makeup+Studio+Story+In+Latest+Effort+To+Smear+Pete+Hegseth;  
-[3] Sounds SUPER Insurrection-Y: Jessica Tarlov Pushing for a 'National Civic Uprising' Goes REALLY Wrong, https://twitchy.com/samj/2025/04/24/jessica-tarlov-national-civic-uprising-n2411827;  
+[1] James Carville questions if Americans should wait until Trump is 'Hitler' before taking action, https://www.foxnews.com/media/james-carville-questions-americans-should-wait-until-trump-hitler-before-taking-action  
+[2] Media Outlets Peddle Pentagon Makeup Studio Story In Latest Effort To Smear Pete Hegseth, https://www.dailywire.com/news/media-peddle-pentagon-makeup-studio-story-effort-smear-pete-hegseth?author=Virginia+Kruta&category=News&elementPosition=3&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Media+Outlets+Peddle+Pentagon+Makeup+Studio+Story+In+Latest+Effort+To+Smear+Pete+Hegseth  
+[3] Sounds SUPER Insurrection-Y: Jessica Tarlov Pushing for a 'National Civic Uprising' Goes REALLY Wrong, https://twitchy.com/samj/2025/04/24/jessica-tarlov-national-civic-uprising-n2411827  
 
 ## 4. Economic Policy and Regulation
 
@@ -71,18 +71,18 @@ References:
 Efforts are underway to clarify U.S. positions on tariffs and trade deficits [1]. Treasury official Scott Bessent has stated that "America First does not mean America alone" while urging "deeper trade relationships" [2]. However, there are also concerns about "mission creep" within international financial institutions like the IMF and World Bank [3].
 
 References:  
-[1] Clearing The Air On Tariffs And Trade Deficits, https://www.hoover.org/research/clearing-air-tariffs-and-trade-deficits;  
-[2] 'America First Does Not Mean America Alone': Bessent Calls For 'Deeper' Trade Relationships, https://www.dailywire.com/news/america-first-does-not-mean-america-alone-bessent-calls-for-deeper-trade-relationships?author=Zach+Jewell&category=News&elementPosition=19&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=%E2%80%98America+First+Does+Not+Mean+America+Alone%E2%80%99%3A+Bessent+Calls+For+%E2%80%98Deeper%E2%80%99+Trade+Relationships;  
-[3] Mission creep has infected the IMF and the World Bank, https://thespectator.com/topic/mission-creep-has-infected-the-imf-and-the-world-bank/;  
+[1] Clearing The Air On Tariffs And Trade Deficits, https://www.hoover.org/research/clearing-air-tariffs-and-trade-deficits  
+[2] 'America First Does Not Mean America Alone': Bessent Calls For 'Deeper' Trade Relationships, https://www.dailywire.com/news/america-first-does-not-mean-america-alone-bessent-calls-for-deeper-trade-relationships?author=Zach+Jewell&category=News&elementPosition=19&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=%E2%80%98America+First+Does+Not+Mean+America+Alone%E2%80%99%3A+Bessent+Calls+For+%E2%80%98Deeper%E2%80%99+Trade+Relationships  
+[3] Mission creep has infected the IMF and the World Bank, https://thespectator.com/topic/mission-creep-has-infected-the-imf-and-the-world-bank/  
 
 ### 4.2 Government Spending and Regulation
 
 A new report claims that Biden-era regulations cost Americans $2 trillion while adding about $16,000 per household [1]. There have also been revelations of "4 admissions of Social Security fraud in April alone" [2]. On the housing front, new-home sales have experienced a "surprising jump led by affordable inventory" [3].
 
 References:  
-[1] Biden's regulations cost Americans $2 trillion, adding $16k per household, says new report, https://bakersfieldnow.com/news/nation-world/biden-leaves-behind-16000-hidden-tax-for-everyone;  
-[2] Waste And Abuse: 4 Admissions Of Social Security Fraud In April Alone, https://thefederalist.com/2025/04/23/4-admissions-of-social-security-fraud-in-april-alone-show-waste-and-abuse-are-real/;  
-[3] New-Home Sales Make a Surprising Jump Led by Affordable Inventory, https://www.realtor.com/research/new-home-sales-march-2025/;  
+[1] Biden's regulations cost Americans $2 trillion, adding $16k per household, says new report, https://bakersfieldnow.com/news/nation-world/biden-leaves-behind-16000-hidden-tax-for-everyone  
+[2] Waste And Abuse: 4 Admissions Of Social Security Fraud In April Alone, https://thefederalist.com/2025/04/23/4-admissions-of-social-security-fraud-in-april-alone-show-waste-and-abuse-are-real/  
+[3] New-Home Sales Make a Surprising Jump Led by Affordable Inventory, https://www.realtor.com/research/new-home-sales-march-2025/  
 
 ## 5. Foreign Policy and National Security
 
@@ -91,36 +91,36 @@ References:
 Iran nuclear negotiations continue to shape U.S. foreign policy. In an interview with Free Beacon, Senator Fetterman urged Trump to "dump Iran talks and destroy Tehran's nuclear facilities," stating it was "waste that s—t" [1]. Others warn against trusting what is termed the "Iran deal lie" [2]. Meanwhile, in the midst of the Israel-Hamas conflict, Palestinian Authority President Abbas has publicly called on Hamas to "release all hostages and get out" [3].
 
 References:  
-[1] 'Waste That S—t': In Interview With Free Beacon, Fetterman Tells Trump To Dump Iran Talks and Destroy Tehran's Nuclear Facilities, https://freebeacon.com/national-security/waste-that-s-t-in-interview-with-free-beacon-fetterman-tells-trump-to-dump-iran-talks-and-destroy-tehrans-nuclear-facilities/;  
-[2] Don't fall for 'Iran deal' lie, Mr. President — the mullahs can't be trusted, https://nypost.com/2025/04/23/opinion/dont-fall-for-iran-deal-lie-mr-president-the-mullahs-cant-be-trusted/;  
-[3] Abbas to 'Sons of Dogs' Hamas: Release All Hostages and Get Out, https://hotair.com/ed-morrissey/2025/04/23/abbas-to-sons-of-dogs-hamas-get-out-n3802063;  
+[1] 'Waste That S—t': In Interview With Free Beacon, Fetterman Tells Trump To Dump Iran Talks and Destroy Tehran's Nuclear Facilities, https://freebeacon.com/national-security/waste-that-s-t-in-interview-with-free-beacon-fetterman-tells-trump-to-dump-iran-talks-and-destroy-tehrans-nuclear-facilities/  
+[2] Don't fall for 'Iran deal' lie, Mr. President — the mullahs can't be trusted, https://nypost.com/2025/04/23/opinion/dont-fall-for-iran-deal-lie-mr-president-the-mullahs-cant-be-trusted/  
+[3] Abbas to 'Sons of Dogs' Hamas: Release All Hostages and Get Out, https://hotair.com/ed-morrissey/2025/04/23/abbas-to-sons-of-dogs-hamas-get-out-n3802063  
 
 ### 5.2 Military and Intelligence Operations
 
 Security concerns persist on multiple fronts. A former U.S. Army intelligence analyst was sentenced for selling sensitive documents to a Chinese national [1]. The FBI has reported that Venezuela's Maduro government is aiding the migration of the Tren De Aragua terrorist group into the U.S. [2]. Additionally, Waltz has remarked that cartels and gangs might soon face military action, likening them to ISIS in terms of threat [3].
 
 References:  
-[1] Former US Army intelligence analyst sentenced for selling sensitive documents to Chinese national, https://www.foxnews.com/us/former-us-army-intelligence-analyst-sentenced-selling-sensitive-documents-chinese-national;  
-[2] FBI: Maduro's Venezuelan Govt Helping Tren De Aragua Terrorist Group Migrate To U.S., https://www.dailywire.com/news/fbi-maduros-venezuelan-govt-helping-tren-de-aragua-terrorist-group-migrate-to-u-s?author=Hank+Berrien&category=News&elementPosition=20&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=FBI%3A+Maduro%E2%80%99s+Venezuelan+Govt+Helping+Tren+De+Aragua+Terrorist+Group+Migrate+To+U.S.;  
-[3] 'More like ISIS than the mafia': Waltz suggests cartels, gangs could face military action, https://justthenews.com/government/security/more-isis-mafia-waltz-suggests-cartels-gangs-could-face-military-action;  
+[1] Former US Army intelligence analyst sentenced for selling sensitive documents to Chinese national, https://www.foxnews.com/us/former-us-army-intelligence-analyst-sentenced-selling-sensitive-documents-chinese-national  
+[2] FBI: Maduro's Venezuelan Govt Helping Tren De Aragua Terrorist Group Migrate To U.S., https://www.dailywire.com/news/fbi-maduros-venezuelan-govt-helping-tren-de-aragua-terrorist-group-migrate-to-u-s?author=Hank+Berrien&category=News&elementPosition=20&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=FBI%3A+Maduro%E2%80%99s+Venezuelan+Govt+Helping+Tren+De+Aragua+Terrorist+Group+Migrate+To+U.S.  
+[3] 'More like ISIS than the mafia': Waltz suggests cartels, gangs could face military action, https://justthenews.com/government/security/more-isis-mafia-waltz-suggests-cartels-gangs-could-face-military-action  
 
 ### 5.3 Russia-Ukraine Conflict
 
 The conflict continues to escalate. Russia has reportedly hit the Ukrainian capital with "the worst bombing strike since Summer 2024" [1]. In an exclusive interview, Ben Shapiro confronted Ukrainian President Zelensky regarding "Christian persecution and conscription" [2]. Diplomatic messages continue as Trump calls on Putin: "STOP! Let's get the Peace Deal DONE!" [3].
 
 References:  
-[1] Russia Hits Ukrainian Capital With Worst Bombing Strike Since Summer 2024, https://www.dailywire.com/news/russia-hits-ukrainian-capital-with-worst-bombing-strike-since-summer-2024?author=Hank+Berrien&category=News&elementPosition=7&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Russia+Hits+Ukrainian+Capital+With+Worst+Bombing+Strike+Since+Summer+2024;  
-[2] Ben Shapiro Confronts Zelensky On Christian Persecution And Conscription In Exclusive Interview, https://www.dailywire.com/news/ben-shapiro-confronts-zelensky-on-christian-persecution-and-conscription-in-exclusive-interview?topStoryPosition=undefined&author=Kassy+Akiva&category=News&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Ben+Shapiro+Confronts+Zelensky+On+Christian+Persecution+And+Conscription+In+Exclusive+Interview;  
-[3] Trump to Putin: STOP! Let's get the Peace Deal DONE!, https://i.redd.it/xgb00fz86swe1.jpeg;  
+[1] Russia Hits Ukrainian Capital With Worst Bombing Strike Since Summer 2024, https://www.dailywire.com/news/russia-hits-ukrainian-capital-with-worst-bombing-strike-since-summer-2024?author=Hank+Berrien&category=News&elementPosition=7&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Russia+Hits+Ukrainian+Capital+With+Worst+Bombing+Strike+Since+Summer+2024  
+[2] Ben Shapiro Confronts Zelensky On Christian Persecution And Conscription In Exclusive Interview, https://www.dailywire.com/news/ben-shapiro-confronts-zelensky-on-christian-persecution-and-conscription-in-exclusive-interview?topStoryPosition=undefined&author=Kassy+Akiva&category=News&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Ben+Shapiro+Confronts+Zelensky+On+Christian+Persecution+And+Conscription+In+Exclusive+Interview  
+[3] Trump to Putin: STOP! Let's get the Peace Deal DONE!, https://i.redd.it/xgb00fz86swe1.jpeg  
 
 ### 5.4 China Relations
 
 U.S.-China technological competition remains a top priority. An investigation into China's DeepSeek revealed that America is "losing edge in tech talent" [1]. There are also reports that "China is flooding America with illegal vapes — and more than 90% fly under the radar" [2]. In addition, satellite imagery has purportedly captured a "secret Chinese nuclear sub" [3].
 
 References:  
-[1] Investigation Of China's DeepSeek Finds America Losing Edge In Tech Talent, https://www.washingtontimes.com/news/2025/apr/23/investigation-chinas-deepseek-finds-america-losing-edge-tech-talent/;  
-[2] China Is Flooding America With Illegal Vapes — And More Than 90% Fly Under the Radar, https://www.dailywire.com/news/china-is-flooding-america-with-illegal-vapes-and-more-than-90-fly-under-the-radar?author=Spencer+Lindquist&category=Original&elementPosition=12&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=China+Is+Flooding+America+With+Illegal+Vapes+%E2%80%94+And+More+Than+90%25+Fly+Under+the+Radar;  
-[3] Ever seen a secret Chinese nuclear sub? Come see what Google Earth captured on satellite, https://notthebee.com/article/ever-seen-a-secret-chinese-nuclear-sub-come-see-what-google-earth-captured-on-satellite;  
+[1] Investigation Of China's DeepSeek Finds America Losing Edge In Tech Talent, https://www.washingtontimes.com/news/2025/apr/23/investigation-chinas-deepseek-finds-america-losing-edge-tech-talent/  
+[2] China Is Flooding America With Illegal Vapes — And More Than 90% Fly Under the Radar, https://www.dailywire.com/news/china-is-flooding-america-with-illegal-vapes-and-more-than-90-fly-under-the-radar?author=Spencer+Lindquist&category=Original&elementPosition=12&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=China+Is+Flooding+America+With+Illegal+Vapes+%E2%80%94+And+More+Than+90%25+Fly+Under+the+Radar  
+[3] Ever seen a secret Chinese nuclear sub? Come see what Google Earth captured on satellite, https://notthebee.com/article/ever-seen-a-secret-chinese-nuclear-sub-come-see-what-google-earth-captured-on-satellite  
 
 ## 6. Education, Culture and Social Policy
 
@@ -129,18 +129,18 @@ References:
 Recent reports highlight that Harvard's endowment "holds $7 million per student," while the university still receives "$550M from govt annually" [1]. Additionally, an unnamed university is under review for "inaccurate foreign funding disclosures" after reportedly receiving "millions from China" [2]. More broadly, critics claim that "the education system is failing, but change is coming" [3].
 
 References:  
-[1] Harvard's endowment holds $7 million per student, still receives $550M from govt annually, https://www.foxnews.com/politics/harvards-endowment-holds-7-million-per-student-still-receives-550m-from-govt-annually-report;  
-[2] University Under Review For 'Inaccurate' Foreign Funding Disclosures Raked In Millions From China, https://dailycaller.com/2025/04/24/university-under-review-for-inaccurate-foreign-funding-disclosures-raked-in-millions-from-china/;  
-[3] The Education System Is Failing, But Change Is Coming, https://www.dailywire.com/news/the-education-system-is-failing-but-change-is-coming?topStoryPosition=undefined&author=Matt+Walsh&category=Opinion&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=The+Education+System+Is+Failing%2C+But+Change+Is+Coming;  
+[1] Harvard's endowment holds $7 million per student, still receives $550M from govt annually, https://www.foxnews.com/politics/harvards-endowment-holds-7-million-per-student-still-receives-550m-from-govt-annually-report  
+[2] University Under Review For 'Inaccurate' Foreign Funding Disclosures Raked In Millions From China, https://dailycaller.com/2025/04/24/university-under-review-for-inaccurate-foreign-funding-disclosures-raked-in-millions-from-china/  
+[3] The Education System Is Failing, But Change Is Coming, https://www.dailywire.com/news/the-education-system-is-failing-but-change-is-coming?topStoryPosition=undefined&author=Matt+Walsh&category=Opinion&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=The+Education+System+Is+Failing%2C+But+Change+Is+Coming  
 
 ### 6.2 DEI and Cultural Issues
 
 Debate over diversity initiatives remains a flashpoint. Actress Eva Longoria has insisted that DEI is a "moral imperative" and "just good business" [1]. A watchdog report, however, alleges that med schools are "replacing medical merit with obesity denial and DEI doctrine" [2]. In Wyoming, a "one abortion business" has resumed operations after a judge blocked safety regulations [3]. Furthermore, NIKE is reportedly funding research on a medical intervention needed for males to "fairly" compete in girls' and women's sports [4]. Finally, campus controversies persist: Columbia University has threatened arrests if student radicals proceed with planned pro-Hamas encampments [5], and a Maryland school district suspended a student who requested American flags in classrooms [6].
 
 References:  
-[1] Eva Longoria Insists DEI Is A 'Moral Imperative' And 'Just Good Business', https://www.dailywire.com/news/eva-longoria-insists-dei-is-a-moral-imperative-and-just-good-business?author=Amanda+Harding&category=Entertainment&elementPosition=8&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Eva+Longoria+Insists+DEI+Is+A+%E2%80%98Moral+Imperative%E2%80%99+And+%E2%80%98Just+Good+Business%E2%80%99;  
-[2] Med Schools Replace Medical Merit With Obesity Denial And DEI Doctrine, Watchdog Reports, https://www.dailywire.com/news/med-schools-replace-medical-merit-with-obesity-denial-and-dei-doctrine-watchdog-reports?author=Nathan+Gay&category=News&elementPosition=1&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Med+Schools+Replace+Medical+Merit+With+Obesity+Denial+And+DEI+Doctrine%2C+Watchdog+Reports;  
-[3] Wyoming's one abortion business resumes operation after judge blocks safety regulations, https://www.liveaction.org/news/wyoming-abortion-business-judge-blocks-safety-regulations/;  
-[4] NIKE funds research on medical intervention needed for males to "fairly" compete in girls' and women's sports., https://x.com/tpantheman/status/1915467733400985948?s=46;  
-[5] Columbia Threatens Arrests If Student Radicals Move Forward With Planned Pro-Hamas Encampments, https://freebeacon.com/campus/columbia-threatens-arrests-if-student-radicals-move-forward-with-planned-anti-israel-encampments/;  
-[6] MD school district suspends student who asked for American flags in classrooms | Fox News, https://www.foxnews.com/us/maryland-school-suspends-marine-hopeful-after-american-flag-law-controversy;
+[1] Eva Longoria Insists DEI Is A 'Moral Imperative' And 'Just Good Business', https://www.dailywire.com/news/eva-longoria-insists-dei-is-a-moral-imperative-and-just-good-business?author=Amanda+Harding&category=Entertainment&elementPosition=8&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Eva+Longoria+Insists+DEI+Is+A+%E2%80%98Moral+Imperative%E2%80%99+And+%E2%80%98Just+Good+Business%E2%80%99  
+[2] Med Schools Replace Medical Merit With Obesity Denial And DEI Doctrine, Watchdog Reports, https://www.dailywire.com/news/med-schools-replace-medical-merit-with-obesity-denial-and-dei-doctrine-watchdog-reports?author=Nathan+Gay&category=News&elementPosition=1&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Med+Schools+Replace+Medical+Merit+With+Obesity+Denial+And+DEI+Doctrine%2C+Watchdog+Reports  
+[3] Wyoming's one abortion business resumes operation after judge blocks safety regulations, https://www.liveaction.org/news/wyoming-abortion-business-judge-blocks-safety-regulations/  
+[4] NIKE funds research on medical intervention needed for males to "fairly" compete in girls' and women's sports., https://x.com/tpantheman/status/1915467733400985948?s=46  
+[5] Columbia Threatens Arrests If Student Radicals Move Forward With Planned Pro-Hamas Encampments, https://freebeacon.com/campus/columbia-threatens-arrests-if-student-radicals-move-forward-with-planned-anti-israel-encampments/  
+[6] MD school district suspends student who asked for American flags in classrooms | Fox News, https://www.foxnews.com/us/maryland-school-suspends-marine-hopeful-after-american-flag-law-controversy
