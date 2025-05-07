@@ -1,0 +1,140 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-100, total number of articles is 100.**
+
+{"id": 1, "domain": "abcnews.go.com", "title": "Department of Education announces $8 billion pause on Harvard’s grant funding"}
+{"id": 2, "domain": "vancouversun.com", "title": "Cross-border travel from B.C. to Washington state gets even worse"}
+{"id": 3, "domain": "nytimes.com", "title": "Trump Denies Posting a Purported A.I. Image of Himself as Pope"}
+{"id": 4, "domain": "newsweek.com", "title": "Marjorie Taylor Greene Says People In Trump's 'Ear' Are 'Lying to Him'"}
+{"id": 5, "domain": "cnn.com", "title": "Pence rebuffs Trump on tariffs, Russia and January 6 pardons in CNN interview"}
+{"id": 6, "domain": "reuters.com", "title": "US Defense Secretary Hegseth to slash senior-most ranks of military"}
+{"id": 7, "domain": "charlotteobserver.com", "title": "Federal judge orders NC to certify Democrat Allison Riggs as winner in Supreme Court election"}
+{"id": 8, "domain": "npr.org", "title": "Former Palantir workers condemn company's work with Trump administration"}
+{"id": 9, "domain": "cnbc.com", "title": "Trump’s China tariffs are raising costs for wedding dresses and threatening the small shops that sell them"}
+{"id": 10, "domain": "politico.com", "title": "AOC won’t seek top Oversight Committee post"}
+{"id": 11, "domain": "bbc.com", "title": "Trump's former VP Mike Pence receives JFK Courage Award"}
+{"id": 12, "domain": "reuters.com", "title": "Trump administration freezes billions in grant funding to Harvard"}
+{"id": 13, "domain": "kfdm.com", "title": "Marjorie Taylor Greene, Thomas Massie oppose bill to penalize some anti-Israel boycotts"}
+{"id": 14, "domain": "cnn.com", "title": "Kemp passes on Senate race in Georgia after months of private lobbying"}
+{"id": 15, "domain": "bbc.com", "title": "Americans used to be steadfast in their support for Israel. Those days are gone"}
+{"id": 16, "domain": "nbcnews.com", "title": "Former official targeted by Trump says the president is trying to silence critics"}
+{"id": 17, "domain": "cincinnati.com", "title": "Mister Rogers, Sesame Street on PBS teach empathy. Trump wants to take that away"}
+{"id": 18, "domain": "nationalreview.com", "title": "‘Dark Woke’ Will Not Work for Democrats"}
+{"id": 19, "domain": "sourcenm.com", "title": "For-profit immigration detention expands as Trump accelerates his deportation plans"}
+{"id": 20, "domain": "cnn.com", "title": "Phone app Mike Waltz was photographed using is investigating a hack"}
+{"id": 21, "domain": "cbsnews.com", "title": "Trump administration urges judge to toss states' lawsuit over access to abortion pill mifepristone"}
+{"id": 22, "domain": "newsobserver.com", "title": "Federal judge orders NC to certify Riggs as winner in Supreme Court election"}
+{"id": 23, "domain": "npr.org", "title": "Trump cuts baby 'Safe to Sleep' team. Here's what parents should know"}
+{"id": 24, "domain": "apnews.com", "title": "Federal judge says results of North Carolina court race with Democrat ahead must be certified"}
+{"id": 25, "domain": "democracynow.org", "title": "Israeli News Investigation Confirms Biden Administration Did Not Try to End Genocide in Gaza"}
+{"id": 26, "domain": "ronpaulinstitute.org", "title": "The Libertarian Party is on the Verge of ‘Full Collapse,’ Party Chairman Tells Board"}
+{"id": 27, "domain": "politico.com", "title": "Trump will defend Biden’s abortion pill rules in Texas case"}
+{"id": 28, "domain": "thehill.com", "title": "Gallego proposes alternative to Trump's self-deportation offer"}
+{"id": 29, "domain": "apnews.com", "title": "Trump’s meme coin business racks up fees as buyers jump at the chance for access to the president"}
+{"id": 30, "domain": "esquire.com", "title": "Trump's Justice Department Is Pulling Back from School Desegregation in Louisiana"}
+{"id": 31, "domain": "nytimes.com", "title": "Spy Agencies Do Not Think Venezuela Directs Gang, Declassified Memo Shows"}
+{"id": 32, "domain": "politico.com", "title": "He was protected from deportation by a legal settlement. Trump deported him anyway."}
+{"id": 33, "domain": "cbsnews.com", "title": "Trump administration in talks with Rwanda to take deportees from U.S."}
+{"id": 34, "domain": "theguardian.com", "title": "Trump blocks grant funding for Harvard until it meets president’s demands"}
+{"id": 35, "domain": "democracydocket.com", "title": "My Time on 60 Minutes and Why I Refuse To Stay Silent"}
+{"id": 36, "domain": "commondreams.org", "title": "Trump Ally Bukele Reportedly Set to Arrest Journalists Who Revealed His Secret Pact With Gangs | Common Dreams"}
+{"id": 37, "domain": "stateline.org", "title": "GOP lawmakers seek to ban Pride flags, stirring tensions with liberal cities"}
+{"id": 38, "domain": "jewishinsider.com", "title": "House cancels vote on IGO Anti-Boycott Act following right-wing objections"}
+{"id": 39, "domain": "independent.co.uk", "title": "Kamala Harris and Doug Emhoff attend Met Gala but skip red carpet"}
+{"id": 40, "domain": "techcrunch.com", "title": "TeleMessage, a modified Signal clone used by US government officials, has been hacked"}
+{"id": 41, "domain": "theguardian.com", "title": "Mike Pence rebukes Trump over tariffs and ‘wavering’ support for Ukraine"}
+{"id": 42, "domain": "huffpost.com", "title": "ChatGPT Was Asked To List Everyone Trump Has Called 'A Low-IQ Individual' — And It's Pretty Racist"}
+{"id": 43, "domain": "usatoday.com", "title": "Trump administration deems Harvard ineligible for new federal research grants"}
+{"id": 44, "domain": "apnews.com", "title": "Threatened by Trump tariffs, Japan walks a delicate tightrope between US and China"}
+{"id": 45, "domain": "hollywoodreporter.com", "title": "Teamsters Cheer Trump’s Movie Tariffs, Rip Studios For “Fleeing” America"}
+{"id": 46, "domain": "cnn.com", "title": "Trump Triples Down Saying Kids Will Have To Do With Fewer Toys"}
+{"id": 47, "domain": "foxnews.com", "title": "Israel approves plan to capture all of Gaza, calls up tens of thousands of reserve troops"}
+{"id": 48, "domain": "axios.com", "title": "Axios: Senate Democrats have invited New York Times columnist Ezra Klein and Democratic data guru David Shor to talk to senators at their annual one-day issues retreat on Wednesday"}
+{"id": 49, "domain": "theintercept.com", "title": "ICE Arrests Workers Involved in Landmark NY Labor Rights Case"}
+{"id": 50, "domain": "npr.org", "title": "Trump cuts baby 'Safe to Sleep' team. Here's what parents should know"}
+{"id": 51, "domain": "cpr.org", "title": "Trump directs Department of Justice to try to free Tina Peters from prison in social media post"}
+{"id": 52, "domain": "techcrunch.com", "title": "GlobalX, airline used for Trump deportations, gets hacked: Report"}
+{"id": 53, "domain": "nypost.com", "title": "Muslim support for Democrats plunges as group opens to Trump’s Gaza plan: poll"}
+{"id": 54, "domain": "theguardian.com", "title": "Trump called for 100% tariff on foreign films a day after Jon Voight proposed ‘limited’ tariffs"}
+{"id": 55, "domain": "cbsnews.com", "title": "National Endowment for the Arts sending grant terminations after Trump's proposed budget calls for shuttering agency"}
+{"id": 56, "domain": "nytimes.com", "title": "Newsom Asks Trump to Work With Him on $7.5 Billion Tax Credit for Hollywood"}
+{"id": 57, "domain": "thehill.com", "title": "Federal judge orders NC to certify state Supreme Court victory"}
+{"id": 58, "domain": "amp.cnn.com", "title": "FCC commissioner calls CBS investigation ‘penalty’ | CNN Business"}
+{"id": 59, "domain": "nbcnews.com", "title": "Alexandria Ocasio-Cortez won't seek the top Democratic seat on the House Oversight Committee - After speaking to colleagues, the progressive New York congresswoman said she believed Democrats would favor a more senior member in the role, as they did in the previous race."}
+{"id": 60, "domain": "thedailybeast.com", "title": "Air Traffic Controller Warns Major Airport Unsafe for Travel: ‘Avoid Newark at All Costs’"}
+{"id": 61, "domain": "dailydot.com", "title": "Trump wants to reopen Alcatraz—and everyone has the same Netflix theory - Did Trump watch ‘The Rock’ and then order Alcatraz reopened?"}
+{"id": 62, "domain": "theguardian.com", "title": "Michigan AG drops all charges against seven pro-Palestinian protesters"}
+{"id": 63, "domain": "cbsnews.com", "title": "National Institutes of Health lays off hundreds more staff, including at cancer research institute"}
+{"id": 64, "domain": "english.elpais.com", "title": "Lives cut short in ICE custody: Seven migrants die in Trump’s first 100 days"}
+{"id": 65, "domain": "independent.co.uk", "title": "GOP Rep Was Awarded a Bronze Star for His Bravery in Iraq. Those he Reportedly Saved Can’t Remember Him Being There."}
+{"id": 66, "domain": "breitbart.com", "title": "PETA Thanks Trump Administration for Ending Beagle Testing at NIH"}
+{"id": 67, "domain": "rollcall.com", "title": "GOP aims at contempt of court in House reconciliation text - Roll Call"}
+{"id": 68, "domain": "edition.cnn.com", "title": "Trump’s order to reopen Alcatraz is the perfect metaphor for his second term"}
+{"id": 69, "domain": "nytimes.com", "title": "Trump’s Tariffs Are Already Straining This Oklahoma Used Car Business"}
+{"id": 70, "domain": "theguardian.com", "title": "Rwanda says talks underway with US to host deported migrants | Rwanda"}
+{"id": 71, "domain": "politico.com", "title": "Trump administration bars Harvard from new federal research funding"}
+{"id": 72, "domain": "kyivindependent.com", "title": "Poland's Duda calls on Trump to pressure Russia with 'economic instruments'"}
+{"id": 73, "domain": "npr.org", "title": "A Maryland town backed Trump's cost-cutting pledge. Now it's a target"}
+{"id": 74, "domain": "thehill.com", "title": "Rep. Marjorie Taylor Greene (R-GA) will “give some thought” into potential Senate run on “The Hill” on NewsNation"}
+{"id": 75, "domain": "kyivindependent.com", "title": "'Putin doesn't want peace, he wants Ukraine' — Pence rebukes Trump's stance on Russia"}
+{"id": 76, "domain": "theguardian.com", "title": "Trump’s attack on the film industry is a sign of xenophobic contempt"}
+{"id": 77, "domain": "nbcnews.com", "title": "Federal judge says results of North Carolina court race with Democrat ahead must be certified"}
+{"id": 78, "domain": "apnews.com", "title": "Hegseth directs 20% cut to top military leadership positions"}
+{"id": 79, "domain": "prospectmagazine.co.uk", "title": "In the United States, the fightback against Trump has begun"}
+{"id": 80, "domain": "wired.com", "title": "US Border Agents Are Asking for Help Taking Photos of Everyone Entering the Country by Car"}
+{"id": 81, "domain": "thetimes.com", "title": "Trump to announce pharmaceutical tariffs ‘in next two weeks’"}
+{"id": 82, "domain": "apnews.com", "title": "Japan's finance minister calls US Treasury holdings 'a card' in tariff talks with Trump"}
+{"id": 83, "domain": "pressherald.com", "title": "Angus King III, son of U.S. senator, announces campaign for Maine governor"}
+{"id": 84, "domain": "politico.com", "title": "Cuomo was a same-sex marriage champion. He’s not courting LGBTQ+ votes now."}
+{"id": 85, "domain": "thehill.com", "title": "Trump changes his tune on the economy"}
+{"id": 86, "domain": "reuters.com", "title": "Order by Hegseth to cancel Ukraine weapons caught White House off guard"}
+{"id": 87, "domain": "theguardian.com", "title": "The Guardian view on Trump’s shock therapy: warehouse and transport workers are the first victims of a class war"}
+{"id": 88, "domain": "usatoday.com", "title": "Alcatraz visitors react to Trump: From 'the man's a moron' to 'idea seems good'"}
+{"id": 89, "domain": "stripes.com", "title": "Army pauses helicopter flights around Pentagon after 2 planes abort landings at Reagan airport"}
+{"id": 90, "domain": "huffpost.com", "title": "Bernie Sanders: Resisting Trump Is ‘Not Good Enough’"}
+{"id": 91, "domain": "apnews.com", "title": "Judge orders Trump administration to admit roughly 12,000 refugees"}
+{"id": 92, "domain": "wired.com", "title": "Trump’s Tariffs Are Threatening America’s Apple Juice Supply Chain"}
+{"id": 93, "domain": "prospect.org", "title": "How to Tie Up the Most Precious Resource in Washington"}
+{"id": 94, "domain": "thedailybeast.com", "title": "Trump Busted Stealing His Policy Ideas From TV... Again"}
+{"id": 95, "domain": "politico.com", "title": "Northeastern governors look to sidestep Trump administration in Canadian trade war"}
+{"id": 96, "domain": "businessinsider.com", "title": "Gavin Newsom says he wants to work with Trump to 'Make America Film Again'"}
+{"id": 97, "domain": "aljazeera.com", "title": "How much will Donald Trump’s tariffs cost US families? | Donald Trump News"}
+{"id": 98, "domain": "self.politics", "title": "I'm a politics expert and British journalist living in America, ask me anything"}
+{"id": 99, "domain": "thebulwark.com", "title": "The Comprehensive Guide to Trump’s Putin Fetish"}
+{"id": 100, "domain": "newrepublic.com", "title": "How Republicans in Congress Enable Trump’s Tyranny"}
+
+====================Input File End======================
+
+
+
