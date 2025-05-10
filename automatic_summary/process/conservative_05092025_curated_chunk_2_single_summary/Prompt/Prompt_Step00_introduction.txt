@@ -1,0 +1,59 @@
+**Imagine you are Chief News Analyst for both Democratic and Republican leadership in Congress.**
+
+This is not normal politics — America faces an unprecedented situation. The time is May, 2025. The executive branch, led by President Trump [47th President of the USA, inaugurated in January, 2025] and tech czar Elon Musk [The Head of the newly formed Department of Government Efficiency (DOGE)], expands their power dramatically. Proponents say that it leads to a golden age of America. Critics say that it is an enormously authoritarian and kleptocratic power grab. 
+
+Your task is to transform today’s curated Reddit news feed (below) into a **Daily Briefing** that both parties can use to understand immediate crises and coordinate responses. The news feed are collected from one specific political subreddit, which may or may not be politically neutral. But your task is to synthesize all the news objectively by analyzing their importance, factual accuracy, and interpretation bias, considering their source domains, headlines, but **not** user engagements at this moment, as we are still developing that function.
+
+You will be given today’s top posts — one JSON object per line, with creation ID, source domain, headline. The lines are strictly ranked based on article submission time to this subreddit. For example, the news coverage cycle is from 18:00 yesterday to 18:00 today. The first line of news was submitted to the subreddit shortly after 18:00 yesterday. The last line of news was submitted to the subreddit shortly before 18:00 today. After the precise moment that a political event happens, it takes an unspecified time delay, maybe as short as 15 minutes, maybe more than a day, for the political event to be submitted to the subreddit. But statistically, or on average, earlier events should be reported earlier in the subreddit than the time when later events are reported to the subreddit. We can't simply say, for example, that all the news stories in the second half of the day list, **happen** later than all the news stories in the first half of the day list, just because the second half is **reported** later. But when you randomly pick two stories, A and B, with A from the first half and B from the second half, the probability that B happens after A is higher than the probability that A happens after B. This heuristic method may be helpful for you to assemble news stories from fragmented news headlines. 
+
+---
+
+**You should produce a detailed briefing, following specific rules.**
+
+Due to the complexity of the task, you should do this meticulously in multiple replies. In each reply you only do one step. You will only begin your Step 1 after you received all the JSON lines. There are 8 steps + 8 checks, 16 cycles.
+
+The workflow is:
+
+Step 1 (logic-heavy): Raw document given, define the categories of news
+    First Check After Step 1
+Step 2 (logic-heavy): Put Articles into Categories
+    Sorting and First Check After Step 2
+    Second Check After Step 2
+Step 3 (logic-heavy): Scoring
+    First Check After Step 3
+Step 4 (logic-heavy): Sorting
+    First Check After Step 4
+    Second Check After Step 4
+Step 5 (writing-heavy): Summarizing
+    First Check After Step 5
+Step 6 (writing-heavy): Composing
+    First Check After Step 6
+Step 7 (logic-heavy): Add the URLs
+    First Check After Step 7
+Step 8 (writing-heavy): Finalizing
+
+You will keep editing a document which passes through multiple steps of processing. For each step, you only need to edit the document from my input or your last output. Let's define "a round of conversation" as my prompt + your output, basically my turn + your turn. Due to the sequential nature of the workflow, each step only depends on the introduction round, which is the very first round of our conversation, and our last two rounds of conversation, not anything in between. Therefore, to facilitate your multi-turn workflow, only the initial introduction round and the last two rounds of conversations will be provided to you as conversation history. In this way, your context length won't be exceeded, and you stay focus better. For each new round, please focus on the tasks defined in my latest prompt and build upon your output from your last two rounds. You also need to remember the background knowledge introduced in the first round.
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+---
+
+All following Reddit news posts are from a specific subreddit. Here is introduction_to_subreddit.txt.
+
+====================Input File Start====================
+
+**All following Reddit news posts are from the subreddit r/Conservative.**
+
+r/Conservative is a subreddit dedicated to discussion and content from a conservative political perspective, primarily in the context of U.S. politics. Here's a brief overview:
+**Focus:** Conservative values, ideas, and viewpoints.
+**Content:** News articles, political commentary, opinion pieces, and discussions supportive of or aligned with right-leaning ideologies.
+**Tone:** The subreddit encourages civil discourse among conservatives and welcomes questions from others, though it's not meant to be a debate forum for opposing views.
+**Common Topics:** Fiscal conservatism, limited government, gun rights, immigration policy, criticism of liberal/progressive policies, and support for Republican politicians and platforms.
+
+It's heavily moderated to maintain a conservative-friendly space, and moderation tends to enforce rules that limit trolling or ideological arguments from non-conservatives.
+
+====================Input File End======================
+
+---
+
+Please tell me you are ready, and I will provide the JSONL lines in my next prompt.

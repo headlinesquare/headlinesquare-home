@@ -1,0 +1,145 @@
++++
+date = '2025-05-09T19:15:00-04:00'
+draft = false
+title = '[Friday, May 09] US News Headlines from r/Conservative'
++++
+
+## 1. Executive Branch & Trump Administration
+
+### 1.1 Policy Initiatives & Executive Actions
+
+The Trump administration reports over $2 billion in savings from cuts to Diversity, Equity, and Inclusion (DEI) programs during its first 100 days [1]. The White House announced plans to repurpose funds previously used for housing undocumented immigrants toward building a national center for homeless veterans [2]. Reports indicate the administration is considering suspending habeas corpus as part of immigration enforcement measures [3]. First Lady Melania Trump welcomed military moms to the White House for Mother's Day celebration [4].
+
+References:  
+[1] White House highlights over $2B in savings from DEI cuts during Trump administration's first 100 days, https://www.foxnews.com/politics/white-house-highlights-over-2b-savings-from-dei-cuts-during-its-first-100-days  
+[2] Trump to build national center for homeless veterans with funds previously spent on housing for illegal aliens, https://www.foxnews.com/politics/trump-build-national-center-homeless-veterans-funds-previously-spent-illegal-aliens  
+[3] White House is considering suspending habeas corpus as part of immigration crackdown, https://justthenews.com/government/white-house/white-house-considering-suspending-habeas-corpus-part-immigration-crackdown?utm_source=justthenews.com&utm_medium=feed&utm_campaign=external-news-aggregators  
+[4] First lady Melania Trump welcomes military moms to White House for Mother's Day, https://www.foxnews.com/lifestyle/first-lady-melania-trump-welcomes-military-moms-white-house-mothers-day  
+
+### 1.2 Department of Government Efficiency (DOGE) Operations
+
+A controversy involving USA Fencing escalated at a DOGE hearing, with reports of social media regrets and calls for resignation [1]. Federal agencies are undergoing digital modernization, with the Office of Personnel Management implementing new technology for retirement processing [2].
+
+References:  
+[1] USA Fencing controversy escalates at DOGE hearing with social media regrets, calls for resignation, https://www.foxnews.com/sports/usa-fencing-transgender-controversy-escalates-doge-hearing-social-media-regrets-calls-firings  
+[2] OPM Goes Digital: A New Era For Federal Retirement Processing, https://www.fedsmith.com/2025/05/07/opm-goes-digital-new-era-for-federal-retirement-processing/  
+
+### 1.3 Cabinet & Personnel Decisions
+
+President Trump has appointed Judge Jeanine Pirro as interim U.S. Attorney for Washington D.C., leading to her departure from Fox News's "The Five" [1]. Trump has reportedly fired the Librarian of Congress, prompting strong criticism from Democratic officials who characterized the action as "a disgrace" [2]. Pete Hegseth has issued orders establishing a deadline for certain service members to leave the military, stating they are "out at the DOD" [3].
+
+References:  
+[1] Trump taps Fox News' Judge Jeanine Pirro as interim US Attorney in DC, 'The Five' co-host exits network, https://www.foxnews.com/media/trump-taps-fox-news-judge-jeanine-pirro-interim-us-attorney-d-c-the-five-co-host-exits-network  
+[2] Dems erupt after report of Trump firing Librarian of Congress: 'A disgrace', https://www.foxnews.com/politics/dems-erupt-after-trump-fires-librarian-congress-a-disgrace  
+[3] Hegseth orders deadline for service members to leave military: 'Out at the DOD', https://www.foxnews.com/politics/hegseth-orders-deadline-trans-service-members-leave-military-out-dod  
+
+## 2. Legislative & Political Developments
+
+### 2.1 Congressional Activities & Legislation
+
+Congress is advancing legislation to protect disaster victims from political discrimination [1] and a Republican proposal making illegal immigrant murderers eligible for the death penalty [2]. Senator Josh Hawley has introduced a bill to reinstate abortion pill safeguards and create legal pathways for women to sue [3].
+
+References:  
+[1] Lawmakers Renew Efforts To Protect Disaster Victims From Political Discrimination, https://www.dailywire.com/news/lawmakers-renew-efforts-to-protect-disaster-victims-from-political-discrimination?author=Leif+Le+Mahieu&category=News&elementPosition=2&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Lawmakers+Renew+Efforts+To+Protect+Disaster+Victims+From+Political+Discrimination  
+[2] GOP bill would make Illegal immigrant murderers eligible for death penalty, https://www.foxnews.com/politics/illegal-immigrant-murderers-could-face-death-penalty-under-new-gop-bill  
+[3] Senator Josh Hawley introduces bill to reinstate abortion pill safeguards and allow women to sue, https://www.liveaction.org/news/hawley-reinstate-safeguards-abortion-pill-women-sue/  
+
+### 2.2 Political Party Dynamics
+
+Internal Republican divisions have emerged over tax provisions in President Trump's proposed legislation, with Republicans from blue states threatening a "mutiny" over state and local tax issues [1]. Democratic Party challenges continue, with Senator John Fetterman's reported outburst renewing questions about his fitness for office [2]. Reports suggest that some Washington Democrats are "out to get" Senator Fetterman [3]. Former President Biden maintains he could have defeated Trump in 2024 [4] while blaming Harris's loss on sexism and racism [5].
+
+References:  
+[1] Blue state Republicans threaten mutiny over state and local taxes in Trump's 'big, beautiful bill', https://www.foxnews.com/politics/blue-state-republicans-threaten-mutiny-over-state-local-taxes-trumps-big-beautiful-bill  
+[2] Reported Fetterman outburst at meeting reopens questions about Pennsylvania Dem's fitness for office, https://www.foxnews.com/politics/reported-fetterman-outburst-meeting-reopens-questions-about-pennsylvania-dems-fitness-office  
+[3] DC Dems out to get John Fetterman, crackdown on dissent and other commentary, https://nypost.com/2025/05/09/opinion/dc-dems-out-to-get-john-fetterman-crackdown-on-dissent-and-other-commentary/  
+[4] Yes, Joe Biden Still Thinks He Could Have Beaten Trump In 2024, https://www.dailywire.com/news/yes-joe-biden-still-thinks-he-could-have-beaten-trump-in-2024?author=Virginia+Kruta&category=News&elementPosition=10&row=3&rowHeadline=Latest+News&rowType=Vertical+Carousel&title=Yes%2C+Joe+Biden+Still+Thinks+He+Could+Have+Beaten+Trump+In+2024  
+[5] Joe Biden blames Kamala Harris' loss on sexism and racism and rejects concerns about his age, https://www.wdtv.com/2025/05/08/joe-biden-blames-kamala-harris-loss-sexism-racism-rejects-concerns-about-his-age/  
+
+### 2.3 State Leadership Actions
+
+California Governor Gavin Newsom has launched a rapid-response website, leading critics to claim he is prioritizing presidential ambitions [1]. Newsom was forced to remove a promotional advertisement after criticism for using footage from Ukraine while highlighting California achievements [2]. In New York, Governor Hochul faces allegations of attempting to insert a $10 million taxpayer-funded bailout into the state budget for Attorney General Letitia James's mortgage fraud defense [3].
+
+References:  
+[1] Newsom debuts rapid-response website as critics accuse him of prioritizing presidential ambitions, https://www.foxnews.com/politics/newsom-debuts-rapid-response-website-critics-accuse-him-prioritizing-presidential-ambitions  
+[2] Gavin Newsom removes ad after being knocked for using Ukraine footage while bragging about California, https://www.foxnews.com/politics/gavin-newsom-removes-ad-after-being-knocked-using-ukraine-footage-while-bragging-about-california  
+[3] Governor Kathy Hochul Tries to SNEAK $10M Taxpayer Bailout into Budget for Letitia James mortage fraud defense, https://stefanik.house.gov/2025/5/stefanik-statement-on-kathy-hochul-and-albany-democrats-disgraceful-slush-fund-for-letitia-james-legal-defense  
+
+## 3. Economic & Fiscal Policy
+
+### 3.1 Tax Policy & Trade Initiatives
+
+President Trump has surprised observers with his stance on taxing wealthy Americans while explicitly warning Republicans against adopting similar positions [1]. Former Vice President Mike Pence has urged President Trump against raising taxes on wealthy Americans [2]. Trump's proposed tax hike is drawing historical comparisons from experts, who describe it as "déjà vu" of George H.W. Bush's "read my lips" moment [3].
+
+The Trump administration has secured a trade deal with the United Kingdom [4] and is considering reducing Chinese tariffs following trade talks [5]. President Trump has called for China to open its markets while floating the possibility of major tariff reductions [6].
+
+References:  
+[1] Trump Takes Shock Stance On Taxing Rich, Warns GOP Against Adopting It, https://www.dailywire.com/news/trump-takes-shock-stance-on-taxing-rich-warns-gop-against-adopting-it?topStoryPosition=undefined&author=Zach+Jewell&category=News&elementPosition=2&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Trump+Takes+Shock+Stance+On+Taxing+Rich%2C+Warns+GOP+Against+Adopting+It  
+[2] Trump's first vice president urges his old boss against raising taxes on wealthy Americans, https://www.foxnews.com/politics/trumps-first-vice-president-urges-his-old-boss-against-raising-taxes-wealthy-americans  
+[3] Trump's tax hike proposal is 'déjà vu' of George H. W. Bush's 'read my lips' moment, experts say, https://www.foxnews.com/politics/trumps-tax-hike-proposal-deja-vu-george-h-w-bushs-read-my-lips-moment-experts-say  
+[4] Morning Brief: A New Pope, Trump Secures U.K. Trade Deal & Fraud Uncovered In African Aid, https://www.dailywire.com/news/morning-brief-a-new-pope-trump-secures-u-k-trade-deal-fraud-uncovered-in-african-aid?topStoryPosition=undefined&author=Morning+Wire&category=News&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Morning+Brief%3A+A+New+Pope%2C+Trump+Secures+U.K.+Trade+Deal+%26+Fraud+Uncovered+In+African+Aid  
+[5] Trump admin reportedly considering reducing Chinese tariffs after trade talks, https://v.redd.it/rs6zd5y4xqze1  
+[6] Trump Calls For China To Open Its Markets, Floats Major Tariff Reduction, https://www.dailywire.com/news/trump-calls-for-china-to-open-its-markets-floats-major-tariff-reduction?topStoryPosition=undefined&author=Leif+Le+Mahieu&category=News&elementPosition=3&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Trump+Calls+For+China+To+Open+Its+Markets%2C+Floats+Major+Tariff+Reduction  
+
+### 3.2 Economic Indicators
+
+Inflation has decreased to 2.39% as of April 2025 [1]. A new study warns that gasoline prices could reach $8 per gallon in an unspecified "blue state" next year, reportedly triggering bipartisan concern [2]. In the automotive sector, electric vehicle manufacturers are facing significant sales challenges, with Ford's EV sales described as having "fallen off a cliff" while Tesla also experiences declining sales [3].
+
+References:  
+[1] Inflation down to 2.39% as of April 2025, https://ycharts.com/indicators/us_inflation_rate  
+[2] $8 gas? New study reveals it may come to a blue state next year, triggering bipartisan concern, https://www.foxbusiness.com/politics/8-gas-new-study-reveals-it-may-come-blue-state-next-year-triggering-bipartisan-concern  
+[3] As Tesla Sales Decline, Ford's EV Sales…Fall Off a Cliff, https://acecomments.mu.nu/?post=414753  
+
+## 4. Justice System & Immigration
+
+### 4.1 Federal Investigations & Legal Challenges
+
+Federal authorities have opened a criminal investigation into New York Attorney General Letitia James [1]. Media company Paramount faces pressure from CBS stars and Democratic lawmakers as it considers settling a lawsuit brought by Trump [2]. Retired Supreme Court Justice David Souter has died at age 85 [3]. A Democrat who allegedly spat on Ed Martin has been arrested by U.S. Marshals and reportedly faces up to 20 years in federal prison under a statute prohibiting assaults on federal officials [4].
+
+References:  
+[1] Feds open criminal investigation into NY AG Letitia James, https://www.foxnews.com/politics/department-justice-opens-criminal-investigation-ny-ag-letitia-james  
+[2] Paramount facing mounting pressure from CBS stars, Dem lawmakers as company mulls settling Trump lawsuit, https://www.foxnews.com/media/paramount-facing-mounting-pressure-from-cbs-stars-dem-lawmakers-company-mulls-settling-trump-lawsuit  
+[3] Former Supreme Court Justice David Souter dead at 85 | Fox News, https://www.foxnews.com/politics/former-supreme-court-justice-david-souter-dead-85  
+[4] "The Democrat who spit on Ed Martin has been arrested by US Marshals and faces up to 20 years in federal prison under 18 U.S. Code § 111 for assaulting a federal official." (X/@amuse), https://x.com/amuse/status/1920975404854018327  
+
+### 4.2 Immigration Enforcement
+
+Immigration and Customs Enforcement (ICE) is targeting illegal immigrants accused in a "complex" kidnapping of a mother and baby in North Carolina [1]. A federal judge granted bail to a Tufts University student who had been detained by ICE [2]. Democratic members of Congress conducted what they described as an "oversight visit" at a New Jersey ICE facility, asserting that "people deserve dignity" [3]. Newark Mayor Ras Baraka was arrested while protesting at the same ICE detention facility [4].
+
+References:  
+[1] Feds hammer North Carolina illegal immigrants accused in 'complex' kidnapping of mom, baby from home, https://www.foxnews.com/us/feds-hammer-north-carolina-illegal-immigrants-accused-complex-kidnapping-mom-baby-home  
+[2] Tufts University student detained by ICE granted bail by federal judge, https://www.foxnews.com/us/tufts-university-student-detained-ice-granted-bail-federal-judge  
+[3] Dem Congress members storm New Jersey ICE prison to conduct 'oversight visit': 'People deserve dignity', https://www.foxnews.com/us/dem-congress-members-storm-new-jersey-ice-prison-conduct-oversight-visit-people-deserve-dignity  
+[4] Newark Mayor Ras Baraka arrested while protesting ICE detention facility, https://nypost.com/2025/05/09/us-news/newark-mayor-ras-baraka-arrested-while-protesting-ice-detention-facility/  
+
+## 5. International Relations
+
+### 5.1 Global Diplomacy
+
+According to Steve Witkoff, ahead of a fourth round of talks, Iran has reportedly agreed that "they don't want" a nuclear weapon [1]. China has dispatched its top security chief to meet with the Trump administration regarding the fentanyl crisis and tariffs [2]. Russian President Vladimir Putin has hosted Chinese President Xi Jinping at a military parade in Moscow's Red Square [3]. Ukraine has detained two Hungarian nationals over an alleged spy plot [4].
+
+References:  
+[1] Exclusive — Steve Witkoff Ahead of Round 4 of Talks: Iran Has Agreed 'They Don't Want' Nuclear Weapon, https://www.breitbart.com/politics/2025/05/09/exclusive-steve-witkoff-ahead-round-4-talks-iran-has-agreed-they-dont-want-nuclear-weapon/  
+[2] China Dispatches Top Security Chief To Face Trump Team Over Fentanyl Crisis, Tariffs, https://www.dailywire.com/news/china-dispatches-top-security-chief-to-face-trump-team-over-fentanyl-crisis-tariffs?topStoryPosition=undefined&author=Nathan+Gay&category=News&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=China+Dispatches+Top+Security+Chief+To+Face+Trump+Team+Over+Fentanyl+Crisis%2C+Tariffs  
+[3] Russia's Putin hosts China's Xi at massive Moscow military parade on Red Square, https://www.foxnews.com/world/russias-putin-hosts-chinas-xi-massive-moscow-military-parade-red-square  
+[4] Ukraine: Two Hungarians detained over alleged spy plot, https://www.bbc.co.uk/news/articles/cy8dx16q3nzo  
+
+## 6. Education, Religious & Social Issues
+
+### 6.1 Campus Protests & Education Policy
+
+A West Point professor has resigned in response to the Trump administration's education overhaul, with Fox News host Pete Hegseth commenting that the professor "will not be missed" [1]. Columbia University has suspended protesters described as "racist agitators" following a facility takeover [2]. Michigan Attorney General Dana Nessel has dropped charges against anti-Israel protesters at the University of Michigan [3]. UCLA Medical School is facing a lawsuit alleging race discrimination, filed by the same group behind the Harvard affirmative action case [4].
+
+References:  
+[1] Pete Hegseth says West Point professor who resigned over Trump admin education overhaul 'will not be missed', https://www.foxnews.com/us/pete-hegseth-says-west-point-professor-who-resigned-over-trump-admin-education-overhaul-will-not-missed  
+[2] Columbia suspends Racist agitators after takeover, spreading of pamphlets glorifying alleged terrorist, https://www.foxnews.com/us/columbia-suspends-anti-israel-agitators-after-takeover-spreading-pamphlets-glorifying-alleged-terrorist  
+[3] "A Circus-Like Atmosphere": Nessel Drops Charges Against University of Michigan AntiIsrael Protesters, https://jonathanturley.org/2025/05/09/a-circus-like-atmosphere-nessel-drops-charges-against-university-of-michigan-anti-israel-protesters/#more-231568  
+[4] UCLA Medical School Sued for Race Discrimination by Group Behind Harvard Affirmative Action Case, https://freebeacon.com/campus/ucla-medical-school-sued-for-race-discrimination-by-group-behind-harvard-affirmative-action-case/  
+
+### 6.2 Religious Leadership
+
+Pope Leo XIV, described as the first American pontiff, has given his first homily, stating that "loss in faith has led to crisis in humanity" [1]. Cardinal Dolan has characterized the new Pope as a "citizen of the world" who "will build bridges with Trump" [2]. Reports indicate the new pope previously shared social media posts criticizing Trump administration policies [3].
+
+References:  
+[1] Pope Leo XIV gives 1st homily as American pontiff, says loss in faith has led to crisis in humanity, https://www.foxnews.com/world/pope-leo-xiv-gives-first-homily-american-pontiff-says-loss-faith-has-led-crisis-humanity  
+[2] Cardinal Dolan describes Pope XIV as 'citizen of the world,' will build bridges with Trump, https://www.foxnews.com/us/cardinal-dolan-describes-pope-xiv-citizen-world-build-bridges-trump  
+[3] New pope shared social media posts criticizing Trump administration policies, https://justthenews.com/nation/religion/new-pope-shared-social-media-posts-criticizing-president-trump

@@ -1,0 +1,110 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-70, total number of articles is 70.**
+
+{"id": 1, "domain": "foxnews.com", "title": "Reported Fetterman outburst at meeting reopens questions about Pennsylvania Dem's fitness for office"}
+{"id": 2, "domain": "foxnews.com", "title": "White House highlights over $2B in savings from DEI cuts during Trump administration's first 100 days"}
+{"id": 3, "domain": "foxnews.com", "title": "Age-old seniority question divides Democrats as Biden returns to national spotlight"}
+{"id": 4, "domain": "foxnews.com", "title": "Viral video shows Frontier Airlines reps' airport meltdown that left passenger stunned"}
+{"id": 5, "domain": "wdtv.com", "title": "Joe Biden blames Kamala Harris’ loss on sexism and racism and rejects concerns about his age"}
+{"id": 6, "domain": "redstate.com", "title": "Ric Grenell Drops Some Reality on Kennedy Center Performers Threatening Boycott of Trump Appearance"}
+{"id": 7, "domain": "notthebee.com", "title": "I scoured the lands to find the best memes about the first American pope"}
+{"id": 8, "domain": "x.com", "title": "Accountability has come to CUNY with mass arrests and I'm feeling the schadenfreude."}
+{"id": 9, "domain": "upolitics.com", "title": "Biden Stands By Decision To Delay Ending Campaign, Says It Wouldn't Have 'Mattered' If He'd Dropped Out Sooner"}
+{"id": 10, "domain": "foxnews.com", "title": "Trump taps Fox News' Judge Jeanine Pirro as interim US Attorney in DC, 'The Five' co-host exits network"}
+{"id": 11, "domain": "foxnews.com", "title": "Maine Democrats respond to SCOTUS appeal over Rep Laurel Libby's censure for athlete post"}
+{"id": 12, "domain": "foxnews.com", "title": "Trump health officials reveal how they plan to combat chronic diseases | Fox News Video"}
+{"id": 13, "domain": "foxnews.com", "title": "Trump's first vice president urges his old boss against raising taxes on wealthy Americans"}
+{"id": 14, "domain": "hotair.com", "title": "Boo Wu - Boston Sitting on a Billion Dollar Commercial Real Estate Tax Bomb"}
+{"id": 15, "domain": "dailywire.com", "title": "Trump Taps Former DA And Fox News Host For Acting D.C. U.S. Attorney: ‘In A Class By Herself’"}
+{"id": 16, "domain": "justthenews.com", "title": "New pope shared social media posts criticizing Trump administration policies"}
+{"id": 17, "domain": "kansascity.com", "title": "Kansas county wants former Jan. 6 defendant to turn over website domain"}
+{"id": 18, "domain": "spectator.org", "title": "Privilege Lost Isn’t Oppression — It’s Justice — The persecutors now think they’re being persecuted."}
+{"id": 19, "domain": "x.com", "title": "$500k Settlement reached in lawsuit VS Atlanta Board of Education As African American Principal admits to segregating classes."}
+{"id": 20, "domain": "foxnews.com", "title": "Feds open criminal investigation into NY AG Letitia James"}
+{"id": 21, "domain": "dailysignal.com", "title": "Germany’s Drift Toward ‘National Suicide’"}
+{"id": 22, "domain": "jpost.com", "title": "Kanye West releases new song praising Hitler, Nazis - The Jerusalem Post"}
+{"id": 23, "domain": "foxnews.com", "title": "Biden denies telling Harris there could be 'no daylight' between them, addresses former VP's 'View' moment"}
+{"id": 24, "domain": "foxnews.com", "title": "Democrats are more divided than ever, says Jesse Watters | Fox News Video"}
+{"id": 25, "domain": "dailywire.com", "title": "Lawmakers Renew Efforts To Protect Disaster Victims From Political Discrimination"}
+{"id": 26, "domain": "foxnews.com", "title": "ESPN panelist says kids deserve to play sports' in final appearance before show's cancellation"}
+{"id": 27, "domain": "foxnews.com", "title": "Racist mob descends on Brooklyn College in NYC as agitators brawl with police, get tased"}
+{"id": 28, "domain": "foxnews.com", "title": "Pete Hegseth says West Point professor who resigned over Trump admin education overhaul 'will not be missed'"}
+{"id": 29, "domain": "foxnews.com", "title": "DHS defends ICE detainment of Georgia college student who violated traffic laws: 'Not ignoring rule of law'"}
+{"id": 30, "domain": "foxnews.com", "title": "Columbia student describes ‘distressing’ racist protests on campus | Fox News Video"}
+{"id": 31, "domain": "foxnews.com", "title": "Pope Leo XIV’s brother reacts to his historic election: ‘There are no words’"}
+{"id": 32, "domain": "foxnews.com", "title": "First lady Melania Trump welcomes military moms to White House for Mother's Day"}
+{"id": 33, "domain": "foxnews.com", "title": "Americans react to the election of Pope Leo XIV | Fox News Video"}
+{"id": 34, "domain": "foxnews.com", "title": "Republican DA bucks blue state's 'broken sentencing' with tough-on-crime approach"}
+{"id": 35, "domain": "foxnews.com", "title": "Virginia homeowner charged with murder after shooting high school teen during attempted break-in, sheriff says"}
+{"id": 36, "domain": "foxnews.com", "title": "Paramount facing mounting pressure from CBS stars, Dem lawmakers as company mulls settling Trump lawsuit"}
+{"id": 37, "domain": "foxnews.com", "title": "GOV. KATHY HOCHUL: Why New York is saving education by getting phones out of classrooms"}
+{"id": 38, "domain": "foxnews.com", "title": "Laura: This is MAGA vs the naysayers | Fox News Video"}
+{"id": 39, "domain": "dailywire.com", "title": "Yes, Joe Biden Still Thinks He Could Have Beaten Trump In 2024"}
+{"id": 40, "domain": "nationalpost.com", "title": "'March For Life' in Ottawa sees advocates take aim at Carney and Poilievre"}
+{"id": 41, "domain": "washingtonexaminer.com", "title": "Carville says Ilhan Omar should leave the Democratic Party over comments on ‘white men’"}
+{"id": 42, "domain": "foxnews.com", "title": "GOP bill would make Illegal immigrant murderers eligible for death penalty"}
+{"id": 43, "domain": "self.Conservative", "title": "ChatGPT o4-mini-high ranking of presidents best to worst"}
+{"id": 44, "domain": "teslarati.com", "title": "Anti-Elon Musk group crushes Tesla Model 3 with Sherman tank"}
+{"id": 45, "domain": "foxnews.com", "title": "Brooklyn College in NYC overrun by anti-Israel agitators"}
+{"id": 46, "domain": "v.redd.it", "title": "Trump admin reportedly considering reducing Chinese tariffs after trade talks"}
+{"id": 47, "domain": "foxnews.com", "title": "Jamie Kennedy defends Racist actress from cancellation, says starring in pro-life film changed him"}
+{"id": 48, "domain": "foxnews.com", "title": "Sean Hannity: Americans elected someone who was not afraid to shake things up | Fox News Video"}
+{"id": 49, "domain": "foxnews.com", "title": "Biden stumbles over question about Harris' timetable to win after he dropped out of race"}
+{"id": 50, "domain": "dailywire.com", "title": "Morning Brief: A New Pope, Trump Secures U.K. Trade Deal & Fraud Uncovered In African Aid"}
+{"id": 51, "domain": "wsj.com", "title": "America Inc.’s Balance Sheet. Interior Secretary Doug Burgum takes a fresh look at the U.S. government’s assets."}
+{"id": 52, "domain": "breitbart.com", "title": "Rand Paul: 'Refundable Tax Credits Are Just Welfare'"}
+{"id": 53, "domain": "washingtonexaminer.com", "title": "Bernie Sanders: Ride private jets? I do it for the people"}
+{"id": 54, "domain": "washingtontimes.com", "title": "The crisis of radical district judges — Supreme Court must end the absurdity"}
+{"id": 55, "domain": "nypost.com", "title": "Throw the book at masked Columbia thugs"}
+{"id": 56, "domain": "townhall.com", "title": "After These ICE Raids, You Knew This Reaction Was Coming"}
+{"id": 57, "domain": "justthenews.com", "title": "Trump presses Johnson to raise taxes on wealthy for budget bill: reports | Just The News"}
+{"id": 58, "domain": "bbc.co.uk", "title": "Ukraine: Two Hungarians detained over alleged spy plot"}
+{"id": 59, "domain": "foxnews.com", "title": "USA Fencing controversy escalates at DOGE hearing with social media regrets, calls for resignation"}
+{"id": 60, "domain": "foxnews.com", "title": "Greg Gutfeld: So this is what the BLM movement was all about | Fox News Video"}
+{"id": 61, "domain": "foxnews.com", "title": "Axios reporter pushes back on Biden's denial of mental decline, saying White House insiders disagree"}
+{"id": 62, "domain": "foxnews.com", "title": "Russia's Putin hosts China's Xi at massive Moscow military parade on Red Square"}
+{"id": 63, "domain": "foxnews.com", "title": "Department of Justice opens criminal investigation into NY AG Letitia James"}
+{"id": 64, "domain": "foxnews.com", "title": "Feds hammer North Carolina illegal immigrants accused in ‘complex’ kidnapping of mom, baby from home"}
+{"id": 65, "domain": "latintimes.com", "title": "Alex Jones accuses Attorney General Pam Bondi of orchestrating a cover-up of the Jeffrey Epstein case files: 'The White House Already Knows'"}
+{"id": 66, "domain": "foxnews.com", "title": "Former Supreme Court Justice David Souter dead at 85 | Fox News"}
+{"id": 67, "domain": "liveaction.org", "title": "Senator Josh Hawley introduces bill to reinstate abortion pill safeguards and allow women to sue"}
+{"id": 68, "domain": "nypost.com", "title": "Failed Trump nominee Ed Martin is spat on by enraged passerby during live interview, shocking video shows"}
+{"id": 69, "domain": "ycharts.com", "title": "Inflation down to 2.39% as of April 2025"}
+{"id": 70, "domain": "foxnews.com", "title": "Blue state governor touts meeting with CCP official cozying up to Dems: 'Grateful for the opportunity'"}
+
+====================Input File End======================
+
+
+
