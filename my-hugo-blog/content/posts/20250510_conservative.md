@@ -7,7 +7,7 @@ title = '[Saturday, May 10] US News Headlines from r/Conservative'
 ## 1. Trump Administration & Executive Actions
 
 ### 1.1 Executive Orders & Policy Implementation  
-President Trump has established "Project Homecoming" through a White House executive order [1]. This initiative focuses on building homes for homeless veterans [2], addressing veteran welfare through executive action.
+President Trump has established "Project Homecoming" through a White House proclamation [1]. And there is another initiative which focuses on building homes for homeless veterans [2], addressing veteran welfare through executive action.
 
 [1] Establishing Project Homecoming, https://www.whitehouse.gov/presidential-actions/2025/05/establishing-project-homecoming/  
 [2] Homeless Veteran Home being built by President Trump, /r/Conservative/comments/1kjif8z/homeless_veteran_home_being_built_by_president/  

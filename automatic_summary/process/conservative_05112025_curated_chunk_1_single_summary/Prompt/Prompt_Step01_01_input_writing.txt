@@ -1,0 +1,103 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-63, total number of articles is 63.**
+
+{"id": 1, "domain": "foxbusiness.com", "title": "Krispy Kreme pauses nationwide doughnut rollout with McDonald's"}
+{"id": 2, "domain": "europeanconservative.com", "title": "A Yank on the Throne of St. Peter"}
+{"id": 3, "domain": "issuesinsights.com", "title": "Defund The United Nations"}
+{"id": 4, "domain": "spiked-online.com", "title": "Antifa’s unhinged menacing of Riley Gaines"}
+{"id": 5, "domain": "redstate.com", "title": "House Republicans Release Portions of Trump's Desired 'Big, Beautiful Bill'—Here's What We Know"}
+{"id": 6, "domain": "hotair.com", "title": "UCLA Medical School Sued for Racial Discrimination in Admissions"}
+{"id": 7, "domain": "outkick.com", "title": "DHS Shares Insane Body Cam Footage Of Democrats Harassing ICE Agents"}
+{"id": 8, "domain": "foxnews.com", "title": "Jemele Hill makes eyebrow-raising comparison between MLK and movement"}
+{"id": 9, "domain": "self.Conservative", "title": "Democrats no longer deserve to be called liberals"}
+{"id": 10, "domain": "foxnews.com", "title": "DHS says ‘arrests are still on the table’ after New Jersey House Dems storm ICE facility | Fox News"}
+{"id": 11, "domain": "babylonbee.com", "title": "Trump Secures 18 Months Of Free Geek Squad As Part Of India-Pakistan Truce"}
+{"id": 12, "domain": "x.com", "title": "Mark Levin: President Trump is Kryptonite to the DC Elite"}
+{"id": 13, "domain": "engadget.com", "title": "Mexico is suing Google over 'Gulf of America' name change for US users"}
+{"id": 14, "domain": "townhall.com", "title": "Excellent News Is Coming Out of Switzerland From US-China Trade Talks"}
+{"id": 15, "domain": "issuesinsights.com", "title": "Let’s Face It, Dems Have Always Been ‘Dark Woke’"}
+{"id": 16, "domain": "realclearwire.com", "title": "Is There More to the Fetterman Story?"}
+{"id": 17, "domain": "frontpagemag.com", "title": "UK Officially Imposes Islamic Blasphemy Law"}
+{"id": 18, "domain": "foxnews.com", "title": "Trump says 'total reset negotiated' with China during tariff talks in Geneva"}
+{"id": 19, "domain": "ndtv.com", "title": "Trump Vows to Mediate India-Pakistan Conflict 'After 1,000 Years'—Substantial Trade Boosts for Both Nations Follow Ceasefire Deal"}
+{"id": 20, "domain": "foxnews.com", "title": "Two injured after military vehicle crashes over highway retaining wall, plunges 30 feet onto road below"}
+{"id": 21, "domain": "foxnews.com", "title": "Motorcyclist, child killed in Dallas crash, police say"}
+{"id": 22, "domain": "foxnews.com", "title": "SNL mocks pope’s death and implies VP JD Vance played a role in controversial Trump sketch"}
+{"id": 23, "domain": "foxnews.com", "title": "Grieving moms dig with ‘bare hands’ to unearth the dark truth behind their missing and murdered children"}
+{"id": 24, "domain": "foxnews.com", "title": "Trump vows to increase trade with India, Pakistan after praising ceasefire agreement: 'A job well done!'"}
+{"id": 25, "domain": "foxnews.com", "title": "Rice-sized robot could make brain surgery safer and less invasive"}
+{"id": 26, "domain": "foxnews.com", "title": "Second lady Usha Vance on Mother's Day and what she strives for as a mom"}
+{"id": 27, "domain": "foxnews.com", "title": "Senators Katie Britt and Ashley Moody detail ‘inspiring,’ ‘challenging’ balance of motherhood and politics | Fox News Video"}
+{"id": 28, "domain": "theblaze.com", "title": "American innovation is dying — and Congress is the culprit | Blaze Media"}
+{"id": 29, "domain": "theblaze.com", "title": "Musk-hating Tesla drivers go full irony to avoid backlash | Blaze Media"}
+{"id": 30, "domain": "foxnews.com", "title": "FBI Deputy Director Bongino: Illegal alien criminals and child predators are next in ongoing crackdown"}
+{"id": 31, "domain": "nypost.com", "title": "Alberta's break up talk with Canada gets real: 'it's time that we're set free'"}
+{"id": 32, "domain": "nypost.com", "title": "Mass. pol allegedly assaulted ICE, local officers during chaotic arrest of accused violent illegal migrant: police union"}
+{"id": 33, "domain": "foxnews.com", "title": "Will President Trump protect the Christian Afghan refugees who fled here to escape martyrdom?"}
+{"id": 34, "domain": "foxnews.com", "title": "Putin proposes direct peace talks with Ukraine to end war"}
+{"id": 35, "domain": "foxnews.com", "title": "Pope Leo XIV's first address draws similarities to Pope Francis' papacy while preserving forsaken traditions"}
+{"id": 36, "domain": "foxnews.com", "title": "US Marine Corps creates attack drone team as arms race with Russia, China heats up"}
+{"id": 37, "domain": "nypost.com", "title": "Disgraced teacher gets 30 years in prison for sexually abusing elementary students"}
+{"id": 38, "domain": "thewrap.com", "title": "Democratic Representative Jasmine Crockett Says Democrats Already Backing 'Safest White Boy' for President in 2028: 'One Specific Candidate"}
+{"id": 39, "domain": "wbur.org", "title": "Massachusetts issues open call for new seal, flag and motto"}
+{"id": 40, "domain": "foxnews.com", "title": "Family of pilot killed in DC midair crash calls for air safety reforms, thanks Trump admin for swift action"}
+{"id": 41, "domain": "foxnews.com", "title": "Photo of White House press secretary Karoline Leavitt feeding baby while working goes viral"}
+{"id": 42, "domain": "foxnews.com", "title": "Jimmy Failla argues viral Times Square statue seems like ‘slacktivism’ rather than activism | Fox News Video"}
+{"id": 43, "domain": "foxnews.com", "title": "Pope Leo delivers first 'Regina Caeli' prayers from St. Peter's balcony"}
+{"id": 44, "domain": "foxnews.com", "title": "Army ditches helicopters for new radical air assault planes"}
+{"id": 45, "domain": "foxnews.com", "title": "California 'Teacher of the Year' sentenced to 30 years for sexual abuse of students"}
+{"id": 46, "domain": "foxnews.com", "title": "Tesla road-rage driver allegedly assaults teen, mom in Hawaii months after prison release"}
+{"id": 47, "domain": "newsmax.com", "title": "Trump Hails 'Total Reset' in US-China Trade Relations as Talks Continue"}
+{"id": 48, "domain": "foxnews.com", "title": "Comedians turn 'fat shaming' joke on Joe Rogan's podcast into annual 5K that is changing lives"}
+{"id": 49, "domain": "v.redd.it", "title": "State Senator backs bill banning China, Russia and Iran from buying TX land 'Not giving up an inch'"}
+{"id": 50, "domain": "officialtrumptracker.com", "title": "ICE Makes Arrest Of Internationally Wanted ‘Suspected Terrorist’"}
+{"id": 51, "domain": "americanliberty.news", "title": "Democratic gubernatorial candidate—was arrested outside the Delaney Hall Immigration and Customs Enforcement (ICE) detention facility in Newark, New Jersey."}
+{"id": 52, "domain": "i.redd.it", "title": "The results are mind boggling"}
+{"id": 53, "domain": "twitchy.com", "title": "We're SHOCKED! DataRepublican DROPS Bombshell Thread About Who's REALLY Behind 'Fight Nazis' NYC Protest"}
+{"id": 54, "domain": "foxnews.com", "title": "Maine teens battling state Democrats on girls' sports bill after enduring athlete chaos in high school"}
+{"id": 55, "domain": "theblaze.com", "title": "Own the h-te: Why patriots should wear the ‘h-te group’ smear with pride | Blaze Media"}
+{"id": 56, "domain": "theblaze.com", "title": "Witchcraft, seances, and Lucifer worship: The occultist roots of the feminist movement EXPOSED | Blaze Media"}
+{"id": 57, "domain": "theblaze.com", "title": "Mark Levin’s wild law school tale: When a Playboy centerfold sparked a liberal-on-liberal fight | Blaze Media"}
+{"id": 58, "domain": "redstate.com", "title": "The Atlantic Just Published the Most Hypocritical, Sociopathic Piece I've Ever Seen"}
+{"id": 59, "domain": "frontpagemag.com", "title": "1 in 5 Dems Approve of Trump's Policies | Frontpage Mag"}
+{"id": 60, "domain": "freebeacon.com", "title": "Ross Douthat and the New Theism"}
+{"id": 61, "domain": "notthebee.com", "title": "The media is very mad that a South Carolina firing squad botched this execution, but as usual, Matt Walsh has thoughts"}
+{"id": 62, "domain": "pjmedia.com", "title": "NBC's Pathetic Hit Piece on Kash Patel Will Make You Laugh Out Loud"}
+{"id": 63, "domain": "breitbart.com", "title": "Dem Rep. McIver: 'I Did Not Body Slam Anyone,' ICE 'Created that Confrontation'"}
+
+====================Input File End======================
+
+
+
