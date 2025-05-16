@@ -1,0 +1,93 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 55-107, total number of articles is 53.**
+
+{"id": 55, "domain": "washingtonexaminer.com", "title": "Trump’s birthright citizenship ban could spur Supreme Court to curb nationwide injunctions"}
+{"id": 56, "domain": "foxnews.com", "title": "Targeted by Trump, well-known Democrat sparks 2028 speculation with stop in key state"}
+{"id": 57, "domain": "foxnews.com", "title": "Pete Buttigieg says Biden running again was 'maybe' a mistake"}
+{"id": 58, "domain": "foxnews.com", "title": "Stephen A Smith agrees AOC would 'turn off' centrists if she ran for president, poses question to Dems"}
+{"id": 59, "domain": "viconsortium.com", "title": "Trump Signs Executive Order to House 6,000 Veterans by 2028, Redirecting Funds From Illegal Immigrant Services"}
+{"id": 60, "domain": "twitchy.com", "title": "Chuck Schumer Was Reminded What He Said About Biden Last Year and Couldn't Get Away Fast Enough"}
+{"id": 61, "domain": "foxnews.com", "title": "Rep Alford introduces PELOSI Act in House | Fox News"}
+{"id": 62, "domain": "hotair.com", "title": "House Dems: Eriously-Say, Ix-Nay on Eachment-Impay, Orons-May"}
+{"id": 63, "domain": "notthebee.com", "title": "Trump just had one of his best one-liners ever 😂"}
+{"id": 64, "domain": "thefp.com", "title": "AI Will Change What It Is to Be Human. Are We Ready? — This technology can usher in an age of flourishing the likes of which we have never seen. It will also foment a crisis about what it is to be a person at all."}
+{"id": 65, "domain": "notthebee.com", "title": "Gavin Newsom now wants to stop giving free healthcare to illegal immigrants"}
+{"id": 66, "domain": "foxnews.com", "title": "Trump signs agreements with Qatar on defense and Boeing purchases"}
+{"id": 67, "domain": "foxnews.com", "title": "Trump says 'there's something wrong' with top Democrat he's known 'a long time'"}
+{"id": 68, "domain": "foxnews.com", "title": "Dems condemn Trump's jet deal, call $400M gift 'unconstitutional'"}
+{"id": 69, "domain": "notthebee.com", "title": "This migrant is going viral for answering why the English people should give him a house"}
+{"id": 70, "domain": "nypost.com", "title": "Why Trump's Supreme Court challenge against birthright citizenship may not really be about birthright citizenship"}
+{"id": 71, "domain": "tomklingenstein.com", "title": "The Poisoned Ivies: Why Fixing Harvard Matters"}
+{"id": 72, "domain": "hoover.org", "title": "Beyond The Uniform: Dr. Condoleezza Rice On Legacy, Mentorship, And The Next Greatest Generation"}
+{"id": 73, "domain": "fidelity.com", "title": "Roche says Trump's drug price order threatens its $50 billion US investment plans"}
+{"id": 74, "domain": "foxbusiness.com", "title": "WH announces $1.2T in economic commitment with Qatar, including significant Boeing order"}
+{"id": 75, "domain": "foxnews.com", "title": "Trump DOJ moves funds used for projects, DEI to support law enforcement"}
+{"id": 76, "domain": "foxnews.com", "title": "Suspected Austin Metcalf killer allowed to graduate from high school despite murder charge: report"}
+{"id": 77, "domain": "foxnews.com", "title": "Milwaukee judge indicted for helping immigrant evade ICE faces up to 6 years in prison"}
+{"id": 78, "domain": "notthebee.com", "title": "20 blue states sue Trump admin over funding tied to immigration enforcement (do they have a problem with DEMOCRACY??)"}
+{"id": 79, "domain": "redstate.com", "title": "New: South African Government Releases Terrifyingly Chilling Statement on Fleeing White Afrikaners"}
+{"id": 80, "domain": "aclj.org", "title": "Exposed Judge INDICTED by Grand Jury"}
+{"id": 81, "domain": "spectator.org", "title": "The Business Roundtable: Ringleader of the Hijacking of Corporate America — Ideology continues to trump merit in corporate America."}
+{"id": 82, "domain": "frontpagemag.com", "title": "Dem Congressman Moves to Impeach Trump for Talking About a Third Term"}
+{"id": 83, "domain": "foxnews.com", "title": "Female athletes direct pointed messages toward Nike in new ad"}
+{"id": 84, "domain": "foxnews.com", "title": "Trump arrives at the Qatar Royal Court | Fox News Video"}
+{"id": 85, "domain": "foxnews.com", "title": "AOC says DOJ 'won't respond' to her inquiry on potential probe"}
+{"id": 86, "domain": "foxnews.com", "title": "Judge orders release of Georgetown researcher arrested by ICE after allegedly spreading Hamas propaganda"}
+{"id": 87, "domain": "notthebee.com", "title": "These two minutes from today's congressional hearing with RFKJ shows us why so many people are excited for MAHA"}
+{"id": 88, "domain": "amgreatness.com", "title": "Unbridled: How Massive Pentagon Spending Happens by Design"}
+{"id": 89, "domain": "babylonbee.com", "title": "South Africa Denounces White Refugees For Leaving Before They Had A Chance To Take All Their Stuff And Kill Them"}
+{"id": 90, "domain": "pjmedia.com", "title": "CNN Finds the Weirdest Way to Spin Lower Egg Prices to Make Donald Trump Look Bad"}
+{"id": 91, "domain": "thefp.com", "title": "Trump’s Serenity Prayer for the Middle East"}
+{"id": 92, "domain": "hotair.com", "title": "US Officials Find 'Rogue' Communication Devices in Chinese Power Inverters"}
+{"id": 93, "domain": "thespectator.com", "title": "Why Trump met Syria’s interim president"}
+{"id": 94, "domain": "city-journal.org", "title": "Christopher Rufo: Inside Harvard’s Discrimination Machine —"}
+{"id": 95, "domain": "youtu.be", "title": "How Apple’s Offshoring Led To China’s Economic RISE: Patrick McGee"}
+{"id": 96, "domain": "youtube.com", "title": "Nancy Mace SLAMMED Boston Mayor For Being Hypocrite"}
+{"id": 97, "domain": "foxnews.com", "title": "Newsom proposes Medi-Cal changes pertaining to undocumented adults | Fox News"}
+{"id": 98, "domain": "youtu.be", "title": "Syrians taking to the street celebrating diplomatic relations with the US"}
+{"id": 99, "domain": "x.com", "title": "Rep. Shri Thanedar’s effort to impeach President Trump has failed."}
+{"id": 100, "domain": "reason.com", "title": "Gavin Newsom Wants To Make the Country's Most Expensive Gas Even More Expensive. All to shovel more money at wasteful and ineffective programs."}
+{"id": 101, "domain": "brownstone.org", "title": "The Drug Pricing Scramble"}
+{"id": 102, "domain": "redstate.com", "title": "What Could Possibly Go Wrong? Communications Devices Found Hiding in Chinese Solar Power Components"}
+{"id": 103, "domain": "reason.com", "title": "The Federal Government's 175,000 Pages of Regulations Turn the Rule of Law Into a Cruel Joke. Trump rightly decries the \"absurd and unjust\" consequences of proliferating regulatory crimes."}
+{"id": 104, "domain": "notthebee.com", "title": "CNN asked Hakeem Jeffries about the Biden decline cover-up in the most savage way possible"}
+{"id": 105, "domain": "babylonbee.com", "title": "Furious Democrats Demand To Know Who Was Responsible For Covering Up Biden's Decline"}
+{"id": 106, "domain": "nypost.com", "title": "Air traffic controllers’ union throws wrench in Sean Duffy’s bid to boost hiring: sources"}
+{"id": 107, "domain": "pjmedia.com", "title": "Trump Shocks the World — Again"}
+
+====================Input File End======================
+
+
+

@@ -37,7 +37,7 @@ def read_jsonl_lines(filepath):
                 lines.append(stripped)
     return lines
 
-def divide_into_chunks(lines, max_chunk_size=120):
+def divide_into_chunks(lines, max_chunk_size=100):
     total_lines = len(lines)
     num_chunks = math.ceil(total_lines / max_chunk_size)
     chunks = []
@@ -116,7 +116,7 @@ def main():
     total_lines = len(lines)
     log(f"Total valid JSON lines: {total_lines}")
 
-    chunks = divide_into_chunks(lines, max_chunk_size=120)
+    chunks = divide_into_chunks(lines, max_chunk_size=100)
     log(f"Divided input into {len(chunks)} chunk(s).")
 
     chunk_folders = []
