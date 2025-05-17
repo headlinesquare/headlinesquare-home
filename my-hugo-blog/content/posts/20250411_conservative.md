@@ -4,6 +4,8 @@ draft = false
 title = '[Friday, April 11] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Judicial Matters & Legal Enforcement
 
 ### 1.1 Court Rulings on Immigration and Federal Authority

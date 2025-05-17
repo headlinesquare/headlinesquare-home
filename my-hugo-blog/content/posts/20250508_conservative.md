@@ -4,6 +4,8 @@ draft = false
 title = '[Thursday, May 08] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Trump Administration and Doge Initiatives
 
 ### 1.1 Executive Actions and Policy Changes

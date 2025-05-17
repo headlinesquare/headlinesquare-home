@@ -4,6 +4,8 @@ draft = false
 title = '[Tuesday, May 06] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Trump Administration and Executive Powers
 
 ### 1.1 Executive Orders and Directives

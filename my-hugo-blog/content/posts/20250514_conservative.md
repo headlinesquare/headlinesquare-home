@@ -4,6 +4,8 @@ draft = false
 title = '[Wednesday, May 14] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Executive Authority and White House Initiatives
 
 ### 1.1 Presidential Powers and Constitutional Challenges
@@ -32,7 +34,7 @@ President Trump is expanding the Abraham Accords, announcing plans during his Sa
 [4] Syrians taking to the street celebrating diplomatic relations with the US, https://youtu.be/snRWcawmSFQ?feature=shared&t=34  
 
 ### 2.2 Russia-Ukraine and Qatar Relationships
-Secretary of State Marco Rubio has been appointed to lead Russia-Ukraine peace negotiations, with Trump confirming Rubio will travel to Turkey for these talks [1]. The administration has formalized agreements with Qatar on defense cooperation and Boeing purchases [2], culminating in a $1.2 trillion economic commitment [3]. Trump has defended accepting Qatar's $400 million aircraft gift [4], while Senate Majority Leader Chuck Schumer has moved to block DOJ nominees over the controversy [5].
+Secretary of State Marco Rubio has been appointed to lead Russia-Ukraine peace negotiations, with Trump confirming Rubio will travel to Turkey for these talks [1]. The administration has formalized agreements with Qatar on defense cooperation and Boeing purchases [2], culminating in a $1.2 trillion economic commitment [3]. Trump has defended accepting Qatar's $400 million aircraft gift [4], while Senate Minority Leader Chuck Schumer has moved to block DOJ nominees over the controversy [5].
 
 [1] Trump confirms Marco Rubio will go to Turkey to oversee peace talks between Russia, Ukraine, https://justthenews.com/government/diplomacy/trump-confirms-marco-rubio-will-go-turkey-oversee-peace-talks-between-russia  
 [2] Trump signs agreements with Qatar on defense and Boeing purchases, https://www.foxnews.com/politics/trump-signs-agreements-qatar-defense-boeing-purchases/  

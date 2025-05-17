@@ -4,6 +4,8 @@ draft = false
 title = '[Saturday, April 19] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Immigration and Border Security
 
 ### 1.1 Deportation Policies and Legal Challenges

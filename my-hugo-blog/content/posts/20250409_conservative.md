@@ -4,6 +4,8 @@ draft = false
 title = '[Wednesday, April 9] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Executive Branch Activities
 
 ### 1.1 Presidential Statements and White House Activities

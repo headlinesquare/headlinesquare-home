@@ -4,6 +4,8 @@ draft = false
 title = '[Saturday, April 12] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Executive Actions and Leadership
 
 ### 1.1 Presidential Actions and Policies

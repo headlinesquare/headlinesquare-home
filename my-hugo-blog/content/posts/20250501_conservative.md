@@ -4,6 +4,8 @@ draft = false
 title = '[Thursday, May 01] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Trump Administration and Executive Branch
 
 ### 1.1 Department of Government Efficiency (DOGE) Activities

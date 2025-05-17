@@ -4,6 +4,8 @@ draft = false
 title = '[Sunday, May 11] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Trump Administration & Foreign Relations
 
 ### 1.1 US-China Trade Agreement
@@ -76,7 +78,7 @@ FBI Deputy Director Bongino has explicitly announced that "illegal alien crimina
 ## 4. Legal Affairs & Judicial System
 
 ### 4.1 Supreme Court & Judicial Independence
-Chief Justice John Roberts has reaffirmed judicial independence as the Supreme Court considers cases involving former President Trump [1]. Justice Sonia Sotomayor delivered a speech urging lawyers to "fight this fight," described by some as an act of solidarity [2].
+Chief Justice John Roberts has reaffirmed judicial independence as the Supreme Court considers cases involving President Trump [1]. Justice Sonia Sotomayor delivered a speech urging lawyers to "fight this fight," described by some as an act of solidarity [2].
 
 [1] Roberts reaffirms judicial independence as Supreme Court takes up Trump cases | Fox News, https://www.foxnews.com/politics/chief-justice-roberts-doubles-down-defense-courts-scotus-gears-up-hear-key-trump-cases  
 [2] "An Act of Solidarity": Sotomayor Calls for Lawyers to "Fight this Fight" in Controversial Speech, https://jonathanturley.org/2025/05/11/an-act-of-solidarity-sotomayor-calls-for-lawyers-to-fight-this-fight-in-controversial-speech/  

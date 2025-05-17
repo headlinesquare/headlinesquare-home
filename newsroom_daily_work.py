@@ -241,14 +241,20 @@ def step_update_blog(base_dir, today, today_tag):
         f"date = '{today_iso}T19:30:00-04:00'\n",
         "draft = false\n",
         f"title = '[{weekday_month_day}] US News Headlines from r/politics'\n",
-        "+++\n"
+        "+++\n\n",
+        "This is an experimental project. \n",
+        "We are continuously improving it, but errors can still appear. \n",
+        "Feel free to contact us if you spot an error. \n\n"
     ]
     conservative_header = [
         "+++\n",
         f"date = '{today_iso}T19:15:00-04:00'\n",
         "draft = false\n",
         f"title = '[{weekday_month_day}] US News Headlines from r/Conservative'\n",
-        "+++\n"
+        "+++\n\n",
+        "This is an experimental project. \n",
+        "We are continuously improving it, but errors can still appear. \n",
+        "Feel free to contact us if you spot an error. \n\n"
     ]
 
     new_politics_filename = f"{today_iso.replace('-', '')}_politics.md"

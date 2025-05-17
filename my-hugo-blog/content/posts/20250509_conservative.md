@@ -4,6 +4,8 @@ draft = false
 title = '[Friday, May 09] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Executive Branch & Trump Administration
 
 ### 1.1 Policy Initiatives & Executive Actions

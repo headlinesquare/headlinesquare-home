@@ -4,6 +4,8 @@ draft = false
 title = '[Monday, April 21] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. U.S. Politics & Government
 
 ### 1.1 Trump Administration & Executive Actions

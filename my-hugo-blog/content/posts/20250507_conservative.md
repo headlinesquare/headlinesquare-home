@@ -4,6 +4,8 @@ draft = false
 title = '[Wednesday, May 07] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Foreign Affairs & International Relations
 
 ### 1.1 India-Pakistan Conflict

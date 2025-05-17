@@ -4,6 +4,8 @@ draft = false
 title = '[Tuesday, May 13] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Trump Administration & Executive Actions
 
 ### 1.1 Middle East Diplomacy & Presidential Trip
@@ -46,7 +48,7 @@ President Trump has presented Iran with options regarding nuclear weapons develo
 ## 3. Immigration & Border Security
 
 ### 3.1 ICE Operations & Enforcement Actions
-Immigration and Customs Enforcement has taken control of New York City's Rikers Island facility, with ICE official Homan quoted saying "I'm not running a popularity contest, I want EVERYBODY, don't care if you get booked for shoplifting" [1]. A "Protest outside Newark ICE facility" has reportedly "descends into chaos" with "arrests made" [2], and Representative Alexandria Ocasio-Cortez has warned officials about protests at an ICE facility, stating "we are going to have a problem" [3]. A proposed House bill would potentially strip committee assignments from Democratic representatives who reportedly "stormed" the Newark ICE facility [4].
+Immigration and Customs Enforcement has taken control of New York City's Rikers Island facility, with White House border czar (and former acting ICE director) Homan quoted saying "I'm not running a popularity contest, I want EVERYBODY, don't care if you get booked for shoplifting" [1]. A "Protest outside Newark ICE facility" has reportedly "descends into chaos" with "arrests made" [2], and Representative Alexandria Ocasio-Cortez has warned officials about protests at an ICE facility, stating "we are going to have a problem" [3]. A proposed House bill would potentially strip committee assignments from Democratic representatives who reportedly "stormed" the Newark ICE facility [4].
 
 [1] ICE Takes NYC Rikers Island Prison: Homan "Im not running a popularity contest, I want EVERYBODY, don't care if you get booked for shoplifting", https://x.com/tpantheman/status/1922413593569509562?s=46  
 [2] Protest outside Newark ICE facility descends into chaos; arrests made, https://www.foxnews.com/politics/agitators-clash-police-arrests-made-clergy-members-descend-newark-ice-facility  

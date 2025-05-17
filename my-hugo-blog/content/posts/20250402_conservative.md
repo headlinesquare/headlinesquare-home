@@ -4,6 +4,8 @@ draft = false
 title = '[Wednesday, April 2] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## Area 1: Trump Administration and Governance
 
 ### Executive Actions and Presidential Powers  

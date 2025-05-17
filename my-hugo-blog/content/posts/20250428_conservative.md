@@ -4,6 +4,8 @@ draft = false
 title = '[Monday, April 28] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Executive Branch Actions
 
 ### 1.1 Presidential Directives & Executive Orders  

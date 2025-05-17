@@ -4,6 +4,8 @@ draft = false
 title = '[Wednesday, April 30] US News Headlines from r/Conservative'
 +++
 
+This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+
 ## 1. Trump Administration and Governance
 
 ### 1.1 First 100 Days Assessment 
