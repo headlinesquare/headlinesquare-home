@@ -242,7 +242,7 @@ def step_update_blog(base_dir, today, today_tag):
         "draft = false\n",
         f"title = '[{weekday_month_day}] US News Headlines from r/politics'\n",
         "+++\n\n",
-        "This is an experimental project. \n",
+        "This is an experimental AI project. \n",
         "We are continuously improving it, but errors can still appear. \n",
         "Feel free to contact us if you spot an error. \n\n"
     ]
@@ -252,7 +252,7 @@ def step_update_blog(base_dir, today, today_tag):
         "draft = false\n",
         f"title = '[{weekday_month_day}] US News Headlines from r/Conservative'\n",
         "+++\n\n",
-        "This is an experimental project. \n",
+        "This is an experimental AI project. \n",
         "We are continuously improving it, but errors can still appear. \n",
         "Feel free to contact us if you spot an error. \n\n"
     ]

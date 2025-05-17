@@ -4,7 +4,7 @@ draft = false
 title = '[Monday, May 05] US News Headlines from r/Conservative'
 +++
 
-This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+This is an experimental AI project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
 
 ## 1. Trump Administration & Executive Actions
 

@@ -4,7 +4,7 @@ draft = false
 title = '[Saturday, May 10] US News Headlines from r/Conservative'
 +++
 
-This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+This is an experimental AI project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
 
 ## 1. Trump Administration & Executive Actions
 
@@ -15,13 +15,13 @@ President Trump has established "Project Homecoming" through a White House procl
 [2] Homeless Veteran Home being built by President Trump, /r/Conservative/comments/1kjif8z/homeless_veteran_home_being_built_by_president/  
 
 ### 1.2 Government Reform & Department Operations  
-The Department of Government Efficiency (DOGE), led by Elon Musk, has identified the Environmental Protection Agency as "a prime candidate for reform," citing the agency's "history of overreaching its authority and threatening liberty" [1]. However, headlines suggest DOGE itself faces internal challenges, with one report stating the department "has devoured Musk" [2], though specific details are not provided.
+An op-ed in Reason has identified the Environmental Protection Agency as "a prime candidate for reform," citing the agency's "history of overreaching its authority and threatening liberty" [1]. However, headlines suggest DOGE itself faces internal challenges, with one report stating the department "has devoured Musk" [2], though specific details are not provided.
 
 [1] The EPA Is a Prime Candidate for Reform by the Trump Administration. The federal agency has a history of overreaching its authority and threatening liberty., https://reason.com/2025/05/09/the-epa-is-a-prime-candidate-for-reform-by-the-trump-administration/  
 [2] DOGE has devoured Musk, https://unherd.com/2025/05/doge-has-devoured-musk/  
 
 ### 1.3 White House Messaging & Leadership  
-The White House has condemned Democratic lawmakers involved in an ICE facility incident, "blasting Dems 'crossing the line' by storming ICE facility" [1]. President Trump has made statements on tax policy saying "tax raises are 'good politics'" while "dismissing GOP critics" [2]. The CIA now has authority to "Fire Doctor Who Pushed COVID Vaccine Mandate" [3], suggesting personnel changes at federal agencies. The Oval Office displays a "sculpture depicting iconic Trump assassination attempt" [4].
+The White House has condemned Democratic lawmakers involved in an ICE facility incident, "blasting Dems 'crossing the line' by storming ICE facility" [1]. President Trump has made statements on tax policy saying "tax raises are 'good politics'" while "dismissing GOP critics" [2]. A federal judge upheld the CIA’s decision to dismiss Dr. Terry Adirim, who had championed the 2021 DoD vaccine mandate [3], suggesting personnel changes at federal agencies. The Oval Office displays a "sculpture depicting iconic Trump assassination attempt" [4].
 
 [1] White House blasts Dems 'crossing the line' by storming ICE facility, https://www.foxnews.com/politics/white-house-blasts-dems-crossing-line-storming-ice-facility  
 [2] Trump says tax raises are 'good politics,' dismissing GOP critics, https://www.foxnews.com/politics/trump-says-tax-raises-good-politics-dismissing-gop-critics  

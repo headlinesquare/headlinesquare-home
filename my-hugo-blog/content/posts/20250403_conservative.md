@@ -4,7 +4,7 @@ draft = false
 title = '[Thursday, April 3] US News Headlines from r/Conservative'
 +++
 
-This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+This is an experimental AI project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
 
 ## Area 1: Trade and Economic Policy
 

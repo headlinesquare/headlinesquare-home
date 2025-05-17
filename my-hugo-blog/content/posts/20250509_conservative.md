@@ -4,7 +4,7 @@ draft = false
 title = '[Friday, May 09] US News Headlines from r/Conservative'
 +++
 
-This is an experimental project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
+This is an experimental AI project. We are continuously improving it, but errors can still appear. Feel free to contact us if you spot an error.
 
 ## 1. Executive Branch & Trump Administration
 
@@ -28,7 +28,7 @@ References:
 
 ### 1.3 Cabinet & Personnel Decisions
 
-President Trump has appointed Judge Jeanine Pirro as interim U.S. Attorney for Washington D.C., leading to her departure from Fox News's "The Five" [1]. Trump has reportedly fired the Librarian of Congress, prompting strong criticism from Democratic officials who characterized the action as "a disgrace" [2]. Pete Hegseth has issued orders establishing a deadline for certain service members to leave the military, stating they are "out at the DOD" [3].
+President Trump has appointed Judge Jeanine Pirro as interim U.S. Attorney for Washington D.C., leading to her departure from Fox News's "The Five" [1]. Trump has reportedly fired the Librarian of Congress, prompting strong criticism from Democratic officials who characterized the action as "a disgrace" [2]. Pete Hegseth has issued orders establishing a deadline for transgender service members to leave the military, stating they are "out at the DOD" [3].
 
 References:  
 [1] Trump taps Fox News' Judge Jeanine Pirro as interim US Attorney in DC, 'The Five' co-host exits network, https://www.foxnews.com/media/trump-taps-fox-news-judge-jeanine-pirro-interim-us-attorney-d-c-the-five-co-host-exits-network  
@@ -84,7 +84,7 @@ References:
 
 ### 3.2 Economic Indicators
 
-Inflation has decreased to 2.39% as of April 2025 [1]. A new study warns that gasoline prices could reach $8 per gallon in an unspecified "blue state" next year, reportedly triggering bipartisan concern [2]. In the automotive sector, electric vehicle manufacturers are facing significant sales challenges, with Ford's EV sales described as having "fallen off a cliff" while Tesla also experiences declining sales [3].
+Inflation has decreased to 2.39% as of April 2025 [1]. A new study warns that gasoline prices could reach $8.43 per gallon in California next year, reportedly triggering bipartisan concern [2]. In the automotive sector, electric vehicle manufacturers are facing significant sales challenges, with Ford's EV sales described as having "fallen off a cliff" while Tesla also experiences declining sales [3].
 
 References:  
 [1] Inflation down to 2.39% as of April 2025, https://ycharts.com/indicators/us_inflation_rate  
