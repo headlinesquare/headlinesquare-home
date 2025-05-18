@@ -13,7 +13,7 @@ Feel free to contact us if you spot an error.
 
 ### 1.1 Biden Administration & Controversies
 
-Audio recordings from Special Counsel Robert Hur's 2023 interviews with Biden have been released by the Trump administration [1]. The recordings reveal Biden struggling with words and memories [2], including a four-minute response to a simple question about where he kept papers for his book [3]. A tense moment occurred when an attorney intervened as Biden was questioned about a classified memo [4]. Jonathan Turley suggests multiple figures are negatively impacted by these recordings [5], though specifics of this broader impact are not detailed in the headline.
+Audio recordings from Special Counsel Robert Hur's 2023 interviews with Biden have been leaked to Axios, which posted excerpts online, while the Trump administration said it intends to publish the full audio soon [1]. The recordings reveal Biden struggling with words and memories [2], including a four-minute response to a simple question about where he kept papers for his book [3]. A tense moment occurred when an attorney intervened as Biden was questioned about a classified memo [4]. Jonathan Turley suggests multiple figures are negatively impacted by these recordings [5], though specifics of this broader impact are not detailed in the headline.
 
 The release appears to be part of a broader transparency push by the Trump administration regarding the prior administration's handling of classified information. President Trump has also highlighted a growing "autopen scandal" involving Biden [6], which refers to questions about Biden's use of signature technology for official documents. This matter is now under formal investigation by the House [7], indicating escalating congressional scrutiny of Biden's administrative practices.
 
@@ -53,7 +53,7 @@ On the domestic front, the administration faces challenges implementing its agen
 
 ### 2.1 Global Governance & Security
 
-Pope Francis has pledged to make "every effort to work for peace" in regions where Christians face persecution and forced displacement [1]. This commitment reflects ongoing concerns about religious freedom in various global regions, though specific areas of focus are not identified in the headline.
+Pope Leo XIV has pledged to make "every effort to work for peace" in regions where Christians face persecution and forced displacement [1]. This commitment reflects ongoing concerns about religious freedom in various global regions, though specific areas of focus are not identified in the headline.
 
 Meanwhile, a report on Germany suggests the country faces significant structural challenges despite protective measures, described as "the firewall is up, but the foundation is crumbling" [2]. This assessment of Europe's largest economy comes at a time of broader geopolitical shifts in the transatlantic partnership, signaling potential instability in a key allied nation.
 
@@ -123,7 +123,7 @@ Commentary from Real Clear Politics suggests President Trump is exploiting Democ
 
 ### 4.1 Enforcement & State Policies
 
-Homan reports that border crossings have decreased while arrests have increased [1]. The same source claims that Immigration and Customs Enforcement (ICE) is successfully locating missing children, though no specific metrics or timeframes are provided for these operations. This represents one of the few available data points on current border security performance.
+Homan reports that border crossings have decreased while arrests have increased [1]. The same source claims that Immigration and Customs Enforcement (ICE) is successfully locating several thousand missing children of the roughly 290,000 migrant children whose whereabouts were unknown. This represents one of the few available data points on current border security performance.
 
 State-level responses to immigration issues show significant variation and apparent political contradictions. Multiple Democratic governors are reportedly discontinuing Medicaid coverage for "illegals" while simultaneously criticizing Trump [2], though the specific nature of their criticism is not detailed in the truncated headline. In contrast, Minnesota Democrats advocate maintaining free healthcare for illegal immigrants despite "soaring costs" and public backlash [3].
 
