@@ -1,0 +1,114 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-74, total number of articles is 74.**
+
+{"id": 1, "domain": "m.economictimes.com", "title": "Trump administration is concerned by deal to put Alibaba's AI on iPhones: Report"}
+{"id": 2, "domain": "breitbart.com", "title": "Report: ICE Facility-Storming Democrats Donated Thousands to Swing-district Colleagues"}
+{"id": 3, "domain": "dailycaller.com", "title": "Biden’s Sudden Cancer Diagnosis Doesn’t Add Up, Doctors Say"}
+{"id": 4, "domain": "foxnews.com", "title": "Schumer ripped for placing blame on Trump, DOGE for deadly Mexican Navy crash in NYC: 'He is an idiot'"}
+{"id": 5, "domain": "foxbusiness.com", "title": "LARRY KUDLOW: Happy Birthday Laffer Curve"}
+{"id": 6, "domain": "foxnews.com", "title": "Federal charges filed against Dem congresswoman following confrontation at ICE facility"}
+{"id": 7, "domain": "self.Conservative", "title": "With Biden's Cancer Disclosure Now Being Exposed For What It Really Is"}
+{"id": 8, "domain": "x.com", "title": "U.S. Attorney Alina Habba has officially CHARGED Democrat Rep. LaMonica McIver with assaulting, impeding and interfering with law enforcement."}
+{"id": 9, "domain": "hotair.com", "title": "Voters Say Trump Protecting Constitution Better Than Biden Did"}
+{"id": 10, "domain": "babylonbee.com", "title": "Donald Trump Declares War On Mexico After Attack On Brooklyn Bridge"}
+{"id": 11, "domain": "unherd.com", "title": "Bidengate is the antiWatergate — Democracy has died in darkness"}
+{"id": 12, "domain": "redstate.com", "title": "New: Dem Rep. LaMonica McIver Criminally Charged for Assaulting ICE Agents, and She's Already Crying"}
+{"id": 13, "domain": "washingtonexaminer.com", "title": "DOJ leading race discrimination investigation into Chicago city hiring practices"}
+{"id": 14, "domain": "washingtonexaminer.com", "title": "DOJ charges House Democrat LaMonica McIver over ICE facility assault"}
+{"id": 15, "domain": "notthebee.com", "title": "Ashli Babbit's family set to receive $5-million settlement from Trump admin"}
+{"id": 16, "domain": "johnkassnews.com", "title": "Is Chinese Spying Killing Its Own Students?"}
+{"id": 17, "domain": "pjmedia.com", "title": "This Is the Man Behind the Curtain of Biden's Health Coverup"}
+{"id": 18, "domain": "nypost.com", "title": "To end the war in Ukraine, make Beijing's bankrolling of Russia's war machine hurt"}
+{"id": 19, "domain": "self.Conservative", "title": "InsiderAdvantage (A Rated pollster): Trump Approval Surges to Fifty-five Percent, Following Middle East Trip"}
+{"id": 20, "domain": "foxnews.com", "title": "Dilbert' creator Scott Adams announces he has prostate cancer"}
+{"id": 21, "domain": "counterpunch.org", "title": "Democratic Loyalist Turned Whistleblower Rattles the Party Oligarchy"}
+{"id": 22, "domain": "justthenews.com", "title": "Majority of voters believe able-bodied people receiving food stamps should be required to work: Poll"}
+{"id": 23, "domain": "nypost.com", "title": "Ex-FBI Director James Comey says he doesn’t expect to be charged over ‘86 47’ Instagram post: ‘Ridiculous’"}
+{"id": 24, "domain": "newsmax.com", "title": "4 Polls Show Trump With Strong Approval Ratings"}
+{"id": 25, "domain": "liveaction.org", "title": "Benedictine College awards honorary degrees to attorneys who helped end Roe v. Wade"}
+{"id": 26, "domain": "notthebee.com", "title": "UCLA student goes on hunger strike for Palestine, friends blame university when she has to be hospitalized"}
+{"id": 27, "domain": "notthebee.com", "title": "Bee Forum News: Media Busy Covering Up Media Cover Up Of Media Cover Up"}
+{"id": 28, "domain": "notthebee.com", "title": "Jersey congresswoman charged with \"assaulting, impeding, and interfering with\" ICE agents at detention facility"}
+{"id": 29, "domain": "thefp.com", "title": "The Joe Biden Cover-Up"}
+{"id": 30, "domain": "notthebee.com", "title": "Trump dropped some pure comedy while talking about the Olympics and the World Cup"}
+{"id": 31, "domain": "thefederalist.com", "title": "Biden's Cancer Diagnosis Exposes Dems, Media As Security Risks"}
+{"id": 32, "domain": "dailysignal.com", "title": "Biden’s Presidency Is a Scandal of Historic Proportions"}
+{"id": 33, "domain": "skynews.com.au", "title": "Australia’s Unrealized Gains Tax Will Be A Lesson In Economic Suicide"}
+{"id": 34, "domain": "ped-rheum.biomedcentral.com", "title": "Investigating the association between SARS-CoV-2 infection, COVID-19 vaccination, and autoimmune diseases in a pediatric population: a comprehensive analysis - Pediatric Rheumatology"}
+{"id": 35, "domain": "tpt.org", "title": "Niall Ferguson on Firing Line with Margaret Hoover"}
+{"id": 36, "domain": "theblaze.com", "title": "Majority of voters say economy 'STRONG' for the first time in nearly 4 years, now with Trump in charge"}
+{"id": 37, "domain": "nypost.com", "title": "Joe Biden's WH doctor tied to ex-prez's shady brother — as cancer 'cover up' rumors mount"}
+{"id": 38, "domain": "v.redd.it", "title": "Bernie Sanders Agrees Democrats Are A Threat To Democracy"}
+{"id": 39, "domain": "hotair.com", "title": "FDA Pulls Recommendation for COVID Shots For Most Americans, Pulls Approval for Under 65s"}
+{"id": 40, "domain": "jns.org", "title": "The ugly truth is that ‘pro-Palestinian’ now means antisemitic"}
+{"id": 41, "domain": "pjmedia.com", "title": "Biden's Cancer Announcement Was Timed to Distract From the Cognitive Decline Coverup"}
+{"id": 42, "domain": "thespectator.com", "title": "Mark Carney is ignoring the cartels – and Donald Trump"}
+{"id": 43, "domain": "nypost.com", "title": "Don't let Joe Biden cancer news distract from media, Democrats' cover-up"}
+{"id": 44, "domain": "thefederalist.com", "title": "Senate GOP Won't Work 5 Days A Week To Confirm Trump Picks"}
+{"id": 45, "domain": "gbnews.com", "title": "Lucy Connolly: FSU condemns ‘grossly disproportionate’ court ruling as mother jailed for Southport post learns fate - Trust in British authorities ‘in free fall’"}
+{"id": 46, "domain": "x.com", "title": "Democrat Senator Tim Kaine asks about South African refugees coming to the USA: \"Can you have a different standard based upon the color of somebody's skin?\" Marco Rubio: \"I'm not the one arguing that. Apparently you are because you don't like the fact that they are White.\""}
+{"id": 47, "domain": "dailywire.com", "title": "Trump DOJ Probing Chicago Mayor After He Bragged About Race-Based Hiring"}
+{"id": 48, "domain": "slaynews.com", "title": "Canada Moves to Begin Euthanizing Children Without Parental Consent"}
+{"id": 49, "domain": "newsmax.com", "title": "Trump Envoy Grenell Gets US Veteran Released From Venezuela"}
+{"id": 50, "domain": "notthebee.com", "title": "Let's talk about the death cult that led a guy to blow up a fertility clinic, and why his logic is more widespread than you think"}
+{"id": 51, "domain": "betonit.ai", "title": "The Prevalence of Marxism in Academia"}
+{"id": 52, "domain": "breitbart.com", "title": "Promises Made, Promises Kept: Memorial Day Set For Lowest Gas Prices in Over 20 Years"}
+{"id": 53, "domain": "notthebee.com", "title": "Home Depot just clowned Walmart by saying it won’t raise prices due to tariffs"}
+{"id": 54, "domain": "i.redd.it", "title": "Every answer to Democrat scandals is \"but but Trump\""}
+{"id": 55, "domain": "newsmax.com", "title": "FBI's Patel, Bongino: Jeffrey Epstein 'Killed Himself'"}
+{"id": 56, "domain": "newsmax.com", "title": "Trump 'Looking Into' Biden's Autopen OK to Open Borders"}
+{"id": 57, "domain": "foxnews.com", "title": "Supreme Court orders Maine legislature to revoke censure of Rep. Laurel Libby"}
+{"id": 58, "domain": "thefp.com", "title": "FDA Stops Recommending Covid Vaccine Boosters for Most Americans"}
+{"id": 59, "domain": "notthebee.com", "title": "Marco Rubio just bodied the Maryland senator who loves MS-13 gangsters 💀🔥"}
+{"id": 60, "domain": "redstate.com", "title": "Jon Stewart Ridicules Jake Tapper for Hawking Book on Biden Cognitive Decline in One Brilliant Sentence"}
+{"id": 61, "domain": "babylonbee.com", "title": "Chicago Mayor Insists He Has Never Discriminated Against White-Boy Honky Crackers"}
+{"id": 62, "domain": "timesnownews.com", "title": "Rep. Nancy Mace To Reveal Video Evidence Against Ex-Fiance Patrick Bryant Amid Abuse Allegations: In a post on X (formerly Twitter), Mace wrote, “Yes. I’m going there. Today I will show my naked body on one of the videos predator and rapist Patrick Bryant took of me and many other women.\""}
+{"id": 63, "domain": "breitbart.com", "title": "Nolte: Donald Trump’s Job Approval Soars to 55%"}
+{"id": 64, "domain": "dailycaller.com", "title": "Nancy Mace Shows Nude Photo Of Herself During Hearing"}
+{"id": 65, "domain": "x.com", "title": "\"Biden last underwent common prostate cancer screening in 2014, rep reveals\" (X/@TheInsiderPaper)"}
+{"id": 66, "domain": "nbcnews.com", "title": "Senate unexpectedly passes the 'No Tax on Tips Act' in a unanimous vote"}
+{"id": 67, "domain": "twitchy.com", "title": "Scott Jennings Drops ANOTHER Truth Bomb: Dems NEVER Fight for Americans As Hard As They Do for Illegals"}
+{"id": 68, "domain": "redstate.com", "title": "Megyn Kelly Takes Tapper to Woodshed for Not Covering Biden Decline More, His Response Is Surprising"}
+{"id": 69, "domain": "thefederalist.com", "title": "Whoever Ran Biden’s White House Deserves The Plank And More For Forcing Endless Disasters On Americans"}
+{"id": 70, "domain": "dailywire.com", "title": "‘I’ve Done Enough’: Musk Says He Will Spend ‘A Lot Less’ On Future Political Campaigns"}
+{"id": 71, "domain": "dailysignal.com", "title": "Florida Appeals Court Upholds Parental Rights"}
+{"id": 72, "domain": "thedesk.net", "title": "Brendan Carr wants hearing on NBC, SNL \"equal time\" matter"}
+{"id": 73, "domain": "foxnews.com", "title": "ICE captures illegal immigrant wanted for allegedly killing mom in crash"}
+{"id": 74, "domain": "self.Conservative", "title": "The new narrative by the Democrats: Trump is declining"}
+
+====================Input File End======================
+
+
+

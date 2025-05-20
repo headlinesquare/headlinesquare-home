@@ -12,7 +12,7 @@ Feel free to contact us if you spot an error.
 ## 1. Executive Branch
 
 ### 1.1 Trump Administration Policies
-President Trump has secured a legislative victory with his "big, beautiful bill" overcoming internal Republican opposition [1]. The White House economic director projects growth through trade agreements and tax reduction [2], while the administration appears poised to alter the World Bank's climate-related priorities [3]. Trump has called for investigation into his former electoral opponent, suggesting that Vice President Harris's campaign may have improperly compensated celebrities including Bruce Springsteen and Beyoncé for their endorsements during the 2024 election cycle [4].
+President Trump has secured a legislative victory with his "big, beautiful bill" overcoming internal Republican opposition [1]. The White House economic director projects growth through trade agreements and tax reduction [2], while the administration appears poised to alter the World Bank's climate-related priorities [3]. Trump has called for investigation into his former electoral opponent, suggesting that former Vice President Harris's campaign may have improperly compensated celebrities including Bruce Springsteen and Beyoncé for their endorsements during the 2024 election cycle [4].
 
 **References:**
 
@@ -140,7 +140,7 @@ House Speaker Mike Johnson has affirmed that President Trump's "Big Beautiful Bi
 
 ------------------------------------------------------------
 ### 4.2 Immigration Policies
-State-level immigration funding has emerged as controversial in Illinois, with a legislator criticizing the Democrat-led government for allegedly allocating $3.2 billion for "illegal immigrants" while neglecting "working American families" [1]. At the federal level, reports indicate Minnesota Governor Tim Walz previously characterized ICE as a "modern-day Gestapo," prompting response from the Trump team [2]. In an enforcement action, ICE has deported a Chinese national convicted of conducting drone photography of American military installations [3].
+State-level immigration funding has emerged as controversial in Illinois. An Illinois GOP senator says the projected $3.2 billion budget gap is being driven in part by state spending on programs for migrants without legal status [1]. At the federal level, reports indicate Minnesota Governor Tim Walz previously characterized ICE as a "modern-day Gestapo," prompting response from the Trump team [2]. In an enforcement action, ICE has deported a Chinese national convicted of conducting drone photography of American military installations [3].
 
 **References:**
 
