@@ -12,11 +12,11 @@ Feel free to contact us if you spot an error.
 ## 1. Executive Branch and Administration
 
 ### 1.1 Trump Administration Actions and Policies
-The Trump administration has raised critical security concerns regarding a potential deal to incorporate Alibaba's AI technology into iPhones [1], signaling heightened scrutiny of Chinese technology in U.S. consumer products. Reports indicate the administration has reached a $5 million settlement with Ashli Babbit's family [2], a significant legal resolution following the January 6 events. President Trump's recent comments on international sporting events have been characterized as "pure comedy" by supportive media [3].
+The Trump administration has raised critical security concerns regarding a potential deal to incorporate Alibaba's AI technology into iPhones [1], signaling heightened scrutiny of Chinese technology in U.S. consumer products. Reports indicate the administration has reached a $5 million settlement with Ashli Babbitt's family [2], a significant legal resolution following the January 6 events. President Trump's recent comments on international sporting events have been characterized as "pure comedy" by supportive media [3].
 
 [1] Trump administration is concerned by deal to put Alibaba's AI on iPhones: Report, https://m.economictimes.com/tech/artificial-intelligence/trump-administration-is-concerned-by-deal-to-put-alibabas-ai-on-iphones-report/articleshow/121234875.cms  
   
-[2] Ashli Babbit's family set to receive $5-million settlement from Trump admin, https://notthebee.com/article/ashli-babbits-family-set-to-receiver-5-million-settlement-from-trump-administration  
+[2] Ashli Babbitt's family set to receive $5-million settlement from Trump admin, https://notthebee.com/article/ashli-babbits-family-set-to-receiver-5-million-settlement-from-trump-administration  
   
 [3] Trump dropped some pure comedy while talking about the Olympics and the World Cup, https://notthebee.com/article/trump-talking-about-booking-the-world-cup-and-the-olympics-and-actually-getting-to-host-them-as-well-is-pure-comedy-gold  
 
@@ -155,7 +155,7 @@ A provocative headline raises the question "Is Chinese Spying Killing Its Own St
 [2] To end the war in Ukraine, make Beijing's bankrolling of Russia's war machine hurt, https://nypost.com/2025/05/19/opinion/to-end-the-war-in-ukraine-make-beijings-bankrolling-of-russias-war-machine-hurt/  
 
 ### 7.2 Other International Developments
-Reports from the United Kingdom indicate the Federation of Student Unions has condemned a "grossly disproportionate" court ruling that jailed a mother over a social media post related to Southport, with trust in British authorities reportedly "in free fall" [1]. In a diplomatic achievement, Trump Envoy Grenell has successfully negotiated the "release of US Veteran from Venezuela" [2]. A particularly alarming headline claims "Canada Moves to Begin Euthanizing Children Without Parental Consent" [3], though specific legislative details are not provided.
+Reports from the United Kingdom indicate the Free Speech Union has condemned a "grossly disproportionate" court ruling that jailed a mother over a social media post related to Southport, with trust in British authorities reportedly "in free fall" [1]. In a diplomatic achievement, Trump Envoy Grenell has successfully negotiated the "release of US Veteran from Venezuela" [2]. A particularly alarming headline claims "Canada Moves to Begin Euthanizing Children Without Parental Consent" [3], though specific legislative details are not provided.
 
 [1] Lucy Connolly: FSU condemns 'grossly disproportionate' court ruling as mother jailed for Southport post learns fate - Trust in British authorities 'in free fall', https://www.gbnews.com/news/lucy-connolly-free-speech-union-condemns-grossly-disportionate-court-ruling  
   
