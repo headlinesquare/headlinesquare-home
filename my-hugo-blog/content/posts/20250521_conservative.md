@@ -51,7 +51,7 @@ President Trump has made strong statements regarding healthcare policy, emphasiz
 
 ### 2.1 Budget and Economic Indicators
 
-The United States has achieved a historic $258 billion budget surplus, primarily attributed to increased tax deposits and revenue from tariffs [1]. This fiscal development coincides with shifting public perceptions of economic conditions. Polling data indicates that the majority of voters now view the economy as strong under the Trump administration, marking the first time in several years that economic sentiment has been predominantly positive [2]. A Harvard/Harris poll confirms this trend, showing that for the first time since 2021, Americans believe the U.S. economy is "strong" [3].
+The United States has achieved a historic $258 billion budget surplus in the month of April 2025, primarily attributed to increased tax deposits and revenue from tariffs [1]. This fiscal development coincides with shifting public perceptions of economic conditions. Polling data indicates that the majority of voters now view the economy as strong under the Trump administration, marking the first time in several years that economic sentiment has been predominantly positive [2]. A Harvard/Harris poll confirms this trend, showing that for the first time since 2021, Americans believe the U.S. economy is "strong" [3].
 
 Gas prices are reportedly declining ahead of the Memorial Day holiday, with one headline stating gas prices will reach their "cheapest price in 4 years" [4], while another claims prices "Could Hit Lowest Level In More Than Two Decades" [5].
 
