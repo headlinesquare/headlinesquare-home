@@ -62,7 +62,7 @@ A Colombian national in Massachusetts has been accused of voting illegally in th
 ## 3. National Security And Law Enforcement
 
 ### 3.1 DC Museum Attack Investigation
-Court documents reveal that victim Sarah Milgrim attempted to crawl away during a deadly attack at a DC museum, with suspect Elias Rodriguez charged with murder [1]. A survivor described offering "a peaceful hand" that "was met with murder" [2]. A "far-left Bronx group" reportedly expressed support for the accused attacker and allegedly encouraged further violence [3]. Reports claim the father of the suspect, Eric Rodriguez, was invited to a Trump address by a congressman identified as "far-left lawmaker Chuy Rodriguez" [4].
+Court documents reveal that victim Sarah Milgrim attempted to crawl away during a deadly attack at a DC museum, with suspect Elias Rodriguez charged with murder [1]. A survivor described offering "a peaceful hand" that "was met with murder" [2]. A "far-left Bronx group" reportedly expressed support for the accused attacker and allegedly encouraged further violence [3]. Reports claim the father of the suspect, Eric Rodriguez, was invited to a Trump address by a congressman identified as "far-left" lawmaker Rep. Jesús 'Chuy' García [4].
 
 [1] DC museum victim Sarah Milgrim tried to crawl away, bombshell Elias Rodriguez court docs revealed as he's charged with murder, https://nypost.com/2025/05/22/us-news/dc-jewish-museum-victim-sarah-milgrim-tried-to-crawl-away-bombshell-elias-rodriguez-court-docs-revealed-as-hes-charged-with-murder/  
 [2] My peaceful hand was met with murder in Museum attack, https://nypost.com/2025/05/22/opinion/my-peaceful-hand-was-met-with-murder-in-jewish-museum-attack/  
