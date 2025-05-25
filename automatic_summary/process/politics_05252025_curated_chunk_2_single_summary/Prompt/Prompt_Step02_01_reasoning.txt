@@ -1,0 +1,20 @@
+**Step 2 (logic-heavy)**
+
+Put Articles into Categories: 
+
+Cluster the hundreds of news articles into the these areas and topics you defined in Step 1. You must put **each** news article **uniquely** into one area and then one topic under area, and you can decide what the best choice is. Grab the news articles by their entire JSON lines for future reference. First, for each article, make your best decision, and write out the categories in front of JSON lines, for future reference. There should be two hierarchical tiers (area, topic), instead of three. You do not need to sort the JSON lines yet. Those JSON lines should still maintain their original ascending order according to their IDs. Compile all your results in a simple text file (step2.txt).
+
+The step2.txt should contain something like this:
+
+[Area 2: xxx / Topic 2.3: xxx] {"id": 33, "domain": "xxx", "title": "xxx"}
+[Area 4: xxx / Topic 4.2: xxx] {"id": 34, "domain": "xxx", "title": "xxx"}
+[Area 1: xxx / Topic 1.4: xxx] {"id": 35, "domain": "xxx", "title": "xxx"}
+
+Let me make it clear again: These lines will be still ranked by their IDs in ascending order, just as they were first given in Step 1, **not** their area and topic orders yet. Because sorting according to area and topic is harder, we will do that sorting later.
+
+Let me make it clear again: one news article always belongs to one and **only one** topic, which belongs to one area. In the list, we should never see an article appear twice. We should never be unable to find an article. Please assign one unique areas and one unique topic under that area to each article.
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+
+
