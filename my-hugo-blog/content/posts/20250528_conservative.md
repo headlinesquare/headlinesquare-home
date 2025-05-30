@@ -22,7 +22,7 @@ Hamas leader Mohammed Sinwar has been killed in an Israeli military operation wh
 
 ### 1.2 Russia-Ukraine War
 
-Russian President Vladimir Putin has presented his conditions for ending the war in Ukraine, though specific terms remain unspecified in reports [1]. Analysis suggests Western misunderstandings of Putin stem from failing to recognize his consistent behavioral patterns [2].
+Russian President Vladimir Putin has presented his conditions for ending the war in Ukraine. Putin’s terms include Ukrainian neutrality, recognition of Russia’s hold on annexed territories and a lifting of Western sanctions [1]. Analysis suggests Western misunderstandings of Putin stem from failing to recognize his consistent behavioral patterns [2].
 
 [1] Vladimir Putin issues his conditions for ending war in Ukraine, https://nypost.com/2025/05/28/world-news/vladimir-putin-issues-his-conditions-for-ending-war-in-ukraine/  
 [2] Why Americans Don't Understand Vladimir Putin — The Russian president hasn't just gone 'crazy.' He's always been like this., https://www.thefp.com/p/why-americans-dont-understand-putin  
@@ -72,7 +72,7 @@ The Trump administration has taken action regarding Harvard University, with rep
 
 ### 3.3 Immigration Enforcement
 
-The Trump administration is set to "supercharge" illegal alien arrests and deportations [1]. Border Czar Tom Homan has confronted Representative Alexandria Ocasio-Cortez, saying "We Did It" after the Representative was reportedly charged [2]. Additionally, Representative Ocasio-Cortez has called to abolish ICE in her "latest campaign pitch" [3].
+The Trump administration is set to "supercharge" illegal alien arrests and deportations [1]. Border Czar Tom Homan has confronted Representative Alexandria Ocasio-Cortez, saying "We Did It" after Rep. LaMonica McIver (D-NJ) was charged over an ICE-facility protest [2]. Additionally, Representative Ocasio-Cortez has called to abolish ICE in her "latest campaign pitch" [3].
 
 [1] Trump Admin Set to 'Supercharge' Illegal Alien Arrests and Deportations: Report, https://www.westernjournal.com/trump-admin-set-supercharge-illegal-alien-arrests-deportations-report/  
 [2] "We Did It": Border Czar Tom Homan Puts AOC On Notice After Democrat Lawmaker Charged, https://www.msn.com/en-us/news/us/we-did-it-border-czar-tom-homan-puts-aoc-on-notice-after-democrat-lawmaker-charged/ar-AA1FEPgf?ocid=msedgntp&pc=W046&cvid=32a6871b344b42219cad948862bf19f5&ei=25  
@@ -96,7 +96,7 @@ President Trump has proposed a 15% cap on foreign students at Harvard University
 
 ### 4.1 DOJ Actions
 
-The Department of Justice has filed a lawsuit against North Carolina [1]. While the headline notes "Here's Why," the specific details remain unspecified.
+The Department of Justice has filed a lawsuit against North Carolina [1] for failing to require a driver-license number or last four digits of a Social-Security number on voter-registration forms, an alleged HAVA violation.
 
 [1] The DOJ Just Sued North Carolina. Here's Why., https://townhall.com/tipsheet/leahbarkoukis/2025/05/28/doj-sues-north-carolina-n2657731  
 
@@ -165,7 +165,7 @@ Milwaukee Public Schools are planning a "Pride Week of Action" instead of emphas
 
 ### 6.3 Media & Political Discourse
 
-An undercover Project Veritas video allegedly shows DNC Vice Chair David Hogg stating that Jill Biden's Chief of Staff was running the Biden White House [1, 2]. Additionally, Bill Maher has called out liberals for backing Hamas despite the terror group's extremist views [3]. There are also reports that France is experiencing a rise in anti-Christian sentiment—and violence [4]—with a poll indicating that 80% of French women support army intervention to protect them from migrant criminals [5].
+An undercover Project Veritas video allegedly shows gun control activist and "DNC Vice Chair" David Hogg stating that Jill Biden's Chief of Staff was running the Biden White House [1, 2]. Additionally, Bill Maher has called out liberals for backing Hamas despite the terror group's extremist views [3]. There are also reports that France is experiencing a rise in anti-Christian sentiment—and violence [4]—with a poll indicating that 80% of French women support army intervention to protect them from migrant criminals [5].
 
 [1] DNC Vice Chair David Hogg admits in Project Veritas undercover video that Jill Biden's Chief of Staff was operating Biden White House, https://x.com/tpantheman/status/1927787239125188790?s=46  
 [2] "David Hogg says Jill Biden's Chief of Staff Anthony Bernal secretly ran the Biden White House in bombshell footage filmed by Project Veritas." (X/@CollinRugg), https://x.com/CollinRugg/status/1927765648924369061  
