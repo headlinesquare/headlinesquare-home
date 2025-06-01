@@ -121,7 +121,7 @@ def stream_chat_response(client, model, conversation_history, response_container
     create_kwargs = {
         "model": model,
         "messages": conversation_history,
-        # "max_tokens": 8192,  # Adjust this if you suspect token limits
+        "max_tokens": 20000,  # Adjust this if you suspect token limits
         "stream": True
     }
     
