@@ -1,0 +1,128 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-88, total number of articles is 88.**
+
+{"id": 1, "domain": "x.com", "title": "California Gov. Gavin Newsom Requests Trump Admin rescind deployment of troops in LA & Return National Guard Control to state"}
+{"id": 2, "domain": "wsj.com", "title": "It’s the Republicans, Not Musk, Who Are Serious About Cutting Spending. Entitlements are infamously difficult to cut. Yet that’s what House Republicans propose."}
+{"id": 3, "domain": "justthenews.com", "title": "Biden's EPA hid comments from Dept. of Energy that undermined key part of EPA power plant rule"}
+{"id": 4, "domain": "foxnews.com", "title": "17 illegal migrants discovered crammed in RV, sedan in sweltering Arizona heat"}
+{"id": 5, "domain": "wsj.com", "title": "Meet Trump’s Deregulators. Burgum, Wright and Zeldin are set on liberating Alaska and the whole economy."}
+{"id": 6, "domain": "nypost.com", "title": "US Marshals capture Dominican fugitive alien wanted for murdering upstate NY family of four — including 2- and 4-year-old kids"}
+{"id": 7, "domain": "i.redd.it", "title": "An image that says a lot"}
+{"id": 8, "domain": "x.com", "title": "\"We didn't have a problem until Trump got involved\" - Gavin Newsom"}
+{"id": 9, "domain": "twitchy.com", "title": "*HIC* Unemployed Loser Kamala Harris Sides with Violent Democrat Mob In Word-Salad Statement on LA Riots"}
+{"id": 10, "domain": "washingtonexaminer.com", "title": "Under Democratic Governor Pritzker's leadership, Illinois places last in the country for economic health"}
+{"id": 11, "domain": "notthebee.com", "title": "Welp, I bet the media is going to write op-eds about this one"}
+{"id": 12, "domain": "notthebee.com", "title": "National Guard deploys to Los Angeles as left-wing rioters continue to attack federal immigration agents. Videos here."}
+{"id": 13, "domain": "dailywire.com", "title": "Maxine Waters Harasses ICE Agents: ‘Are You Going To Shoot An Elected Official?’"}
+{"id": 14, "domain": "redstate.com", "title": "Getting Crazier: L.A. City Tactical Alert, Law Enforcement Vehicle Swarmed and Attacked, Freeway Blocked"}
+{"id": 15, "domain": "foxnews.com", "title": "USA Gymnastics' transgender policy pages offline as Riley Gaines-Simone Biles feud rocks the sport"}
+{"id": 16, "domain": "x.com", "title": "Seriously…"}
+{"id": 17, "domain": "i.redd.it", "title": "These are the people Democrats burn down cities for"}
+{"id": 18, "domain": "nypost.com", "title": "Texas Marine vet fighting for life after being shot, paralyzed by illegal migrant"}
+{"id": 19, "domain": "x.com", "title": "The End of “The Selfie Flotilla”"}
+{"id": 20, "domain": "nypost.com", "title": "How far would Dems have let the LA riots go if Trump HADN'T sent in the National Guard?"}
+{"id": 21, "domain": "breitbart.com", "title": "Democrat L.A. Council Member Urges Leftists to Escalate Attacks on ICE Agents"}
+{"id": 22, "domain": "i.redd.it", "title": "Rioters are attempting to build a wall in an effort to keep those they don't want in their area, out."}
+{"id": 23, "domain": "self.Conservative", "title": "We dodged a bullet for sure"}
+{"id": 24, "domain": "redstate.com", "title": "Kamala Harris' New Statement on L.A. AntiICE Riots May Just Be Her Most Useless to Date"}
+{"id": 25, "domain": "nypost.com", "title": "Progressive states that care not for laws or the border are the ones tearing us apart"}
+{"id": 26, "domain": "self.Conservative", "title": "In my opinion, *this* is an insurrection."}
+{"id": 27, "domain": "self.Conservative", "title": "Remember to look out for your legal brothers and sisters"}
+{"id": 28, "domain": "telegraph.co.uk", "title": "How dare you?!"}
+{"id": 29, "domain": "self.Conservative", "title": "We are doomed if radicals ever get into power"}
+{"id": 30, "domain": "x.com", "title": "Anti ICE protestors assault woman multiple times who’s family was X by undocumented immigrants"}
+{"id": 31, "domain": "wgnsradio.com", "title": "The Great Zebra Escape has ended...Ed Captured!"}
+{"id": 32, "domain": "washingtonexaminer.com", "title": "Newsom demands Trump administration rescind ‘unlawful’ National Guard deployment order"}
+{"id": 33, "domain": "redstate.com", "title": "ABC's Terry Moran 'Finds Out' There Are Consequences for Vile Post Smearing Trump, Stephen Miller – RedState"}
+{"id": 34, "domain": "old.reddit.com", "title": "Mostly peaceful"}
+{"id": 35, "domain": "self.Conservative", "title": "Condemning the L.A. Riots"}
+{"id": 36, "domain": "youtu.be", "title": "Lefties Losing It: Democrats stand with violent LA rioters"}
+{"id": 37, "domain": "self.Conservative", "title": "Other conservative subs?"}
+{"id": 38, "domain": "redstate.com", "title": "Taxpayer-Funded Riots: Here's What We Found When We Followed the Money in Los Angeles"}
+{"id": 39, "domain": "x.com", "title": "LAPD Chief Admits Professional Left-Wing Anarchists Are Fueling the Violence in Los Angeles Riots"}
+{"id": 40, "domain": "fox8live.com", "title": "Illegal Tennessee alien fugitive with ties to MS-13 gang arrested in Kenner, police say"}
+{"id": 41, "domain": "nypost.com", "title": "Gov. Newsom adds fuel to fire, dares Trump’s border czar Tom Homan to arrest him"}
+{"id": 42, "domain": "theblaze.com", "title": "Fiery footage shows radicals in LA savagely attack law enforcement on second night of violent riots"}
+{"id": 43, "domain": "citizenwatchreport.com", "title": "Leaked reports confirm LA Mayor Karen Bass ordered LAPD to stand down, blocking aid to federal officers during riots."}
+{"id": 44, "domain": "dailymail.co.uk", "title": "Disturbing secret history of woke LA mayor Karen Bass resurfaces amid immigration riots"}
+{"id": 45, "domain": "breitbart.com", "title": "LAPD Chief Contradicts Newsom, Bass, Schiff: ‘Violence Is Escalating’"}
+{"id": 46, "domain": "nypost.com", "title": "[CCP wants to kill US] Chinese researcher in alleged plot to smuggle crop-killing fungus into US will remain in custody while seeking private counsel"}
+{"id": 47, "domain": "v.redd.it", "title": "The rioters tried setting the horses on fire, this needs to be seen by all."}
+{"id": 48, "domain": "theblaze.com", "title": "White House has clear message for Newsom after Democratic governor dares Homan to arrest him"}
+{"id": 49, "domain": "amgreatness.com", "title": "Gavin Newsom and His Cruel Notion of ‘Cruel’"}
+{"id": 50, "domain": "notthebee.com", "title": "Israel to show Greta Thunberg video on the October 7 terror attack after impounding her sailboat"}
+{"id": 51, "domain": "tabletmag.com", "title": "‘You’re Fired!’ — President Donald Trump and the truth about ‘the administrative state"}
+{"id": 52, "domain": "nypost.com", "title": "Foreign flags fly in LA antiICE riots -- vindicating Donald Trump and leaving Dems with no moral standing"}
+{"id": 53, "domain": "foxnews.com", "title": "AntiICE protesters in Los Angeles spit on and burn American flag"}
+{"id": 54, "domain": "newsmax.com", "title": "Homan Threatens Newsom, LA's Bass With Arrest"}
+{"id": 55, "domain": "redstate.com", "title": "Trump on Tarmac Confirms Homan Comment on What Could Happen If CA Officials Thwart 'Law and Order'"}
+{"id": 56, "domain": "breitbart.com", "title": "Mexico’s President, New York Times, Excuse LA’s Mexican Flag Riots"}
+{"id": 57, "domain": "i.redd.it", "title": "Let's keep it simple"}
+{"id": 58, "domain": "notthebee.com", "title": "Someone did a deep dive on who's funding the LA riots ... the answer is the least surprising thing ever"}
+{"id": 59, "domain": "washingtonexaminer.com", "title": "Google feeds articles from Chinese state-run propaganda outlets to American readers"}
+{"id": 60, "domain": "babylonbee.com", "title": "Illegals Help Film Republican Presidential Campaign Commercial"}
+{"id": 61, "domain": "notthebee.com", "title": "WaPo seems very concerned that uber-rich elites won't have servants if Trump keeps deporting criminals 😢"}
+{"id": 62, "domain": "dailywire.com", "title": "Trump Vows To ‘Liberate Los Angeles,’ Shut Down ‘Migrant Riots’ And ‘Insurrectionist Mobs’"}
+{"id": 63, "domain": "spectator.co.uk", "title": "Greta Thunberg should thank Israel for intercepting her Gaza selfie ship"}
+{"id": 64, "domain": "podcasts.apple.com", "title": "Victor Davis Hanson Interviews David Mamet - The Victor Davis Hanson Show"}
+{"id": 65, "domain": "self.Conservative", "title": "Mexican American calls out L.A. protestors..."}
+{"id": 66, "domain": "nypost.com", "title": "Kamala Harris slammed by California sheriff for 'embarrassing' statement on LA riots"}
+{"id": 67, "domain": "redstate.com", "title": "New: Defiant Glendale, CA Severs ICE Detainee Contract – RedState"}
+{"id": 68, "domain": "self.Conservative", "title": "Fox News: IDF detains Gaza-bound \"selfie yacht\" carrying Greta Thunberg: 'The show is over'"}
+{"id": 69, "domain": "realclearpolitics.com", "title": "Steven Pinker’s Damning Defense of Harvard"}
+{"id": 70, "domain": "foxnews.com", "title": "Maxine Waters taunts armed agents after feds slam door on her during LA riots: 'You better shoot straight'"}
+{"id": 71, "domain": "redstate.com", "title": "Taxpayer-Funded Riots: Here's What We Found When We Followed the Money in Los Angeles"}
+{"id": 72, "domain": "freebeacon.com", "title": "Media Shrug Off LA Rioters as ‘Peaceful People’"}
+{"id": 73, "domain": "city-journal.org", "title": "L.A. Protests: Trump Should Crush Them with a Subtle Hand"}
+{"id": 74, "domain": "hotair.com", "title": "The Trauma Of Martha's Vineyard v Illegals Continues"}
+{"id": 75, "domain": "x.com", "title": "$34M in CA state tax payer money to organizations funding Protests. Gavin Newsom & Democrats “Singularly responsible for the mayhem”"}
+{"id": 76, "domain": "breitbart.com", "title": "Nolte: ABC Los Angeles Reporter Doesn’t Want Cops to Stop ‘People Having Fun Watching Cars Burn’"}
+{"id": 77, "domain": "notthebee.com", "title": "Man behind \"LAScanner\" deactivates X account, plans to turn himself in for doxxing ICE agents"}
+{"id": 78, "domain": "foxnews.com", "title": "US Marines to deploy to Los Angeles to help quell riots"}
+{"id": 79, "domain": "townhall.com", "title": "A Minnesota State Rep. Just Announced That She Is in the United States Illegally"}
+{"id": 80, "domain": "self.Conservative", "title": "I think Rahm Emanuel is an awful person, and so I'm going to hide my advice as to how to be the DNC candidate for 2028 here in a sub where he'll never look."}
+{"id": 81, "domain": "nypost.com", "title": "Uber, Goldman Sachs and Salesforce CEOs boost $1,000 'Trump Accounts' for Kids at White House Event"}
+{"id": 82, "domain": "youtu.be", "title": "Condoleezza Rice outlines why the US ‘HAS TO WIN’ AI race against China"}
+{"id": 83, "domain": "youtube.com", "title": "A Canadian 51st state. Not forcibly taken by the US but freely entered into by Alberta?"}
+{"id": 84, "domain": "x.com", "title": "LA Protesters Use Bricks To Hit Police"}
+{"id": 85, "domain": "victorhanson.com", "title": "VDH Interviews David Mamet"}
+{"id": 86, "domain": "twitchy.com", "title": "LA Scanner X Account Just Got WORSE - So Much Worse In Fact That He DELETED His Account"}
+{"id": 87, "domain": "nypost.com", "title": "Another Chinese scientist -- from Wuhan -- charged with smuggling illegal material into US"}
+{"id": 88, "domain": "self.Conservative", "title": "We should \"inspect\" Democrats' projects."}
+
+====================Input File End======================
+
+
+
