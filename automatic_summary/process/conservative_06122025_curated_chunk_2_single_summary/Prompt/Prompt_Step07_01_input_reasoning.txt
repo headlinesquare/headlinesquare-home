@@ -1,0 +1,70 @@
+**Step 7 (logic-heavy)**
+
+Add the URLs: 
+
+Now, I will provide you again with the original full JSON record (news_list_with_URLs.jsonl) of all news articles again, as you saw in Step 1, but this time, with actual URLs attached. To do this task, you look at the [original ID: xx] tag of each cited article, and then precisely retrieve its full URL from the original full JSON record, as given below. Please add the URLs from the original full JSON record to the reference list sections of the summary you wrote in Step 6, so that readers can directly access these articles. Please make sure the article titles in the reference lists agree **exactly** with the original full JSON record, so that the titles are accurately preserved after our long process. If not, please copy the titles from the original full JSON record to the reference lists. 
+
+Remember, the reference lists as in step6.txt were broken into small chunks. Each paragraph of summary has its reference list directly under it. In this step, the reference lists should keep that way. There should not be a long reference list at the end of the document. In the reference lists, we should only have the article titles and URLs to the actual articles, formatted in this way: [1] TITLE, URL \n\n [2] TITLE, URL. Both the titles and URLs should agree **exactly** with the original full JSON record. Compile all your results in a simple text file (step7.txt).
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+
+Original Full JSON Record (news_list_with_URLs.jsonl):
+
+
+====================Input File Start====================
+
+**ID range is 52-101, total number of articles is 50.**
+
+{"id": 52, "domain": "redstate.com", "title": "Bessent Levels Plaskett With Perfect Response - Her Reaction Goes Completely Off the Rails", "url": "https://redstate.com/nick-arama/2025/06/12/bessent-plaskett-remarks-n2190380"}
+{"id": 53, "domain": "civitasinstitute.org", "title": "Governor Newsom Is Committing Constitutional Malpractice", "url": "https://www.civitasinstitute.org/research/governor-newsom-is-committing-constitutional-malpractice"}
+{"id": 54, "domain": "hotair.com", "title": "Upping the Ante: Iran Declared 'In Breach' of Non-Proliferation Duties", "url": "https://hotair.com/tree-hugging-sister/2025/06/12/upping-the-ante-iran-declared-in-breach-of-non-proliferation-duties-n3803710"}
+{"id": 55, "domain": "pjmedia.com", "title": "CNN Panel Melts Down After Batya Ungar-Sargon Drops Truth Bomb About Illegal Immigration", "url": "https://pjmedia.com/matt-margolis/2025/06/12/cnn-panel-melts-down-after-batya-ungar-sargon-drops-truth-bomb-about-illegal-immigration-n4940726"}
+{"id": 56, "domain": "x.com", "title": "Florida is not playing with its rules on mobs surrounding your car. Take notes, Cali.", "url": "https://x.com/rubinreportshow/status/1932956095133479018?s=46&t=eWhREji71-GILA9-yU41oQ"}
+{"id": 57, "domain": "hotair.com", "title": "BREAKING: FBI Arrests Riot Supplier, Charges Conspiracy", "url": "https://hotair.com/ed-morrissey/2025/06/12/breaking-fbi-arrests-riot-supplier-charges-conspiracy-n3803719"}
+{"id": 58, "domain": "fortune.com", "title": "Bluesky is backfiring. Mark Cuban says the 'lack of diversity of thought' is actually pushing users back to X", "url": "https://fortune.com/2025/06/12/bluesky-backfiring-mark-cuban-lack-of-diversity-of-thought-x-users/"}
+{"id": 59, "domain": "breitbart.com", "title": "MSNBC’s Psaki: Abbott Has Done ‘Opposite’ of Newsom, and It’s Peaceful in TX", "url": "https://www.breitbart.com/clips/2025/06/11/msnbcs-psaki-abbott-has-done-opposite-of-newsom-and-its-peaceful-in-tx/"}
+{"id": 60, "domain": "townhall.com", "title": "Trump Officially Nixes California’s Electric Car Mandate", "url": "https://townhall.com/tipsheet/katiepavlich/2025/06/12/trump-to-officially-nix-californias-electric-car-mandate-n2658669"}
+{"id": 61, "domain": "self.Conservative", "title": "SCOTUS Allows 2 Executions in Alabama, Florida", "url": "/r/Conservative/comments/1l9shlk/scotus_allows_2_executions_in_alabama_florida/"}
+{"id": 62, "domain": "foxnews.com", "title": "US-Iran tensions rise ahead of sixth round of nuclear negotiations", "url": "https://www.foxnews.com/world/trump-warns-israel-strike-iran-could-happen-amid-middle-east-evacuation-nuclear-negotiations"}
+{"id": 63, "domain": "theblaze.com", "title": "DHS posts 'foreign invaders' deportation meme — and liberals can't cope", "url": "https://www.theblaze.com/news/dhs-posted-a-foreign-invaders-deportation-meme-and-liberals-cant-cope"}
+{"id": 64, "domain": "newsmax.com", "title": "Trump Signs Measure Blocking Calif.'s Gas Car Ban", "url": "https://www.newsmax.com/finance/streettalk/california-gavin-newsom/2025/06/12/id/1214667/"}
+{"id": 65, "domain": "x.com", "title": "Bill Melugin (@BillMelugin_) on X", "url": "https://x.com/BillMelugin_/status/1933222907398008912"}
+{"id": 66, "domain": "nypost.com", "title": "FBI busts alleged LA riot leader who was filmed helping to distribute ‘Bionic Shield’ face masks to protesters", "url": "https://nypost.com/2025/06/12/us-news/fbi-busts-alleged-la-riot-leader-who-was-filmed-handing-out-bionic-shield-face-masks-to-protesters/"}
+{"id": 67, "domain": "self.Conservative", "title": "Democrat senator forcibly removed from DHS secretaries press conference.", "url": "/r/Conservative/comments/1l9ubbc/democrat_senator_forcibly_removed_from_dhs/"}
+{"id": 68, "domain": "foxnews.com", "title": "Democrat senator forcibly removed after crashing DHS Secretary Noem's press conference", "url": "https://www.foxnews.com/us/democrat-senator-forcibly-removed-after-crashing-dhs-secretary-noems-press-conference"}
+{"id": 69, "domain": "foxnews.com", "title": "Democrat erupts at Defense Secretary Hegseth: 'You should get the hell out'", "url": "https://www.foxnews.com/politics/california-dem-tells-hegseth-hes-embarrassment-us-should-get-hell-out-dod"}
+{"id": 70, "domain": "townhall.com", "title": "If You Thought Service at Home Depot Was Bad Before...", "url": "https://townhall.com/columnists/anncoulter/2025/06/11/columnistsanncoulter20250611if-you-thought-service-at-home-depot-was-bad-before-n2658649"}
+{"id": 71, "domain": "lifenews.com", "title": "83% of Democrats Support Abortion as Democrat Party Fully Supports Abortions Up to Birth", "url": "https://www.lifenews.com/2025/06/12/83-of-democrats-support-abortion-as-democrat-party-fully-supports-abortions-up-to-birth/"}
+{"id": 72, "domain": "dailywire.com", "title": "California Democrat Says ICE Raids Are ‘Domestic Terrorism’", "url": "https://www.dailywire.com/news/california-democrat-says-ice-raids-are-domestic-terrorism"}
+{"id": 73, "domain": "babylonbee.com", "title": "Newsom Says It’s His Duty To Represent The Illegal Immigrants Who Elected Him", "url": "https://babylonbee.com/news/newsom-says-its-his-duty-to-represent-the-illegal-immigrants-who-elected-him"}
+{"id": 74, "domain": "dailywire.com", "title": "Bessent Identifies New Strain Of TDS, Reminds Dems They Lost The Election", "url": "https://www.dailywire.com/news/bessent-identifies-new-strain-of-tds-reminds-dems-they-lost-the-election"}
+{"id": 75, "domain": "foxnews.com", "title": "Chicago mayor calls ICE raids ‘terrorism,’ says Trump’s America appears as 'if the Confederacy won'", "url": "https://www.foxnews.com/politics/chicago-mayor-calls-ice-raids-terrorism"}
+{"id": 76, "domain": "washingtonexaminer.com", "title": "DOJ sues New York over ‘sanctuary’ law blocking ICE arrests at courthouses", "url": "https://www.washingtonexaminer.com/news/justice/3439951/doj-sues-new-york-over-sanctuary-law/"}
+{"id": 77, "domain": "dailywire.com", "title": "Dem Rep Loses Mind Over ‘Gestapo’ ICE Agents: ‘I’m Fighting Today’s Nazis!’", "url": "https://www.dailywire.com/news/dem-rep-loses-mind-over-gestapo-ice-agents-im-fighting-todays-nazis"}
+{"id": 78, "domain": "self.Conservative", "title": "Conservatives hold onto Ontario riding by four votes after recount", "url": "/r/Conservative/comments/1l9w2rw/conservatives_hold_onto_ontario_riding_by_four/"}
+{"id": 79, "domain": "foxnews.com", "title": "Anti-Israel ringleader Mahmoud Khalil posts $1 bond after federal judge rules Trump admin can't detain him", "url": "https://www.foxnews.com/us/anti-israel-ringleader-mahmoud-khalil-posts-1-bond-after-federal-judge-rules-trump-admin-cant-detain-him"}
+{"id": 80, "domain": "x.com", "title": "Boy this aged like wine :)", "url": "https://x.com/AlexPadilla4CA/status/1681361730121629718"}
+{"id": 81, "domain": "powerlineblog.com", "title": "Tree, meet apple", "url": "https://www.powerlineblog.com/archives/2025/06/tree-meet-apple.php"}
+{"id": 82, "domain": "self.Conservative", "title": "\"Wal-mart employees top list of Medicaid and food stamp beneficiaries\". Something needs to change with corporations gaming the Govt.", "url": "/r/Conservative/comments/1l9xbln/walmart_employees_top_list_of_medicaid_and_food/"}
+{"id": 83, "domain": "independent.org", "title": "Government Overreach Exposed: From Student Loans to Obamacare", "url": "https://www.independent.org/multimedia/2025/06/10/michael-mcconnell-government-overreach-exposed-from-student-loans-to-obamacare-ep-50/?media=video"}
+{"id": 84, "domain": "dailycaller.com", "title": "Elmo-Wielding Hakeem Jeffries Hits House Floor Attempting To Stop GOP From Scrapping PBS Funding", "url": "https://dailycaller.com/2025/06/12/elmo-wielding-hakeem-jeffries-house-floor-attempting-to-stop-gop-scraping-pbs-funding/"}
+{"id": 85, "domain": "foxnews.com", "title": "Democrat senator forcibly removed after crashing DHS Secretary Noem's press conference", "url": "https://www.foxnews.com/politics/democrat-senator-forcibly-removed-after-crashing-dhs-secretary-noems-press-conference"}
+{"id": 86, "domain": "dailysceptic.org", "title": "The Great Climate Science Swindle Goes On", "url": "https://dailysceptic.org/2025/06/12/the-great-climate-science-swindle-goes-on/"}
+{"id": 87, "domain": "dailywire.com", "title": "House Passes DOGE Cuts Targeting Foreign Aid, NPR, And PBS", "url": "https://www.dailywire.com/news/house-passes-doge-cuts-targeting-foreign-aid-npr-and-pbs?topStoryPosition=undefined&author=Daniel+Chaitin&category=News&elementPosition=3&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=House+Passes+DOGE+Cuts+Targeting+Foreign+Aid%2C+NPR%2C+And+PBS"}
+{"id": 88, "domain": "city-journal.org", "title": "Whistleblower: Lockheed Martin Awarded Bonuses Based on Race", "url": "https://www.city-journal.org/article/lockheed-martin-civil-rights-law-bonuses-race-merit"}
+{"id": 89, "domain": "nypost.com", "title": "Democrats Newsom and Bass have destroyed America's Golden State", "url": "https://nypost.com/2025/06/12/opinion/democrats-newsom-and-bass-have-destroyed-americas-golden-state/"}
+{"id": 90, "domain": "spectator.org", "title": "Vermont Free Food Fracas Exposes Progressive Folly", "url": "https://spectator.org/vermont-free-food-fracas-exposes-progressive-folly/"}
+{"id": 91, "domain": "dailycaller.com", "title": "‘Get Some F*cking Balls’: John Mannion Goes On Profane Tirade Against Mike Lawler On House Floor", "url": "https://dailycaller.com/2025/06/12/dem-rep-profane-tirade-against-gop-colleague-house-floor/"}
+{"id": 92, "domain": "dailycaller.com", "title": "Israel Reportedly Gears Up To Bomb Iran", "url": "https://dailycaller.com/2025/06/12/israel-reportedly-gears-up-to-bomb-iran/"}
+{"id": 93, "domain": "redstate.com", "title": "Hoo Boy: Elise Stefanik Ends Gov. Hochul Over Sanctuary States, Leaves Her Stammering", "url": "https://redstate.com/nick-arama/2025/06/12/watch-elise-stefanik-ends-gov-hochul-n2190388"}
+{"id": 94, "domain": "dailysignal.com", "title": "Here Are Some ‘Worst of the Worst’ Illegal Alien Criminals Arrested During LA Riots", "url": "https://www.dailysignal.com/2025/06/12/meet-11-violent-illegal-alien-criminals-arrested-far-during-las-overwhelmingly-peaceful-riots/"}
+{"id": 95, "domain": "self.Conservative", "title": "Anyone being bombarded with “No Kings” protests from different state/city subs?", "url": "/r/Conservative/comments/1l9v30h/anyone_being_bombarded_with_no_kings_protests/"}
+{"id": 96, "domain": "tabletmag.com", "title": "The Fire This Time — Democratic operatives are using orchestrated street violence to fracture the military leadership and destabilize the Trump presidency—again", "url": "https://www.tabletmag.com/sections/news/articles/fire-this-time-military-trump-presidency"}
+{"id": 97, "domain": "babylonbee.com", "title": "Democrat Senator Assaults Officers In Violent Insurrection", "url": "https://babylonbee.com/news/democrat-senator-assaults-officers-in-violent-insurrection"}
+{"id": 98, "domain": "lifenews.com", "title": "Senator Ted Cruz Blasts Abortion: We Must “Honor the Dignity of Every Human Life”", "url": "https://www.lifenews.com/2025/06/12/senator-ted-cruz-blasts-abortion-we-must-honor-the-dignity-of-every-human-life/"}
+{"id": 99, "domain": "redstate.com", "title": "Ted Lieu Encourages California National Guardsmen to Mutiny Rather Than Serve in Los Angeles", "url": "https://redstate.com/streiff/2025/06/12/ted-lieu-encourages-california-national-guardsmen-to-mutiny-n2190404"}
+{"id": 100, "domain": "twitchy.com", "title": "No WONDER He's Losing His Mind on X! New California Poll Spells D-I-S-A-S-T-E-R for Gavin Newsom", "url": "https://twitchy.com/samj/2025/06/12/new-newsom-poll-disaster-for-gav-n2414152"}
+{"id": 101, "domain": "thefp.com", "title": "Is Israel About to Strike Iran’s Nuclear Facilities?", "url": "https://www.thefp.com/p/is-israel-about-to-strike-iran-nukes-trump-obama-netanyahu"}
+
+====================Input File End======================

@@ -1,0 +1,91 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-51, total number of articles is 51.**
+
+{"id": 1, "domain": "lifenews.com", "title": "Republicans Fight to Protect Free Speech Rights of Pro-Life Americans"}
+{"id": 2, "domain": "self.Conservative", "title": "Trump is right in preventing the spread of coordinated riots - Professor Alan Dershowitz."}
+{"id": 3, "domain": "newsmax.com", "title": "Judge: Columbia University Protester Khalil Must Be Released"}
+{"id": 4, "domain": "foxnews.com", "title": "Trump sends clear message federalizing National Guard for LA riots: This is not 2020"}
+{"id": 5, "domain": "foxnews.com", "title": "Embattled DNC vice chair decides not to run after diversity re-vote called"}
+{"id": 6, "domain": "babylonbee.com", "title": "CNN Reports Peaceful Night In L.A. As Majority Of Cars Not On Fire"}
+{"id": 7, "domain": "x.com", "title": "Trump speaks on illegal immigration"}
+{"id": 8, "domain": "thefp.com", "title": "Why Gavin Newsom Will Never Be President"}
+{"id": 9, "domain": "amgreatness.com", "title": "As Los Angeles Burns, California’s Elite Twists the Truth on Energy"}
+{"id": 10, "domain": "redstate.com", "title": "Greg Gutfeld Owns Legacy Media After Noticing Disturbing Trend In Their LA Riots Coverage"}
+{"id": 11, "domain": "breitbart.com", "title": "Hamas Attacks Bus of Workers from American Aid Group in Gaza; 5 Deaths; Hostages Possible"}
+{"id": 12, "domain": "theblaze.com", "title": "Clinton judge blocked workforce cuts — yet Rubio just proved with USAID that where there's a will, there's a way"}
+{"id": 13, "domain": "foxnews.com", "title": "Federal judge sides with Mahmoud Khalil, halts Trump administration's deportation bid"}
+{"id": 14, "domain": "dailywire.com", "title": "DEI Claims Another Scalp: DNC Diversity Rules Oust David Hogg"}
+{"id": 15, "domain": "foxnews.com", "title": "Activist Democrat Maxine Waters campaign to pay $68 thousands for violating multiple election rules"}
+{"id": 16, "domain": "self.Conservative", "title": "Mark Steyn's weekly Q&A 'Surrendering to the Left's Framing' 6-11-25"}
+{"id": 17, "domain": "hotair.com", "title": "Hogg Kicked Out of DNC - Is Democracy under attack?"}
+{"id": 18, "domain": "redstate.com", "title": "Unending Sophistry of Leftists Gaslighting About the 'Mostly Peaceful' Riots"}
+{"id": 19, "domain": "spectator.org", "title": "Such a Joke: LA ‘Riots’ and the Brutal Zionist Kidnaping of Greta Thunberg and Her Hummus for Hamas"}
+{"id": 20, "domain": "townhall.com", "title": "U.S. District Judge Rules Trump Administration Cannot Deport or Detain Pro-Hamas Activist Mahmoud Khalil"}
+{"id": 21, "domain": "newportdispatch.com", "title": "Canadian father and son plead guilty to illegal border crossing in Derby Line"}
+{"id": 22, "domain": "townhall.com", "title": "Will Israel Attack Iran? Tensions Increase in the Middle East"}
+{"id": 23, "domain": "city-journal.org", "title": "L.A. “Protest” Is not Organic—It's Organized"}
+{"id": 24, "domain": "notthebee.com", "title": "This AI music video of this week's timeline has me rolling"}
+{"id": 25, "domain": "foxnews.com", "title": "ICE officers assaulted by illegal immigrant during Nebraska meat plant raid: DHS"}
+{"id": 26, "domain": "foxnews.com", "title": "European nation agrees to 'temporarily' host deported immigrants from US amid Trump push"}
+{"id": 27, "domain": "townhall.com", "title": "No, Governor — The Founders Wouldn’t Have Let LA Burn for Politics"}
+{"id": 28, "domain": "townhall.com", "title": "About That US Army Soldier Who Was Caught Defecting to ProRiot Leftists..."}
+{"id": 29, "domain": "newsmax.com", "title": "Mayor Eric Adams to Newsmax: We Won't Allow You to Destroy Our City"}
+{"id": 30, "domain": "telegraph.co.uk", "title": "The Democrat mayor in denial about the violence ripping her city apart"}
+{"id": 31, "domain": "i.redd.it", "title": "notice"}
+{"id": 32, "domain": "dhs.gov", "title": "ICE Arrests Illegal Alien for Molotov Cocktail Attack on Law Enforcement Caught on Video"}
+{"id": 33, "domain": "self.Conservative", "title": "Denmark approves US military bases on Danish soil as Trump eyes Greenland"}
+{"id": 34, "domain": "foxnews.com", "title": "California looters now face 'hard-charging' consequences after blue state abandoned soft-on-crime approach"}
+{"id": 35, "domain": "x.com", "title": "They thought we’d forget. We will never forget."}
+{"id": 36, "domain": "justthenews.com", "title": "Rioters and supporters are invoking Mexico’s past ownership of much of the western United States to claim a heritage and tie to the land that predates American ownership. Is California becoming America's \"Palestine\"?"}
+{"id": 37, "domain": "breitbart.com", "title": "Ilhan Omar’s Daughter Applauds Anti-ICE Riots, Urges ‘Death’ to ‘Colonial Empire’: U.S. and Israel ‘One Oppressor’"}
+{"id": 38, "domain": "breitbart.com", "title": "Media Defend Mexican Flag Being Flown at L.A. Riots: 'Tradition'; 'Diversity'"}
+{"id": 39, "domain": "x.com", "title": "What would happen if an American rioted in Mexico?"}
+{"id": 40, "domain": "hungarianconservative.com", "title": "Woke Activist Doxxing ICE Agents Gets Busted and Begs for Forgiveness"}
+{"id": 41, "domain": "hollywoodreporter.com", "title": "Box Office: Ballerina Opens to Soft $25M, Lilo & Stitch Still No. 1"}
+{"id": 42, "domain": "theblaze.com", "title": "David Hogg removed as DNC vice chair, attacks Democrats weeks after spilling beans to undercover reporter"}
+{"id": 43, "domain": "redstate.com", "title": "How the Association of Plastics Recyclers Manufactures a Crisis for Profit"}
+{"id": 44, "domain": "dailywire.com", "title": "Trump To Slash California’s Far-Reaching EV Mandates: ‘Never Achievable’"}
+{"id": 45, "domain": "nypost.com", "title": "'Woke right' influencer bullies pose a true political danger"}
+{"id": 46, "domain": "notthebee.com", "title": "Democrats had this mom testify that she'll starve without food stamps"}
+{"id": 47, "domain": "hotair.com", "title": "This Really Does Qualify as an Insurrection"}
+{"id": 48, "domain": "self.Conservative", "title": "Is anyone else the only conservative at work?"}
+{"id": 49, "domain": "washingtonexaminer.com", "title": "Why Biden’s doctor could be untouchable in autopen investigation"}
+{"id": 50, "domain": "telegraph.co.uk", "title": "Trump’s border tsar: We’ll flood liberal cities with ICE raids"}
+{"id": 51, "domain": "hotair.com", "title": "BREAKING: FBI Arrests Riot Supplier, Charges Conspiracy"}
+
+====================Input File End======================
+
+
+
