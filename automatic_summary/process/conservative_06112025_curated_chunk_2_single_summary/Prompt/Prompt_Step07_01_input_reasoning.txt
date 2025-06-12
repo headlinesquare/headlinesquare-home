@@ -1,0 +1,73 @@
+**Step 7 (logic-heavy)**
+
+Add the URLs: 
+
+Now, I will provide you again with the original full JSON record (news_list_with_URLs.jsonl) of all news articles again, as you saw in Step 1, but this time, with actual URLs attached. To do this task, you look at the [original ID: xx] tag of each cited article, and then precisely retrieve its full URL from the original full JSON record, as given below. Please add the URLs from the original full JSON record to the reference list sections of the summary you wrote in Step 6, so that readers can directly access these articles. Please make sure the article titles in the reference lists agree **exactly** with the original full JSON record, so that the titles are accurately preserved after our long process. If not, please copy the titles from the original full JSON record to the reference lists. 
+
+Remember, the reference lists as in step6.txt were broken into small chunks. Each paragraph of summary has its reference list directly under it. In this step, the reference lists should keep that way. There should not be a long reference list at the end of the document. In the reference lists, we should only have the article titles and URLs to the actual articles, formatted in this way: [1] TITLE, URL \n\n [2] TITLE, URL. Both the titles and URLs should agree **exactly** with the original full JSON record. Compile all your results in a simple text file (step7.txt).
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+
+Original Full JSON Record (news_list_with_URLs.jsonl):
+
+
+====================Input File Start====================
+
+**ID range is 55-107, total number of articles is 53.**
+
+{"id": 55, "domain": "thefederalist.com", "title": "The West Is Finally Realizing The Ancient Truth That Open Borders Kill Nations", "url": "https://thefederalist.com/2025/06/11/the-west-is-finally-realizing-the-ancient-truth-that-open-borders-kill-nations/"}
+{"id": 56, "domain": "theblaze.com", "title": "Karen Bass finally does her job — but only after Trump vows to 'liberate' Los Angeles", "url": "https://www.theblaze.com/news/karen-bass-finally-does-her-job-but-only-after-trump-vows-to-liberate-los-angeles"}
+{"id": 57, "domain": "thecrimson.com", "title": "House Committee To Investigate Harvard’s Hiring Practices for Racial Discrimination", "url": "https://www.thecrimson.com/article/2025/6/11/harvard-hiring-house-investigation/"}
+{"id": 58, "domain": "foxnews.com", "title": "ICE arrests illegal immigrant who threw Molotov cocktail during LA riots: DHS", "url": "https://www.foxnews.com/us/illegal-alien-charged-attempted-murder-throwing-molotov-cocktail-officers-la-riots-dhs"}
+{"id": 59, "domain": "the-sun.com", "title": "Trump intel chief Tulsi Gabbard warns of nuclear ‘annihilation’ & slam ‘elites with bomb shelters’ in puzzling vid", "url": "https://www.the-sun.com/news/14451577/trump-gabbard-nuclear-warning"}
+{"id": 60, "domain": "foxnews.com", "title": "Rodney King riots officer says LA mayor acted ‘too late’ as antiICE violence engulfs city", "url": "https://www.foxnews.com/us/rodney-king-riots-officer-says-la-mayor-acted-too-late-anti-ice-violence-engulfs-city"}
+{"id": 61, "domain": "newsmax.com", "title": "NBC News: ICE Arresting Migrants After Case Dismissals", "url": "https://www.newsmax.com/us/ice-immigration-judges/2025/06/11/id/1214461/"}
+{"id": 62, "domain": "breitbart.com", "title": "Trump’s Golden Era Continues: Far left ABC News Fires Terry Moran", "url": "https://www.breitbart.com/the-media/2025/06/11/nolte-trumps-golden-era-continues-far-left-abc-news-fires-terry-moran/"}
+{"id": 63, "domain": "dailywire.com", "title": "‘What A Mythomaniac!’: Greta Thunberg Fakes Being Handcuffed After Being Deported From Israel", "url": "https://www.dailywire.com/news/what-a-mythomaniac-greta-thunberg-fakes-being-handcuffed-after-being-deported-from-israel"}
+{"id": 64, "domain": "townhall.com", "title": "This GOP Senator Just Dropped the Hammer on Those Funding LA Riots", "url": "https://townhall.com/tipsheet/jeff-charles/2025/06/11/josh-hawley-launches-investigation-into-funding-for-la-riots-n2658623"}
+{"id": 65, "domain": "nypost.com", "title": "Exclusive | President Trump says he 'could' reconcile with Elon Musk: 'I don't blame him for anything'", "url": "https://nypost.com/2025/06/11/us-news/president-trump-says-he-could-reconcile-with-elon-musk-i-dont-blame-him-for-anything/"}
+{"id": 66, "domain": "redstate.com", "title": "Another Violent LA Riots Illegal Gets Nabbed by ICE, and This Guy's Gonna Wish He Stayed in Mexico", "url": "https://redstate.com/sister-toldjah/2025/06/11/another-violent-la-riots-illegal-gets-nabbed-by-ice-and-this-guys-gonna-wish-he-stayed-in-mexico-n2190343"}
+{"id": 67, "domain": "nypost.com", "title": "DOJ employee charged with capital murder after spiking pregnant girlfriend’s coffee with abortion pills: sheriff", "url": "https://nypost.com/2025/06/10/us-news/doj-employee-spiked-happily-pregnant-girlfriends-coffee-with-abortion-pills-sheriff/"}
+{"id": 68, "domain": "nypost.com", "title": "Exclusive | Donald Trump responds to Elon Musk's apology after public feud", "url": "https://nypost.com/2025/06/11/us-news/donald-trump-responds-to-elon-musks-apology-after-public-feud/"}
+{"id": 69, "domain": "notthebee.com", "title": "Gavin Newsom is watching his 2028 hopes incinerate in those “mostly peaceful” riots", "url": "https://notthebee.com/takes/gavin-newsom-is-watching-his-2028-hopes-incinerate-in-those-mostly-peaceful-riots"}
+{"id": 70, "domain": "issuesinsights.com", "title": "The Joe Biden Riots", "url": "https://issuesinsights.com/2025/06/10/the-joe-biden-riots/"}
+{"id": 71, "domain": "breitbart.com", "title": "Katy Perry Rages About Illegal Migrants 'Hunted Like Criminals in Their Own Ancestral Home'", "url": "https://www.breitbart.com/entertainment/2025/06/11/katy-perry-illegal-migrants-hunted-like-criminals-in-their-own-ancestral-home/"}
+{"id": 72, "domain": "dailycaller.com", "title": "NPR Had Cocaine Dealer On Staff, According To Veteran Journalist", "url": "https://dailycaller.com/2025/06/11/npr-cocaine-dealer-journalist-steve-oney-mediaite/?utm_campaign=dcfb&utm_source=dlvr.it&utm_medium=facebook"}
+{"id": 73, "domain": "cryptominute.ai", "title": "Trump plans to remove Powell before his term ends", "url": "https://www.cryptominute.ai/news/25798"}
+{"id": 74, "domain": "babylonbee.com", "title": "‘Why Would Trump Do This?’ Cries Gavin Newsom After Getting Head Stuck In Banister", "url": "https://babylonbee.com/news/why-would-trump-do-this-cries-gavin-newsom-after-getting-head-stuck-in-banister"}
+{"id": 75, "domain": "washingtonexaminer.com", "title": "Meta rakes in ad revenue helping the CCP export propaganda", "url": "https://www.washingtonexaminer.com/news/investigations/3435965/meta-rakes-in-ad-revenue-ccp-propaganda/"}
+{"id": 76, "domain": "twitchy.com", "title": "Trump's ICE Crackdown: DHS Sparks Social Media Frenzy with Call to Report Illegal Immigration", "url": "https://twitchy.com/justmindy/2025/06/11/homeland-security-uncle-sam-poster-n2414101"}
+{"id": 77, "domain": "self.Conservative", "title": "U.S. House of Representatives votes to repeal law that allows non-citizens to vote in Washington D.C. elections", "url": "/r/Conservative/comments/1l8z6o9/us_house_of_representatives_votes_to_repeal_law/"}
+{"id": 78, "domain": "self.Conservative", "title": "Epoch TImes: Federal Judge Rejects Gov Gavin Newsom’s Request to Block Trump’s Troop Deployments in LA", "url": "/r/Conservative/comments/1l8zdzo/epoch_times_federal_judge_rejects_gov_gavin/"}
+{"id": 79, "domain": "v.redd.it", "title": "Zohran Mamdani, an antisemite and anti Hindu Islamist, is spreading absolute lies about Modi and India", "url": "https://v.redd.it/onkdde7o4c6f1"}
+{"id": 80, "domain": "i.redd.it", "title": "Inflation Highest In Democrat States, Lowest In Republican Deep South", "url": "https://i.redd.it/3glwb2kc8c6f1.jpeg"}
+{"id": 81, "domain": "jonathanturley.org", "title": "Trump Did It: Executives and Administrators Are Increasingly Using TDI to Fight DE", "url": "https://jonathanturley.org/2025/06/09/trump-did-it-executives-and-administrators-are-increasingly-using-tdi-to-fight-dei/"}
+{"id": 82, "domain": "thespectator.com", "title": "What’s the matter with Los Angeles? How ‘the better city’ has gone from bad to worse", "url": "https://thespectator.com/topic/whats-the-matter-with-los-angeles/"}
+{"id": 83, "domain": "thefp.com", "title": "Mike Huckabee on Gaza, Iran, and MAGA’s Foreign Policy War", "url": "https://www.thefp.com/p/mike-huckabee-on-gaza-iran-and-maga-foreign-policy"}
+{"id": 84, "domain": "reason.com", "title": "New Mexico Appeals Court Dismisses Suit Seeking to Compel Greater Environmental Regulation under State Constitution", "url": "https://reason.com/volokh/2025/06/11/new-mexico-appeals-court-dismisses-suit-seeking-to-compel-greater-environmental-regulation-under-state-constitution/"}
+{"id": 85, "domain": "babylonbee.com", "title": "Waymo Car Achieves Sentience At Worst Possible Moment", "url": "https://babylonbee.com/news/waymo-car-achieves-sentience-at-worst-possible-moment"}
+{"id": 86, "domain": "freebeacon.com", "title": "Trump EPA Rescinds Biden-Era Rules That Would Have Forced Power Plants To Shutter", "url": "https://freebeacon.com/energy/trump-epa-rescinds-biden-era-rules-that-would-have-forced-power-plants-to-shutter/"}
+{"id": 87, "domain": "spiked-online.com", "title": "Inside the mind of the woke", "url": "https://www.spiked-online.com/video/inside-the-mind-of-the-woke/"}
+{"id": 88, "domain": "redstate.com", "title": "New: United States Preparing to Evacuate Embassy in Iraq", "url": "https://redstate.com/wardclark/2025/06/11/new-united-states-preparing-to-evacuate-embassy-in-iraq-n2190352"}
+{"id": 89, "domain": "hotair.com", "title": "Guess Which Side of the National Guard Debate the L.A. Cops Support", "url": "https://hotair.com/david-strom/2025/06/11/guess-which-side-of-the-national-guard-debate-the-la-cops-support-n3803686"}
+{"id": 90, "domain": "dailydropnews.com", "title": "In effort to make peace, Hegseth announces cuts on aid to Ukraine", "url": "https://www.dailydropnews.com/post/according-to-hegseth-ukraine-set-to-lose-military-aid"}
+{"id": 91, "domain": "self.Conservative", "title": "Would you classify the LA 2025 protests as \"mostly peaceful\" as the media says they are?", "url": "/r/Conservative/comments/1l92ev6/would_you_classify_the_la_2025_protests_as_mostly/"}
+{"id": 92, "domain": "self.Conservative", "title": "Will you all join me in reciting the Liberal Prayer?", "url": "/r/Conservative/comments/1l92l43/will_you_all_join_me_in_reciting_the_liberal/"}
+{"id": 93, "domain": "babylonbee.com", "title": "Touching: Reconciled Trump And Musk Recreate Rocky III Beach Scene", "url": "https://babylonbee.com/news/back-together-trump-and-elon-reunite-on-beach-in-emotional-scene"}
+{"id": 94, "domain": "hoover.org", "title": "Dollar Dominance", "url": "https://www.hoover.org/research/dollar-dominance"}
+{"id": 95, "domain": "self.Conservative", "title": "Why do people think coming to America is a human right?", "url": "/r/Conservative/comments/1l93z4o/why_do_people_think_coming_to_america_is_a_human/"}
+{"id": 96, "domain": "foxnews.com", "title": "Senator launches investigation into Democratic org over potential support for LA rioters", "url": "https://www.foxnews.com/politics/senator-launches-investigation-democratic-org-over-potential-support-la-rioters"}
+{"id": 97, "domain": "foxnews.com", "title": "AOC downplays LA riots as mere 'teens' throwing rocks, pins blame on Trump", "url": "https://www.foxnews.com/politics/aoc-dismisses-la-rioters-mere-teens-throwing-rocks-pins-blame-trump"}
+{"id": 98, "domain": "breitbart.com", "title": "Schweizer: Los Angeles Riots Coming Soon to a Town Near You", "url": "https://www.breitbart.com/national-security/2025/06/11/schweizer-los-angeles-riots-coming-soon-to-a-town-near-you/"}
+{"id": 99, "domain": "nypost.com", "title": "Illegal migrant rioter charged with hurling Molotov cocktail at LA cops was once deported", "url": "https://nypost.com/2025/06/11/us-news/illegal-migrant-rioter-charged-with-hurling-molotov-at-la-cops/"}
+{"id": 100, "domain": "self.Conservative", "title": "“No one is illegal on Stolen Land”", "url": "/r/Conservative/comments/1l9462z/no_one_is_illegal_on_stolen_land/"}
+{"id": 101, "domain": "washingtonexaminer.com", "title": "Judges signal openness to moving Trump criminal case to federal court - Washington Examiner", "url": "https://www.washingtonexaminer.com/news/3438359/judges-signal-openness-move-criminal-case-trump-federal-court/"}
+{"id": 102, "domain": "newsbusters.org", "title": "MESSING WITH TEXAS: Soros Funneled $8.3M into Leftist Group Trying to Turn Lone Star State Blue", "url": "https://www.newsbusters.org/blogs/business/joseph-vazquez/2025/06/11/messing-texas-soros-funneled-83m-leftist-group-trying-turn"}
+{"id": 103, "domain": "lifenews.com", "title": "Three Years After Dobbs, Americans are Becoming More Pro-Life on Abortion", "url": "https://www.lifenews.com/2025/06/11/three-years-after-dobbs-americans-are-becoming-more-pro-life-on-abortion/"}
+{"id": 104, "domain": "hotair.com", "title": "CNN: Guess Which Voter Demo Has Gone Wildly MAGA?", "url": "https://hotair.com/ed-morrissey/2025/06/11/cnn-guess-which-voter-demo-has-gone-wildly-maga-n3803683"}
+{"id": 105, "domain": "washingtonexaminer.com", "title": "DNC votes to void David Hogg's election", "url": "https://www.washingtonexaminer.com/news/campaigns/3438397/dnc-vote-vice-chair-leadership-elections-david-hogg/"}
+{"id": 106, "domain": "americanexperiment.org", "title": "Federal law enforcement seizes 900 pounds of methamphetamine from cartel while local ‘leaders’ focus on feelings", "url": "https://www.americanexperiment.org/federal-law-enforcement-seizes-900-pounds-of-methamphetamine-from-cartel-while-local-leaders-focus-on-feelings/"}
+{"id": 107, "domain": "dailycaller.com", "title": "GOP Congressmen Literally Groan As Dem Rep Plays ‘Woman’ Card With Scott Bessent | The Daily Caller", "url": "https://dailycaller.com/2025/06/11/gop-reps-linda-sanchez-woman-card-scott-bessent/"}
+
+====================Input File End======================
