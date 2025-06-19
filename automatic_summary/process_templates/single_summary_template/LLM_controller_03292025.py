@@ -35,8 +35,8 @@ st.title("Automated LLM Multi-Turn Conversation (Streaming)")
 # Feb 12, 2025
 # Pricing: openai/o3-mini-high $1.1/M input tokens, $4.4/M output tokens
 # Now Hybrid
-REASONING_MODEL = "openai/o3-mini-high"
-WRITING_MODEL = "anthropic/claude-3.7-sonnet:thinking"
+# REASONING_MODEL = "openai/o3-mini-high"
+# WRITING_MODEL = "anthropic/claude-3.7-sonnet:thinking"
 
 # Anthropic
 # Feb 24, 2025
@@ -50,6 +50,12 @@ WRITING_MODEL = "anthropic/claude-3.7-sonnet:thinking"
 # 03/28/2025 doesn't work
 # REASONING_MODEL = "google/gemini-2.5-pro-exp-03-25:free"
 # WRITING_MODEL = "google/gemini-2.5-pro-exp-03-25:free"
+
+# Gemini
+# Jun 18, 2025
+# Pricing: $1.25/M input tokens, $10/M output tokens
+REASONING_MODEL = "google/gemini-2.5-pro-preview"
+WRITING_MODEL = "google/gemini-2.5-pro-preview"
 
 # DeepSeek
 # Pricing: Free
