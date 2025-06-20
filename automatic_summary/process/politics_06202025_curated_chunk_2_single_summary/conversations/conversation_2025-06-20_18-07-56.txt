@@ -1,3 +1,17 @@
+
+============================================================
+    REASONING_MODEL: google/gemini-2.5-pro-preview
+    WRITING_MODEL: google/gemini-2.5-pro-preview
+============================================================
+
+
+
+
+====================
+    Round 1
+    User: 
+====================
+
 **Imagine you are Chief News Analyst for both Democratic and Republican leadership in Congress.**
 
 This is not normal politics — America faces an unprecedented situation. The time is June, 2025. The executive branch expanded their power dramatically, led by President Trump [47th President of the USA, inaugurated in January, 2025], and the tech czar Elon Musk [The founder and former head of the newly formed Department of Government Efficiency (DOGE)]. Proponents say that it leads to a golden age of America. Critics say that it is an enormously authoritarian and kleptocratic power grab. Later, Elon Musk left DOGE, but his influence continues. 
@@ -390,10 +404,218 @@ All following Reddit news posts are from a specific subreddit. Here is introduct
 
 ====================Input File Start====================
 
-++++++++++++++++++++Paste Here++++++++++++++++++++++++++
+**All following Reddit news posts are from the subreddit r/politics.**
+
+The r/politics subreddit on Reddit is a community focused on discussing and sharing news, analysis, and commentary related to U.S. politics. It's primarily a hub for:
+Breaking political news
+Opinion pieces and editorials
+Legislation and policy discussions
+Elections, political figures, and government actions
+
+It's moderated to focus on U.S.-centric content and generally avoids memes or low-effort posts. The subreddit can have a progressive or liberal-leaning tone, depending on the community's engagement, though it hosts a range of political perspectives.
 
 ====================Input File End======================
 
 ---
 
 Please tell me you are ready, and I will provide the JSONL lines in my next prompt.
+
+
+====================
+    Round 1
+    Assistant: 
+====================
+
+I am ready.
+
+I have assimilated my role as Chief News Analyst for both Democratic and Republican congressional leadership. I understand the political landscape of June 2025 as you have outlined it, including the results of the 2024 election, the current composition of the executive and legislative branches, and the broader global context.
+
+My primary directive is to transform a curated news feed from the r/politics subreddit into a single, objective, and actionable Daily Briefing for a bipartisan audience. I will adhere strictly to the information provided in the news feed and the background documents, recognizing that my own internal knowledge is outdated. Factual accuracy and the mitigation of interpretive bias will be my highest priorities.
+
+I am prepared to follow the meticulous 8-step workflow, completing each step sequentially and in full with each response.
+
+Please provide the JSONL-formatted news feed. I am ready to begin Step 1.
+
+
+====================
+    Round 2
+    User: 
+====================
+
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 99-196, total number of articles is 98.**
+
+{"id": 99, "domain": "vermontpublic.org", "title": "Disappointed with new cannabis law, small growers raise concerns about their survival"}
+{"id": 100, "domain": "foxnews.com", "title": "Newt Gingrich: Trump and Netanyahu will change history decisively"}
+{"id": 101, "domain": "huffpost.com", "title": "Appeals Court Lets Trump Keep Control Of National Guard Troops Deployed To LA During Protests"}
+{"id": 102, "domain": "nytimes.com", "title": "The Supreme Court’s Blindness to Transgender Reality"}
+{"id": 103, "domain": "usatoday.com", "title": "JD Vance heads to Los Angeles to meet troops deployed against protesters"}
+{"id": 104, "domain": "latintimes.com", "title": "GOP Sen. Warns Trump's 'Big. Beautiful Bill' Faces 'Nightmare Scenario' - Sen. Josh Hawley warned that recent Medicaid changes will prevent the bill from being passed in the House"}
+{"id": 105, "domain": "spiegel.de", "title": "John Bolton on What Trump Might Do in Iran: \"For Trump, It's Now a Matter of Saving Face\""}
+{"id": 106, "domain": "peoplesworld.org", "title": "Medicaid cuts in the Big Ugly Bill threaten insured workers too"}
+{"id": 107, "domain": "nbcnews.com", "title": "How opponents on the left are banding together to try to stop Andrew Cuomo in New York City | The city's ranked choice voting system has become a key piece of the campaign for mayor, with Zohran Mamdani and other candidates building alliances against Cuomo."}
+{"id": 108, "domain": "newrepublic.com", "title": "Trump Threatens to Deploy More Troops After Terrifying Legal Win"}
+{"id": 109, "domain": "thedailybeast.com", "title": "Americans Want to Force Presidents to Release Health Records After Trump’s Bonkers Golf Brag Memo. A poll also found that most voters want age limits on elected officials."}
+{"id": 110, "domain": "ncnewsline.com", "title": "“No Kings” event in a deep red NC county unites unusual allies"}
+{"id": 111, "domain": "haaretz.com", "title": "'TACO Syndrome' Could Tempt Trump to Ride the Wave of Israel's Success and Join the War Against Iran"}
+{"id": 112, "domain": "nytimes.com", "title": "Europe’s Growing Fear: How Trump Might Use U.S. Tech Dominance Against It"}
+{"id": 113, "domain": "wired.com", "title": "6 Tools for Tracking the Trump Administration’s Attacks on Civil Liberties"}
+{"id": 114, "domain": "theguardian.com", "title": "From LA to Paris, the populist right hates cities – and it’s fuelled by a sense of bitter defeat"}
+{"id": 115, "domain": "theintercept.com", "title": "How Democratic Party Leaders Quietly Support Trump's March to War With Iran"}
+{"id": 116, "domain": "nbcnews.com", "title": "In a scathing dissent, Justice Jackson says the Supreme Court gives the impression it favors 'moneyed interests' | In an environmental case, the liberal justice questioned whether the high court treats business interests differently from \"less powerful litigants.\""}
+{"id": 117, "domain": "salon.com", "title": "\"We are heartbroken\": Hospitalized lawmaker and wife recount assassination attempt"}
+{"id": 118, "domain": "cnbc.com", "title": "Supreme Court rejects fast-track of Trump tariff challenge by toy companies"}
+{"id": 119, "domain": "latintimes.com", "title": "GOP Lawmaker Berated After Urging Users to 'Reject Marx' in Support of Privatizing Public Lands: 'So Roosevelt Was a Marxist?'"}
+{"id": 120, "domain": "theguardian.com", "title": "Pandemic preparedness ‘dramatically eroding’ under Trump, experts say"}
+{"id": 121, "domain": "advocate.com", "title": "Gay weddings have boosted state and local economies by $6 billion since marriage equality. It's not just a legal right — marriage equality is simply good for the economy."}
+{"id": 122, "domain": "utahpoliticalwatch.news", "title": "Utah GOP lawmakers scramble to defend Sen. Mike Lee's public land sale to pay for tax cuts"}
+{"id": 123, "domain": "msnbc.com", "title": "Mark Esper 'has more guts and balls than you,' Sen. Elissa Slotkin tells Secretary Hegseth"}
+{"id": 124, "domain": "theguardian.com", "title": "White House moves to keep costly, dirty, unneeded Michigan coal plants open"}
+{"id": 125, "domain": "cbsnews.com", "title": "National monument honoring Emmett Till at risk of removal due to Trump's anti-DEI initiatives, budget cuts"}
+{"id": 126, "domain": "independent.co.uk", "title": "‘Black history is American history’: Biden commemorates Juneteenth in Texas as Trump claims there are ‘too many’ holidays in the U.S."}
+{"id": 127, "domain": "nytimes.com", "title": "How Trump’s Metals Tariffs Could Make Food and Beer Cans More Expensive"}
+{"id": 128, "domain": "latimes.com", "title": "By wearing masks, immigration agents undermine authority and endanger us all"}
+{"id": 129, "domain": "thehill.com", "title": "Judge orders release of former Columbia University activist Mahmoud Khalil"}
+{"id": 130, "domain": "washingtonpost.com", "title": "Netanyahu chose this war. Israel should finish the job itself."}
+{"id": 131, "domain": "al.com", "title": "Trump’s effort to ‘whitewash history’ at national parks is backfiring"}
+{"id": 132, "domain": "mlive.com", "title": "Slotkin tells Defense Secretary Hegseth to ‘be a man’ over Trump admin’s military actions"}
+{"id": 133, "domain": "newsweek.com", "title": "Supreme Court hands Donald Trump a legal win over tariffs"}
+{"id": 134, "domain": "msnbc.com", "title": "As Trump floats special prosecutor on 2020, he should be careful what he wishes for"}
+{"id": 135, "domain": "thenation.com", "title": "Economists Support Zohran Mamdani’s Plan for New York City | Zohran Mamdani’s mayoral platform is a practical blueprint to tackle some of New York City’s most pressing problems."}
+{"id": 136, "domain": "theintercept.com", "title": "Under GOP Budget Bill, you’d have to be rich to sue the Trump Administration"}
+{"id": 137, "domain": "19thnews.org", "title": "How doctors are preparing for RFK Jr.’s shifts on vaccine policy"}
+{"id": 138, "domain": "newsweek.com", "title": "Trump Considering Asbestos Ban Reversal Sparks Warning: 'Lives at Risk'"}
+{"id": 139, "domain": "commondreams.org", "title": "Trump’s Military Parade Is Only the Tip of the Pentagon Waste Iceberg"}
+{"id": 140, "domain": "newsweek.com", "title": "Donald Trump's approval rating is backsliding"}
+{"id": 141, "domain": "bloomberg.com", "title": "Thriving Southern Cities Face Economic Threat From Funding Cuts"}
+{"id": 142, "domain": "thetimes.com", "title": "‘RFK Jr is a disaster’: Staff describe chaos in ‘anti-science’ regime"}
+{"id": 143, "domain": "politico.com", "title": "Majority of staff axed at Voice of America"}
+{"id": 144, "domain": "nydailynews.com", "title": "Daily News calls Adams’ ban of City Hall reporter unconstitutional, demands reversal"}
+{"id": 145, "domain": "sfgate.com", "title": "They voted red in California. Now the land they love is in danger."}
+{"id": 146, "domain": "apnews.com", "title": "Federal judge blocks Trump effort to keep Harvard from hosting foreign students"}
+{"id": 147, "domain": "commondreams.org", "title": "Federal Judge Orders Release of Palestine Defender Mahmoud Khalil"}
+{"id": 148, "domain": "techdirt.com", "title": "Yes, The FTC Wants You To Think The Internet Is The Enemy To The Great American Family"}
+{"id": 149, "domain": "peoplesworld.org", "title": "Troops everywhere? Trump may send military to occupy more U.S. cities"}
+{"id": 150, "domain": "jeffries.house.gov", "title": "Leader Jeffries Statement On Recent Developments In The Middle East"}
+{"id": 151, "domain": "nytimes.com", "title": "U.S. Spy Agencies Assess Iran Remains Undecided on Building a Bomb"}
+{"id": 152, "domain": "nbcnews.com", "title": "Trump says U.S. has 'too many non-working holidays' on Juneteenth"}
+{"id": 153, "domain": "theguardian.com", "title": "Federal judge orders release of Mahmoud Khalil from Ice detention"}
+{"id": 154, "domain": "thehill.com", "title": "Former Clinton campaign chief on Democrats: ‘We’re leaderless, we’re messageless, we’re agendaless’"}
+{"id": 155, "domain": "theatlantic.com", "title": "The Myth of the Gen Z Red Wave"}
+{"id": 156, "domain": "thehill.com", "title": "Trump says Gabbard ‘wrong’ on whether Iran’s building a nuclear weapon"}
+{"id": 157, "domain": "truthout.org", "title": "From the Streets of LA to the National Stage: The Left Must Win the Cultural War"}
+{"id": 158, "domain": "nytimes.com", "title": "Trump’s Rebuke of Gabbard Signals an Uneasy Moment"}
+{"id": 159, "domain": "news.bloomberglaw.com", "title": "Meta Threatens to Pull News Content Over Oregon Journalism Bill"}
+{"id": 160, "domain": "bloomberg.com", "title": "Trump Pledge of Quick China Magnet Flows Has Yet to Materialize"}
+{"id": 161, "domain": "huffpost.com", "title": "Proud Boys Say Trump Will Lose Their Support If He Goes To War With Iran"}
+{"id": 162, "domain": "washingtonpost.com", "title": "Court blocks Louisiana law requiring schools to post Ten Commandments in classrooms"}
+{"id": 163, "domain": "aljazeera.com", "title": "Senator Van Hollen: Netanyahu ‘outsmarted’ Trump on Iran"}
+{"id": 164, "domain": "nbcnews.com", "title": "Two weeks' notice: Trump's deadline on Iran is a familiar one"}
+{"id": 165, "domain": "axios.com", "title": "Trump suggests farmers may get to keep undocumented workers after all"}
+{"id": 166, "domain": "apnews.com", "title": "Court blocks Louisiana law requiring schools to post Ten Commandments in classrooms"}
+{"id": 167, "domain": "cnn.com", "title": "Kari Lake follows through on Trump order, axes most of Voice of America’s staff"}
+{"id": 168, "domain": "news10.com", "title": "New York preps for off-year 2025 primary"}
+{"id": 169, "domain": "usatoday.com", "title": "Justice Jackson: Supreme Court appears to favor `monied interests` over ordinary citizens - Jackson's dissent in a case about air pollution rules came two weeks after she said the court may be unintentionally showing preferential treatment for the Trump administration."}
+{"id": 170, "domain": "huffpost.com", "title": "With All These Tariff Flip-Flops, Are Our Groceries Ever Going To Get Cheaper?"}
+{"id": 171, "domain": "huffpost.com", "title": "Trump Calls For Special Prosecutor To Investigate 'Total Fraud' 2020 Election"}
+{"id": 172, "domain": "reuters.com", "title": "US Supreme Court lets fuel producers challenge California emissions standards"}
+{"id": 173, "domain": "npr.org", "title": "Voice of America gutted by Trump adviser Kari Lake"}
+{"id": 174, "domain": "thehill.com", "title": "Texas farmers hit hard as migrant workers avoid ICE"}
+{"id": 175, "domain": "esquire.com", "title": "Congress is still wasting time on Biden's mental acuity"}
+{"id": 176, "domain": "peoplesworld.org", "title": "Supreme Court revives Jim Crow logic in Tennessee anti-trans case"}
+{"id": 177, "domain": "thenation.com", "title": "Why Bernie Sanders Says It’s Critical to Elect Mamdani and Reject Cuomo"}
+{"id": 178, "domain": "thenation.com", "title": "Trump Is Delivering on Project 2025’s Promise to Gut the NLRB"}
+{"id": 179, "domain": "politico.com", "title": "A judge sided with Trump. Behind the scenes, he was lobbying for a nomination."}
+{"id": 180, "domain": "gothamist.com", "title": "Reps. Nadler and Goldman barred from inspecting ICE holding area in NYC"}
+{"id": 181, "domain": "peoplesworld.org", "title": "Trump quietly shutters the only federal agency that investigates industrial chemical explosions"}
+{"id": 182, "domain": "thehill.com", "title": "Trump: ‘Hard’ for Israel to stop strikes now"}
+{"id": 183, "domain": "thehill.com", "title": "Senate parliamentarian knocks pieces out of Trump’s megabill"}
+{"id": 184, "domain": "axios.com", "title": "Louisiana's Ten Commandments law ruled unconstitutional"}
+{"id": 185, "domain": "nytimes.com", "title": "Trump, Iran and the Specter of Iraq: ‘We Bought All the Happy Talk’"}
+{"id": 186, "domain": "newrepublic.com", "title": "Trump Totally Trashes Tulsi Gabbard Over Iran Nuclear Intelligence"}
+{"id": 187, "domain": "nbcnews.com", "title": "Louisiana's Ten Commandments law in public schools blocked by federal appeals court"}
+{"id": 188, "domain": "nbcnews.com", "title": "Pro-Palestinian activist Mahmoud Khalil ordered released by federal judge"}
+{"id": 189, "domain": "newsfromthestates.com", "title": "Judge halts Trump order tying state transportation grants to immigration actions"}
+{"id": 190, "domain": "washingtonexaminer.com", "title": "DNC cash shrinks as leadership fallout continues"}
+{"id": 191, "domain": "theguardian.com", "title": "The anti-Trump camp was in disarray. How has No Kings managed to unite it? | A new slogan has offered a non-partisan rallying point – and last weekend, protests overshadowed the president’s weird military parade"}
+{"id": 192, "domain": "wunc.org", "title": "NC made vouchers open to any family, then many private schools raised tuition"}
+{"id": 193, "domain": "cbsnews.com", "title": "Trump says intelligence director Tulsi Gabbard is \"wrong\" about Iran's nuclear program"}
+{"id": 194, "domain": "sfgate.com", "title": "'No recovery from this': Grand Teton park advocates sound alarm bells"}
+{"id": 195, "domain": "newsfromthestates.com", "title": "U.S. Sen. Padilla blasts Trump 'path toward fascism' in LA immigration crackdown"}
+{"id": 196, "domain": "news5cleveland.com", "title": "'People eventually do rise up': Lack of gun reform in Ohio could prompt ballot measure"}
+
+====================Input File End======================
+
+
+====================
+    Round 2
+    Assistant: 
+====================
+
+Area 1: Executive Branch: Domestic Policy & Actions
+    Topic 1.1: Use of Military & National Guard in U.S. Cities
+    Topic 1.2: Immigration Policy & Enforcement Actions
+    Topic 1.3: Agency Management & Personnel Actions
+    Topic 1.4: Presidential Statements, Approval, & Health
+    Topic 1.5: Symbolic Actions & Cultural Issues
+
+Area 2: National Security & Foreign Affairs
+    Topic 2.1: U.S.-Iran Tensions & Potential for Conflict
+    Topic 2.2: U.S.-Israel Relations & Middle East Dynamics
+    Topic 2.3: International Trade & Diplomatic Relations
+
+Area 3: Congressional & Legislative Affairs
+    Topic 3.1: The Majority Party's Omnibus Legislation ("Big, Beautiful Bill")
+    Topic 3.2: Congressional Oversight & Inter-Branch Relations
+    Topic 3.3: Democratic Party Status & Strategy
+
+Area 4: Judicial & Legal Developments
+    Topic 4.1: Supreme Court Rulings & Dissents
+    Topic 4.2: Federal Court Rulings on Executive & State Actions
+    Topic 4.3: Activist Legal Cases & Detentions
+    Topic 4.4: Presidential Calls for Investigation
+
+Area 5: Domestic Politics, Activism & Civil Liberties
+    Topic 5.1: Public Protests, Activism & Political Movements
+    Topic 5.2: State & Local Governance and Elections
+    Topic 5.3: Civil Liberties, Media Freedom & Government Transparency
+    Topic 5.4: Political Commentary & Demographics
+
+Area 6: Economic, Environmental & Social Policy
+    Topic 6.1: Environmental, Energy & Public Lands Policy
+    Topic 6.2: Healthcare & Public Health Policy
+    Topic 6.3: Economic Conditions & Sector-Specific Issues
+    Topic 6.4: Social Issues & Cultural Debates
+
