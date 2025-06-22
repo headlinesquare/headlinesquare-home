@@ -1,0 +1,78 @@
+**Step 7 (logic-heavy)**
+
+Add the URLs: 
+
+Now, I will provide you again with the original full JSON record (news_list_with_URLs.jsonl) of all news articles again, as you saw in Step 1, but this time, with actual URLs attached. To do this task, you look at the [original ID: xx] tag of each cited article, and then precisely retrieve its full URL from the original full JSON record, as given below. Please add the URLs from the original full JSON record to the reference list sections of the summary you wrote in Step 6, so that readers can directly access these articles. Please make sure the article titles in the reference lists agree **exactly** with the original full JSON record, so that the titles are accurately preserved after our long process. If not, please copy the titles from the original full JSON record to the reference lists. 
+
+Remember, the reference lists as in step6.txt were broken into small chunks. Each paragraph of summary has its reference list directly under it. In this step, the reference lists should keep that way. There should not be a long reference list at the end of the document. In the reference lists, we should only have the article titles and URLs to the actual articles, formatted in this way: [1] TITLE, URL \n\n [2] TITLE, URL. Both the titles and URLs should agree **exactly** with the original full JSON record. Compile all your results in a simple text file (step7.txt).
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+
+Original Full JSON Record (news_list_with_URLs.jsonl):
+
+
+====================Input File Start====================
+
+**ID range is 1-58, total number of articles is 58.**
+
+{"id": 1, "domain": "x.com", "title": "🚨 Trump announces the U.S. has bombed Iran.", "url": "https://x.com/meganmesserly/status/1936572400683938049"}
+{"id": 2, "domain": "dailycaller.com", "title": "Trump announces U.S. bombing of Iran.", "url": "https://dailycaller.com/2025/06/21/trump-announces-iran-bombing/"}
+{"id": 3, "domain": "self.Conservative", "title": "Trump announces that US has completed 'successful' attack on three Iran nuke sites", "url": "/r/Conservative/comments/1lhah1w/trump_announces_that_us_has_completed_successful/"}
+{"id": 4, "domain": "x.com", "title": "The White House (@WhiteHouse) on X \"We have completed our very successful attack on the three Nuclear sites in Iran, including Fordow, Natanz, and Esfahan.\"", "url": "https://x.com/WhiteHouse/status/1936574129009803509"}
+{"id": 5, "domain": "townhall.com", "title": "BREAKING: Trump Launches Assault on Iran's Nuclear Program", "url": "https://townhall.com/tipsheet/katiepavlich/2025/06/21/breaking-us-attacking-iran-n2658931"}
+{"id": 6, "domain": "axios.com", "title": "U.S. strikes Ira nnuclear facilities", "url": "https://www.axios.com/2025/06/21/us-strike-iran-nuclear-israel-trump"}
+{"id": 7, "domain": "i.redd.it", "title": "Donald Trump to address the nation at 10PM regarding the recent strikes on Iran", "url": "https://i.redd.it/6lbhqaq4gd8f1.jpeg"}
+{"id": 8, "domain": "x.com", "title": "Trump to address nation at 10pm EST", "url": "https://x.com/lucasfoxnews/status/1936578530281767026?s=46&t=1vi7Ctm8WvJM-wjjjdJT8w"}
+{"id": 9, "domain": "x.com", "title": "President Trump Confirms the U.S. has conducted successful air strikes to Irans Nuclear Facilities.", "url": "https://x.com/tpantheman/status/1936583228187672963?s=46"}
+{"id": 10, "domain": "v.redd.it", "title": "b2 spirit go burrrrrrr", "url": "https://v.redd.it/fi0xawdrkd8f1"}
+{"id": 11, "domain": "x.com", "title": "Trump told Netanyahu about the attacks yesterday", "url": "https://x.com/disclosetv/status/1936584815685292505?s=19"}
+{"id": 12, "domain": "hotair.com", "title": "The Vance Boelter Story Gets Weird", "url": "https://hotair.com/john-s-2/2025/06/21/the-vance-boelter-story-gets-weird-n3804038"}
+{"id": 13, "domain": "foxnews.com", "title": "Bill Maher says Democrats need to 'do something' about 'The View' after Whoopi Goldberg's Iran comments", "url": "https://www.foxnews.com/media/bill-maher-says-democrats-need-do-something-about-the-view-after-whoopi-goldbergs-iran-comments"}
+{"id": 14, "domain": "i.redd.it", "title": "McCain approves", "url": "https://i.redd.it/wt8380evpd8f1.jpeg"}
+{"id": 15, "domain": "i.redd.it", "title": "PEACE THROUGH STRENGTH", "url": "https://i.redd.it/ztfpiq6xpd8f1.jpeg"}
+{"id": 16, "domain": "redstate.com", "title": "Reaction to Trump's Stunning Attack on Iran Lights Up Social Media", "url": "https://redstate.com/bobhoge/2025/06/21/reaction-to-trumps-stunning-attack-on-iran-lights-up-social-media-n2190751"}
+{"id": 17, "domain": "x.com", "title": "It's easier to come back from a nuclear strike than 5 decades of democratic control", "url": "https://x.com/TedNugent/status/1936142461690073353"}
+{"id": 18, "domain": "hotair.com", "title": "Democrats Would Rather Embrace Crime Than Prevent It", "url": "https://hotair.com/betsy-mccaughey/2025/06/21/democrats-would-rather-embrace-crime-than-prevent-it-n3804010"}
+{"id": 19, "domain": "nypost.com", "title": "Trump says Israel is ‘much safer now’ after eliminating Iran nuke sites", "url": "https://nypost.com/2025/06/21/world-news/us-strikes-iran-live-updates/"}
+{"id": 20, "domain": "self.Conservative", "title": "What’s our thoughts on US taking over Gaza? Still happening or no?", "url": "/r/Conservative/comments/1lhc6rd/whats_our_thoughts_on_us_taking_over_gaza_still/"}
+{"id": 21, "domain": "self.Conservative", "title": "Trump was right to strike Iran", "url": "/r/Conservative/comments/1lhca1u/trump_was_right_to_strike_iran/"}
+{"id": 22, "domain": "x.com", "title": "Sean Hannity: I just spoke to President Trump. Iran’s Nuclear ambitions are “OFFICIALLY DEAD”", "url": "https://x.com/tpantheman/status/1936599670798610903?s=46"}
+{"id": 23, "domain": "x.com", "title": "Trump speech on X", "url": "https://x.com/realdonaldtrump/status/1936603680805097741?s=61"}
+{"id": 24, "domain": "redstate.com", "title": "Confirmed: US Did Use 6 Bunker-Busters to Destroy Iran's Nuke Facilities, Dozens of Tomahawk Missiles", "url": "https://redstate.com/bobhoge/2025/06/21/confirmed-us-deployed-6-bunker-busters-to-destroy-irans-nuke-facilities-dozens-of-tomahawk-missiles-n2190752"}
+{"id": 25, "domain": "havenhomecare.info", "title": "Texas Law Mandates Display Of Ten Commandments In Public School Classrooms", "url": "https://havenhomecare.info/texas-law-mandates-display-of-ten-commandments-in-public-school-classrooms/"}
+{"id": 26, "domain": "x.com", "title": "President Trump: Iran “BULLY” of Middle East must NOW make peace or future attacks “far greater & a lot easier”", "url": "https://x.com/tpantheman/status/1936610175802032506?s=46"}
+{"id": 27, "domain": "x.com", "title": "This one’s for 1st Battalion, 8th Marines.", "url": "https://x.com/aaronbmaclean/status/1936580744912294376?s=61"}
+{"id": 28, "domain": "i.redd.it", "title": "President Trump:", "url": "https://i.redd.it/mmo0of0q4e8f1.jpeg"}
+{"id": 29, "domain": "i.redd.it", "title": "you know that you're fucked when the sky above starts losing pixels", "url": "https://i.redd.it/1jpt4p3d6e8f1.jpeg"}
+{"id": 30, "domain": "i.redd.it", "title": "John McCain right now", "url": "https://i.redd.it/4uqcaxrf7e8f1.jpeg"}
+{"id": 31, "domain": "i.redd.it", "title": "Saturday is for the boys", "url": "https://i.redd.it/vlq40w6j7e8f1.jpeg"}
+{"id": 32, "domain": "i.redd.it", "title": "The GOAT", "url": "https://i.redd.it/xw9719gl7e8f1.jpeg"}
+{"id": 33, "domain": "babylonbee.com", "title": "Report: Toby Keith Smiling Down From Heaven", "url": "https://babylonbee.com/news/toby-keith-smiling-down-from-heaven"}
+{"id": 34, "domain": "i.redd.it", "title": "B2 Supremacy", "url": "https://i.redd.it/7o4tv1m98e8f1.jpeg"}
+{"id": 35, "domain": "x.com", "title": "The moronic obscenity of siding with Iran‘s Ayatollahs", "url": "https://x.com/mr_andrew_fox/status/1936494622169080238?s=61"}
+{"id": 36, "domain": "x.com", "title": "Netanyahu: President Trump and I often say: ‘Peace through strength.’ First comes strength, then comes peace.", "url": "https://x.com/netanyahu/status/1936600958508618192?s=61"}
+{"id": 37, "domain": "i.redd.it", "title": "\"ANY RETALIATION BY IRAN AGAINST THE UNITED STATES OF AMERICA WILL BE MET WITH FORCE FAR GREATER THAN WHAT WAS WITNESSED TONIGHT. THANK YOU! DONALD J. TRUMP, PRESIDENT OF THE UNITED STATES\"", "url": "https://i.redd.it/q28xbfqq9e8f1.jpeg"}
+{"id": 38, "domain": "self.Conservative", "title": "Iran stated Trump started it we will end it", "url": "/r/Conservative/comments/1lhdxrc/iran_stated_trump_started_it_we_will_end_it/"}
+{"id": 39, "domain": "newsmax.com", "title": "Speaker Johnson: 'This Is America First Policy in Action'", "url": "https://www.newsmax.com/draft-stories/house-speaker-mikejohnson/2025/06/21/id/1215924/"}
+{"id": 40, "domain": "foxnews.com", "title": "Bill Maher says Democrats need to 'do something' about 'The View' after Whoopi Goldberg's Iran comments", "url": "https://www.foxnews.com/media/bill-maher-says-democrats-need-do-something-about-the-view-after-whoopi-goldbergs-iran-comments"}
+{"id": 41, "domain": "redstate.com", "title": "The Genius Deception Trump Pulled on Iran Just Before the Attack on the Iranian Nuclear Sites", "url": "https://redstate.com/nick-arama/2025/06/21/the-last-trick-trump-pulled-on-iran-before-the-attack-on-the-iranian-nuclear-sites-n2190753"}
+{"id": 42, "domain": "breitbart.com", "title": "Ocasio-Cortez Calls for Trump to Be Impeached over U.S Strikes on Iran", "url": "https://www.breitbart.com/politics/2025/06/21/ocasio-cortez-calls-for-trump-to-be-impeached-over-u-s-strikes-on-iran/"}
+{"id": 43, "domain": "spectator.co.uk", "title": "Let's call Palestine Action's RAF attack what it is: sabotage", "url": "https://www.spectator.co.uk/article/lets-call-palestine-actions-raf-attack-what-it-is-sabotage/"}
+{"id": 44, "domain": "twitchy.com", "title": "Iran, Look Over Here! Fox News’ Jennifer Griffin Says B-2 Bombers Headed to Guam Were a Distraction", "url": "https://twitchy.com/warren-squire/2025/06/21/fox-news-jennifer-griffin-b-2-bombers-heading-to-guam-were-a-distraction-to-keep-all-eyes-looking-west-n2414573"}
+{"id": 45, "domain": "x.com", "title": "Yemen threatens American ships", "url": "https://x.com/yemenimilitary/status/1936599987586224347?s=46"}
+{"id": 46, "domain": "washingtonexaminer.com", "title": "Iran asked for it. Trump delivered. - Washington Examiner", "url": "https://www.washingtonexaminer.com/opinion/columnists/3450135/iran-asked-for-it-trump-delivered/"}
+{"id": 47, "domain": "foxnews.com", "title": "Trump addresses nation on 'spectacular military success' of US strikes on Iranian nuclear facilities", "url": "https://www.foxnews.com/politics/trump-addresses-nation-spectacular-military-success-us-strikes-iranian-nuclear-facilities"}
+{"id": 48, "domain": "nypost.com", "title": "Trump makes the world a safer place — and shows America means exactly what it says", "url": "https://nypost.com/2025/06/21/opinion/trump-makes-the-world-a-safer-place-and-shows-america-means-exactly-what-it-says/"}
+{"id": 49, "domain": "breitbart.com", "title": "Texas Governor Orders DPS, National Guard to Secure ‘High-Risk Locations’ After U.S. Attack on Iran", "url": "https://www.breitbart.com/border/2025/06/21/texas-governor-orders-dps-national-guard-to-secure-high-risk-locations/"}
+{"id": 50, "domain": "townhall.com", "title": "Trump Praised for Striking Iran’s Nuclear Facilities: 'Did What No Other President Would Do'", "url": "https://townhall.com/tipsheet/saraharnold/2025/06/21/reactions-to-us-striking-iran-nuclear-facilities-n2659216"}
+{"id": 51, "domain": "breitbart.com", "title": "Iran Vows Uranium Enrichment Will Continue Despite U.S. Strikes", "url": "https://www.breitbart.com/middle-east/2025/06/21/iran-vows-uranium-enrichment-will-continue-despite-u-s-strikes/"}
+{"id": 52, "domain": "breitbart.com", "title": "Exclusive: Rasmussen Poll Showed Support for Airstrike on Iran — Not Ground Troops", "url": "https://www.breitbart.com/middle-east/2025/06/21/exclusive-rasmussen-poll-showed-support-for-airstrike-on-iran-not-ground-troops/"}
+{"id": 53, "domain": "townhall.com", "title": "The Problem With Democrats Calling Trump’s Strike on Iran’s Nuclear Program 'Impeachable'", "url": "https://townhall.com/tipsheet/saraharnold/2025/06/21/how-democrats-are-reacting-to-trump-taking-out-irans-nuclear-program-n2659218"}
+{"id": 54, "domain": "ndtv.com", "title": "Iran Hits Israeli Sites, Ben Gurion Airport After US Strike, Israel Fires Back", "url": "https://www.ndtv.com/world-news/iran-attacks-israel-after-us-strikes-nuke-sites-air-sirens-in-tel-aviv-8729617#google_vignette"}
+{"id": 55, "domain": "breitbart.com", "title": "Trump Thanks God After Iran Strike: 'We Love You, God ... Protect' Our Military", "url": "https://www.breitbart.com/faith/2025/06/21/trump-thanks-god-after-iran-strike-we-love-you-god-protect-our-military/"}
+{"id": 56, "domain": "x.com", "title": "'Without Congressional Approval' - here's the facts", "url": "https://x.com/teameffujoe/status/1936632515185315936"}
+{"id": 57, "domain": "breitbart.com", "title": "Chuck Schumer Breaks Silence, Opposes Trump Attack on Iran", "url": "https://www.breitbart.com/middle-east/2025/06/21/chuck-schumer-breaks-silence-opposes-trump-attack-on-iran/"}
+{"id": 58, "domain": "twitchy.com", "title": "Well, THAT'S a New (EPIC) Development! Brit Hume Shares Report That Terrorist Hezbollah Now FEARS Israel", "url": "https://twitchy.com/samj/2025/06/22/western-sources-hezbollah-now-afraid-of-israel-n2414579"}
+
+====================Input File End======================
