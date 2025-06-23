@@ -1,0 +1,122 @@
++++
+date = '2025-06-22T19:15:00-04:00'
+draft = false
+title = '[Sunday, June 22] US News Headlines from r/Conservative'
++++
+
+This is an experimental AI project. 
+We are continuously improving it, but errors can still appear. 
+Feel free to contact us if you spot an error. 
+
+
+## 1. The Iran Crisis: U.S. Military Action and Escalating Fallout
+
+### 1.1 The "Midnight Hammer" Operation: U.S. Strikes on Iranian Nuclear Facilities
+
+The United States has executed a major military operation against the Islamic Republic of Iran's nuclear program. Public awareness began with a direct social media post from President Trump announcing the U.S. had "bombed Iran" [1]. The White House official account subsequently confirmed a "very successful attack on the three Nuclear sites in Iran, including Fordow, Natanz, and Esfahan" [2]. Mainstream media like Axios independently reported the "U.S. strikes" [3], while conservative outlets announced a decisive "Assault on Iran's Nuclear Program" [4].
+
+Emerging details suggest a highly complex and clandestine operation, reportedly codenamed "Midnight Strike Hammer" [5]. A figure identified in one headline as "Chairman of the Joint Chiefs of Staff Dan Caine"—a name not listed in official administration records and requiring verification—claimed the mission was executed with such secrecy that U.S. aircraft faced no hostile fire [5]. Unconfirmed media reports on military tactics claim the U.S. deployed specialized "6 Bunker-Busters" and "Dozens of Tomahawk Missiles" [6]. These reports further suggest strategic misdirection was a key component, with a recent B-2 bomber deployment to Guam described as a deliberate "Distraction" [7] and a "Genius Deception" orchestrated by the administration [8]. One report highlighted the mission's grueling length, noting that B-2 pilots were equipped with a toilet and microwave for their "37-hour Fordow bombing raid" [9]. Initial battle damage assessments appear severe; new satellite imagery is said to reveal "hellish devastation" at the Fordow nuclear plant [10], leading one expert to tell Fox News that Iran's nuclear program is 'no longer' viable [11].
+
+[1] 🚨 Trump announces the U.S. has bombed Iran., https://x.com/meganmesserly/status/1936572400683938049  
+[2] The White House (@WhiteHouse) on X "We have completed our very successful attack on the three Nuclear sites in Iran, including Fordow, Natanz, and Esfahan.", https://x.com/WhiteHouse/status/1936574129009803509  
+[3] U.S. strikes Ira nnuclear facilities, https://www.axios.com/2025/06/21/us-strike-iran-nuclear-israel-trump  
+[4] BREAKING: Trump Launches Assault on Iran's Nuclear Program, https://townhall.com/tipsheet/katiepavlich/2025/06/21/breaking-us-attacking-iran-n2658931  
+[5] This is pretty remarkable stuff from Chairman of the Joint Chiefs of Staff Dan Caine. The mission “Midnight Strike Hammer” was so clandestine, not only was there not a leak beforehand, there wasn’t even shot fired on US aircraft on the way in, or the way out, https://v.redd.it/l25kukqosh8f1  
+[6] Confirmed: US Did Use 6 Bunker-Busters to Destroy Iran's Nuke Facilities, Dozens of Tomahawk Missiles, https://redstate.com/bobhoge/2025/06/21/confirmed-us-deployed-6-bunker-busters-to-destroy-irans-nuke-facilities-dozens-of-tomahawk-missiles-n2190752  
+[7] Iran, Look Over Here! Fox News’ Jennifer Griffin Says B-2 Bombers Headed to Guam Were a Distraction, https://twitchy.com/warren-squire/2025/06/21/fox-news-jennifer-griffin-b-2-bombers-heading-to-guam-were-a-distraction-to-keep-all-eyes-looking-west-n2414573  
+[8] The Genius Deception Trump Pulled on Iran Just Before the Attack on the Iranian Nuclear Sites, https://redstate.com/nick-arama/2025/06/21/the-last-trick-trump-pulled-on-iran-before-the-attack-on-the-iranian-nuclear-sites-n2190753  
+[9] B-2 bomber pilots had toilet, microwave and a cooler for snacks on their 37-hour Fordow bombing raid, https://nypost.com/2025/06/22/us-news/b-2-bomber-pilots-had-toilet-microwave-and-cooler-for-snacks-on-37-hour-fordow-bombing-raid/  
+[10] Satellite Images Reveal the Hellish Devastation Unleashed on Iran's Fordow Nuclear Plant, https://redstate.com/bobhoge/2025/06/22/satellite-images-reveal-the-hellish-devastation-unleashed-on-irans-fordow-nuclear-plant-n2190769  
+[11] Iran nuclear program no longer after U.S. strikes, expert tells Fox News, https://www.foxnews.com/politics/expert-confident-irans-nuclear-program-no-longer-after-massive-us-strike  
+
+### 1.2 Presidential Communications and U.S. Stance
+
+In a national address delivered via X [1], President Trump hailed the strikes as a 'spectacular military success' and asserted that Israel is now 'much safer' [2, 3]. He labeled Iran the "BULLY" of the Middle East, demanding it "must NOW make peace or future attacks" will be "far greater & a lot easier" [4]. The President followed this with an all-caps warning that "ANY RETALIATION BY IRAN" would be "MET WITH FORCE FAR GREATER" [5]. Subsequently, his rhetoric has escalated to include the possibility of regime change, with social media posts carrying the slogan "Make Iran Great Again" [6]. Senior officials have reinforced this hardline posture; Vice President JD Vance warned it would be a 'catastrophic mistake' for Iran to attack U.S. personnel [7], and Secretary of State Marco Rubio defined Iran’s threat to close the Strait of Hormuz as a 'massive escalation' that would demand a serious response [8].
+
+[1] Trump speech on X, https://x.com/realdonaldtrump/status/1936603680805097741?s=61  
+[2] Trump addresses nation on 'spectacular military success' of US strikes on Iranian nuclear facilities, https://www.foxnews.com/politics/trump-addresses-nation-spectacular-military-success-us-strikes-iranian-nuclear-facilities  
+[3] Trump says Israel is ‘much safer now’ after eliminating Iran nuke sites, https://nypost.com/2025/06/21/world-news/us-strikes-iran-live-updates/  
+[4] President Trump: Iran “BULLY” of Middle East must NOW make peace or future attacks “far greater & a lot easier”, https://x.com/tpantheman/status/1936610175802032506?s=46  
+[5] "ANY RETALIATION BY IRAN AGAINST THE UNITED STATES OF AMERICA WILL BE MET WITH FORCE FAR GREATER THAN WHAT WAS WITNESSED TONIGHT. THANK YOU! DONALD J. TRUMP, PRESIDENT OF THE UNITED STATES", https://i.redd.it/q28xbfqq9e8f1.jpeg  
+[6] Make Iran Great Again: President Trump suggests regime change. U.N. security council emergency meeting is underway in NYC., https://x.com/tpantheman/status/1936902508909064610?s=46  
+[7] VP Vance Warns Iran: Would Be 'Catastrophic Mistake' to Attack US Troops, https://www.newsmax.com/newsfront/donald-trump-catastrophic-mistake/2025/06/22/id/1215966/  
+[8] Rubio: Iran Closing Strait of Hormuz Would Be 'Massive Escalation', https://www.breitbart.com/clips/2025/06/22/rubio-iran-closing-strait-of-hormuz-would-be-massive-escalation/  
+
+### 1.3 Iranian Retaliation and Threats
+
+Iran’s response to the U.S. strikes has been defiant and escalatory. Tehran officially vowed that its "Uranium Enrichment Will Continue" [1]. This was immediately followed by a move with severe economic implications: Iran’s Parliament voted to close the Strait of Hormuz, with an official order reportedly issued to block the waterway responsible for about one-fifth of the world’s oil supply [2]. Direct threats of retribution have emanated from the regime's highest levels. The official website of Supreme Leader Ayatollah Ali Khamenei featured a message stating, "Revenge is definite," accompanied by headline commentary noting that Iran "still wants to kill Trump" [3]. This sentiment was echoed in public, where Iran’s President reportedly led a rally in Tehran with chants of 'Revenge, Revenge!' [4]. The potential for conflict has also broadened, with a reported threat from "Yemen" against "American ships," signaling a possible expansion of the crisis into critical maritime shipping lanes via regional proxies [5].
+
+[1] Iran Vows Uranium Enrichment Will Continue Despite U.S. Strikes, https://www.breitbart.com/middle-east/2025/06/21/iran-vows-uranium-enrichment-will-continue-despite-u-s-strikes/  
+[2] Iran orders closure of Strait of Hormuz — putting one-fifth of world’s oil supply at risk, https://nypost.com/2025/06/22/world-news/iran-orders-closure-of-strait-of-hormuz-putting-one-fifth-of-worlds-oil-supply-at-risk/  
+[3] "Revenge is definite" - In case you forgot, Iran still wants to kill Trump, https://english.khamenei.ir/news/8826/Revenge-is-definite  
+[4] Iran’s President Responds to U.S. at Rally in Tehran: ‘Revenge, Revenge!’, https://www.breitbart.com/middle-east/2025/06/22/irans-president-responds-to-us-at-rally-in-tehran-revenge-revenge/  
+[5] Yemen threatens American ships, https://x.com/yemenimilitary/status/1936599987586224347?s=46  
+
+### 1.4 International Reactions and Regional Flashpoints
+
+The global response has been fractured and includes several uncorroborated but high-impact reports of kinetic escalation. One international news source, NDTV, has claimed that "Iran Hits Israeli Sites, Ben Gurion Airport" and that "Israel Fires Back" [1]. Separately, a Fox News report cites an unnamed "Russian leader" who has allegedly claimed that "multiple countries prepped to provide Iran nuclear weapons" following the U.S. attack [2]. The veracity of these two reports cannot be confirmed from the available information, and they represent a potentially catastrophic escalation requiring immediate verification.
+
+Confirmed diplomatic reactions show clear divisions. There are indications of close U.S.-Israeli coordination, with a report that President "Trump told Netanyahu about the attacks yesterday" [3]. Prime Minister Netanyahu publicly endorsed the strategy, stating, "President Trump and I often say: ‘Peace through strength.’ First comes strength, then comes peace" [4]. Western allies, however, are split: Great Britain backed the strikes, while other European nations issued calls for Tehran to de-escalate [5]. The action has also sparked public outrage, with reports of thousands of protesters in The Hague, ahead of a NATO summit, with signs labeling President Trump a 'terrorist' [6].
+
+[1] Iran Hits Israeli Sites, Ben Gurion Airport After US Strike, Israel Fires Back, https://www.ndtv.com/world-news/iran-attacks-israel-after-us-strikes-nuke-sites-air-sirens-in-tel-aviv-8729617#google_vignette  
+[2] Russian leader claims multiple countries prepped to provide Iran nuclear weapons following US strikes, https://www.foxnews.com/politics/russian-leader-claims-multiple-countries-prepped-provide-iran-nuclear-weapons-following-us-strikes  
+[3] Trump told Netanyahu about the attacks yesterday, https://x.com/disclosetv/status/1936584815685292505?s=19  
+[4] Netanyahu: President Trump and I often say: ‘Peace through strength.’ First comes strength, then comes peace., https://x.com/netanyahu/status/1936600958508618192?s=61  
+[5] Britain Backs Trump’s Strikes on Iran, Europeans Call for Tehran to Return to Negotiating Table, https://www.breitbart.com/europe/2025/06/22/britain-backs-trump-strikes-on-iran-europeans-call-for-tehran-to-return-to-negotiating-table/  
+[6] ‘Trump Is a Terrorist’ — Thousands of Leftists Protest Iran Strikes Ahead of Hague NATO Summit, https://www.breitbart.com/europe/2025/06/22/trump-is-a-terrorist-thousands-of-leftists-protest-iran-strikes-ahead-of-hague-nato-summit/  
+
+## 2. U.S. Domestic Political Fallout
+
+### 2.1 Democratic Opposition and Calls for Impeachment
+
+The President’s military action has precipitated an immediate and severe backlash from prominent Democratic figures. Senate Minority Leader Chuck Schumer formally stated his opposition to the attack [1]. The response from the progressive wing has been more forceful, with Representative Alexandria Ocasio-Cortez calling for President Trump "to Be Impeached over U.S Strikes on Iran" [2], arguing the action was unconstitutional because it lacked prior Congressional approval. However, this definitive stance appears to contrast with the party's broader position. One report describes the Democratic response as being in a "tailspin," noting that key figures are 'All over the map' and struggling to formulate a unified strategy [3].
+
+[1] Chuck Schumer Breaks Silence, Opposes Trump Attack on Iran, https://www.breitbart.com/middle-east/2025/06/21/chuck-schumer-breaks-silence-opposes-trump-attack-on-iran/  
+[2] Ocasio-Cortez Calls for Trump to Be Impeached over U.S Strikes on Iran, https://www.breitbart.com/politics/2025/06/21/ocasio-cortez-calls-for-trump-to-be-impeached-over-u-s-strikes-on-iran/  
+[3] Trump’s Iran strike sends Democrats into tailspin over how to respond: ‘All over the map’, https://nypost.com/2025/06/22/us-news/trumps-iran-strike-sends-democrats-into-tailspin-over-how-to-respond/  
+
+### 2.2 Republican Support and Administration Defense
+
+In stark contrast, Republican leadership has offered immediate and firm support. Speaker of the House Mike Johnson endorsed the strikes as the embodiment of a core governing philosophy, declaring, 'This Is America First Policy in Action' [1]. The administration is also actively defending the decision, with Secretary of State Marco Rubio reportedly serving up a "lesson" to a journalist on the strike’s necessity [2]. President Trump has publicly rebuked Republicans who dissent, "pillorying" Representative Thomas Massie for his objections and declaring such a stance is 'Not MAGA' [3]. To counter accusations of hypocrisy, supporters have circulated a 2008 quote from then-Senator Hillary Clinton stating, 'If I am president, we will attack Iran,' to argue for a bipartisan precedent for such a hardline policy [4].
+
+[1] Speaker Johnson: 'This Is America First Policy in Action', https://www.newsmax.com/draft-stories/house-speaker-mikejohnson/2025/06/21/id/1215924/  
+[2] Pure Gold: Rubio Serves Up Another Lesson to CBS' Margaret Brennan on the Iran Strike, https://redstate.com/nick-arama/2025/06/22/rubio-demolishes-brennan-on-iran-n2190764  
+[3] Trump Pillories Rep. Massie: Iran Strike Objections 'Not MAGA', https://www.newsmax.com/politics/donald-trump-thomas-massie-iran/2025/06/22/id/1216005/  
+[4] 'If I am president, we will attack Iran.' - Hillary Clinton, 2008, https://x.com/NowPammsy/status/1936633702097858641  
+
+### 2.3 The War Powers Debate
+
+At the heart of the domestic conflict is the legality of the President's strike order, renewing a long-standing debate over presidential war powers. As opponents call for impeachment based on a lack of congressional authorization, the administration's supporters are countering with a specific legal argument rooted in the War Powers Resolution of 1973 [1]. Their position, as articulated in a user-posted reference to a USA Today article, is that the resolution grants the president authority to commit U.S. forces for 60 days without prior approval, thus placing the action within a constitutional framework [1]. This has broadened the debate to include historical precedent, with some commentary accusing Democrats of 'breathtaking hypocrisy' and invoking the phrase 'We Came, We Saw, He Died' to contrast current objections with past military actions under Democratic administrations [2].
+
+[1] USA Today: AOC howls about impeaching Trump. But War Powers Resolution of 1973 gives the president authority to act for 60 days without congressional approval, /r/Conservative/comments/1lhsexg/usa_today_aoc_howls_about_impeaching_trump_but/  
+[2] 'We Came, We Saw, He Died': Dems' Breathtaking Hypocrisy On War Powers, https://hotair.com/ed-morrissey/2025/06/22/we-came-we-saw-he-died-dems-breathtaking-hypocrisy-on-war-powers-n3804046  
+
+### 2.4 Domestic Security and Public Sentiment
+
+The international crisis has produced tangible responses on U.S. soil. The Governor of Texas ordered the state's Department of Public Safety (DPS) and National Guard to "Secure ‘High-Risk Locations’" [1]. On public sentiment, one headline cited a Rasmussen Poll which "Showed Support for Airstrike on Iran — Not Ground Troops," though the report lacked specific data or methodology [2]. The media ecosystem reflected in the feed presents a narrative of vindication, with headlines declaring "Trump Keeps His Promise on Iran" and that the "World Is Safer for It" [3]. This is reinforced by personal stories, such as a Townhall report about an Iranian refugee who allegedly stated, 'He Truly Saved the World,' and called for President Trump to receive the Nobel Peace Prize [4]. The debate has also permeated the cultural sphere, with reports that commentator Bill Maher believes Democrats 'need to do something' about 'The View' after Whoopi Goldberg's Iran comments [5].
+
+[1] Texas Governor Orders DPS, National Guard to Secure ‘High-Risk Locations’ After U.S. Attack on Iran, https://www.breitbart.com/border/2025/06/21/texas-governor-orders-dps-national-guard-to-secure-high-risk-locations/  
+[2] Exclusive: Rasmussen Poll Showed Support for Airstrike on Iran — Not Ground Troops, https://www.breitbart.com/middle-east/2025/06/21/exclusive-rasmussen-poll-showed-support-for-airstrike-on-iran-not-ground-troops/  
+[3] Trump Keeps His Promise on Iran. The World Is Safer for It., https://www.thefp.com/p/trump-keeps-his-promise-on-iran-the  
+[4] 'He Truly Saved the World:' Iranian Refugee Calls for Trump to Receive Nobel Peace Prize, https://townhall.com/tipsheet/saraharnold/2025/06/22/iranian-refugee-says-trump-truly-saved-the-world-n2659232  
+[5] Bill Maher says Democrats need to 'do something' about 'The View' after Whoopi Goldberg's Iran comments, https://www.foxnews.com/media/bill-maher-says-democrats-need-do-something-about-the-view-after-whoopi-goldbergs-iran-comments  
+
+## 3. Other Security and Political Developments
+
+### 3.1 International and Domestic Security Incidents
+
+While the Iran crisis dominated, other significant security events were reported. A "Suicide attack on Damascus church" in Syria resulted in at least 15 fatalities, with Syrian officials blaming the IS group, according to the Times of India [1]. In the UK, an opinion piece in The Spectator argued an attack on the Royal Air Force by the 'Palestine Action' group must be called "what it is: sabotage" [2]. Domestically, a local news outlet reported a shooting at a church in Wayne, which resulted in one person injured and the suspected shooter killed [3]. The state in which this incident occurred is a critical missing detail.
+
+[1] Suicide attack on Damascus church: At least 15 dead; Syria says IS group involved - Times of India, https://timesofindia.indiatimes.com/world/rest-of-world/suicide-attack-on-damascus-church-powerful-blast-heard-in-syria-witnesses-say/articleshow/122008045.cms  
+[2] Let's call Palestine Action's RAF attack what it is: sabotage, https://www.spectator.co.uk/article/lets-call-palestine-actions-raf-attack-what-it-is-sabotage/  
+[3] 1 injured, suspected shooter killed after shooting at church in Wayne, sources say, https://www.wxyz.com/news/active-shooter-shot-killed-by-wayne-church-security-guard-multiple-people-injured  
+
+### 3.2 Other Policy and Media Commentary
+
+Several disparate domestic policy and media items were noted. In Texas, a new law "Mandates Display Of Ten Commandments In Public School Classrooms" [1]. In a healthcare policy debate, a New York Post opinion piece argued the GOP's plan for Medicaid is intended to "STRENGTHEN" the program, contrary to critics' "lies" [2]. On immigration, a Washington Examiner commentary accused Democrats of embracing "arrest porn to protect criminal illegal immigrants" [3]. Finally, media reports highlighted concerns over foreign influence, with one alleging that "troll farms and bot armies of Russia and Iran are taking over MAGA’s online world" [4], and another from The Blaze raising anxiety that financial firms like "BlackRock and friends may soon control your digital wallet" [5].
+
+[1] Texas Law Mandates Display Of Ten Commandments In Public School Classrooms, https://havenhomecare.info/texas-law-mandates-display-of-ten-commandments-in-public-school-classrooms/  
+[2] Don't buy the lies about the GOP's plan for Medicaid: We're actually STRENGTHENING it, https://nypost.com/2025/06/22/opinion/dont-buy-the-lies-about-the-gops-plan-for-medicaid-were-actually-strengthening-it/  
+[3] Why Democrats are embracing arrest porn to protect criminal illegal immigrants, https://www.washingtonexaminer.com/in_focus/3447175/democrats-embracing-arrest-protect-illegal-immigrants-alex-padilla/  
+[4] The troll farms and bot armies of Russia and Iran are taking over MAGA’s online world, https://kyivinsider.com/the-troll-farms-and-bot-armies-of-russia-and-iran-are-taking-over-magas-online-world/  
+[5] BlackRock and friends may soon control your digital wallet, https://www.theblaze.com/columns/opinion/blackrock-and-friends-may-soon-control-your-digital-wallet

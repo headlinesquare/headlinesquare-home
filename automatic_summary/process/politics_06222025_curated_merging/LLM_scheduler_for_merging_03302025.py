@@ -154,7 +154,7 @@ def extract_output_from_conversation(conv_file):
         error_exit(f"Could not read {conv_file}: {e}")
     
     pattern = re.compile(
-        r"==========Output File Start==========\s*(.*?)\s*==========Output File End============",
+        r"==<Code>==Output File Start==<Code>==\s*(.*?)\s*==<Code>==Output File End==<Code>==",
         re.DOTALL
     )
     matches = pattern.findall(content)
