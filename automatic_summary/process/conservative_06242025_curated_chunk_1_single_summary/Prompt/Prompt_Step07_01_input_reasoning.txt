@@ -1,0 +1,83 @@
+**Step 7 (logic-heavy)**
+
+Add the URLs: 
+
+Now, I will provide you again with the original full JSON record (news_list_with_URLs.jsonl) of all news articles again, as you saw in Step 1, but this time, with actual URLs attached. To do this task, you look at the [original ID: xx] tag of each cited article, and then precisely retrieve its full URL from the original full JSON record, as given below. Please add the URLs from the original full JSON record to the reference list sections of the summary you wrote in Step 6, so that readers can directly access these articles. Please make sure the article titles in the reference lists agree **exactly** with the original full JSON record, so that the titles are accurately preserved after our long process. If not, please copy the titles from the original full JSON record to the reference lists. 
+
+Remember, the reference lists as in step6.txt were broken into small chunks. Each paragraph of summary has its reference list directly under it. In this step, the reference lists should keep that way. There should not be a long reference list at the end of the document. In the reference lists, we should only have the article titles and URLs to the actual articles, formatted in this way: [1] TITLE, URL \n\n [2] TITLE, URL. Both the titles and URLs should agree **exactly** with the original full JSON record. Compile all your results in a simple text file (step7.txt).
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+
+Original Full JSON Record (news_list_with_URLs.jsonl):
+
+
+====================Input File Start====================
+
+**ID range is 1-63, total number of articles is 63.**
+
+{"id": 1, "domain": "x.com", "title": "Rep. Marjorie Taylor Greene: “Bull***t” I fully support President Trump. “There is no break there is no split”", "url": "https://x.com/tpantheman/status/1937287403326365757?s=46"}
+{"id": 2, "domain": "x.com", "title": "Iranian Officials Comfirm Ceasefire", "url": "https://x.com/nicksortor/status/1937284504701317539"}
+{"id": 3, "domain": "scotusblog.com", "title": "Supreme Court pauses district court order preventing immigrants from being deported to third-party countries", "url": "https://www.scotusblog.com/2025/06/supreme-court-pauses-district-court-order-preventing-immigrants-from-being-deported-to-third-party-countries/"}
+{"id": 4, "domain": "jpost.com", "title": "Iranian official denies ceasefire, Trump announces end of Israel war | The Jerusalem Post", "url": "https://www.jpost.com/middle-east/iran-news/article-858745"}
+{"id": 5, "domain": "nypost.com", "title": "Fetterman scoffs at AOC's push to impeach Trump after Iran strikes", "url": "https://nypost.com/2025/06/23/us-news/fetterman-scoffs-at-aocs-push-to-impeach-trump-after-iran-strikes/"}
+{"id": 6, "domain": "thefederalist.com", "title": "This Supreme Court Is Woefully Weak On The Second Amendment", "url": "https://thefederalist.com/2025/04/10/this-supreme-court-is-woefully-weak-on-the-second-amendment/"}
+{"id": 7, "domain": "apnews.com", "title": "Live updates: Trump says Israel and Iran agree to ‘complete and total ceasefire’", "url": "https://apnews.com/live/iran-israel-war-updates-6-23-2025"}
+{"id": 8, "domain": "self.Conservative", "title": "If Joe Biden hadn't given $6 billion to Iran in the first place, neither the Israel-Hamas War nor the Israel-Iran War would've ever happened in the first place.", "url": "/r/Conservative/comments/1livyl8/if_joe_biden_hadnt_given_6_billion_to_iran_in_the/"}
+{"id": 9, "domain": "freebeacon.com", "title": "Israeli Operatives Called Iranian Military Commanders With a Warning: Flee the Country or Die", "url": "https://freebeacon.com/latest-news/israeli-operatives-called-iranian-military-commanders-with-a-warning-flee-the-country-or-die/"}
+{"id": 10, "domain": "amgreatness.com", "title": "VDH: Ten Iranian Questions", "url": "https://amgreatness.com/2025/06/23/ten-iranian-questions/"}
+{"id": 11, "domain": "victorhanson.com", "title": "Ten Iranian Questions", "url": "https://victorhanson.com/ten-iranian-questions/"}
+{"id": 12, "domain": "self.Conservative", "title": "Name those 'conservatives' who were wrong about Trump or the war or were overly emotional", "url": "/r/Conservative/comments/1liwpne/name_those_conservatives_who_were_wrong_about/"}
+{"id": 13, "domain": "ijr.com", "title": "Democrats Who Backed Obama’s Unilateral Bombings Now Have Problem With Trump’s Iran Strike", "url": "https://ijr.com/democrats-who-backed-obamas-unilateral-bombings-now-have-problem-with-trumps-iran-strike/"}
+{"id": 14, "domain": "jns.org", "title": "Fired for speech: The woke war on American education", "url": "https://www.jns.org/fired-for-speech-the-woke-war-on-american-education"}
+{"id": 15, "domain": "x.com", "title": "Meanwhile on IranTV…", "url": "https://x.com/hilzfuld/status/1937121800531620275?s=61"}
+{"id": 16, "domain": "thedailyguardian.com", "title": "\"We Had Dumb Presidents\": Vance Defends Operation Midnight Hammer, Praises Trump", "url": "https://thedailyguardian.com/united-states/we-had-dumb-presidents-vance-defends-operation-midnight-hammer-praises-trump/"}
+{"id": 17, "domain": "townhall.com", "title": "Pro-Illegal Alien Libs Are Going to Be Gutted by Today's Supreme Court Decision", "url": "https://townhall.com/tipsheet/mattvespa/2025/06/23/pack-your-bags-illegals-scotus-rules-trump-deportations-can-proceed-without-limited-notice-n2659328"}
+{"id": 18, "domain": "foxnews.com", "title": "Hospitals in sanctuary cities could be most vulnerable to Iran terror attacks, warns expert", "url": "https://www.foxnews.com/politics/hospitals-sanctuary-cities-could-most-vulnerable-iran-terror-attacks-warns-expert"}
+{"id": 19, "domain": "uinterview.com", "title": "Former House Speaker Nancy Pelosi & Husband's Net Worth Surged 54% In Last Year", "url": "https://uinterview.com/news/former-house-speaker-nancy-pelosi-husbands-net-worth-surged-54-in-last-year/"}
+{"id": 20, "domain": "foxnews.com", "title": "Trump announces historic Iran and Israel ceasefire agreement to end '12 Day War'", "url": "https://www.foxnews.com/us/trump-announces-historic-iran-israel-ceasefire-agreement-end-12-day-war"}
+{"id": 21, "domain": "nypost.com", "title": "Trump totally vindicated in decision to strike as Israel, Iran reach cease-fire", "url": "https://nypost.com/2025/06/23/opinion/iran-israel-cease-fire-totally-vindicates-trumps-decision-to-strike/"}
+{"id": 22, "domain": "breitbart.com", "title": "Jasmine Crockett: Trump Should Have ‘Holla’d’ at Congress Before Iran Strikes", "url": "https://www.breitbart.com/politics/2025/06/23/crockett-trump-should-have-hollad-at-congress-before-iran-strikes/"}
+{"id": 23, "domain": "townhall.com", "title": "Hours After Trump Declares Ceasefire, Iran Denies Agreement, Blames Israel for Starting War", "url": "https://townhall.com/tipsheet/saraharnold/2025/06/23/hours-after-trump-declares-ceasefire-iran-denies-agreement-and-blames-israel-for-starting-war-n2659338"}
+{"id": 24, "domain": "breitbart.com", "title": "Trump Announces Ceasefire in Iran-Israel '12 Day War'", "url": "https://www.breitbart.com/politics/2025/06/23/trump-announces-ceasefire-in-iran-israel-12-day-war/"}
+{"id": 25, "domain": "foxnews.com", "title": "CNN analyst suggests Trump could go down as 'hero' after Iran strike", "url": "https://www.foxnews.com/media/cnn-analyst-suggests-trump-could-go-down-hero-after-iran-strike"}
+{"id": 26, "domain": "rollcall.com", "title": "Major insurers pledge to improve preauthorization - Roll Call", "url": "https://rollcall.com/2025/06/23/major-insurers-pledge-to-improve-preauthorization/"}
+{"id": 27, "domain": "redstate.com", "title": "Biden’s Middle East Advisor Offers Stunning Praise for Trump’s Leadership: ‘Best Place We Can Be’", "url": "https://redstate.com/rusty-weiss/2025/06/23/bidens-middle-east-advisor-offers-stunning-praise-for-trumps-leadership-best-place-we-can-be-n2190827"}
+{"id": 28, "domain": "newsmax.com", "title": "US Crude Futures Fall Over $3 as Iran-Israel Ceasefire Announced", "url": "https://www.newsmax.com/finance/streettalk/oil-futures-gasoline-iran/2025/06/23/id/1216173/"}
+{"id": 29, "domain": "nypost.com", "title": "Chilling audio reveals Israeli intel agents warned some Iranian generals ahead of strikes: ‘You have 12 hours to escape’", "url": "https://nypost.com/2025/06/23/us-news/chilling-audio-reveals-israeli-intel-agents-warned-some-iranian-generals-ahead-of-strikes/"}
+{"id": 30, "domain": "redstate.com", "title": "Karoline Leavitt Just Exposed CNN, Dems Over ‘Fake’ Claims Trump Failed to Brief Them Before Iran Strikes", "url": "https://redstate.com/rusty-weiss/2025/06/23/karoline-leavitt-just-exposed-cnn-dems-over-fake-claims-trump-failed-to-brief-them-before-iran-strikes-n2190793"}
+{"id": 31, "domain": "breitbart.com", "title": "Iran Launches Final Missile Barrages at Israel; 3 Civilians Killed", "url": "https://www.breitbart.com/middle-east/2025/06/23/iran-launches-final-missile-barrages-at-israel-3-civilians-killed/"}
+{"id": 32, "domain": "fusionaier.org", "title": "Why Magna Carta Still Matters", "url": "https://www.fusionaier.org/post/why-magna-carta-still-matters"}
+{"id": 33, "domain": "nypost.com", "title": "Iran likely has more underground sites it could turn into uranium facilities: experts", "url": "https://nypost.com/2025/06/23/world-news/iran-likely-has-more-underground-sites-of-concern-experts/"}
+{"id": 34, "domain": "foxnews.com", "title": "US strike damage to Iran's Natanz, Isfahan nuclear facilities captured in satellite images", "url": "https://www.foxnews.com/world/us-strike-damage-irans-natanz-isfahan-nuclear-facilities-captured-satellite-images"}
+{"id": 35, "domain": "breitbart.com", "title": "DHS Approves ‘Alligator Alcatraz’ for Illegal Aliens in Florida", "url": "https://www.breitbart.com/immigration/2025/06/23/dhs-approves-alligator-alcatraz-illegal-aliens-florida/"}
+{"id": 36, "domain": "x.com", "title": "Rapid Response 47 (@RapidResponse47) on X - Message From President Trump", "url": "https://x.com/RapidResponse47/status/1937334813146464453"}
+{"id": 37, "domain": "foxnews.com", "title": "Republicans congratulate Trump amid Iran ceasefire as Dems hold back applause", "url": "https://www.foxnews.com/politics/republicans-congratulate-trump-amid-iran-ceasefire-dems-hold-back-applause"}
+{"id": 38, "domain": "townhall.com", "title": "Whose Side Are Democrats Really On?", "url": "https://townhall.com/columnists/derekhunter/2025/06/24/whose-side-are-democrats-really-on-n2659331"}
+{"id": 39, "domain": "newsmax.com", "title": "Trump Brokered Ceasefire in Contact With Israel, Iran, WH Official Says", "url": "https://www.newsmax.com/politics/trump-ceasefire/2025/06/23/id/1216176/"}
+{"id": 40, "domain": "nypost.com", "title": "Trump seals his ‘President Badass’ cred — and makes US foes think twice", "url": "https://nypost.com/2025/06/23/opinion/trumps-president-badass-cred-makes-us-foes-think-twice/"}
+{"id": 41, "domain": "x.com", "title": "Ceasefire has been broken by Iran", "url": "https://x.com/updatenews724/status/1937420023112589677?s=46"}
+{"id": 42, "domain": "telegraph.co.uk", "title": "Israel orders ‘intense’ air strikes on Tehran after ceasefire breached", "url": "https://www.telegraph.co.uk/world-news/2025/06/24/iran-israel-war-ceasefire-trump-latest-news"}
+{"id": 43, "domain": "x.com", "title": "Israel Defense Forces (@IDF) on X \"In light of the severe violation of the ceasefire carried out by the Iranian regime, we will respond with force.\"", "url": "https://x.com/IDF/status/1937427038090006827"}
+{"id": 44, "domain": "nypost.com", "title": "Israel to resume 'intense operations to attack Tehran' after claiming Iran violated cease-fire", "url": "https://nypost.com/2025/06/24/world-news/israel-to-resume-intense-operations-to-attack-tehran-after-claiming-iran-violated-cease-fire/"}
+{"id": 45, "domain": "foxnews.com", "title": "US airstrike on nuclear facilities follows years of Iranian plots on American soil", "url": "https://www.foxnews.com/us/us-airstrike-nuclear-facilities-follows-years-iranian-plots-american-soil"}
+{"id": 46, "domain": "washingtontimes.com", "title": "Abortions up, Democrats down: How post-Dobbs America has defied predictions", "url": "https://www.washingtontimes.com/news/2025/jun/23/abortions-democrats-post-dobbs-america-defied-predictions/?utm_source=smartnews.com&utm_medium=smartnews&utm_campaign=smartnews%20"}
+{"id": 47, "domain": "breitbart.com", "title": "Trump Campaign Team Launches PAC to Primary Rep. Thomas Massie", "url": "https://www.breitbart.com/politics/2025/06/23/trump-campaign-team-launches-pac-primary-rep-thomas-massie/"}
+{"id": 48, "domain": "timesofisrael.com", "title": "Witkoff in contact with Iran after US strikes, Khameini's hiding is stalling talks — CNN | The Times of Israel", "url": "https://www.timesofisrael.com/liveblog_entry/witkoff-in-contact-with-iran-after-us-strikes-khameinis-hiding-is-stalling-talks-cnn/"}
+{"id": 49, "domain": "share.google", "title": "NATO Summit Seeks to Keep Trump Happy, Alliance United", "url": "https://share.google/4oKyBFjYVsAsDjfmb"}
+{"id": 50, "domain": "foxnews.com", "title": "Trump tells Israel 'do not drop those bombs' amid frustration with conflict | Fox News", "url": "https://www.foxnews.com/politics/trump-lashes-out-israel-iran-profanity-breaking-ceasefire"}
+{"id": 51, "domain": "v.redd.it", "title": "“We basically have two countries that have been fighting so long and so hard that they don’t know what the fuck they’re doing.\"", "url": "https://v.redd.it/60fb57tl9v8f1"}
+{"id": 52, "domain": "telegraph.co.uk", "title": "Addison Rae: The former Maga fan who is now the future of pop", "url": "https://www.telegraph.co.uk/music/news/addison-rae-maga-fan-turned-pop-star/"}
+{"id": 53, "domain": "nypost.com", "title": "Democrats’ Impeachment Shrieks Expose their Hypocrisy", "url": "https://nypost.com/2025/06/23/opinion/democrats-impeachment-shrieks-expose-their-hypocrisy/"}
+{"id": 54, "domain": "townhall.com", "title": "Impeach: A Judge Decides to Ignore the Supreme Court on Deportation Ruling | by Matt Vespa", "url": "https://townhall.com/tipsheet/mattvespa/2025/06/24/impeach-a-judge-decides-to-ignore-the-supreme-court-on-deportation-ruling-n2659340"}
+{"id": 55, "domain": "jpost.com", "title": "Iran’s Crown Prince Pahlavi offers way out, but the IRGC must fall first - analysis", "url": "https://www.jpost.com/middle-east/iran-news/article-858827"}
+{"id": 56, "domain": "dailycaller.com", "title": "SCOTUS Justice Takes Bold Stand Against The Constitution | The Daily Caller", "url": "https://dailycaller.com/2025/06/23/supreme-court-ketanji-brown-jackson-brett-kavanaugh-constitution-textualism/"}
+{"id": 57, "domain": "foxnews.com", "title": "Trump nominated for Nobel Peace Prize over Iran-Israel ceasefire deal", "url": "https://www.foxnews.com/politics/trump-nominated-nobel-peace-prize-over-iran-israel-ceasefire-deal"}
+{"id": 58, "domain": "foxnews.com", "title": "Pakistan flip flops on Trump Nobel Peace Prize nomination after less than 24 hours", "url": "https://www.foxnews.com/world/pakistan-flip-flops-trump-nobel-peace-prize-nomination-after-less-than-24-hours"}
+{"id": 59, "domain": "notthebee.com", "title": "Both Israel and Iran have violated the ceasefire and Trump is not a happy camper", "url": "https://notthebee.com/article/both-israel-and-iran-have-violated-the-ceasefire-and-trump-is-not-a-happy-camper"}
+{"id": 60, "domain": "foxnews.com", "title": "Democratic Sen. Fetterman shuts down AOC's call for Trump's impeachment after Iran strikes", "url": "https://www.foxnews.com/media/democratic-sen-fetterman-shuts-down-aocs-call-trumps-impeachment-after-iran-strikes.amp"}
+{"id": 61, "domain": "europeanconservative.com", "title": "The Ignorance of Iran's Western Cheerleaders: Pro-Palestine leftists have become apologists for an Islamic theocracy.", "url": "https://europeanconservative.com/articles/commentary/western-leftists-iran-supporters-apologists-islamism"}
+{"id": 62, "domain": "iranintl.com", "title": "“Iranian news outlet Farda reported that a number of soldiers, officers, and military officials have recently failed to report to duty or have refused to follow orders.”", "url": "https://www.iranintl.com/en/202506243288"}
+{"id": 63, "domain": "x.com", "title": "The Downfall — Ayatollah style", "url": "https://x.com/visegrad24/status/1937533938580488516?s=61"}
+
+====================Input File End======================
