@@ -1,0 +1,139 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-99, total number of articles is 99.**
+
+{"id": 1, "domain": "hoover.org", "title": "Call Him Daddy: Assessing America’s Strike On Iran"}
+{"id": 2, "domain": "youtu.be", "title": "Why Societies Need Heroes and Villains, with Andrew Roberts"}
+{"id": 3, "domain": "babylonbee.com", "title": "Ford Debuts World’s First Autonomous Car To Leave Factory And Drive Straight To Shop For Repairs"}
+{"id": 4, "domain": "newsmax.com", "title": "DOJ Directive Ends Citizenship for Certain Crimes"}
+{"id": 5, "domain": "nypost.com", "title": "'Dedicated' firefighter victims ID'd after deadly Idaho ambush by sniper"}
+{"id": 6, "domain": "townhall.com", "title": "AOC Under Federal Investigation for Employing Illegal Immigrant, Helping Others Evade ICE"}
+{"id": 7, "domain": "dailywire.com", "title": "Pilots Who Bombed Iran Will Come To White House On Fourth Of July"}
+{"id": 8, "domain": "dailycaller.com", "title": "GOP Effort To Strip Illegal Immigrants Of Taxpayer-Funded Benefits Fails In Senate | The Daily Caller"}
+{"id": 9, "domain": "nypost.com", "title": "Mamdani or Fetterman — flailing Democrats seek a new agenda"}
+{"id": 10, "domain": "redstate.com", "title": "Absolute Proof Zohran Mamdani Is a Communist Arises, and the Press Response Is Mind-Blowing"}
+{"id": 11, "domain": "twitchy.com", "title": "'You Must OPEN Your Eyes!' Infantryman Gives Lefties Crying ISLAMOPHOBIA a BRUTAL Dose of Reality and WOW"}
+{"id": 12, "domain": "spiked-online.com", "title": "This is an antifascist"}
+{"id": 13, "domain": "justthenews.com", "title": "Trump signs executive order lifting decades-long sanctions on Syria"}
+{"id": 14, "domain": "dailywire.com", "title": "Elon Musk Warns Republicans: Vote For ‘Big, Beautiful Bill,’ Lose Your Next Primary"}
+{"id": 15, "domain": "nypost.com", "title": "I fled NYC for Florida — Sorry, Mamdani-fearing Democrats, we're full!"}
+{"id": 16, "domain": "newsmax.com", "title": "Japan: We Won't Sacrifice Farm Sector After Trump Rice Complaint"}
+{"id": 17, "domain": "breitbart.com", "title": "Exclusive — Wesley Hunt Calls to Recognize July as ‘American Pride Month’: ‘Make Patriotism Cool Again’"}
+{"id": 18, "domain": "ynetnews.com", "title": "Trump: 'Not even talking to Iran since we totally obliterated their nuclear facilities'"}
+{"id": 19, "domain": "ynetnews.com", "title": "'Iran is still the head of the Octopus'"}
+{"id": 20, "domain": "self.Conservative", "title": "Trump's DOJ announces largest coordinated healthcare fraud takedown in the history of the DOJ."}
+{"id": 21, "domain": "foxnews.com", "title": "Far-left actor John Cusack says Iran 'should get' nukes to protect Middle East from US and Israel"}
+{"id": 22, "domain": "nypost.com", "title": "Trump ramps up pressure on Fed Chair Powell to cut rates in handwritten note: ‘You have cost the USA a fortune’"}
+{"id": 23, "domain": "townhall.com", "title": "Iranian Mothers Offer Babies As Martyrs, Chant 'Death to America' at Tehran Ceremony"}
+{"id": 24, "domain": "newsmax.com", "title": "Acting ICE Chief Lyons: ICE Agents' Children Now Targeted"}
+{"id": 25, "domain": "fox5atlanta.com", "title": "Officials: North Korean agents steal over $900,000 in cryptocurrency from American business in Atlanta, GA"}
+{"id": 26, "domain": "mynbc5.com", "title": "Democrat-led Vermont passes law to boost housing access for illegal aliens"}
+{"id": 27, "domain": "self.Conservative", "title": "Donald Trump for the Nobel Peace Prize? After Pakistan, now Congo joins the push"}
+{"id": 28, "domain": "alphanews.org", "title": "Democrat Governor Tim Walz's administration hired criminal alien convicted of sexual assault to high ranking position in Minnesota Department of Education"}
+{"id": 29, "domain": "foxnews.com", "title": "Teachers union bosses split over Supreme Court ruling on parental rights to shield kids from controversial content"}
+{"id": 30, "domain": "hindustantimes.com", "title": "AOC under federal probe? Tom Homan says New York City's Democrat Representative AOC hired illegal alien workers, ‘educated’ them to evade ICE"}
+{"id": 31, "domain": "nypost.com", "title": "Terrorist-loving and antisemitic British punk rap duo Bob Vylan Lose US Visas, Dropped by UTA Following “Death to IDF” Chant at Glastonbury"}
+{"id": 32, "domain": "nbclosangeles.com", "title": "LA City Council OKs resolution declaring fiscal emergency amid $1B deficit"}
+{"id": 33, "domain": "dailycaller.com", "title": "Establishment Bureaucrats Move Forward With Plan To Repress Popular German Right-Wing Party"}
+{"id": 34, "domain": "thecooldown.com", "title": "Tesla hit by train after extreme self-driving mode error: 'Went down the tracks approximately 40-50 feet'"}
+{"id": 35, "domain": "self.Conservative", "title": "The \"Big Beautiful Bill\" does not increase the deficit by 3.3T -- Elon Musk is wrong."}
+{"id": 36, "domain": "wsj.com", "title": "California Dismantles Landmark Environmental Law to Tackle Housing Crisis"}
+{"id": 37, "domain": "redstate.com", "title": "Democracy Dies Behind a Paywall: Pulitzer Winner Arrested for Child Porn Garners Limited Press Interest"}
+{"id": 38, "domain": "rightjournalism.com", "title": "NEW: Photos and Videos From Idaho Shooter Wes Roley’s TikTok Emerge—And He Definitely Doesn’t Look Like MAGA"}
+{"id": 39, "domain": "jpost.com", "title": "Tehran-linked bot army targeted Americans during war with Israel | The Jerusalem Post"}
+{"id": 40, "domain": "foxbusiness.com", "title": "Social Security insolvency could speed up with illegal immigration crackdown"}
+{"id": 41, "domain": "foxnews.com", "title": "Two Chinese nationals arrested for spying on US Navy personnel and bases"}
+{"id": 42, "domain": "nypost.com", "title": "Trump threatens to unleash DOGE on Musk to save money tied to his numerous federal subsidies: ‘Elon may get more subsidy than any human being in history’"}
+{"id": 43, "domain": "breitbart.com", "title": "Assistant A.G.: Almost Every School Violated Federal Discrimination Law"}
+{"id": 44, "domain": "redstate.com", "title": "JK Rowling Gets Final Word After Activist Attacker Ends Up Behind Bars For Child Rape"}
+{"id": 45, "domain": "livemint.com", "title": "Pakistan Army chief Asim Munir backs terror groups operating in Jammu and Kashmir | Today News"}
+{"id": 46, "domain": "notthebee.com", "title": "Why is Trump teasing reporters about deporting Elon on a beautiful Tuesday morning? 😭"}
+{"id": 47, "domain": "pjmedia.com", "title": "Here’s How Much America Is Winning Because of Trump’s Tariffs"}
+{"id": 48, "domain": "hotair.com", "title": "Deal Done to Pass Big Beautiful Bill?"}
+{"id": 49, "domain": "miamiherald.com", "title": "Who is Senate parliamentarian? What to know about staffer Trump seeks to overrule | Miami Herald"}
+{"id": 50, "domain": "tabletmag.com", "title": "Doha’s Quantum Threat"}
+{"id": 51, "domain": "ijr.com", "title": "CNN’s Harry Enten Says Trump Is ‘More Beloved’ Among Republicans Than Any Other GOP President In Modern Times"}
+{"id": 52, "domain": "breitbart.com", "title": "Poll: Patriotism Collapses Among Democrats in Second Trump Era"}
+{"id": 53, "domain": "dailywire.com", "title": "Border Czar Tom Homan Blasts CNN For Promoting ICE Tracking App: ‘Simply Disgusting’"}
+{"id": 54, "domain": "pjmedia.com", "title": "Forget 'Go Woke, Go Broke' — Jaguar Went Stupid Instead"}
+{"id": 55, "domain": "legalinsurrection.com", "title": "Victims’ Families Outraged After U Idaho Murder Suspect Accepts Plea Deal, Avoiding Death Penalty - “Adding insult to injury, they’re rushing the plea, giving families just one day to coordinate and appear at the courthouse for a plea on July 2.”"}
+{"id": 56, "domain": "hotair.com", "title": "Solar in the Land of the Midnight Sun"}
+{"id": 57, "domain": "spiked-online.com", "title": "The myth of Israel’s ‘killing fields’"}
+{"id": 58, "domain": "frontpagemag.com", "title": "$2.5B in Muslim Health Care Fraud Busted | Frontpage Mag"}
+{"id": 59, "domain": "redstate.com", "title": "Communist Zohran Mamdani's Big Government-Owned Grocery Store Scheme Takes a Believably Hilarious Turn"}
+{"id": 60, "domain": "i.redd.it", "title": "Vance passes amended BBB through senate with tiebreaking vote"}
+{"id": 61, "domain": "x.com", "title": "The Senate has voted 51-50 to pass President Trump's Big Beautiful Bill."}
+{"id": 62, "domain": "justthenews.com", "title": "Mamdani and 'fact checkers' deny he is a Communist, but his own words say otherwise"}
+{"id": 63, "domain": "dailycaller.com", "title": "Musk Turns Up Heat On Trump, Throws Support Behind GOP Rebel Massie"}
+{"id": 64, "domain": "beatofhawaii.com", "title": "Visitors Donated Millions To Maui. Where Did It Go?"}
+{"id": 65, "domain": "thefp.com", "title": "This Is Peak Trump"}
+{"id": 66, "domain": "hotair.com", "title": "Gallup: Want to See Why New York Dems Nominated a Proto-Communist?"}
+{"id": 67, "domain": "issuesinsights.com", "title": "Trump Clings To Solid Ratings For Leadership, Despite Dems’ Ongoing Negative Views"}
+{"id": 68, "domain": "notthebee.com", "title": "WTF... Senate rejects bid to remove illegal aliens from Medicaid"}
+{"id": 69, "domain": "aol.com", "title": "Tribunal says calling someone Karen is ‘borderline racist, sexist and ageist’"}
+{"id": 70, "domain": "foxnews.com", "title": "'We're ignoring him': GOP senators react to Musk's threat to primary supporters of Trump's 'beautiful' bill"}
+{"id": 71, "domain": "frontpagemag.com", "title": "The West Still Doesn’t Get Islam | We must be careful not to succumb to magical thinking"}
+{"id": 72, "domain": "nypost.com", "title": "Trump praises Mayor Adams' re-election bid — and threatens Zohran Mamdani with arrest if he interferes with ICE"}
+{"id": 73, "domain": "victorhanson.com", "title": "The Decline and Fall of Our So-Called Degreed Experts"}
+{"id": 74, "domain": "breitbart.com", "title": "‘Sick-of-ICE, Sick-of-Trump’ Sickout Protests Kick Off Nationwide"}
+{"id": 75, "domain": "newsmax.com", "title": "Trump, Noem Threaten to Prosecute CNN"}
+{"id": 76, "domain": "foxnews.com", "title": "Self-deport or end up in 'Alligator Alcatraz', Noem warns migrants during Trump visit"}
+{"id": 77, "domain": "self.Conservative", "title": "Bono Recites 'Emotional' Poem Mourning USAID Shutdown in Video with Bush & Obama"}
+{"id": 78, "domain": "x.com", "title": "Joe Rogan: Universities are a CULT."}
+{"id": 79, "domain": "townhall.com", "title": "CNN Might Regret Promoting That ICE Tracker App After What Trump Just Said"}
+{"id": 80, "domain": "jns.org", "title": "Mamdani apologists play the fake Islamophobia card"}
+{"id": 81, "domain": "babylonbee.com", "title": "Elon Sends Optimus Robot Back In Time To Terminate 'Big Beautiful Bill'"}
+{"id": 82, "domain": "self.Conservative", "title": "Actor Jason Bateman Pities ‘Tragic’ Trump Voters: Breitbart Audience ‘Insulated from Facts and Common Sense’"}
+{"id": 83, "domain": "babylonbee.com", "title": "Thomas Massie Unveils Small, Ugly Budget Bill With A Great Personality"}
+{"id": 84, "domain": "miamiherald.com", "title": "Trump OKs Using National Guard as Immigration Judges at Florida Detention Center"}
+{"id": 85, "domain": "redstate.com", "title": "British Rappers Mocked Over Ridiculous Statement About 'Being Targeted' After Blowing Up US Tour Dreams"}
+{"id": 86, "domain": "self.Conservative", "title": "Which version of the no tax on OT made it thru the senate bill today?"}
+{"id": 87, "domain": "dw.com", "title": "Hong Kong's last democratic opposition party disbands – DW"}
+{"id": 88, "domain": "jpost.com", "title": "Israel revolutionized drone and air defense systems during Iran War | The Jerusalem Post"}
+{"id": 89, "domain": "thefp.com", "title": "The Iran Strikes and the Trump Doctrine"}
+{"id": 90, "domain": "spectator.org", "title": "The Last Shred of Colin Powell’s Relevance Is Gone, Thank God — The “Pottery Barn” foreign policy doctrine is over."}
+{"id": 91, "domain": "washingtonexaminer.com", "title": "DOJ tells prosecutors to seek denaturalization for certain criminals"}
+{"id": 92, "domain": "pjmedia.com", "title": "Women’s Sports Just Scored a Massive Win"}
+{"id": 93, "domain": "foxnews.com", "title": "Rubio officially kills USAID, reveals future home for foreign assistance programs"}
+{"id": 94, "domain": "dailywire.com", "title": "UPS Push For Electric Trucks Leaves Drivers Sweating"}
+{"id": 95, "domain": "cbtnews.com", "title": "Jaguar Sales Down 97% Post-Rebrand/EV Pivot"}
+{"id": 96, "domain": "nypost.com", "title": "Thanks to the leadership of President Trump, UPenn has agreed both to apologize for its past Title IX violations and to ensure that women’s sports are protected at the University for future generations of female athletes"}
+{"id": 97, "domain": "washingtonexaminer.com", "title": "HHS sued over race-conscious reforms in organ distribution plan"}
+{"id": 98, "domain": "self.Conservative", "title": "Report: Former DNC Insider Reveals ‘Puppet Masters’ Who Allegedly Ran Biden White House"}
+{"id": 99, "domain": "thedispatch.com", "title": "Trump Ends the Folly of De-escalation"}
+
+====================Input File End======================
+
+
+
