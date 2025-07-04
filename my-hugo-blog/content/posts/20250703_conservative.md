@@ -1,0 +1,188 @@
++++
+date = '2025-07-03T19:15:00-04:00'
+draft = false
+title = '[Thursday, July 03] US News Headlines from r/Conservative'
++++
+
+This is an experimental AI project. 
+We are continuously improving it, but errors can still appear. 
+Feel free to contact us if you spot an error. 
+
+
+**TOPLINE SUMMARY**
+A period of accelerated and consequential activity is underway across the executive and legislative branches. Congress has passed the landmark "big, beautiful bill," a legislative package described as significantly extending the President’s political power, which now awaits his signature. Concurrently, the administration is executing a major reorganization of the executive branch, including the shuttering of USAID, and has dramatically escalated immigration enforcement with the deployment of U.S. Marines to Florida. On the foreign policy front, tensions are critically high, with reports of direct threats against U.S. and Israeli leadership from Iran, and a significant U.S.-involved military action, termed the "Twelve Day War," that has reportedly reordered the geopolitical landscape concerning Iran and Taiwan. Domestically, the June jobs report shows unexpected economic strength, while the Supreme Court prepares to rule on contentious social issues.
+
+***
+
+## 1. Domestic Governance and Legislation
+
+### 1.1. The 'Big, Beautiful Bill' (OBBB) Clears Congress
+
+A major legislative package, referred to in headlines as the "big, beautiful bill" or "OBBB," has successfully passed both chambers of Congress and is now on its way to the White House [1]. One report frames its passage as a legacy-defining moment for the administration [2]. The bill’s final approval in the House of Representatives was reportedly dramatic, occurring after an all-night session and overcoming a procedural delay initiated by House Minority Leader Hakeem Jeffries. This delay followed what one headline termed a "House GOP mutiny breathrough" that ultimately secured the bill's passage [3]. Across multiple reports, the legislative win is being framed as a significant extension of President Trump's political power [4]. The President is expected to sign the legislation at a Fourth of July celebration [5].
+
+**References:**
+[1] Congress sending Trump's 'big, beautiful bill' to his desk after dramatic all-night House vote, https://www.foxnews.com/politics/congress-sending-trumps-big-beautiful-bill-his-desk-after-dramatic-all-night-house-vote  
+[2] Legacy Unlocked: Trump’s Big, Beautiful Bill Clears Final House Hurdle En Route to White House, https://www.breitbart.com/politics/2025/07/03/legacy-unlocked-trumps-big-beautiful-bill-clears-final-house-hurdle-en-route-white-house/  
+[3] Jeffries stalls Trump's 'big, beautiful bill' for hours after House GOP mutiny breathrough, https://www.foxnews.com/politics/house-advances-trumps-massive-agenda-bill-after-freedom-caucus-caves  
+[4] Trump Extends His Political Power With 'Big, Beautiful' Win in Congress, https://www.newsmax.com/us/trump-bill-obbb/2025/07/03/id/1217549/  
+[5] Trump Will Sign One Big, Beautiful Bill At Fourth Of July Celebration, https://www.dailywire.com/news/trump-will-sign-one-big-beautiful-bill-at-fourth-of-july-celebration  
+
+### 1.2. Executive Branch Reorganization and Personnel Actions
+
+The administration is actively implementing significant structural and personnel changes across the federal government. The U.S. Agency for International Development (USAID) has been officially shuttered, a decision that drew a rare joint statement of public criticism from former Presidents George W. Bush and Barack Obama [1]. This has led to open speculation that other major agencies, such as FEMA, could be targeted next for closure [2]. At the Environmental Protection Agency, 144 officials have been placed on administrative leave after they collectively signed a letter criticizing "This Administration's Policies" [3]. In a contrasting development, the Pentagon, under Secretary of Defense Pete Hegseth, reports that it has met its annual recruitment targets months ahead of schedule, with a Breitbart headline attributing the success directly to the "‘Leadership’" of the President and the Secretary [4]. Despite these actions, one report suggests that some administration opponents, described as "Deep State Subversives," remain in their government positions even after being officially fired [5].
+
+**References:**
+[1] Bush and Obama criticize Trump administration for shuttering USAID, https://www.foxnews.com/politics/bush-teams-up-notorious-trump-foes-trash-colossal-mistake-shuttering-usaid  
+[2] USAID is DEAD. Is FEMA next?, https://www.oann.com/video/oan-contribution/dhs-official-explains-trumps-plan-to-shut-down-fema/  
+[3] EPA Places 144 Officials on Leave for Signing Letter Trashing 'This Administration's Policies', https://freebeacon.com/energy/epa-places-144-officials-on-leave-for-signing-letter-trashing-this-administrations-policies/  
+[4] Pentagon: Trump, Hegseth’s ‘Leadership’ Inspired More Recruits — Targets Met Months Ahead of Schedule, https://www.breitbart.com/national-security/2025/07/02/pentagon-trump-hegseth-leadership-inspired-more-recruits-targets-met-ahead-schedule/  
+[5] Despite Being Fired by Trump, Many Deep State Subversives Are Still on the Job, https://pjmedia.com/robert-spencer/2025/07/02/despite-being-fired-by-trump-many-deep-state-subversives-are-still-on-the-job-n4941391  
+
+### 1.3. New Presidential Policy Directives
+
+President Trump has issued two notable public statements regarding administration policy. First, he has issued a direct and public call for Federal Reserve Chair Jerome H. Powell to "Resign Immediately!!!" [1]. Second, the President has vowed to seek the death penalty for immigrants who kill American citizens [2].
+
+**References:**
+[1] Trump Has a Message for Powell: 'Resign Immediately!!!', https://townhall.com/tipsheet/rebeccadowns/2025/07/02/trump-has-a-message-for-powell-n2659860  
+[2] Trump vows to give the death penalty to immigrants who kill Americans, https://voz.us/en/politics/241104/17858/trump-vows-death-penalty-for-immigrants-who-kill-americans.html  
+
+***
+
+## 2. Foreign Policy and National Security
+
+### 2.1. U.S. Military Action and Sanctions in Middle East and Asia
+
+A single but significant report from *The Telegraph* describes a recent series of events it terms the "Twelve Day War," which it claims has "fundamentally reshaped the world order." The article asserts that over this period, the U.S. "fired 14 bombs, humiliated Iran, and saved Taiwan from annexation." It adds that the full effects of this joint U.S.-Israel operation are only now becoming clear [1]. The specifics of these events are not corroborated by other headlines in this feed. On the economic warfare front, the Treasury Department has announced new sanctions targeting "Hezbollah financiers" and an "Iranian oil ‘shadow fleet’" [2].
+
+**References:**
+[1] Trump fired 14 bombs, humiliated Iran, and saved Taiwan from annexation — Only now are the full effects of the Twelve Day War becoming clear. Israel and the US have fundamentally reshaped the world order, https://www.telegraph.co.uk/us/comment/2025/07/03/trump-fired-14-bombs-humiliated-iran-and-saved-taiwan-from/  
+[2] Treasury sanctions Hezbollah financiers, Iranian oil ‘shadow fleet’, https://www.jns.org/treasury-sanctions-hezbollah-financiers-iranian-oil-shadow-fleet/  
+
+### 2.2. Heightened Global Tensions and Alliances
+
+International tensions appear to be escalating to a critical point. The leadership of Iran has reportedly issued "death warrants" for both President Trump and Israeli Prime Minister Benjamin Netanyahu [1]. In a separate major geopolitical shift, North Korea is expanding its military alliance with Russia, with reports indicating it plans to send an additional 30,000 troops to assist Russian forces in the war against Ukraine [2]. In a development related to hostage negotiations, recently freed American hostage Edan Alexander was welcomed at the White House, where he reportedly revealed that his "treatment in captivity improved after Trump's election" [3].
+
+**References:**
+[1] Iranian Leadership Issues Death Warrants for Trump, Netanyahu, https://freebeacon.com/national-security/iranian-leadership-issues-death-warrants-for-trump-netanyahu/  
+[2] North Korea to send 30,000 more troops to help Russia fight Ukraine: sign of growing military cooperation between the two nations., https://nypost.com/2025/07/02/world-news/north-korea-to-send-30000-more-troops-to-help-russia-fight-ukraine-report/  
+[3] Freed hostage Edan Alexander welcomed at White House, reveals his treatment in captivity improved after Trump's election, https://nypost.com/2025/07/03/us-news/freed-hostage-edan-alexander-welcomed-at-white-house-reveals-his-treatment-in-captivity-improved-after-trumps-election/  
+
+### 2.3. Intelligence Community Releases Review of 2016 Assessment
+
+Director of the Central Intelligence Agency John Ratcliffe has released a new U.S. intelligence community review of the 2016 assessment on Russian election interference. A headline from Just The News describes the review as "scathing" and reports its central finding is that former CIA Director John Brennan actively "pushed to include [the] Steele Dossier in [the] 2016 assessment" [1]. No further details on the review's contents or wider impact are available from the provided headlines.
+
+**References:**
+[1] Ratcliffe’s scathing review finds John Brennan pushed to include Steele Dossier in 2016 assessment | Just The News, https://justthenews.com/government/federal-agencies/ratcliffes-scathing-review-finds-john-brennan-pushed-include-steele  
+
+***
+
+## 3. Immigration and Border Security
+
+### 3.1. Administration Escalates Deportation Operations with Military Support
+
+The administration is intensifying its immigration enforcement operations with unprecedented measures. Reports indicate that 200 U.S. Marines are being deployed to Florida to provide direct operational support for ICE deportation raids across the state [1]. Concurrent with this military deployment, detained immigrants are reportedly being transported to a purpose-built facility that headlines have nicknamed "Alligator Alcatraz" [2]. A statement attributed to Ron DeSantis suggests that individuals in the country illegally are being offered an "opportunity to self-deport" as an alternative to being sent to this specific facility [3].
+
+**References:**
+[1] Trump admin deploying 200 Marines to Florida to support ICE deportation raids, https://nypost.com/2025/07/03/us-news/trump-admin-deploying-200-marines-to-florida-to-support-ice-deportation-raids/  
+[2] Detained Immigrants Arrive at 'Alligator Alcatraz', https://www.newsmax.com/newsfront/alligator-alcatraz-immigration-detainees/2025/07/03/id/1217504/  
+[3] Ron DeSantis: Illegal Aliens Have Opportunity to Self-Deport Before Entering Alligator Alcatraz, https://www.breitbart.com/politics/2025/07/02/ron-desantis-illegal-aliens-have-opportunity-to-self-deport-before-entering-alligator-alcatraz/  
+
+### 3.2. Ongoing Judicial Battles Over Border Policy
+
+The administration's immigration policies continue to face significant challenges in the federal court system. A U.S. district judge has issued a "sweeping ruling" that takes aim at a "key pillar" of President Trump's border policy [1]. One source characterized this judicial action as an "unconstitutional power grab" by an "Obama judge" who has "reopened the floodgates" [2]. In a separate legal matter involving an immigration case, a judge has reversed a previous order that had paused proceedings, ruling that the wife and five children of Mohamed Soliman, a Boulder terror suspect, can now be deported [3].
+
+**References:**
+[1] District Judge Takes Aim At Key Pillar Of Trump’s Border Policy With Another Sweeping Ruling, https://www.dailywire.com/news/district-judge-takes-aim-at-key-pillar-of-trumps-border-policy-with-another-sweeping-ruling  
+[2] Trump fighting 'unconstitutional power grab' by Obama judge who reopened the floodgates, https://www.theblaze.com/news/trump-fighting-unconstitutional-power-grab-by-obama-judge-who-reopened-the-floodgates  
+[3] Boulder terror suspect Mohamed Soliman’s wife, 5 kids can be deported, judge rules — reversing decision that paused proceedings, https://nypost.com/2025/07/02/us-news/boulder-terror-suspect-mohamed-solimans-family-can-be-deported-judge-rules-reversing-decision-that-paused-proceedings/  
+
+### 3.3. Northern Border Smuggling Enforcement
+
+The Department of Justice has reported a significant enforcement action related to cross-border crime at the U.S.-Canada border. According to an official press release, a Canadian man has been arrested and is being detained for his alleged role in a "deadly alien smuggling conspiracy" that operated at the northern border [1].
+
+**References:**
+[1] Canadian Man Arrested and Detained for Role in Deadly Alien Smuggling Conspiracy at the U.S.'s Northern Border, https://www.justice.gov/opa/pr/canadian-man-arrested-and-detained-role-deadly-alien-smuggling-conspiracy-uss-northern  
+
+***
+
+## 4. Economic Affairs
+
+### 4.1. June Jobs Report Exceeds Expectations Amidst Headwinds
+
+The U.S. economy demonstrated unexpected resilience in the June jobs report. The economy added 147,000 new jobs, a figure that "defied expectations" and was "much higher than expected" [1, 2]. This robust job growth occurred "despite economic uncertainty" [3]. Accompanying the strong job gains, the national unemployment rate also unexpectedly fell [2].
+
+**References:**
+[1] Hiring Defied Expectations in June, With 147,000 New Jobs, https://www.wsj.com/economy/jobs-report-june-2025-unemployment-economy-c1f54222  
+[2] Golden Age: U.S Economy Adds 147,000 Jobs, Much Higher Than Expected, Unemployment Rate Unexpectedly Falls, https://www.breitbart.com/economy/2025/07/03/golden-age-u-s-economy-adds-147000-jobs-much-higher-than-expected-and-unemployment-rate-unexpectedly-falls/  
+[3] June jobs report: Job growth picked up despite economic uncertainty, https://www.foxbusiness.com/economy/us-jobs-report-june-2025  
+
+### 4.2. Corporate and Regulatory Developments
+
+In the business sector, automaker Jaguar has reportedly experienced a 97% sales crash. One report links this directly to a controversial rebranding effort under the "Go Woke, Go Broke" framework [1]. On the regulatory front, forty Mexican truckers have had their privileges to drive on U.S. highways permanently revoked due to a lack of required English language skills [2].
+
+**References:**
+[1] Go Woke, Go Broke: Jaguar Sales Crash by 97% After Controversial Rebrand, https://www.breitbart.com/europe/2025/07/03/go-woke-go-broke-jaguar-sales-crash-by-97-after-controversial-rebrand/  
+[2] Forty Mexican truckers have lost privileges to drive on U.S. highways due to their lack of English skills, https://www.borderreport.com/news/trade/40-truckers-lose-us-commercial-licenses-due-to-lack-of-english-proficiency/  
+
+***
+
+## 5. Judicial System and Crime
+
+### 5.1. Supreme Court Docket Update on Social Issues
+
+The Supreme Court is poised to rule on a significant case concerning school policies and has made a decision on another involving abortion access. The Court will decide on the "legality of school sports bans" targeting transgender athletes [1]. A coalition of red states is preparing to "defend women’s sports" before the justices in this case [2]. In a separate action that concludes a legal challenge, the Court has declined to hear a case concerning an underage abortion law from Montana [3].
+
+**References:**
+[1] Supreme Court to Decide Legality of School Sports Bans, https://www.newsmax.com/us/supreme-court-transgender-school/2025/07/03/id/1217473/  
+[2] Red States Set To Defend Women’s Sports At Supreme Court, https://www.dailywire.com/news/red-states-set-to-defend-womens-sports-at-supreme-court?topStoryPosition=undefined&author=Leif+Le+Mahieu&category=News&elementPosition=2&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Red+States+Set+To+Defend+Women%E2%80%99s+Sports+At+Supreme+Court  
+[3] Supreme Court declines to hear Montana underage abortion case, https://www.washingtonexaminer.com/news/supreme-court/3462043/supreme-court-declines-hear-montana-underage-abortion-case/  
+
+### 5.2. High-Profile Prosecutions and Legal Cases
+
+Several high-profile legal cases are generating headlines. Federal authorities are reportedly investigating an alleged "China-linked ‘Rent-A-Womb’ surrogacy scandal" located in California [1]. The Department of Justice has also indicted a suspect who gained viral attention for delivering protective gear to anti-ICE protesters on live television [2]. In the case of Sean "Diddy" Combs, whose criminal case is now over, one headline suggests the federal prosecution was "flubbed" and that Combs, though still facing dozens of civil suits, may end up being seen as a "martyr" [3].
+
+**References:**
+[1] EXCLUSIVE: Feds Investigating Alleged China-Linked ‘Rent-A-Womb’ Surrogacy Scandal In California, https://www.dailywire.com/news/exclusive-feds-investigating-alleged-china-linked-rent-a-womb-surrogacy-scandal-in-california  
+[2] DOJ indicts suspect who went viral for delivering protective gear to antiICE protesters on live TV, https://www.foxnews.com/us/doj-indicts-suspect-went-viral-delivering-protective-gear-anti-ice-protesters-live-tv  
+[3] The feds flubbed it with Sean Combs — and he’s sure to end up a martyr now, https://nypost.com/2025/07/02/opinion/sean-combs-is-sure-to-end-up-a-martyr-after-the-feds-flubbed-up/  
+
+### 5.3. Domestic Crime and Law Enforcement Statements
+
+Violent crime in Washington D.C. is in focus following a report that an intern for a GOP Congressman was "gunned down in DC" [1]. Separately, the NYPD Chief of Department is quoted as stating, "‘Trump Is Law and Order’," and crediting new federal assistance in fighting crime related to migrants in New York City [2].
+
+**References:**
+[1] GOP Congressman's Intern Gunned Down in DC, https://www.toddstarnes.com/uncategorized/gop-congressmans-intern-gunned-down-in-dc/?fbclid=IwY2xjawLSwzxleHRuA2FlbQIxMQABHiKKQ4OquXHx5QxK_Xf7_Q0VF_5fsYdvyaZleVLPJPEvOOb-MMkMdhmXExPx_aem_yT4NPgqF1GEn8Wq9bqtyFg  
+[2] NYPD Chief of Dept.: ‘Trump Is Law and Order’, Feds Helped Fight Migrant Crim, https://www.breitbart.com/clips/2025/07/03/nypd-chief-of-dept-trump-is-law-and-order-feds-helped-fight-migrant-crime/  
+
+***
+
+## 6. Political and Social Discourse
+
+### 6.1. Electoral Politics and Partisan Dynamics
+
+Attention is turning to nascent political alliances and future electoral contests. One report from *The Spectator* analyzes the meaning of a "newfound friendship" between President Trump and Ron DeSantis and what this partnership could mean for DeSantis's political future [1]. Looking ahead to other key elections, a recent poll shows that former Vice President Kamala Harris is the top choice among potential candidates in the California gubernatorial election [2]. On the legislative front, a report notes that some Democrats who are now railing against Medicaid reforms in the President's budget bill have themselves supported similar work requirements in the past [3].
+
+**References:**
+[1] Making Sense of Trump’s Newfound Friendship With DeSantis — What this partnership could mean for DeSantis moving forward., https://spectator.org/making-sense-of-trumps-newfound-friendship-with-desantis/  
+[2] Poll: Kamala Harris Top Choice Among Potential Candidates in California Gubernatorial Election, https://www.breitbart.com/politics/2025/07/02/poll-kamala-harris-top-choice-among-potential-candidates-in-california-gubernatorial-election/  
+[3] Dems railing against Trump budget bill's Medicaid reforms have backed work requirements themselves, https://nypost.com/2025/07/03/us-news/dems-railing-against-trump-budget-bills-medicaid-reforms-have-backed-work-requirements-themselves/  
+
+### 6.2. Cultural and Institutional Debates
+
+Prominent U.S. academic and professional institutions are the subject of critical reporting. Ivy League universities, in particular, are facing scrutiny, with a Wall Street Journal piece asking if Harvard's vast endowment is a "house of cards" amid other reports of a "budget bust" at the university and a "bumbling backpedal" at Columbia [1, 2]. In a separate incident highlighting workplace tensions over social issues, a lawsuit alleges that multiple Jewish therapists were fired from a Texas clinic specifically for pushing to help a client with trauma arising from antisemitism [3].
+
+**References:**
+[1] WSJ: Is Harvard's Endowment a House of Cards?, https://hotair.com/ed-morrissey/2025/07/02/wsj-is-harvards-endowment-a-house-of-cards-n3804402  
+[2] Bad Week For Poison Ivies Continues: Harvard's Budget Bust, Columbia's Bumbling Backpedal, https://hotair.com/ed-morrissey/2025/07/03/bad-week-for-poison-ivies-harvards-budget-bust-columbia-backpedals-n3804437  
+[3] Jewish therapists fired from Texas clinic for pushing to help client with trauma from antisemitism: lawsuit, https://nypost.com/2025/07/03/us-news/jewish-therapists-fired-from-texas-clinic-for-pushing-to-help-client-with-trauma-from-antisemitism-lawsuit/  
+
+### 6.3. Media Commentary and Conduct
+
+Media outlets and commentators are the focus of several reports. A CNN commentator is reported to have suggested an official investigation into the citizenship status of President Trump's children [1]. Separately, CBS News is described as being in a state of "widespread distress" and a "60 Minutes" correspondent who interviewed Kamala Harris reportedly got "teary eyed" following the network's lawsuit settlement with President Trump [2, 3]. Other reports are critical of recent economic coverage, with outlets like the Washington Post accused of wrongly predicting that the administration's immigration crackdown would fuel inflation [4]. Finally, commentator Tucker Carlson is quoted discussing former President Bush and Osama bin Laden, stating a preference for "leftists" over "Islamic extremists" because "We always end up betting the murder of Christians" [5].
+
+**References:**
+[1] CNN commentator suggests investigating Trump children's citizenship status, https://www.foxnews.com/media/cnn-commentator-suggests-investigating-trump-childrens-citizenship-status  
+[2] CBS News in 'Widespread Distress' After Trump Settlement, https://www.newsmax.com/finance/streettalk/paramount-trump-60-minutes/2025/07/03/id/1217436/  
+[3] ‘60 Minutes’ correspondent who interviewed Kamala Harris got ‘teary eyed’ after Trump lawsuit settlement: report, https://nypost.com/2025/07/03/media/60-minutes-bill-whitaker-got-teary-eyed-after-trump-lawsuit-settlement-report/  
+[4] ECONO-MORONS: WashPost Squawks Trump Illegal Immigration Crackdown Will Fuel Inflation, https://www.newsbusters.org/blogs/business/joseph-vazquez/2025/07/02/econo-morons-washpost-squawks-trump-illegal-immigration  
+[5] Tucker Carlson: Bush was perfect MARK for Bin Laden . Leftists are more reasonable than Islamic extremists. “We always end up betting the murder of Christians”, https://x.com/tpantheman/status/1940896744793047188?s=46

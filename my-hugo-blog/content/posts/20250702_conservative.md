@@ -9,8 +9,6 @@ We are continuously improving it, but errors can still appear.
 Feel free to contact us if you spot an error. 
 
 
-An objective analysis of the June, 2025 news cycle for Congressional leadership.
-
 ## 1. Legal and Judicial Developments
 
 ### 1.1 Federal and State Court Rulings
