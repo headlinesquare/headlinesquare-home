@@ -215,7 +215,7 @@ def extract_output_from_conversation(conv_file):
     
     # Use regex to capture blocks between the header pairs.
     pattern = re.compile(
-        r"==<Code>==Output File Start==<Code>==\s*(.*?)\s*==<Code>==Output File End==<Code>==",
+        r"<Code>==Output File Start==<Code>\s*(.*?)\s*<Code>==Output File End==<Code>",
         re.DOTALL
     )
     matches = pattern.findall(content)
