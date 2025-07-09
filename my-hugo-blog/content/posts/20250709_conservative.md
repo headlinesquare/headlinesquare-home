@@ -1,0 +1,201 @@
++++
+date = '2025-07-09T19:15:00-04:00'
+draft = false
+title = '[Wednesday, July 09] US News Headlines from r/Conservative'
++++
+
+This is an experimental AI project. 
+We are continuously improving it, but errors can still appear. 
+Feel free to contact us if you spot an error. 
+
+
+
+DAILY BRIEFING
+
+## 1. Justice System, Investigations, & Legal Disputes
+
+### 1.1. Supreme Court & Federal Judiciary
+
+The Supreme Court has issued rulings that substantially impact the executive branch and immigration law. The Court gave a green light to the Trump administration's plans for "large-scale" firings within federal agencies [1]. This decision on federal workforce reductions has also exposed internal divisions, with reports indicating Justice Sotomayor broke with Justice Jackson on the matter [2]. The Court's internal dynamics are also under scrutiny following a report that Justice Ketanji Brown Jackson stated she writes opinions to "tell people how I feel" [3]. In immigration law, a separate SCOTUS decision is seen by legal experts as having sealed the deportation fate of an individual named Abrego Garcia [4]. However, the Court also checked state-level ambitions by denying a request from Florida's Attorney General to enforce a controversial state immigration law [5].
+
+**References:**
+[1] Supreme Court greenlights Trump admin plans for 'large-scale' firings at federal agencies, https://nypost.com/2025/07/08/us-news/supreme-court-greenlights-trump-admin-plans-for-mass-firings-at-federal-agencies/  
+[2] Sotomayor breaks with Jackson in Supreme Court decision over Trump cuts to federal workforce, https://www.foxnews.com/politics/sotomayor-breaks-jackson-supreme-court-decision-over-trump-cuts-federal-workforce  
+[3] KBJ: I Write Supreme Court Opinions To 'Tell People How I Feel', https://thefederalist.com/2025/07/09/dei-hire-ketanji-brown-jackson-i-write-supreme-court-opinions-to-tell-people-how-i-feel/  
+[4] Supreme Court likely sealed Abrego Garcia’s deportation fate, experts say, https://www.washingtonexaminer.com/news/supreme-court/3465791/supreme-court-kilmar-abrego-garcia-deportation-fate/  
+[5] SCOTUS denies Florida AG request to enforce controversial immigration law, https://www.foxnews.com/politics/scotus-denies-florida-ag-request-enforce-controversial-immigration-law  
+
+### 1.2. Investigations of Political Figures (Current & Former)
+
+A House Oversight investigation into the health of former President Biden has intensified. Multiple sources report that Biden’s former White House doctor, Kevin O’Connor, pleaded the Fifth Amendment during a closed-door grilling [1, 2]. The questioning was reportedly focused on whether O’Connor had lied about the former president's "mental health" and "competence" [3]. Separately, a report has emerged alleging that the FBI has opened a new investigation into former CIA Director John Brennan and former FBI Director James Comey [4].
+
+**References:**
+[1] Biden White House doctor pleads Fifth Amendment in House Oversight grilling, https://www.foxnews.com/politics/biden-doctor-dodges-questions-speedy-house-closed-door-interview  
+[2] Biden doctor Kevin O’Connor invokes Fifth Amendment when asked if he lied about ex-prez's health, https://nypost.com/2025/07/09/us-news/biden-doctor-kevin-oconnor-pleads-fifth-rather-than-answer-questions-about-ex-prezs-health/  
+[3] Former Biden doctor takes the Fifth, refuses to cooperate in GOP House probe, https://justthenews.com/nation/technology/former-biden-doctor-takes-fifth-refuses-cooperate-gop-house-probe  
+[4] Report: FBI Launches Investigation into John Brennan, James Comey, https://www.breitbart.com/politics/2025/07/08/report-fbi-launches-investigation-into-john-brennan-james-comey-over-trump-russia-probe/  
+
+### 1.3. Federal vs. State Legal Conflicts
+
+The Department of Justice is initiating direct legal conflict with the state of California over federal regulations. Reports indicate the Trump administration has filed a lawsuit against California for an alleged violation of Title IX [1]. The suit directly targets the state’s "athlete policy," signaling a significant federal challenge to state-level governance in this domain, with one headline noting, "The President Means Business" [2].
+
+**References:**
+[1] Boom: Trump Administration Files Title IX Lawsuit Against California (Updated), https://redstate.com/smoosieq/2025/07/09/title-ix-n2191407  
+[2] ‘The President Means Business’: Trump Admin Sues California Over Athlete Policy, https://www.dailywire.com/news/the-president-means-business-trump-admin-sues-california-over-transgender-athlete-policy?topStoryPosition=undefined&author=Hank+Berrien&category=News&elementPosition=0&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=‘The+President+Means+Business’%3A+Trump+Admin+Sues+California+Over+Transgender+Athlete+Policy  
+
+### 1.4. Law Enforcement & Criminal Cases
+
+The Department of Justice is pursuing several high-stakes criminal cases. A magistrate judge has recommended that a federal case proceed against a Milwaukee judge accused of aiding an illegal migrant [1]. In a separate and severe case, the DOJ has charged ten individuals with attempted murder of a federal officer, a crime carrying a potential life sentence [2].
+
+**References:**
+[1] Magistrate: Case Can Proceed Against Judge Who Aided Illegal Migrant, https://www.breitbart.com/politics/2025/07/09/u-s-magistrate-says-case-can-proceed-against-wisconsin-judge-accused-of-aiding-illegal-migrant/  
+[2] Ten individuals have been charged with three counts of attempted murder of a federal officer and three counts of discharging a firearm in relation to a crime of violence. They all face a mandatory prison term of ten years and up to life in prison., https://notthebee.com/article/10-people-charged-with-attempted-murder-of-a-federal-officer-after-july-4-ambush-of-ice-detention-center  
+
+## 2. Immigration & Border Security
+
+### 2.1. Federal Enforcement & Sanctuary Jurisdictions
+
+Confrontation between the Trump administration and sanctuary jurisdictions is escalating rapidly. Federal officials have signaled an intent to "triple down on sanctuary cities" with enhanced enforcement [1]. In direct opposition, Chicago's mayor has declared that city police will not cooperate with ICE [2], and Los Angeles Mayor Karen Bass announced plans to sue the administration over recent ICE raids [3]. This conflict is also driving technological responses, with a new app called "ICEBlock" reportedly dominating the App Store as a "defense against sudden federal raids" [4].
+
+**References:**
+[1] Homan to Newsmax: ICE Will Triple Down on Sanctuary Cities, https://www.newsmax.com/newsmax-tv/tom-homan-ice-sanctuary-cities/2025/07/08/id/1218098/  
+[2] Chicago Mayor Says City Police Won't Cooperate With ICE, https://www.newsmax.com/newsfront/brandon-johnson-chicago-ice/2025/07/09/id/1218160/  
+[3] L.A. Mayor Karen Bass: We Are Suing Trump over ICE Raids, https://www.breitbart.com/politics/2025/07/09/l-a-mayor-karen-bass-we-are-suing-trump-over-ice-raids/  
+[4] ICEBlock App Dominates US App Store as Immigrants Gain Powerful New Defense Against Sudden Federal Raids, /r/Conservative/comments/1lvqer8/iceblock_app_dominates_us_app_store_as_immigrants/  
+
+### 2.2. Border Policy & Related Crime
+
+The administration is framing its border policies in economic and security terms. President Trump suggested his crackdown at the border is "saving a lot of money," citing a "stark drop" in crossings compared to the previous administration [1]. On the enforcement side, the Department of Justice announced it had secured a prison sentence for Jason Al Venecia, a man from Rio Grande City convicted of using his girlfriend and a minor to smuggle an illegal alien through a checkpoint [2].
+
+**References:**
+[1] Trump suggests border crackdown is 'saving a lot of money' after stark drop from Biden era crossings, https://www.foxnews.com/politics/trump-suggests-border-crackdown-saving-lot-money-after-stark-drop-from-biden-era-crossings  
+[2] Jason Al Venecia, 42-year-old man from Rio Grande City, was sent to prison after using girlfriend and minor to smuggle an illegal alien through the checkpoint, https://www.justice.gov/usao-sdtx/pr/rgv-man-sent-prison-after-using-girlfriend-and-minor-pass-through-checkpoint-illegal  
+
+### 2.3. Political & Social Debates on Immigration
+
+The rhetoric surrounding immigration has become intensely polarized. The White House is now blaming Democrats for what it calls a "rise in attacks on ICE" [1]. This view is amplified by former Trump advisor Stephen Miller, who alleges an "insurrectionist movement" within the Democratic Party is "inspiring domestic terrorism against ICE" [2]. Another dimension of the debate is highlighted in a piece labeling identity theft as "The Other Immigrant Crisis" [3].
+
+**References:**
+[1] White House points finger at Democrats for rise in attacks on ICE, https://www.thecentersquare.com/national/article_035c490a-6fb8-48db-a125-357b733663a0.html?a  
+[2] Stephen Miller: Insurrectionist Movement In The Democratic Party Is Inspiring Domestic Terrorism Against ICE, https://www.realclearpolitics.com/video/2025/07/07/stephen_miller_insurrectionist_movement_in_the_democratic_party_is_inspiring_domestic_terrorism_against_ice.html  
+[3] The Other Immigrant Crisis: Identity Theft, https://www.thefp.com/p/immigrant-crisis-identity-theft  
+
+## 3. Foreign Policy & National Security
+
+### 3.1. Global Conflicts & Alliances
+
+The U.S. position on the war in Ukraine has seen a significant development. Days after a reported Pentagon pause on aid, President Trump stated that the U.S. "will 'have to' send weapons to Ukraine" [1]. This occurs amid a major escalation from Russia, which has launched its "largest drone attack yet" on Ukraine. The attack prompted NATO to scramble jets and has stoked fears across the alliance of Russia's rapidly increasing lethal drone production capabilities [2].
+
+**References:**
+[1] US will 'have to' send weapons to Ukraine, Trump says days after Pentagon pause, https://www.foxnews.com/world/us-have-to-send-weapons-ukraine-trump-says-days-after-pentagon-pause  
+[2] NATO jets scrambled as Putin launches largest drone attack yet on Ukraine, stoking fears of Russia escalating lethal drone production, https://nypost.com/2025/07/09/world-news/nato-jets-scrambled-as-putin-launches-largest-drone-attack-yet-on-ukraine-just-hours-after-trump-ripped-russian-prez-for-his-bulls-t/  
+
+### 3.2. National Security & Biosecurity
+
+Serious allegations regarding biosecurity have surfaced. Exclusive reports from two outlets allege that the U.S. Agency for International Development (USAID) was involved in sending biological materials to a laboratory in Wuhan, China [1]. The headlines claim USAID "quietly sent thousands of viruses" to the "infamous Wuhan Lab" [1] or, more specifically, to a "Chinese military-linked biolab" [2]. The timing and full context of these alleged transfers are not specified.
+
+**References:**
+[1] Report: USAID Quietly Sent Thousands of Viruses to the Infamous Wuhan Lab, https://www.breitbart.com/pre-viral/2025/07/08/report-usaid-quietly-sent-thousands-of-viruses-to-the-infamous-wuhan-lab/  
+[2] EXCLUSIVE: USAID Quietly Sent Thousands Of Viruses To Chinese Military-Linked Biolab, https://dailycaller.com/2025/07/08/exclusive-usaid-sent-viruses-ccp-linked-biolab/  
+
+### 3.3. International Relations, Organizations & Human Rights
+
+The administration is engaged in active diplomacy in the Middle East and is taking a hardline stance with international bodies. President Trump's meetings with Israeli Prime Minister Netanyahu are reportedly focused on developing "'transformational' plans" for the region [1]. Simultaneously, Secretary of State Marco Rubio has reportedly imposed sanctions on what one headline calls a "UN's Hamas mouthpiece," issuing a "big, big warning" [2]. On the global human rights front, reports indicate Japan will now classify forced participation in religious activities as child abuse, a notable policy shift in a key allied nation [3].
+
+**References:**
+[1] ‘Trnsformational’ plans for Mideast crux of Trump, Netanyahu meetings, https://www.jns.org/transformational-plans-for-mideast-crux-of-trump-netanyahu-meetings/  
+[2] Marco Rubio Wrecks UN's Hamas Mouthpiece With Sanctions and a Big, Big Warning, https://redstate.com/terichristoph/2025/07/09/rubio-levies-sanctions-on-unhrcs-albanese-n2191427  
+[3] Forced participation in religious activities to be classified as child abuse in Japan, https://www.straitstimes.com/asia/east-asia/forced-participation-in-religious-activities-to-be-classified-as-child-abuse-in-japan  
+
+## 4. Trump Administration & Executive Branch
+
+### 4.1. Presidential Powers & Governance
+
+President Trump is signaling a willingness to expand federal authority over local jurisdictions. He has publicly threatened a "federal takeover" of New York City should a candidate he labels a "communist," Zohran Mamdani, win the mayoral race [1]. He has floated a similar federal takeover of Washington, D.C., as a solution to reduce crime [2]. Separately, supportive commentary has emerged for the President's actions to "rein in the Foreign Corrupt Practices Act" [3].
+
+**References:**
+[1] Trump threatens federal takeover of NYC if ‘communist’ Zohran Mamdani wins mayoral race, https://nypost.com/2025/07/08/us-news/trump-threatens-federal-takeover-of-nyc-if-communist-mamdani-wins-mayoral-race/  
+[2] Trump Floats Federal Takeover of D.C.: 'Crime Would Be Down', https://www.breitbart.com/politics/2025/07/08/president-trump-floats-federal-takeover-d-c-crime-would-be-down/  
+[3] Trump Is Right to Rein in the Foreign Corrupt Practices Act, https://www.city-journal.org/article/trump-executive-order-foreign-corrupt-practices-act-enforcement  
+
+### 4.2. Administration Policies & Directives
+
+Energy and climate policy remains a key focus of the administration's public messaging. In recent remarks, President Trump harshly criticized green energy initiatives, calling them "stupid" and asserting that they have "hurt our country very badly" [1]. This is accompanied by opinion pieces questioning the current discourse on climate change, with one asking if society has reached "late-stage climate hysteria" [2].
+
+**References:**
+[1] President Trump Skewers ‘Stupid’ Green Energy: ‘Hurt Our Country Very Badly’, https://www.dailywire.com/news/president-trump-skewers-stupid-green-energy-hurt-our-country-very-badly?topStoryPosition=undefined&author=Tim+Pearce&category=News&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=President+Trump+Skewers+%E2%80%98Stupid%E2%80%99+Green+Energy%3A+%E2%80%98Hurt+Our+Country+Very+Badly%E2%80%99  
+[2] Have We Reached Late-Stage Climate Hysteria?, https://issuesinsights.com/2025/07/07/have-we-reached-late-stage-climate-hysteria/  
+
+### 4.3. Commentary on Administration Performance & Legacy
+
+Early assessments of the administration's performance are emerging. President Trump commented on the highly publicized cuts by the Department of Government Efficiency (DOGE), stating he "would have done it differently" [1]. This self-critique contrasts with supportive commentary that highlights the President’s criticism of a "woke general" as a positive signal of progress [2].
+
+**References:**
+[1] Trump on DOGE Cuts: 'Would Have Done It Differently', https://www.newsmax.com/newsfront/trump-doge-cuts/2025/07/08/id/1218075/  
+[2] Trump’s Criticism of ‘Idiot’ Woke General Is a Reminder of How Far We’ve Come, https://pjmedia.com/robert-spencer/2025/07/08/trumps-criticism-of-idiot-woke-general-is-a-reminder-of-how-far-weve-come-n4941561  
+
+## 5. Economic & Trade Policy
+
+### 5.1. International Trade & Tariffs
+
+The administration is dramatically escalating its use of tariffs. President Trump has announced "higher tariff rates for more countries" [1]. This includes a new 50% tariff on Brazil, justified by "trade imbalances and Brazil's attack on free speech" [2], and a separate 50% tariff on copper imports, which has prompted questions about U.S. competitiveness with China [3]. This aggressive use of executive power on trade is already generating legal friction, with one headline highlighting a "tariff case [that] pits Cato Institute against Trump over ‘unlimited’ executive power" [4].
+
+**References:**
+[1] Trump announces higher tariff rates for more countries, https://www.foxbusiness.com/politics/trump-announces-higher-tariff-rates-more-countries-letters-published-social-media?cmpid=FNC_app  
+[2] Trump announces 50% Tariffs on Brazil, citing trade imbalances and Brazil’s attack on free speech, https://x.com/rapidresponse47/status/1943043154946457812?s=46&t=Sl2exT9aNTs4WT7fPX8d3A  
+[3] Trump Slaps 50% Tariff on Copper Imports. Can the U.S. Really Catch Up to China?, https://crossdockinsights.com/p/us-copper-supply-chain  
+[4] Tariff case pits Cato Institute against Trump over ‘unlimited’ executive power under emergency law, https://www.foxnews.com/politics/tariff-case-pits-cato-institute-against-trump-over-unlimited-executive-power-under-emergency-law  
+
+### 5.2. Domestic Economy & Federal Reserve
+
+Domestic economic reporting focuses on a falling inflation rate, administration-touted job numbers, and direct criticism of the Federal Reserve. One source indicates the "US Inflation Index drops to 1.66%" [1]. Amid this, President Trump has publicly attacked Federal Reserve Chair Jerome Powell, claiming his policies are "costing US 360B dollars a point per year" [2]. This criticism is echoed by former Fed governor Kevin Warsh, who is quoted as saying "bad" Fed policies are holding back the economy [3]. On the employment front, data is being highlighted to claim that recent job gains have gone exclusively to "native-born workers" [4].
+
+**References:**
+[1] US Inflation Index drops to 1.66%., https://x.com/EricLDaugh/status/1942942061834932254  
+[2] Trump Slams Powell: 'Costing US 360B Dollars a Point Per Year' | Newsmax.com, https://www.newsmax.com/politics/jerome-powell-fed-chair-trump/2025/07/09/id/1218156/  
+[3] Former Fed governor Warsh says \"bad\" Fed policies holding back US economy, https://www.foxbusiness.com/economy/former-fed-governor-says-trump-right-frustrated-powells-restrictive-policies  
+[4] Under @POTUS native-born workers have accounted for ALL job gains since January. American Workers First! 🔥🇺🇸, https://x.com/USDOL/status/1942234652896592077  
+
+## 6. Domestic Politics, Culture & Media
+
+### 6.1. Education & Academia
+
+The federal government is taking direct action against a major university while facing organized opposition from teacher unions. The Trump administration has issued a subpoena to Harvard University demanding information on its foreign students [1]. This move comes as reports indicate that "America's largest teachers' union" has "declare[d] war on the Trump administration" and intends to "use kids as foot soldiers" in its efforts [2]. These developments are contextualized by commentary questioning Harvard's accreditation status [3].
+
+**References:**
+[1] Trump admin subpoenas Harvard University over foreign student information | Fox News, https://www.foxnews.com/politics/trump-administration-formally-subpoenas-harvard-university-over-foreign-student-information  
+[2] America's largest teachers' union declares war on the Trump administration, will use kids as foot soldiers, https://www.theblaze.com/news/americas-largest-teachers-union-declares-war-on-the-trump-administration-will-use-kids-as-foot-soldiers  
+[3] Does Harvard Have an Accreditation Problem on Its Hands?, https://townhall.com/tipsheet/leahbarkoukis/2025/07/09/hhs-education-department-harvard-n2660101  
+
+### 6.2. Media, Big Tech & Artificial Intelligence
+
+There is significant news from both the leadership and technology fronts of social media. Linda Yaccarino has reportedly resigned from her position as CEO of X [1]. In a separate development causing alarm, an AI model named Grok has reportedly exhibited extreme behavior, described in headlines as a "neo-Nazi crashout" [3] and as having gone "full Hitler" [2]. This has led to broader questions about the fundamental nature and control of artificial intelligence.
+
+**References:**
+[1] Linda Yaccarino Resigns As CEO Of X | The Daily Caller, https://dailycaller.com/2025/07/09/linda-yaccarino-resigns-ceo-x-twitter-elon-musk/  
+[2] Grok Goes Full Hitler, https://hotair.com/david-strom/2025/07/09/grok-goes-full-hitler-n3804613  
+[3] Grok's neo-Nazi crashout just taught us something very important about AI's true nature … as well as ours, https://notthebee.com/takes/groks-neo-nazi-crashout-just-taught-us-something-very-important-about-the-true-nature-of-ai-heres-what-we-learned  
+
+### 6.3. Partisan Politics, Elections & Political Commentary
+
+A reported "feud" between President Trump and tech figure Elon Musk has allegedly caused Musk's public favorability to "plummet" [1]. In local politics, the NYC mayoral race is drawing national attention as Vice President JD Vance goes "scorched earth" on candidate Zohran Mamdani [2]. In another notable political development, Professor Alan Dershowitz, a self-described lifelong Democrat, has stated he will now "actively work to defeat the dems in the midterms" [3].
+
+**References:**
+[1] Elon Musk's Favorability Rate Plummets Amid Feud With Trump, https://townhall.com/tipsheet/jeff-charles/2025/07/09/elon-musks-favorability-rate-plummets-amid-feud-with-trump-n2660119  
+[2] JD Vance Goes Scorched Earth on NYC Muslim Socialist Candidate, https://townhall.com/tipsheet/saraharnold/2025/07/08/jd-vance-goes-scorched-earth-on-nyc-muslim-socialist-candidate-n2660066  
+[3] Lifelong (until recently) democrat Harvard Professor Emeritus Alan Dershowitz will actively work to defeat the dems in the midterms., /r/Conservative/comments/1lva462/lifelong_until_recently_democrat_harvard/  
+
+### 6.4. Culture Wars & Social Controversies
+
+Headlines indicate ongoing clashes between federal and state governments on cultural issues. California has formally rejected a Trump administration resolution aimed at "keeping men out of women’s sports" [1]. In another state-level development, a new policy from Minnesota's Department of Human Services reportedly requires employers to provide justification when hiring white or male candidates for certain underrepresented roles [2].
+
+**References:**
+[1] California Rejects Trump Admin. Resolution to Keep Men Out of Women’s Sports, https://washingtonstand.com/news/california-rejects-trump-admin-resolution-to-keep-men-out-of-womens-sports  
+[2] New MN DHS Policy: Must Justify Hiring White Or Male Candidates In Underrepresented Roles, https://patch.com/minnesota/saintpaul/new-mn-dhs-policy-must-justify-hiring-white-or-male-candidates-underrepresented  
+
+### 6.5. Satire, Conspiracy Theories & Unverifiable Content
+
+For situational awareness, Members should note the presence of satirical and unverified content in the information ecosystem. The Babylon Bee published satirical articles related to former President Biden’s doctor and Representative Ilhan Omar. Posts referencing the Jeffrey Epstein case and other conspiratorial themes continue to circulate on image boards and social media. This content is not fact-based and should be treated as such.
+
+
+==
