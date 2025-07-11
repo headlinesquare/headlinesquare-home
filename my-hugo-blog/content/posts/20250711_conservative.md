@@ -1,0 +1,147 @@
++++
+date = '2025-07-11T19:15:00-04:00'
+draft = false
+title = '[Friday, July 11] US News Headlines from r/Conservative'
++++
+
+This is an experimental AI project. 
+We are continuously improving it, but errors can still appear. 
+Feel free to contact us if you spot an error. 
+
+
+DAILY BRIEFING
+
+## 1. Immigration & Border Security
+
+### 1.1 Federal Enforcement Actions Lead to Violent Clashes in California
+
+A significant flashpoint has emerged in California following an ICE immigration operation at cannabis farms, which resulted in a violent clash between federal agents and protesters [1]. The situation escalated dramatically to include alleged gunfire, with a social media video report showing a protester purportedly shooting at officers while they were making arrests [2]. The initial raid was reportedly connected to the presence of "illegal minors" found working at the farm [3]. This federal action has drawn a sharp political reaction, with a report from *The Federalist* stating Democratic leaders are "furious" that ICE rescued children from circumstances described as likely "exploitation" [4]. Tom Homan, a former acting ICE director, is cited as blaming the violence on what he calls the Democratic party's "'Nazi' rhetoric" against federal law enforcement [3]. In a separate but related incident reflecting the tense atmosphere, staff at a California clinic reportedly attempted to physically shield and prevent ICE agents from detaining a Honduran landscaper [5]. National commentary has amplified the issue, with a co-host of "The View" quoted as warning that a "reckoning" is coming for all immigration enforcement agents [6].
+
+**References:**  
+[1] Immigration operation at California cannabis farms leads to clash between federal agents and protesters, https://www.foxnews.com/us/immigration-operation-california-cannabis-farms-leads-clash-federal-agents-protesters  
+[2] Anti ICE protestor caught on video shooting at officers during arrests., https://x.com/AnthonyCabassa_/status/1943468564616520037  
+[3] Tom Homan rips violent clashes at California pot farm where illegal minors were working, blames Dems’ ‘Nazi’ rhetoric, https://nypost.com/2025/07/11/us-news/tom-homan-rips-violent-clash-at-california-pot-farm-as-proof-ice-protests-will-turn-deadly-blames-dems-nazi-rhetoric/  
+[4] Dems Are Furious That ICE Rescued Kids From Likely 'Exploitation', https://thefederalist.com/2025/07/11/ice-rescued-kids-from-likely-exploitation-at-marijuana-farm-and-democrats-are-furious/  
+[5] California clinic staffers seek to shield ICE agents from detaining Honduran landscaper, https://www.foxnews.com/us/california-clinic-staffers-seek-shield-ice-agents-from-detaining-honduran-landscaper  
+[6] 'The View' Co-Host Says a 'Reckoning' Is Coming for Immigration Enforcement Agents, https://townhall.com/tipsheet/leahbarkoukis/2025/07/11/sunny-hostin-reckoning-n2660245  
+
+### 1.2 California Officials Respond to Federal Actions, Raising Questions of Impropriety
+
+California’s state and local leadership are actively responding to federal immigration policy with countermeasures. Los Angeles Mayor Karen Bass, described in one headline as a "Rogue Democrat," has reportedly initiated a program to provide cash payments to "illegal aliens" and concurrently issued a formal mayoral order with the specific goal of thwarting federal immigration enforcement activities within the city [1]. At the state level, Governor Gavin Newsom publicly protested the ICE raid on the marijuana farm that was under federal investigation for "child labor violations" [2]. This has raised significant conflict of interest concerns, as it has been widely reported that a co-founder of the raided cannabis facility previously donated $10,000 to Governor Newsom's political campaigns [3]. Subsequent to the raid and the discovery of laborers at the site, the Department of Homeland Security has reportedly sent direct questions to Governor Newsom regarding the individuals his administration was aware of who were working at the donor-linked facility [4].
+
+**References:**  
+[1] Rogue Democrat LA Mayor Karen Bass provides cash payments to illegal aliens, issues order to thwart federal immigration enforcement, https://www.foxnews.com/politics/la-mayor-bass-provides-cash-payments-illegals-issues-order-thwart-immigration-enforcement  
+[2] Newsom Protests ICE Raid on Marijuana Farm Allegedly Found Using Child Labor, https://www.breitbart.com/immigration/2025/07/11/newsom-protests-ice-raid-on-marijuana-farm-allegedly-found-using-child-labor/  
+[3] Newsom donor's cannabis farm under federal investigation for 'child labor violations', https://www.foxnews.com/politics/newsom-donors-cannabis-farm-under-federal-investigation-child-labor-violations  
+[4] DHS Has a Question for Newsom After Who Was Found Working at California Marijuana Facility, https://townhall.com/tipsheet/leahbarkoukis/2025/07/11/dhs-has-a-question-for-newsom-after-who-was-found-working-at-california-marijuana-facility-n2660233  
+
+### 1.3 Executive Branch Implements New Policies Amid Reports of Declining Border Crossings
+
+The executive branch has announced and implemented major federal policy changes that directly affect immigrants based on their legal status. The U.S. Department of Education has issued a formal directive ending the use of taxpayer funds to subsidize postsecondary education for "illegal aliens" [1]. In a parallel and significant move, the White House has also acted to block this same population from accessing a range of federal benefit programs [2]. These enforcement-focused policies coincide with a *News Nation* report indicating that border crossings have seen a notable decline, an outcome the report attributes to "increased enforcement efforts" by the administration [3]. The stark shift in policy has drawn commentary on the previous administration's approach, with former Secretary of State John Kerry quoted in a *Benzinga* article as stating that "Trump Was Right" on the border issue and that the prior administration had "'missed' on [the] immigration issue" [4].
+
+**References:**  
+[1] U.S. Department of Education Ends Taxpayer Subsidization of Postsecondary Education for Illegal Aliens, https://www.ed.gov/about/news/press-release/us-department-of-education-ends-taxpayer-subsidization-of-postsecondary-education-illegal-aliens#:~:text=U.S.%20Department%20of%20Education%20Ends%20Taxpayer%20Subsidization%20of%20Postsecondary%20Education%20for%20Illegal%20Aliens,-July%2010%2C%202025&text=The%20U.S.%20Department%20of%20Education,technical%2C%20and%20adult%20education%20programs  
+[2] White House blocks illegal immigrants from accessing federal benefit programs, https://www.foxnews.com/politics/that-ends-now-white-house-vows-removal-illegal-immigrants-from-tax-payer-benefits  
+[3] [News Nation] Border crossings decline following increased enforcement efforts, https://www.newsnationnow.com/us-news/immigration/border-coverage/border-crossings-decline-ice-la/  
+[4] John Kerry Says 'Trump Was Right' About The Border And It Was Joe Biden That 'Missed' On Immigration Issue, https://www.benzinga.com/news/politics/25/07/46360480/john-kerry-says-trump-was-right-about-the-border-and-it-was-joe-biden-that-missed-on-immigration-is?utm_source=SmartNews&utm_campaign=partner_feed&utm_medium=partner_feed&utm_content=site  
+
+## 2. Justice System & National Security
+
+### 2.1 High-Level DOJ-FBI "Clash" Over Handling of Epstein Files
+
+A significant internal conflict has reportedly erupted between the Department of Justice and the Federal Bureau of Investigation over the handling of the Jeffrey Epstein case files. Multiple reports detail a major "clash" between Attorney General Pam Bondi and Dan Bongino, who is identified in news reports as the FBI Deputy Director [1]. The dispute, which appears to center on the administration's management of the "Jeffrey Epstein 'client list'," has reportedly become so severe that Bongino is actively weighing his resignation from the Bureau, with one report noting he has missed work amid the growing row [2, 3]. The situation has prompted broad accusations of an "Epstein files flop" and significant public backlash against both federal agencies. Adding to the controversy from a legal perspective, attorney Alan Dershowitz alleges in an exclusive interview that two specific New York judges are currently responsible for blocking the release of further details related to the case, stating, "Everything should come out" [4].
+
+**References:**  
+[1] FBI's Dan Bongino and Attorney General Bondi clash over Epstein files, https://www.foxnews.com/politics/fbis-dan-bongino-ag-bondi-clash-over-handling-epstein-files  
+[2] FBI Deputy Director Dan Bongino weighs quitting over Trump admin handling of Jeffrey Epstein 'client list', https://nypost.com/2025/07/11/us-news/fbi-deputy-director-dan-bongino-weighs-quitting-over-trump-admin-handling-of-jeffrey-epstein-client-list/  
+[3] Dan Bongino vs Pam Bondi escalates; FBI official misses work amid Epstein files row and ‘resignation’ rumors, https://www.hindustantimes.com/world-news/us-news/dan-bongino-vs-pam-bondi-escalates-fbi-official-quits-misses-work-amid-epstein-files-row-101752252657393.html  
+[4] Exclusive interview - Dershowitz says two New York judges still blocking Epstein details: ‘Everything should come out’, https://www.washingtonexaminer.com/news/justice/3468607/dershowitz-says-two-new-york-judges-still-blocking-epstein-details/  
+
+### 2.2 Federal Court Rejects 9/11 Plea Deal; Domestic Terror Concerns Mount
+
+In a major judicial development with significant national security implications, a federal appeals court has formally rejected and thrown out the plea deal for the alleged mastermind of the September 11th attacks, reopening a critical case that has languished for years [1]. On the domestic front, recent events in Texas are fueling new calls for action against extremist groups. An event described by one outlet as a "Terrorist Attack In Texas" has prompted public demands for the federal government to target the group Antifa [2]. In connection with this incident, an individual named Benjamin Song has been publicly identified in one report as a "Left-Wing Antifa Member" allegedly linked to what is being called an "ICE Ambush" in the state [3]. A related report indicates that a twelfth wanted person in connection with a shooting at an ICE detention center also had documented clashes with individuals described in the local press as "Christian nationalists" [4].
+
+**References:**  
+[1] Appeals court rejects plea deal for alleged 9/11 mastermind, https://ny1.com/nyc/all-boroughs/news/2025/07/11/appeals-court-throws-out-plea-deal-sept--11-attacks-khalid-sheikh-mohammed  
+[2] Terrorist Attack In Texas Demands Federal Targeting Of Antifa, https://thefederalist.com/2025/07/10/terrorist-attack-in-texas-demands-federal-targeting-of-antifa/  
+[3] Who Is Benjamin Song, The Left-Wing Antifa Member Linked To The ICE Ambush In Texas?, https://dallasexpress.com/crime/who-is-benjamin-song-the-left-wing-antifa-member-linked-to-the-ice-ambush-in-texas/  
+[4] 12th person wanted for ICE detention center shooting allegedly clashed with Christian nationalists, https://www.keranews.org/news/2025-07-11/benjamin-hanil-song-prairieland-ice-detention-center-shooting  
+
+### 2.3 Supreme Court Allows DOGE Order; Justice Jackson's Dissents Draw Scrutiny
+
+The Supreme Court has delivered a key ruling allowing President Trump's Executive Order concerning the establishment and operation of the Department of Government Efficiency (DOGE) to move forward. This represents a significant procedural victory for the administration's government reorganization efforts [1]. In a separate judicial matter involving election law, a coalition of election security groups is actively petitioning the Court to intervene and block the counting of "late-arriving ballots," seeking a nationwide standard ahead of future elections [2]. Meanwhile, recent public statements by Justice Ketanji Brown Jackson regarding her judicial philosophy are drawing considerable media scrutiny. In multiple reports, Justice Jackson is quoted as defending her often fiery and controversial dissents as a method of telling people "how I feel" [3], and stating in a separate instance that she has been "'triggered by the state of our democracy'" [4].
+
+**References:**  
+[1] Supreme Court Allows Trump DOGE EO to Move Forward, https://www.dailysignal.com/2025/07/08/breaking-supreme-court-allows-trumps-transformation-of-the-federal-bureaucracy-to-proceed  
+[2] Election security groups urge Supreme Court to block late-arriving ballots, https://www.washingtonexaminer.com/news/supreme-court/3468137/election-security-groups-supreme-court-late-ballots/  
+[3] Jackson defends controversial, fiery SCOTUS dissents as telling people ‘how I feel’, https://www.foxnews.com/politics/justice-jackson-i-get-tell-people-how-i-feel-court-opinions  
+[4] Supreme Court Justice Ketanji Brown Jackson triggered by 'state of our democracy', https://nypost.com/2025/07/11/us-news/supreme-justice-ketanji-brown-jackson-triggered-by-state-of-our-democracy/  
+
+## 3. Executive Branch: Policy & Governance
+
+### 3.1 Reports Indicate Strong Economic Performance and Fiscal Surplus
+
+Positive economic indicators are a leading story for the administration. Reports based on Treasury data show the U.S. government recorded a $27 billion budget surplus in June, a notable fiscal event as it marks the first monthly surplus registered since 2005 [1]. Multiple headlines are directly crediting this outcome to the administration's tariff policies, with a *Breitbart* article labeling the development as a feature of a new "Golden Age" [2]. On the labor front, a new Department of Labor report is being widely cited to claim that native-born Americans have accounted for "100% of Job Gains Under Trump" [3]. Amid these positive reports, a conflict is brewing between a White House financial watchdog and Federal Reserve Chair Jerome Powell. The dispute centers on a $2.5 billion renovation of the Federal Reserve headquarters, with the watchdog reportedly issuing a stark warning that construction "could be halted" if concerns are not addressed [4].
+
+**References:**  
+[1] JUST IN: 🇺🇸 US government records $27,000,000,000 budget surplus in June, the first monthly surplus since 2005., https://x.com/watcherguru/status/1943737572540178759?s=46  
+[2] Golden Age: Trump Tariffs Deliver Surprise Budget Surplus, https://www.breitbart.com/economy/2025/07/11/june-budget-surplus/  
+[3] Labor Dept: Americans Account for 100% of Job Gains Under Trump, https://www.breitbart.com/politics/2025/07/11/labor-department-native-born-americans-account-100-job-gains-under-donald-trump/  
+[4] White House financial watchdog rips Jerome Powell over $2.5 billion revamp of Fed HQ — warns construction could be halted, https://nypost.com/2025/07/10/business/white-house-watchdog-rips-jerome-powell-over-costly-fed-hq-revamp/  
+
+### 3.2 Trump Pressures GOP on DOGE Cuts, Floats Federal Takeover of D.C.
+
+President Trump is reportedly applying significant pressure on Senate Republicans to secure their support for spending cuts associated with his signature Department of Government Efficiency (DOGE) initiative. This intra-party pressure campaign has been characterized in one report as a "brutal threat" to any GOP senators who might oppose the proposed cuts [1]. Separately, the President has also publicly floated the idea of a full federal takeover of the District of Columbia, a move that would fundamentally alter the governance of the nation's capital and revoke home rule [2]. In public discourse, an opinion piece at *RealClearPolitics* claims that "Trump’s OBBB" initiative has been a success that "is even bigger than it appears," although the headline provides no context for the OBBB acronym, requiring a full reading for clarity [3].
+
+**References:**  
+[1] Trump Issues Brutal Threat to Senate Republicans Who Oppose DOGE Spending Cuts, https://townhall.com/tipsheet/jeff-charles/2025/07/11/trump-threatens-gop-lawmakers-opposing-doge-cuts-n2660236  
+[2] Trump Suggests a Federal Takeover of Washington, DC, https://www.dailysignal.com/2025/07/09/trump-says-hes-considering-takeover-dc-heres-why-thats-good-idea/?utm_source=TDS_Email&utm_medium=email&utm_campaign=trump-was-right-on-immigration-john-kerry-says&_bhlid=109d64e8927387cff590430648524c6e0e6e62d9  
+[3] Trump’s OBBB Success Is Even Bigger Than It Appears, https://www.realclearpolitics.com/articles/2025/07/11/trumps_obbb_success_is_even_bigger_than_it_appears_153020.html  
+
+### 3.3 Major Changes Underway at State Department, FBI, and IRS
+
+Significant operational and personnel changes are being implemented across key federal departments. The State Department has initiated a major "shake-up," beginning the process of firing 1,350 employees as part of a broader restructuring ordered by the administration [1]. At the FBI, in a bid to enhance internal security, the agency is now reportedly using polygraph tests as a primary tool to "flush out" internal leakers [2]. In a separate security matter with fewer public details, reports have emerged that "multiple Secret Service Agents" have been suspended, though headlines do not specify the cause or context for the suspensions [3]. Finally, the IRS is reported to have implemented a new policy change that realizes "the president's years-old promise to churches." The specifics of this policy shift are not detailed in the provided headlines [4].
+
+**References:**  
+[1] State Dept Starts Firing 1,350 Employees in Trump Shake-Up, https://www.newsmax.com/us/layoffs-diplomats-state-department/2025/07/11/id/1218425/  
+[2] FBI Using Polygraphs to Flush Out Leaks, https://www.newsmax.com/newsfront/fbi-leaks-media/2025/07/10/id/1218365/  
+[3] Here's What We've Learned About Those Multiple Suspended Secret Service Agents, https://redstate.com/katie-jerkovich/2025/07/10/heres-what-weve-learned-about-those-multiple-suspended-secret-service-agents-n2191498  
+[4] Trump IRS realizes the president's years-old promise to churches, https://www.theblaze.com/news/trump-irs-realizes-the-presidents-years-old-promise-to-churches  
+
+## 4. Foreign Affairs & International Relations
+
+### 4.1 Key Foreign Policy Engagements and Diplomatic Moves
+
+President Trump has announced he will make a "'major statement' on Russia" in the wake of a recent attack on Ukraine, teasing that the public will "be seeing things happen" shortly [1]. In a separate area of foreign policy, the administration is reportedly threatening the government of Brazil with "stiff tariffs." The action is linked to what is described vaguely in a headline as an "internal Brazilian matter," raising questions among some observers about the strategic wisdom of the move [2]. Regarding foreign aid, Democratic Representative Jasmine Crockett is quoted in the *Daily Caller* suggesting that proposed cuts to USAID funding "could cause another 9/11" [3]. On the diplomatic front, President Trump has nominated Nick Adams, described in one headline as an "(Alpha Male)," to serve as the U.S. ambassador to Malaysia [4]. Meanwhile, in commentary on global security, the son of a Hamas co-founder has issued a dire warning that "Muslims Will Make Europe ‘Rubble’" [5].
+
+**References:**  
+[1] Trump teases 'major statement' on Russia after latest Ukraine attack: 'You'll be seeing things happen', https://nypost.com/2025/07/11/us-news/trump-teases-major-statement-on-russia-after-latest-ukraine-attack-youll-be-seeing-things-happen/  
+[2] Why has President Trump threatened Brazil with stiff tariffs over an internal Brazilian matter that has nothing to do with the USA? Is this wise statecraft?, /r/Conservative/comments/1lwsabx/why_has_president_trump_threatened_brazil_with/  
+[3] ‘They Coming For You’: Jasmine Crockett Suggests Cutting USAID Could Cause Another 9/11, https://dailycaller.com/2025/07/10/jasmine-crockett-usaid-911-attack/  
+[4] Donald Trump nominates Nick Adams (Alpha Male) as US ambassador to Malaysia, https://www.abc.net.au/news/2025-07-11/donald-trump-nick-adams-malaysia-ambassador/105519888  
+[5] Hamas Co-Founder’s Son Warns That Muslims Will Make Europe ‘Rubble’, https://pjmedia.com/catherinesalgado/2025/07/11/hamas-co-founders-son-warns-muslims-will-make-europe-rubble-n4941657  
+
+## 5. Domestic Politics & Cultural Issues
+
+### 5.1 New York Mayoral Race Heats Up as Candidate's Win Sparks Florida Real Estate Inquiries
+
+The recent Democratic primary victory of Zohran Mamdani, identified in headlines as a New York "mayor wannabe" and a prominent progressive, is reportedly having an immediate economic ripple effect [1]. According to a *Fox Business* report, inquiries from wealthy New Yorkers into Florida real estate have jumped by 50% since his win was declared [2]. As his profile rises, Mamdani is now facing accusations of attempting to "laundering" his past support for defunding the police by publicly toying with the idea of retaining the current NYPD Commissioner, Tisch, if he were to be elected [3]. Separately, in an unrelated state-level development, California Governor Newsom has announced a new $101 million plan to construct low-income housing in the affluent oceanside community of the Palisades [4].
+
+**References:**  
+[1] Mamdani just latest mayor wannabe who thinks they can police the world, https://nypost.com/2025/07/10/opinion/mamdani-just-latest-mayor-wannabe-who-thinks-they-can-police-the-world/  
+[2] Real estate inquiries by wealthy New Yorkers into Florida properties jump 50% after Mamdani primary win, https://www.foxbusiness.com/real-estate/real-estate-inquiries-wealthy-new-yorkers-florida-properties-jump-50-after-mamdani-primary-win  
+[3] Zohran Mamdani accused of 'laundering' defund-the-police past by toying with keeping NYPD Commish Tisch if elected mayor, https://nypost.com/2025/07/11/us-news/zohran-mamdani-laundering-defund-the-police-past-by-toying-with-keeping-nypd-commish-tisch-if-elected-mayor-critics/  
+[4] Newsom unveils $101M to build Palisades low-income housing, https://capoliticalnewsandviews.com/newsom-unveils-101m-to-build-palisades-low-income-housing-slums/  
+
+### 5.2 Cultural, Technological, and Partisan Flashpoints
+
+A bipartisan Unidentified Aerial Phenomena Disclosure Act (UAPDA), co-authored by Senate Minority Leader Chuck Schumer and Republican Senator Mike Rounds, is drawing significant attention for its repeated and specific use of the phrase "Non-human intelligence," which appears 22 times in the bill's text [1]. In the technology sphere, a Republican state attorney general has launched a formal investigation into why AI chatbots allegedly exhibit an anti-Trump bias [2]. On social issues, a coalition of 114 pro-life groups has issued a unified call to "Stop the Dangerous Abortion Pill" [3]. In a sign of intra-party friction on the right, one conservative publication has published a direct call for Senate Majority Leader John Thune to "do his job" with respect to "RINOs and Rescissions," indicating pressure from the base on congressional leadership [4].
+
+**References:**  
+[1] Chuck Schumer Still Wants to Tell You What the Government Knows About UFOs - "Chuck Schumer and Republican Senator Mike Rounds authoring the craziest bill in Congress’s history, the Unidentified Aerial Phenomena Disclosure Act (UAPDA)" - “Non-human intelligence” appears 22 times in the UAPDA"., https://www.splinter.com/chuck-schumer-still-wants-to-tell-you-what-the-government-knows-about-ufos  
+[2] A Republican state attorney general is formally investigating why AI chatbots don’t like Donald Trump, https://www.theverge.com/news/704851/missouri-ag-andrew-bailey-investigation-ai-chatbots-trump-ranking  
+[3] 114 Pro-Life Groups: Stop the Dangerous Abortion Pill, https://www.lifenews.com/2025/07/10/114-pro-life-groups-stop-the-dangerous-abortion-pill/  
+[4] On RINOs and Rescissions — Senator Thune needs to do his job., https://spectator.org/on-rinos-and-rescissions/  
+
+
+==
