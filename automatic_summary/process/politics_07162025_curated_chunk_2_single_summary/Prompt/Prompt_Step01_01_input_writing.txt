@@ -1,0 +1,138 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 99-196, total number of articles is 98.**
+
+{"id": 99, "domain": "edition.cnn.com", "title": "Rep. Crockett calls for Attorney General Pam Bondi to testify on Epstein files: 'Why are you lying?'"}
+{"id": 100, "domain": "thedailybeast.com", "title": "White House Freaked Out Over a Question About Trump’s Ties to Epstein"}
+{"id": 101, "domain": "npr.org", "title": "A refugee deported to Bhutan by the U.S. finds himself stranded and stateless"}
+{"id": 102, "domain": "nhpr.org", "title": "NH Governor Ayotte vetoes Republican-backed public school book ban bill"}
+{"id": 103, "domain": "thehill.com", "title": "Trump-Epstein controversy fractures GOP"}
+{"id": 104, "domain": "bloomberg.com", "title": "Unlocked Trump Memecoins Set to Boost President's Wealth by $100 Million"}
+{"id": 105, "domain": "reuters.com", "title": "Jeffrey Epstein conspiracy fallout puts Trump, White House in damage-control mode"}
+{"id": 106, "domain": "newrepublic.com", "title": "Trump Declares Those Still Interested in Epstein Are “Bad People” | Donald Trump is trying to get his MAGA base to stop talking about Jeffrey Epstein. It’s not working."}
+{"id": 107, "domain": "washingtonpost.com", "title": "NOAA was developing a way to predict extreme rainfall - until Trump officials stopped it"}
+{"id": 108, "domain": "cnn.com", "title": "Why Donald Trump is facing doubts in the ‘manosphere’"}
+{"id": 109, "domain": "the-independent.com", "title": "Jeffrey Epstein ‘raw’ prison video had nearly 3 minutes cut out of it, report claims"}
+{"id": 110, "domain": "ft.com", "title": "Donald Trump reaps $50bn tariff haul as world ‘chickens out’"}
+{"id": 111, "domain": "inews.co.uk", "title": "The cult of Maga has turned on Trump over Epstein"}
+{"id": 112, "domain": "gothamist.com", "title": "Former NYPD head accuses Mayor Adams, police brass of 'criminal enterprise'"}
+{"id": 113, "domain": "ctvnews.ca", "title": "‘Big fat bribe’: Stephen Colbert, Jon Stewart criticize ’60 Minutes’ settlement with Trump"}
+{"id": 114, "domain": "courthousenews.com", "title": "Fourth Circuit upholds West Virginia ban on abortion pills"}
+{"id": 115, "domain": "msnbc.com", "title": "Trump Told MAGA to be Quiet About Jeffrey Epstein. Fox News Obeyed."}
+{"id": 116, "domain": "cbc.ca", "title": "Trump wants to take over some U.S. cities. It's unlikely — but he can make life hard for them | President has threatened New York City with takeover if Mamdani becomes mayor"}
+{"id": 117, "domain": "self.politics", "title": "Discussion Thread: US Senate Considers Nominations and Legislation Passed by the House to Cut $9.4 Billion From Public Broadcasting and Foreign Aid"}
+{"id": 118, "domain": "theguardian.com", "title": "Donald Trump says those interested in Jeffrey Epstein inquiry are ‘bad people’ | Donald Trump"}
+{"id": 119, "domain": "newsweek.com", "title": "Trump Slams Supporters for Believing Jeffrey Epstein 'Bulls***'"}
+{"id": 120, "domain": "nbcnews.com", "title": "Former DNC chair Jaime Harrison launches a podcast — and invites Hunter Biden as an early guest"}
+{"id": 121, "domain": "bbc.com", "title": "US President Donald Trump's administration deports five migrants to Eswatini"}
+{"id": 122, "domain": "thehill.com", "title": "Trump slams ‘past supporters’ over fixation on Epstein"}
+{"id": 123, "domain": "commondreams.org", "title": "House GOP Wants to Stop a Ban That Would Keep Toxic 'Forever Chemicals' Off Food Crops"}
+{"id": 124, "domain": "thedailybeast.com", "title": "Three Minutes Are Missing From the ‘Raw’ Epstein Prison Video"}
+{"id": 125, "domain": "huffpost.com", "title": "Donald Trump Taunts AOC And Jasmine Crockett — Then Undermines Himself In Next Breath"}
+{"id": 126, "domain": "newrepublic.com", "title": "Lauren Boebert Floats Worst Person Possible as Epstein Special Counsel"}
+{"id": 127, "domain": "thebulwark.com", "title": "Sorry Trump, You Can’t Wish the Epstein Story Away"}
+{"id": 128, "domain": "bloomberg.com", "title": "The Epstein Conspiracy Is Finally Giving MAGA and Democrats Common Ground"}
+{"id": 129, "domain": "talkingpointsmemo.com", "title": "Fire, Brimstone, and Hegseth: Idaho Christian Nationalists Establish a DC Beachhead"}
+{"id": 130, "domain": "thehill.com", "title": "Epstein is the lie even Donald Trump can’t sell"}
+{"id": 131, "domain": "newsweek.com", "title": "Trump Calls Epstein Case a Hoax, Slams MAGA Critics: Live Updates"}
+{"id": 132, "domain": "thedailybeast.com", "title": "Jeffrey Epstein’s Lawyer on His ‘Clients’: I Know Who They Are"}
+{"id": 133, "domain": "seattletimes.com", "title": "ICE flights out of Boeing Field have gone up significantly"}
+{"id": 134, "domain": "wyofile.com", "title": "All-female ‘Forest Corps’ fills federal agency gaps for Wyoming trail projects"}
+{"id": 135, "domain": "cnn.com", "title": "Trump calls Epstein controversy ‘bullsh*t,’ says supporters who care about it are ‘weaklings’"}
+{"id": 136, "domain": "dw.com", "title": "Trump urges release of 'credible' Epstein info amid furor"}
+{"id": 137, "domain": "arstechnica.com", "title": "Rough road to “energy dominance” after GOP kneecaps wind and solar"}
+{"id": 138, "domain": "cbsnews.com", "title": "Trump asked GOP lawmakers if he should fire Fed Chair Jerome Powell, sources say"}
+{"id": 139, "domain": "axios.com", "title": "Trump disavows \"PAST supporters\" who believed \"Jeffrey Epstein Hoax\""}
+{"id": 140, "domain": "telegraph.co.uk", "title": "Will Iran really try to assassinate Trump?"}
+{"id": 141, "domain": "independent.co.uk", "title": "Trump rants that his ‘PAST’ supporters have bought into Jeffrey Epstein ‘Hoax’"}
+{"id": 142, "domain": "theguardian.com", "title": "‘A family of traitors’: Trump’s Brazil tariffs ultimatum backfires on Bolsonaro"}
+{"id": 143, "domain": "bloomberg.com", "title": "Trump Likely to Fire Powell Soon, White House Official Says"}
+{"id": 144, "domain": "newrepublic.com", "title": "Republican Governor Defies Her Party and Vetoes Seven Right-Wing Bills"}
+{"id": 145, "domain": "slate.com", "title": "The Epstein Situation Might Finally Break MAGA | Trump is trying to kill a conspiracy he helped spread. Now his base is imploding over it."}
+{"id": 146, "domain": "reuters.com", "title": "Eswatini says it is holding U.S. deportees in prisons, aims to repatriate them"}
+{"id": 147, "domain": "nytimes.com", "title": "Democrats Broach Potential Walkout to Block Texas Redistricting"}
+{"id": 148, "domain": "nbcnews.com", "title": "Trump disavows supporters pushing Jeffrey Epstein 'bulls---': 'I don't want their support anymore!'"}
+{"id": 149, "domain": "reuters.com", "title": "Administration Pushes States for Election Data"}
+{"id": 150, "domain": "thehill.com", "title": "GOP rep says he doesn’t trust Trump DOJ"}
+{"id": 151, "domain": "cnbc.com", "title": "Trump ‘likely’ will fire Fed Chair Powell ‘soon,’ White House official says"}
+{"id": 152, "domain": "nytimes.com", "title": "For Trump, Domestic Adversaries Are Not Just Wrong, They Are ‘Evil’"}
+{"id": 153, "domain": "bloomberg.com", "title": "Canada Weighs Limiting Lumber Exports to Solve US Trade Dispute, BC Premier Says"}
+{"id": 154, "domain": "latintimes.com", "title": "Young Trump Voters Key to His 2024 Success Are Now Abandoning Him, New Poll Suggests"}
+{"id": 155, "domain": "nbcnews.com", "title": "Trump 'likely' will fire Fed Chair Powell 'soon,' White House official says"}
+{"id": 156, "domain": "vox.com", "title": "The lie at the heart of Trump’s entire economic agenda"}
+{"id": 157, "domain": "apnews.com", "title": "US deports immigrants from Jamaica, Cuba, and other countries to the African kingdom of Eswatini"}
+{"id": 158, "domain": "edition.cnn.com", "title": "Why Donald Trump is facing doubts in the ‘manosphere’"}
+{"id": 159, "domain": "nytimes.com", "title": "Trump Has Drafted Letter to Fire Fed Chair and Asked Republicans if He Should"}
+{"id": 160, "domain": "abcnews.go.com", "title": "Trump administration sues CPB board members in latest attempt to force their ouster"}
+{"id": 161, "domain": "thetimes.com", "title": "Trump tells Starmer to ditch windmills and drill for more oil"}
+{"id": 162, "domain": "thehill.com", "title": "Top Oversight Democrat pledges probe into Epstein files: ‘Someone is lying’"}
+{"id": 163, "domain": "thedailybeast.com", "title": "TACO Trump Instantly Chickens Out of Firing Fed Chair Powell"}
+{"id": 164, "domain": "wired.com", "title": "Trump and the Energy Industry Are Eager to Power AI With Fossil Fuels"}
+{"id": 165, "domain": "theatlantic.com", "title": "Trump Now Personifies What MAGA Opposes"}
+{"id": 166, "domain": "newrepublic.com", "title": "Trump Reveals How He’s Trying to Rig the 2026 Midterms"}
+{"id": 167, "domain": "news.bgov.com", "title": "Thune Takes Cues From Basketball to Shepherd GOP on Tough Votes"}
+{"id": 168, "domain": "talkingpointsmemo.com", "title": "Contracts Show Millions of Dollars and Diverted Disaster Resources Were Used to Build DeSantis’ ‘Alligator Alcatraz’"}
+{"id": 169, "domain": "advocate.com", "title": "Ric Grenell’s rogue diplomacy stalls Marco Rubio’s Venezuela prisoner deal"}
+{"id": 170, "domain": "gwinnettdailypost.com", "title": "Democrat Ossoff far outpaces two GOP challengers for U.S. Senate"}
+{"id": 171, "domain": "myfox8.com", "title": "North Carolina, other states sue Trump administration over disaster prevention funding"}
+{"id": 172, "domain": "edition.cnn.com", "title": "Trump lashes out at 'weaklings' who believe Epstein 'bullsh*t' amid building GOP pressure to release documents"}
+{"id": 173, "domain": "thehill.com", "title": "Trump bashes ‘foolish Republicans’ for getting ‘duped’ on Epstein"}
+{"id": 174, "domain": "latimes.com", "title": "Will she or won’t she? The California governor’s race waits on Kamala Harris"}
+{"id": 175, "domain": "thetimes.com", "title": "Trump calls own supporters ‘stupid’ for wanting Epstein files released"}
+{"id": 176, "domain": "semafor.com", "title": "Democrats’ former chair tries to become the left’s Joe Rogan"}
+{"id": 177, "domain": "commondreams.org", "title": "'The 2020 Playbook on Steroids': Trump DOJ Requests for State Voter Data Spark Alarm"}
+{"id": 178, "domain": "newsweek.com", "title": "Donald Trump Responds to Reports He'll Fire Jerome Powell"}
+{"id": 179, "domain": "nbcnews.com", "title": "Trump says it's 'highly unlikely' he will fire Fed Chair Powell after broaching idea with GOP reps"}
+{"id": 180, "domain": "forward.com", "title": "Zohran Mamdani reportedly tells business leaders he will ‘discourage’ the phrase ‘globalize the intifada’"}
+{"id": 181, "domain": "thehill.com", "title": "Trump bashes ‘foolish Republicans’ for getting ‘duped’ on Epstein"}
+{"id": 182, "domain": "inews.co.uk", "title": "Why Trump's 50-day Ukraine deadline is a trap - but not for Putin"}
+{"id": 183, "domain": "cnn.com", "title": "Trump says it’s ‘highly unlikely’ he’ll fire Powell after suggesting otherwise in meeting with lawmakers"}
+{"id": 184, "domain": "sfgate.com", "title": "'It is flippable': Trump's policies could be backfiring in conservative towns"}
+{"id": 185, "domain": "fortune.com", "title": "Elon Musk spent months slashing federal contracts — Now his AI company is celebrating a $200M Pentagon contract and new unit to get government business"}
+{"id": 186, "domain": "independent.co.uk", "title": "Laura Loomer warns Trump’s Epstein flub could ‘consume his presidency’"}
+{"id": 187, "domain": "edition.cnn.com", "title": "Trump says it’s ‘highly unlikely’ he’ll fire Powell after suggesting otherwise in meeting with lawmakers"}
+{"id": 188, "domain": "politico.com", "title": "Trump says he will set tariffs for 150 small countries in one swoop"}
+{"id": 189, "domain": "usatoday.com", "title": "GOP senator introduces bill to repeal Medicaid cuts in Trump tax law he voted to pass"}
+{"id": 190, "domain": "theguardian.com", "title": "Farm worker who died after California ICE raid was ‘hardworking and innocent’, family says"}
+{"id": 191, "domain": "politico.com", "title": "Susan Collins finally got her dream job. Fellow Republicans are making it a nightmare."}
+{"id": 192, "domain": "wired.com", "title": "DHS Faces New Pressure Over DNA Taken From Immigrant Children"}
+{"id": 193, "domain": "bloomberg.com", "title": "Trump Calls Allies Demanding Epstein Files ‘Stupid People’"}
+{"id": 194, "domain": "msnbc.com", "title": "How DOGE's reckless cuts created chaos at the Social Security Administration"}
+{"id": 195, "domain": "edition.cnn.com", "title": "Several Louisiana officers are arrested and accused in a bribery scheme to help foreign nationals get visas"}
+{"id": 196, "domain": "thedailybeast.com", "title": "Bitter Trump Melts Down at MAGA For Turning on Him Over Epstein"}
+
+====================Input File End======================
+
+
+
