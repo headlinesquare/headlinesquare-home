@@ -1,0 +1,176 @@
++++
+date = '2025-07-18T19:15:00-04:00'
+draft = false
+title = '[Friday, July 18] US News Headlines from r/Conservative'
++++
+
+This is an experimental AI project. 
+We are continuously improving it, but errors can still appear. 
+Feel free to contact us if you spot an error. 
+
+
+
+DAILY BRIEFING
+
+## 1. Investigations, Justice & Legal Affairs
+
+### 1.1 "Russiagate" Intelligence Declassification
+The most significant intelligence-related development is a major declassification action by the Director of National Intelligence, Tulsi Gabbard. Multiple news reports, citing the newly public documents, allege that the Obama administration engaged in a coordinated effort to "'manufactured' intelligence to create [the] 2016 Russian election interference narrative" [1, 2]. One headline claims that Obama-era officials deliberately "spiked intel that cleared Trump in 2016" [3]. DNI Gabbard is directly quoted framing the events as a "'treasonous conspiracy in 2016 committed by officials at the highest level of our government'" [1]. The declassification has also renewed scrutiny of a key figure from that period, with one report from Tablet Magazine posing the question of whether former CIA Director Brennan may have engaged in "forgery" by falsifying evidence central to the Russiagate narrative [4].
+
+**References:**
+[1] Obama admin 'manufactured' intelligence to create 2016 Russian election interference narrative, documents show - 'There was a treasonous conspiracy in 2016 committed by officials at the highest level of our government," Gabbard said, https://www.foxnews.com/politics/obama-admin-manufactured-intelligence-create-2016-russian-election-interference-narrative-documents-show  
+[2] "Treasonous conspiracy": Tulsi Gabbard declassifies docs showing Obama admin "manufactured" Russian election inference hoax 😨, https://notthebee.com/article/tulsi-gabbard-declassifies-key-document-showing-russia-collusion-hoax-was-fabricated-by-obama-admin-  
+[3] Obama officials spiked intel that cleared Trump in 2016, declassified records show, https://www.washingtonexaminer.com/news/justice/3475949/obama-officials-spiked-intel-that-cleared-trump-in-2016-declassified-records-show/  
+[4] The Brennan Forgery — Did Obama’s CIA director falsify evidence showing Russiagate was a hoax?, https://www.tabletmag.com/sections/news/articles/brennan-forgery-russiagate  
+
+### 1.2 Scrutiny of Political & Judicial Figures
+High-profile federal officials are reportedly facing legal jeopardy. A criminal referral has been made against Federal Reserve Chair Jerome Powell for an unspecified act of "Alleged Perjury" [1]. Separately, a criminal referral has been filed against Rep. Adam Schiff, which reportedly "details possible violations of federal laws" [2]. The specific statutes or actions involved in the Schiff referral are not delineated in the headline.
+
+**References:**
+[1] Breaking: Jerome Powell Criminally Referred For Alleged Perjury, https://x.com/RepLuna/status/1945973887289721010?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1945973887289721010%7Ctwgr%5Ea7515ac7f1c8988918708b8ecb7c13c6d4d190cb%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.infowars.com%2Fposts%2Fjerome-powell-criminally-referred-for-alleged-perjury  
+[2] Criminal referral against Adam Schiff details possible violations of federal laws | Just The News, https://justthenews.com/accountability/political-ethics/adam-schiff-criminal-referral-details-possible-violations-federal  
+
+### 1.3 Former Department of Justice Actions Under Review
+Past actions by the Department of Justice are being re-examined. According to a Fox News report citing undisclosed documents, the Biden-era DOJ "actively sought a 'federal hook'" for a controversial school board memo [1]. The memo in question is related to the labeling of some parents at school board meetings as "'domestic terrorists'"; the exact nature of the "federal hook" the department sought is not specified in the report.
+
+**References:**
+[1] Biden DOJ actively sought 'federal hook' for school board memo about 'domestic terrorists,' documents reveal, https://www.foxnews.com/politics/biden-doj-white-house-coordinated-controversial-school-boards-memo-documents-reveal  
+
+### 1.4 Other Ongoing Investigations
+Attention is also being paid to other ongoing matters of legal and political interest. An article from The Federalist reports that "3 Biden Aides Plead 5th To Avoid Truth About Puppet Presidency," although the identities of the aides and the specific investigative context are not provided [1]. Additionally, an un-detailed, self-posted "Epstein Thread" indicates continued public discussion and interest in the Jeffrey Epstein case and its aftermath [2].
+
+**References:**
+[1] 3 Biden Aides Plead 5th To Avoid Truth About Puppet Presidency, https://thefederalist.com/2025/07/18/3-biden-aides-and-counting-plead-the-fifth-to-avoid-truth-about-puppet-presidency-1/  
+[2] Epstein Thread, /r/Conservative/comments/1m31wac/epstein_thread/  
+
+## 2. Executive Branch & Economic Policy
+
+### 2.1 Fiscal Policy & Federal Budget
+Congress has passed and sent a significant "rescissions package" to the President for his signature. The bill enacts "$9B [in] federal spending cuts" and was approved after a late-night vote [1, 2]. The passage of the "GOP-spearheaded bill" in the House was reportedly followed by a rise in stock market values [3]. These fiscal maneuvers are occurring against a backdrop of long-term concern, with one analysis from The Federalist warning that the "U.S. Debt Situation Will Soon Be Worse Than Right After WWII" [4].
+
+**References:**
+[1] Late night vote sends $9B federal spending cuts package to President Trump, https://www.foxnews.com/politics/congress-sends-9b-spending-cuts-package-trumps-desk-after-late-night-house-vote  
+[2] BREAKING: Trump's Rescissions Package Approved by Congress, https://townhall.com/tipsheet/mattvespa/2025/07/18/finally-trumps-rescissions-package-clears-the-house-heads-to-trumps-desk-for-signature-n2660580  
+[3] Passage of the GOP-spearheaded bill in the House caused stocks to rise Thursday, https://www.dailydropnews.com/post/thedrop-market-analysis-07-17-25  
+[4] U.S. Debt Situation Will Soon Be Worse Than Right After WWII, https://thefederalist.com/2025/07/17/report-americas-debt-situation-will-soon-be-worse-than-right-after-world-war-ii/  
+
+### 2.2 Administrative Actions and Regulatory Changes
+The Trump administration is actively pursuing regulatory changes, meeting both success and resistance. The Department of Justice has reportedly launched a formal process designed to "Restore Gun Rights to Millions" of Americans, though the headline makes clear that certain individuals will remain ineligible [1]. However, a key initiative to "reshape [the] Federal Trade Commission" has been "blocked by [a] DC judge," representing a significant legal setback for the administration's agenda [2]. On another front, an unnamed Republican Attorney General has issued a public call to terminate a federal DEI program, which they allege "'Wastes Money On Purpose'" [3].
+
+**References:**
+[1] BREAKING: Trump’s DOJ Launches Process to Restore Gun Rights to Millions—Here’s Who’s Ineligible, https://www.rightjournalism.com/breaking-trumps-doj-launches-process-to-restore-gun-rights-to-millions-heres-whos-ineligible/  
+[2] Trump administration's effort to reshape Federal Trade Commission blocked by DC judge, https://www.foxbusiness.com/politics/trump-administrations-effort-reshape-federal-trade-commission-blocked-dc-judge  
+[3] Republican Attorney General Calls For End To Federal DEI Program That ‘Wastes Money On Purpose’, https://www.dailywire.com/news/republican-attorney-general-calls-for-end-to-federal-dei-program-that-wastes-money-on-purpose?topStoryPosition=undefined&author=Leif+Le+Mahieu&category=Original&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Republican+Attorney+General+Calls+For+End+To+Federal+DEI+Program+That+%E2%80%98Wastes+Money+On+Purpose%E2%80%99  
+
+### 2.3 Presidential Commentary & Energy Projections
+A projection highlighted by Breitbart suggests that the administration's energy policies "Could Add Almost 2 Points to GDP by 2035" [1]. In a separate development related to media and culture, President Trump has commented on the recent cancellation of 'The Late Show,' stating, "'I Love that Colbert Got Fired'" and speculating, "'I Hear Jimmy Kimmel Is Next'" [2]. The President also weighed in on a separate, unspecified legal matter, noting "I Look Forward to Watching Rupert Murdoch Testify" [3]. The context for the Murdoch testimony is not provided.
+
+**References:**
+[1] Trump's Energy Policies Could Add Almost 2 Points to GDP by 2035, https://www.breitbart.com/politics/2025/07/17/white-house-cea-report-finds-trumps-energy-policies-could-add-almost-2-points-to-gdp-by-2035/  
+[2] Trump Says ‘I Love that Colbert Got Fired’: ‘I Hear Jimmy Kimmel Is Next’, https://www.breitbart.com/politics/2025/07/18/trump-says-i-love-that-colbert-got-fired-i-hear-jimmy-kimmel-is-next/  
+[3] Trump: I Look Forward to Watching Rupert Murdoch Testify, https://www.breitbart.com/politics/2025/07/18/trump-i-look-forward-to-watching-rupert-murdoch-testify/  
+
+## 3. Immigration & Border Security
+
+### 3.1 Federal Enforcement Actions & Data Usage
+Federal immigration enforcement has reportedly intensified dramatically. A Breitbart report claims that Immigration and Customs Enforcement (ICE) arrested 30,000 undocumented immigrants in the month of June, a figure described as "the most in at least half a decade" [1]. In a significant move related to inter-agency data sharing, it is reported that the Trump administration provided "Medicaid recipients' personal data, including addresses, to ICE" [2]. A specific enforcement action at a Home Depot in California resulted in the arrest of 11 undocumented individuals. One of the arrested individuals reportedly had a criminal history that included "67 prior jail bookings in California since 1986 and a prior deadly fentanyl trafficking conviction" [3].
+
+**References:**
+[1] Report: ICE Arrests 30K Illegals in June, the Most in at Least Half a Decade, https://www.breitbart.com/politics/2025/07/11/report-ice-arrests-over-30k-illegals-june-most-at-least-half-decade/  
+[2] Trump administration hands over Medicaid recipients' personal data, including addresses, to ICE, https://www.nbcwashington.com/news/politics/trump-administration-hands-over-medicaid-recipients-personal-data-including-addresses-to-ice/3959030/  
+[3] Federal Immigration Enforcement 's California Home Depot raid nabs 11 illegal aliens, one with 67 prior jail bookings in California since 1986 and a prior deadly fentanyl trafficking conviction., https://www.foxnews.com/us/feds-california-home-depot-raid-nabs-11-illegal-migrants-one-67-prior-jail-bookings  
+
+### 3.2 Legislative Debates and Policy Stances
+Immigration policy remains a focus of sharp legislative and political debate. Reports indicate that the White House has "shot down" an "Amnesty and Migration Bill" introduced by Representative Salazar [1]. Opposition to such a bill is articulated in a piece from The Federalist, which argues that it would "Allow Illegals To Keep Using U.S. As A Piggy Bank" [2]. A counter-narrative from Counterpunch highlights a practical "conundrum" for the administration's stated campaign of mass deportation, pointing to the agricultural sector's reliance on "Undocumented Farm Workers" [3].
+
+**References:**
+[1] White House Shoots Down Salazar’s Amnesty and Migration Bill, https://www.breitbart.com/politics/2025/07/18/white-house-shoots-down-salazars-amnesty-jobs-giveaway-bill/  
+[2] Amnesty Bill Will Allow Illegals To Keep Using U.S. As A Piggy Bank, https://thefederalist.com/2025/07/17/republican-says-her-amnesty-bill-will-help-illegals-treat-america-like-a-piggy-bank-forever/  
+[3] Undocumented Farm Workers Pose a Conundrum for Trump's Mass Deportation Campaign, https://www.counterpunch.org/2025/07/18/undocumented-farm-workers-pose-a-conundrum-for-trumps-mass-deportation-campaign/  
+
+### 3.3 State-Federal Immigration Conflicts
+Clashes between federal immigration authorities and state or local officials are escalating. Secretary of Homeland Security Kristi Noem publicly accused the Mayor of Nashville of "'Risking People's Lives' With Opposition To ICE" enforcement actions [1]. In a similar conflict in Minnesota, Wesley Hunt is heavily criticizing Governor Tim Walz for what he terms "'Illegal, Reckless' Medicaid Waivers for Illegal Aliens" and is publicly demanding a full state audit of the program [2]. Meanwhile, Florida Governor Ron DeSantis told Newsmax that migrants housed at a proposed state facility, dubbed "Alligator Alcatraz," could "Choose to Self-Deport" [3].
+
+**References:**
+[1] Kristi Noem Accuses Nashville Mayor Of ‘Risking People’s Lives’ With Opposition To ICE, https://www.dailywire.com/news/kristi-noem-accuses-nashville-mayor-of-risking-peoples-lives-with-opposition-to-ice?topStoryPosition=undefined&author=Spencer+Lindquist&category=News&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Kristi+Noem+Accuses+Nashville+Mayor+Of+%E2%80%98Risking+People%E2%80%99s+Lives%E2%80%99+With+Opposition+To+ICE  
+[2] Wesley Hunt Slams Tim Walz’s ‘Illegal, Reckless’ Medicaid Waivers for Illegal Aliens, Demands Full Minnesota Audit, https://www.breitbart.com/politics/2025/07/17/exclusive-wesley-hunt-slams-tim-walzs-illegal-reckless-medicaid-waivers-for-illegal-aliens-demands-full-minnesota-audit/  
+[3] Gov. DeSantis to Newsmax: Migrants Can Choose to Self-Deport From Alligator Alcatraz, https://www.newsmax.com/newsmax-tv/ron-desantis-alligator-alcatraz-detention/2025/07/17/id/1219161/  
+
+### 3.4 Crime Incidents Involving Migrants
+Two specific criminal cases involving undocumented immigrants have gained media traction. In California, the Department of Justice has charged an undocumented woman with faking her own "kidnapping" by ICE at a fast-food restaurant as part of an alleged "fundraiser scam" [1, 2]. In a separate case drawing significant attention, a "twice-deported illegal alien rapist" was reportedly freed, leading to public "heat" on Democrats over so-called "sanctuary policies" that are being blamed for the release [3].
+
+**References:**
+[1] California illegal immigrant faked ICE ‘kidnapping’ at fast-food joint for fundraiser scam — as family pleaded for public’s help: DOJ, https://nypost.com/2025/07/18/us-news/california-illegal-immigrant-yuriana-calderon-faked-ice-kidnapping-for-fundraiser-scam-and-to-smear-federal-agents-doj/  
+[2] Lady 'Kidnapped by ICE!' Was the Left's Border Star. Now She's Starring in a DOJ Indictment, https://pjmedia.com/victoria-taft/2025/07/17/doj-says-woman-claiming-she-was-kidnapped-by-ice-has-some-splainin-to-do-n4941855  
+[3] Twice-deported illegal alien rapist freed as Dems face heat for sanctuary policies, https://www.foxnews.com/us/twice-deported-migrant-rapist-freed-as-dems-face-heat-for-sanctuary-policies  
+
+## 4. Media, Culture, & Political Discourse
+
+### 4.1 'Late Show with Stephen Colbert' Cancellation
+A major media story is the announcement that CBS has canceled "The Late Show with Stephen Colbert" [1]. The program, a long-standing fixture of late-night television, is now scheduled to end its run in May 2026 [2]. The decision has immediately prompted a high-level political reaction, with a report from Fox News stating that Senators Adam Schiff and Elizabeth Warren are demanding to know from the network if the show is being ended for "political reasons" [3]. A separate report claims the show was a significant financial drain, having "Lost $40 Million" for CBS this year [4].
+
+**References:**
+[1] ‘Late Show With Stephen Colbert’ canceled by CBS, https://nypost.com/2025/07/17/entertainment/late-show-with-stephen-colbert-canceled-by-cbs/  
+[2] CBS cancels 'The Late Show,' Stephen Colbert to end program in May 2026, https://www.foxnews.com/media/cbs-cancels-the-late-show-stephen-colbert-end-program-may-2026  
+[3] Schiff, Warren demand to know if CBS is ending Stephen Colbert's 'Late Show' for 'political reasons', https://www.foxnews.com/media/schiff-warren-speculate-cbs-ending-stephen-colberts-late-show-political-reasons  
+[4] CBS Reportedly Lost $40 Million on Colbert's Late Show This Year - LateNighter, https://latenighter.com/news/cbs-reportedly-lost-40-million-on-colberts-late-show-this-year/  
+
+### 4.2 Controversial Statements by Political Figures
+Several political figures are attracting negative attention for controversial statements. Political figure Zohran Mamdani is the subject of multiple critical reports, with a fellow Democratic representative labeling him a "'job-killing socialist' who doesn't belong in the Democratic Party" [1]. Mamdani is also reported to have stated he supports "doing away with private property" [2] and to have helped edit the radical writings of his father to make them "'More Accessible'" [3]. Separately, Minnesota State Senator and Minneapolis mayoral candidate Omar Fateh is quoted "claiming that the real threat to our country is white people" and stating his goal is to "infiltrate the gov to enrich the Somalis" [4].
+
+**References:**
+[1] Dem rep slams Zohran Mamdani as a 'job-killing socialist' who doesn't belong in the Democratic Party, /r/Conservative/comments/1m37s00/dem_rep_slams_zohran_mamdani_as_a_jobkilling/  
+[2] 'Imagine No Possessions': Zohran Mamdani Says He’s on Board with Doing Away with Private Property, https://twitchy.com/warren-squire/2025/07/17/zohran-mamdani-says-hed-be-in-favor-of-the-abolition-of-private-property-n2415803  
+[3] Zohran Mamdani Said He Helped Edit the Writings of His Father, a Radical Academic Who Has Called for a 'Third Intifadah,' To Make Them 'More Accessible', https://freebeacon.com/democrats/zohran-mamdani-said-he-helped-edit-the-writings-of-his-father-a-radical-academic-who-has-called-for-a-third-intifadah-to-make-them-more-accessible/  
+[4] Omar Fateh is a socialist running to be the mayor of Minneapolis. He says his goal is to infiltrate the gov to enrich the Somalis, https://x.com/EndWokeness/status/1944831519802986558?s=34  
+
+### 4.3 Media Trust and Cultural Debates
+Broader debates about media credibility and cultural issues are ongoing. A widely shared article from The Free Press features a 25-year NPR veteran explaining "How We Lost America's Trust" [1]. Concurrently, a CNN data analyst has released figures on the potential for a third-party movement associated with Elon Musk, which one outlet described as "'Geez Louise!'" numbers, suggesting they are surprisingly high [2]. In the cultural sphere, a Breitbart article reports that the NFL has "Quietly Moved" the performance of the Black National Anthem away from the "Star Spangled Banner" at games [3].
+
+**References:**
+[1] I’ve Been at NPR for 25 Years. Here’s How We Lost America’s Trust, https://www.thefp.com/p/npr-editor-how-npr-lost-americas-trust  
+[2] CNN Data Analyst Drops Big Numbers on Elon's Third Party Idea - 'Geez Louise!', https://redstate.com/nick-arama/2025/07/18/cnn-data-analyst-numbers-on-elons-third-party-n2191808  
+[3] Woke Death Watch: Legendary Sports Broadcaster Michelle Tafoya Says NFL Quietly Moved Bl4ck National Anthem Away from Star Spangled Banner, https://www.breitbart.com/clips/2025/07/17/woke-death-watch-legendary-sports-broadcaster-michelle-tafoya-says-nfl-quietly-moved-black-national-anthem-away-from-star-spangled-banner/  
+
+## 5. National Security & Foreign Relations
+
+### 5.1 U.S.-China Relations & Security Concerns
+Tensions with the People's Republic of China are impacting U.S. corporate operations and raising national security questions. Financial services giant Wells Fargo has reportedly "suspended" all corporate travel to China after one of its bankers was "hit with an exit ban," effectively being barred from leaving the country [1]. On the defense front, Senator Tom Cotton is publicly questioning Microsoft's practice of using "Chinese Engineers to Maintain Defense Systems," raising concerns about potential security vulnerabilities in sensitive U.S. government infrastructure [2].
+
+**References:**
+[1] Wells Fargo suspends China travel after banker hit with exit ban, https://www.channelnewsasia.com/world/wells-fargo-suspends-china-travel-after-banker-hit-exit-ban-5244486  
+[2] Tom Cotton Wants to Know Why Microsoft Uses Chinese Engineers to Maintain Defense Systems and So Do We 🤔, https://redstate.com/streiff/2025/07/18/tom-cotton-wants-to-know-why-microsoft-uses-chinese-engineers-to-maintain-defense-systems-and-so-do-we-n2191801  
+
+### 5.2 Middle East Affairs
+Developments in the Middle East involve questions about U.S. funding and regional stability. A Jerusalem Post article alleges that "Biden-Harris tax dollars funded groups with antiNetanyahu, Hamas ties," raising concerns about the oversight and destination of foreign aid [1]. A separate opinion piece from Spiked-Online paints a grim picture of the situation in Syria, warning that the "'inclusive' jihadists feted by the West are complicit in the pogroms against Syria's minorities" and that the country's "'new dawn is already a nightmare'" [2].
+
+**References:**
+[1] Biden-Harris tax dollars funded groups with antiNetanyahu, Hamas ties, https://www.jpost.com/israel-news/article-861477  
+[2] Syria’s new dawn is already a nightmare — The ‘inclusive’ jihadists feted by the West are complicit in the pogroms against Syria’s minorities., https://www.spiked-online.com/2025/07/18/syrias-new-dawn-is-already-a-nightmare/  
+
+## 6. State & Local Governance
+
+### 6.1 Major Law Enforcement Incident in Los Angeles
+A critical incident is unfolding in Los Angeles County, where an "Explosion at [an] LA County Sheriff's Department facility" has reportedly resulted in the death of three deputies [1]. Fox News is citing sources for this information, and a corresponding post on Truth Social also references "Three dead at police training center" [2]. Details about the cause of the explosion are not available in the headlines.
+
+**References:**
+[1] Explosion at LA County Sheriff's Department facility leaves 3 deputies dead, sources say, https://www.foxnews.com/us/explosion-la-county-sheriffs-department-facility-leaves-dead-source-says  
+[2] Three dead at police training center., https://truthsocial.com/@GBNews/114875227404764129  
+
+### 6.2 State-Level Political & Fiscal Battles
+California is the epicenter of several high-stakes political and fiscal disputes. Governor Gavin Newsom is reportedly suing the Trump administration to block "$4 Billion in Cuts" to the state's high-speed rail project, colloquially dubbed the "California Choo-Choo" [1]. Newsom is also reported to be threatening to "Redraw CA's Congressional Districts Before Midterms," though the article making the claim argues why he institutionally cannot do so [2]. In a separate local matter, questions are being raised about the whereabouts of funds from a "FireAid Concert" intended for wildfire victims seven months ago [3].
+
+**References:**
+[1] Gavin Newsom Sues Trump over $4 Billion in Cuts to California Choo-Choo, https://www.breitbart.com/politics/2025/07/18/gavin-newsom-sues-trump-over-4-billion-in-cuts-to-california-choo-choo/  
+[2] Gavin Newsom Threatens to Redraw CA's Congressional Districts Before Midterms; Here's Why He Can't, https://redstate.com/jenvanlaar/2025/07/18/gavin-newsom-threatens-to-redraw-cas-congressional-districts-before-midterms-heres-why-he-cant-n2191771  
+[3] Seven Months Later, CA Wildfire Victims Are Asking 'Where's the FireAid Concert Money?', https://redstate.com/beckynoble/2025/07/18/seven-months-later-ca-wildfire-victims-are-asking-wheres-the-fireaid-concert-money-n2191809#google_vignette  
+
+### 6.3 State Policy on Elections and Education
+Issues of electoral processes and education standards are being debated at the state level. In New Jersey, a report cited by The Federalist claims the state's voter rolls are a "mess" and contain "More Than 32,000 ‘Questionable’ Voter Records" [1]. In a separate development, Tennessee is reportedly considering a significant change to its educational standards by dropping the foreign language requirement for high school graduation [2].
+
+**References:**
+[1] Messy New Jersey Voter Rolls Have More Than 32,000 ‘Questionable’ Voter Records, Report Says, https://thefederalist.com/2025/07/17/messy-new-jersey-voter-rolls-have-more-than-32000-questionable-voter-records-report-says/  
+[2] Tennessee considers dropping foreign language requirement for high school graduation, https://fox17.com/news/local/tennessee-considers-dropping-foreign-language-requirement-for-high-school-graduation  
+
+
+==

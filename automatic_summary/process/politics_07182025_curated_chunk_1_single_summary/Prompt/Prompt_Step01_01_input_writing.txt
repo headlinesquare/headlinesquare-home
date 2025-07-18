@@ -1,0 +1,122 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-82, total number of articles is 82.**
+
+{"id": 1, "domain": "usatoday.com", "title": "Trump opposes appointing special prosecutor in Epstein case, White House says"}
+{"id": 2, "domain": "cnn.com", "title": "Powell defends $2.5 billion Fed renovation in a point-by-point response to the Trump administration"}
+{"id": 3, "domain": "missouriindependent.com", "title": "Trump’s religious liberty commission might be the end of religious freedom for all"}
+{"id": 4, "domain": "apnews.com", "title": "State Department layoffs affect key Trump priorities like intelligence, energy and China"}
+{"id": 5, "domain": "thehill.com", "title": "GOP airs concerns about Trump’s use of rare tool to cut funds despite backing bill"}
+{"id": 6, "domain": "thedailybeast.com", "title": "Raging Trump Desperately Tries to Censor Epstein Exposé"}
+{"id": 7, "domain": "politico.com", "title": "State Department cyber, tech cuts deeper than previously known; Personnel involved in cyber, quantum, AI and tech-focused roles laid off in mass changes to the agency."}
+{"id": 8, "domain": "newsweek.com", "title": "Trump Responds After Report Reveals His Birthday Letter to Jeffrey Epstein"}
+{"id": 9, "domain": "truthout.org", "title": "Medicaid Is Giving ICE Access to Data of 79M Enrollees, Including Ethnicity"}
+{"id": 10, "domain": "independent.co.uk", "title": "Reported birthday card from Trump to Epstein shines new light on their friendship as fallout from files release mounts"}
+{"id": 11, "domain": "newsweek.com", "title": "Mike Johnson Reacts to Republican Blowback Over Jeffrey Epstein"}
+{"id": 12, "domain": "dailywire.com", "title": "‘Epstein Files’ Song Drops, Brought To You By The Dem Who Thought Guam Would Tip Over"}
+{"id": 13, "domain": "nationalpost.com", "title": "U.S.-Canada trade talks back underway as Trump’s wish list, from oil to DEI, keeps growing"}
+{"id": 14, "domain": "globalnews.ca", "title": "Musk mocks ‘Epstein hoax’ as poll finds majority of Americans think Trump hiding info - National | Globalnews.ca"}
+{"id": 15, "domain": "newyorker.com", "title": "Trump Has a Bad Case of Biden on the Brain"}
+{"id": 16, "domain": "the-independent.com", "title": "Trump contributed to album for Epstein’s 50th Birthday."}
+{"id": 17, "domain": "sltrib.com", "title": "ICE masking returns America to the days of the Ku Klux Klan"}
+{"id": 18, "domain": "axios.com", "title": "Israel says deadly Gaza church strike was mistake after Trump call"}
+{"id": 19, "domain": "people.com", "title": "Ex-Casino Boss Claims Trump and 'Best Friend' Jeffrey Epstein Were Once Caught Bringing Underage Girls to Casino Floor"}
+{"id": 20, "domain": "variety.com", "title": "Trump Was Attempting to Block Publication of Bombshell WSJ Jeffrey Epstein Story"}
+{"id": 21, "domain": "latintimes.com", "title": "Trump 'Brags' About Illegally Bribing GOP Congressman to Vote for 'Big, Beautiful Bill': 'I Did Him a Very Big, Big Favor'"}
+{"id": 22, "domain": "newrepublic.com", "title": "New York Republicans Unveil Bonkers New Anti-Zohran Mamdani Merch"}
+{"id": 23, "domain": "pbs.org", "title": "Canadian tourism to U.S. drops dramatically amid Trump's harsh rhetoric"}
+{"id": 24, "domain": "finance.senate.gov", "title": "As Trump Downplays Epstein, Wyden Unveils Details of Treasury’s Undisclosed Epstein File"}
+{"id": 25, "domain": "edition.cnn.com", "title": "Brazil’s President Lula says Trump was ‘not elected to be emperor of the world,’ as US-Brazil spat escalates"}
+{"id": 26, "domain": "newsweek.com", "title": "Trump photo with Epstein appears near US embassy ahead of royal visit"}
+{"id": 27, "domain": "cnn.com", "title": "Wall Street Journal: Birthday letter to Epstein bore Trump’s signature, drawing of naked woman"}
+{"id": 28, "domain": "rollingstone.com", "title": "Team Trump Was on ‘F-cking Warpath’ to Kill Story About Salacious Letter to Epstein"}
+{"id": 29, "domain": "washingtonpost.com", "title": "Mamdani charms national Democrats. But N.Y. Dems are just meh."}
+{"id": 30, "domain": "independent.co.uk", "title": "Trump says he’ll sue over report of his bawdy birthday card to Epstein"}
+{"id": 31, "domain": "thenation.com", "title": "The Supreme Court Just Crowned Trump King—Again"}
+{"id": 32, "domain": "democracydocket.com", "title": "RNC Sues New Jersey for Access to Voter Roll and Election Machine Records"}
+{"id": 33, "domain": "nytimes.com", "title": "Vance Tries to Sell the Benefits of Trump’s Megabill but Ignores the Costs"}
+{"id": 34, "domain": "salon.com", "title": "Pelosi calls Epstein controversy “a distraction”"}
+{"id": 35, "domain": "washingtonpost.com", "title": "Epstein files delay House action on $9 billion in spending cuts"}
+{"id": 36, "domain": "thehill.com", "title": "Most say Trump policies haven't helped them: Survey"}
+{"id": 37, "domain": "opb.org", "title": "ICE arrests chiropractor outside his kid’s Beaverton preschool"}
+{"id": 38, "domain": "theglobeandmail.com", "title": "Trump spending cuts delayed by infighting among U.S. House Republicans"}
+{"id": 39, "domain": "abcnews.go.com", "title": "Unreleased Epstein files include logbooks for private island, records show"}
+{"id": 40, "domain": "bloomberg.com", "title": "SEC to Weigh ‘Innovation Exception’ Tied to Crypto, Atkins Says"}
+{"id": 41, "domain": "thehill.com", "title": "Trump directs Bondi to release relevant grand jury transcripts in Epstein case"}
+{"id": 42, "domain": "apnews.com", "title": "Louisiana cancels $3 billion coastal restoration project funded by oil spill settlement"}
+{"id": 43, "domain": "thedailybeast.com", "title": "Congressmen Trade Insults in Jaw-Dropping Battle on Live TV: ‘Are You Drinking Right Now?’"}
+{"id": 44, "domain": "foxla.com", "title": "Trump drew naked woman, wrote bawdy message in birthday letter to Jeffrey Epstein: WSJ"}
+{"id": 45, "domain": "cnn.com", "title": "Attorney General Bondi visits Alcatraz as Trump floats idea of reopening the former federal prison"}
+{"id": 46, "domain": "axios.com", "title": "Trump directs AG Pam Bondi to release Epstein case grand jury transcripts"}
+{"id": 47, "domain": "abc.net.au", "title": "Donald Trump orders release of grand jury transcripts from Epstein case"}
+{"id": 48, "domain": "nbcnews.com", "title": "Puerto Rico bans hormone therapy and gender surgery for trans people under 21"}
+{"id": 49, "domain": "commondreams.org", "title": "102 House Democrats, Including Jeffries, Help GOP Send Crypto Bill to Trump's Desk"}
+{"id": 50, "domain": "cnbc.com", "title": "Trump AG to seek release of Jeffrey Epstein case grand jury transcripts"}
+{"id": 51, "domain": "theguardian.com", "title": "Migrants deported by the US to Eswatini being held in solitary confinement"}
+{"id": 52, "domain": "bloomberg.com", "title": "Trump Exempts Scores of Plants From Biden’s Pollution Rules"}
+{"id": 53, "domain": "theguardian.com", "title": "Tensions over Epstein files complicate Republican plan to vote on cuts bill"}
+{"id": 54, "domain": "politico.com", "title": "Trump says he will sue WSJ over Epstein story"}
+{"id": 55, "domain": "bbc.com", "title": "Trump orders production of more Epstein material after pressure"}
+{"id": 56, "domain": "thedailybeast.com", "title": "MTG Takes Aim at Trump-Backed Crypto Bill as Split Deepens"}
+{"id": 57, "domain": "politico.com", "title": "MAGA world leaps to Trump’s defense over alleged Epstein letter"}
+{"id": 58, "domain": "independent.co.uk", "title": "The Zohran Mamdani conundrum for moderate Democrats: ‘It’s hard to distance yourself from cool’"}
+{"id": 59, "domain": "jacobin.com", "title": "Get Ready for Citizens United 2.0"}
+{"id": 60, "domain": "abc.net.au", "title": "Trump administration moves to unseal transcripts from Epstein case"}
+{"id": 61, "domain": "thehill.com", "title": "Businesses are passing along tariff costs, Fed reports"}
+{"id": 62, "domain": "variety.com", "title": "Nick Offerman Goes Full ‘Parks and Recreation’ and Scolds Trump for Cutting $267 Million From National Parks Budget: ‘That’s Called S—ting the Bed’"}
+{"id": 63, "domain": "thehill.com", "title": "Wyden says Trump admin sitting on Epstein bank records: ‘They’re refusing to investigate’"}
+{"id": 64, "domain": "nytimes.com", "title": "Trump Tells Bondi to Seek Release of Epstein Grand Jury Testimony"}
+{"id": 65, "domain": "rollingstone.com", "title": "Why the Trump Administration Is About to Set Fire to 500 Tons of Emergency Food"}
+{"id": 66, "domain": "democracynow.org", "title": "Trinity, 80 Years Later, Still Threatens a “Hard Rain’s a-Gonna Fall”"}
+{"id": 67, "domain": "counterpunch.org", "title": "The Wearables Trap: How the Government Plans to Monitor, Score, and Control You"}
+{"id": 68, "domain": "politico.com", "title": "$9 Billion Defunded from PBS, NPR and USAID"}
+{"id": 69, "domain": "apnews.com", "title": "House gives final approval to Trump's $9 billion cut to public broadcasting and foreign aid"}
+{"id": 70, "domain": "washingtonpost.com", "title": "Democrats try a new tone: Less scripted, more cursing, Trumpier insults | Party leaders are swearing more, recording more direct-to-camera videos and trying to project an authenticity many voters have come to associate with Trump."}
+{"id": 71, "domain": "amp.cnn.com", "title": "Wall Street Journal: Birthday letter to Epstein bore Trump’s signature, drawing of naked woman"}
+{"id": 72, "domain": "axios.com", "title": "Trump threatens to sue WSJ for story alleging racy letter to Epstein"}
+{"id": 73, "domain": "theguardian.com", "title": "Trump requests release of Epstein grand jury transcripts"}
+{"id": 74, "domain": "foxnews.com", "title": "Late night vote sends $9B federal spending cuts package to President Trump"}
+{"id": 75, "domain": "nytimes.com", "title": "What to Know About the Epstein Files, a Perfect Recipe for Conspiracy Theories"}
+{"id": 76, "domain": "thedailybeast.com", "title": "Trump’s Sketchy Epstein Lie Instantly Exposed"}
+{"id": 77, "domain": "fox8tv.com", "title": "Schiff, Warren demand to know if CBS is ending Stephen Colbert’s ‘Late Show’ for ‘political reasons’"}
+{"id": 78, "domain": "latintimes.com", "title": "Advocates Claim Migrants Held At 'Alligator Alcatraz' Are Being Prevented From Accessing Legal Counsel"}
+{"id": 79, "domain": "washingtonpost.com", "title": "Trump tells Justice to seek release of Epstein grand jury testimony"}
+{"id": 80, "domain": "nypost.com", "title": "NJ Rep. Josh Gottheimer introduces resolution condemning ‘Globalize the Intifada’ after Mamdani meeting"}
+{"id": 81, "domain": "huffpost.com", "title": "Trump Ranted That He Doesn't 'Draw Pictures,' But His Doodles Have Gone For Thousands At Auction"}
+{"id": 82, "domain": "edition.cnn.com", "title": "Birthday letter to Epstein bore Trump’s signature, drawing of naked woman"}
+
+====================Input File End======================
+
+
+
