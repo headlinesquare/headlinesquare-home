@@ -1,0 +1,115 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 76-150, total number of articles is 75.**
+
+{"id": 76, "domain": "coloradosun.com", "title": "Super PAC backing Michael Bennet’s gubernatorial bid is fueled by dark money, pro-charter school groups"}
+{"id": 77, "domain": "newsweek.com", "title": "Donald Trump Posts AI Video of Obama's Arrest: 'No One Is Above Law'"}
+{"id": 78, "domain": "politico.com", "title": "Democrats seek shutdown strategy as White House plots to strip their power"}
+{"id": 79, "domain": "hrw.org", "title": "“You Feel Like Your Life is Over”"}
+{"id": 80, "domain": "theverge.com", "title": "Why tech billionaires want a ‘corporate dictatorship’"}
+{"id": 81, "domain": "thenation.com", "title": "How CBS Decided It Couldn’t Afford to Let Stephen Colbert Speak His Mind"}
+{"id": 82, "domain": "newrepublic.com", "title": "Lisa Murkowski Suddenly Realizes She Got Played on Trump Budget Bill | The Alaska senator clearly thought the leopards would never eat her face."}
+{"id": 83, "domain": "variety.com", "title": "Trump Slams ‘Untruthful’ WSJ Article About Treasury Secretary Warning Him to Not Fire Fed Chair: ‘I Know Better Than Anybody What’s Good for the Market’"}
+{"id": 84, "domain": "msnbc.com", "title": "JD Vance is putting a new spin on Trump’s wildly unpopular megabill"}
+{"id": 85, "domain": "cnn.com", "title": "US envoy to Israel tells Ireland to ‘sober up’ over occupied Palestinian territories bill"}
+{"id": 86, "domain": "oversightdemocrats.house.gov", "title": "Ranking Member Robert Garcia Blasts Fox News for Manipulating Trump’s Comments on the Epstein Files, Misleading the American Public"}
+{"id": 87, "domain": "theglobeandmail.com", "title": "Human Rights Watch report details abuses at Florida immigration detention centres"}
+{"id": 88, "domain": "thedailybeast.com", "title": "Trump’s Autopen Attack Dog Vows to Review Biden’s SCOTUS Appointment"}
+{"id": 89, "domain": "wired.com", "title": "How Trump Killed Cancer Research"}
+{"id": 90, "domain": "politico.com", "title": "MTG warns Trump that ‘dangling bits of red meat no longer satisfies’"}
+{"id": 91, "domain": "newrepublic.com", "title": "Judge Orders Trump to “Stop Violating the Law!” Already"}
+{"id": 92, "domain": "democracynow.org", "title": "Former EPA Official on Trump Gutting Science Research Office: “People Are Not Going to Be Protected”"}
+{"id": 93, "domain": "thehill.com", "title": "Dershowitz calls Ghislaine Maxwell an Epstein ‘Rosetta Stone’: ‘She knows everything’"}
+{"id": 94, "domain": "thedailybeast.com", "title": "Epstein Scandal Books and Shows Blow Up as Trump Desperately Scrambles to Drown It Out"}
+{"id": 95, "domain": "haaretz.com", "title": "AOC Faces Backlash After Opposing Amendment to Cut Funds for Israel's Iron Dome"}
+{"id": 96, "domain": "rollingstone.com", "title": "Trump’s Wildly Fascistic Posting Spree Isn’t Just a Distraction From Epstein"}
+{"id": 97, "domain": "theguardian.com", "title": "Jeffrey Epstein accuser urged FBI to investigate Trump decades ago – report"}
+{"id": 98, "domain": "abcnews.go.com", "title": "Texas flooding: Gov. Greg Abbott calls special legislative session for flood emergency planning"}
+{"id": 99, "domain": "independent.co.uk", "title": "What order? Trump team ignoring 1 in 3 major judicial rulings against them, analysis finds | Federal judges have accused the Trump administration of resisting court orders in approximately 34 percent of cases"}
+{"id": 100, "domain": "cnbc.com", "title": "Treasury Secretary Bessent calls for a review of 'the entire' Federal Reserve"}
+{"id": 101, "domain": "democracynow.org", "title": "“I Do Solemnly Swear”: Audio Series Highlights Federal Workers’ Voices on Trump’s Unraveling of Gov’t"}
+{"id": 102, "domain": "citizensforethics.org", "title": "Court orders Trump administration to restore public federal spending database"}
+{"id": 103, "domain": "thetimes.co.uk", "title": "Ghislaine Maxwell’s brother: Epstein didn’t kill himself"}
+{"id": 104, "domain": "newsweek.com", "title": "ICE deported 82-year-old grandfather after he lost green card"}
+{"id": 105, "domain": "edition.cnn.com", "title": "Trump administration takes all-of-government approach to target transgender community"}
+{"id": 106, "domain": "npr.org", "title": "Community radio stations are collateral damage as Congress cuts NPR funding"}
+{"id": 107, "domain": "npr.org", "title": "Many beauty products have toxic ingredients. Newly proposed bills could change that"}
+{"id": 108, "domain": "cbc.ca", "title": "Republican senator says Trump's 51st state rhetoric not 'constructive' during Ottawa visit"}
+{"id": 109, "domain": "politico.com", "title": "Judge presiding over Trump’s Wall Street Journal lawsuit has seen this movie before"}
+{"id": 110, "domain": "newsweek.com", "title": "Petition to 'Release Trump's Full Medical Records' Grows"}
+{"id": 111, "domain": "bloomberg.com", "title": "Trump Media Buys $2 Billion in Bitcoin for Crypto Treasury Plan"}
+{"id": 112, "domain": "usatoday.com", "title": "Gov. Ron DeSantis calls for Trump to release Epstein files: 'Let people see'"}
+{"id": 113, "domain": "commondreams.org", "title": "'We Had to Eat Like Dogs': Report Details 'Abusive Practices' at Florida Immigrant Prisons"}
+{"id": 114, "domain": "salon.com", "title": "Meet the young Republicans who want to deport Zohran Mamdani"}
+{"id": 115, "domain": "nytimes.com", "title": "Fear Comes to America"}
+{"id": 116, "domain": "newrepublic.com", "title": "The Working Class Is More Left-Wing Than You Think"}
+{"id": 117, "domain": "techdirt.com", "title": "Tulsi Gabbard Uses The Twitter Files Playbook To Mislead Gullible MAGA Fools"}
+{"id": 118, "domain": "jacobin.com", "title": "Democrats’ Project 2029 Is Doubling Down on Failure"}
+{"id": 119, "domain": "apnews.com", "title": "Forest and park service worker cuts leave wildland firefighting crews short-staffed"}
+{"id": 120, "domain": "cnn.com", "title": "A US citizen and Army veteran was detained at an immigration raid and held for 3 days. His family scrambled to find him"}
+{"id": 121, "domain": "telegraph.co.uk", "title": "Trump named twice to FBI by Jeffrey Epstein victim"}
+{"id": 122, "domain": "newyorker.com", "title": "Donald Trump’s Tariff Dealmaker-in-Chief"}
+{"id": 123, "domain": "thenation.com", "title": "The Democratic Party Remains Committed to Learning Nothing From Its 2024 Defeat"}
+{"id": 124, "domain": "vox.com", "title": "Cutting five words from this law could make houses cheaper"}
+{"id": 125, "domain": "baltimoresun.com", "title": "Democratic socialist garners party’s endorsement for Minneapolis mayor"}
+{"id": 126, "domain": "huffpost.com", "title": "Alexandria Ocasio-Cortez Drops Biggest Hint Yet About A Potential 2028 Presidential Run"}
+{"id": 127, "domain": "the-independent.com", "title": "Epstein accuser claims she met Trump in disgraced financier’s office in ‘troubling encounter’ - report"}
+{"id": 128, "domain": "theguardian.com", "title": "Rubio moves to strip US visas from eight Brazilian judges in Bolsonaro battle"}
+{"id": 129, "domain": "thenation.com", "title": "CUNY's repression of pro-Palestine students continues in front of Congress"}
+{"id": 130, "domain": "thehill.com", "title": "Epstein accuser says she asked FBI twice to look into Trump"}
+{"id": 131, "domain": "thedailybeast.com", "title": "Marjorie Taylor Greene Sends Trump a Dire Warning Over Epstein"}
+{"id": 132, "domain": "newrepublic.com", "title": "Republicans Abandon Their Own Epstein Bill in Cave to Trump | House Speaker Mike Johnson has no plans to move forward on his own party’s bill on the Epstein files."}
+{"id": 133, "domain": "newrepublic.com", "title": "Judge Warns Trump Is Turning Into Henry II With His Dangerous Rants"}
+{"id": 134, "domain": "virginiamercury.com", "title": "Spanberger outraises Earle-Sears 2-to-1 in Virginia governor’s race"}
+{"id": 135, "domain": "thedailybeast.com", "title": "Trump’s DOJ Just Canned Anti-ICE App Founder’s Wife After MAGA Uproar"}
+{"id": 136, "domain": "theguardian.com", "title": "What did the people of the Cotswolds do to deserve a visit from JD Vance?"}
+{"id": 137, "domain": "thehill.com", "title": "House GOP campaign arm outraises Democrats in second quarter"}
+{"id": 138, "domain": "rollingstone.com", "title": "Right-Wing Leader Says Conservatives Need ‘Scalps’ of Woke Wall Street CEOs"}
+{"id": 139, "domain": "telegraph.co.uk", "title": "Trump ‘tried to cancel Musk’s SpaceX contracts’ after fallout"}
+{"id": 140, "domain": "independent.co.uk", "title": "Don Jr. and Eric Trump’s Middle East jaunt cost US taxpayers over $40,000 in hotel rooms and rental cars"}
+{"id": 141, "domain": "bloomberg.com", "title": "Trump Can’t Put the Epstein Genie Back in the Bottle"}
+{"id": 142, "domain": "independent.co.uk", "title": "MTG says Trump will lose MAGA base if Epstein files are not released: ‘There’s no going back’"}
+{"id": 143, "domain": "newsweek.com", "title": "Pam Bondi Grants Hillary Clinton Email Probe Request Amid Epstein Furor"}
+{"id": 144, "domain": "politico.com", "title": "GOP megabill’s final score: $3.4T in red ink and 10 million kicked off health insurance, CBO says"}
+{"id": 145, "domain": "latintimes.com", "title": "Trump Slammed Obama for Pushing NFL Team to 'Change Their Name' in Decade-Old Tweet. Now He's Doing the Same"}
+{"id": 146, "domain": "silive.com", "title": "Hunter Biden shockingly says dad Joe was on Ambien during Trump debate"}
+{"id": 147, "domain": "thetimes.com", "title": "Harvard judge is ‘total disaster’, Trump says"}
+{"id": 148, "domain": "independent.co.uk", "title": "Pranksters fill Trump Tower gift shop with pictures of Epstein with the president"}
+{"id": 149, "domain": "reuters.com", "title": "Trump administration asks US appeals court to block order reinstating FTC commissioner Slaughter"}
+{"id": 150, "domain": "news10.com", "title": "Schumer calls for federal action on record measles cases in New York"}
+
+====================Input File End======================
+
+
+
