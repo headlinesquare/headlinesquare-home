@@ -1,0 +1,125 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-85, total number of articles is 85.**
+
+{"id": 1, "domain": "washingtonpost.com", "title": "A House panel must subpoena the Epstein files. Here’s what to know."}
+{"id": 2, "domain": "politico.com", "title": "Judge throws out Trump’s lawsuit against Illinois over sanctuary policies"}
+{"id": 3, "domain": "independent.co.uk", "title": "Promise of ‘a little rebate’ suddenly becomes Trump’s latest gimmick to distract Americans from the Epstein fallout"}
+{"id": 4, "domain": "nytimes.com", "title": "New Reports on Russian Interference Don’t Show What Trump Says They Do"}
+{"id": 5, "domain": "thestar.com", "title": "U.S. imposing 20.56% anti-dumping duties on Canadian softwood"}
+{"id": 6, "domain": "nbcnews.com", "title": "Kennedy considering firing members of preventive services task force"}
+{"id": 7, "domain": "nytimes.com", "title": "Two Democratic Governors Say if Texas Redraws Congressional Maps, They May Too"}
+{"id": 8, "domain": "democracydocket.com", "title": "DOJ Demands Voter Data From Maryland and Michigan"}
+{"id": 9, "domain": "huffpost.com", "title": "MAGA Won't Let Trump Off The Hook For The Epstein Files — And Psychologists Know Why"}
+{"id": 10, "domain": "sacurrent.com", "title": "GOP Texas Rep. Capriglione drops re-election bid after reported affair, allegations he funded abortions"}
+{"id": 11, "domain": "nytimes.com", "title": "Judge Dismisses Trump Administration Lawsuit Against Illinois Sanctuary Measures"}
+{"id": 12, "domain": "politico.com", "title": "The Epstein Files Timeline Raises Real Questions for Trump"}
+{"id": 13, "domain": "talkingpointsmemo.com", "title": "The Trump Admin Gets Ready to Seize Congress’ Power of the Purse"}
+{"id": 14, "domain": "axios.com", "title": "Scoop: Ferguson’s team was told of concerns about top aide years before his resignation"}
+{"id": 15, "domain": "msnbc.com", "title": "‘Praying for it to end’: Vermont superintendent speaks out after ICE interrogation"}
+{"id": 16, "domain": "nytimes.com", "title": "The Gen Z New Yorkers Selling Their Parents on Mamdani"}
+{"id": 17, "domain": "independent.co.uk", "title": "Trump’s ‘coverup’ in the face of Epstein scoops is making his problems so much worse"}
+{"id": 18, "domain": "newsweek.com", "title": "Donald Trump says his Supreme Court win helps Obama—\"He owes me big\""}
+{"id": 19, "domain": "usatoday.com", "title": "The Trump administration is telling immigrants 'Carry your papers.' Here's what to know."}
+{"id": 20, "domain": "npr.org", "title": "Lawmakers seek to ban federal agents from wearing masks"}
+{"id": 21, "domain": "npr.org", "title": "What the MAGA base thinks about the Epstein investigation"}
+{"id": 22, "domain": "post-gazette.com", "title": "Butler GOP Rep. Mike Kelly violated code of conduct during insider trading investigation, House Ethics Committee finds"}
+{"id": 23, "domain": "nbcchicago.com", "title": "DOJ granted Ghislaine Maxwell limited immunity during interviews"}
+{"id": 24, "domain": "thehill.com", "title": "Third court blocks Donald Trump birthright citizenship order nationwide after Supreme Court decision"}
+{"id": 25, "domain": "theglobeandmail.com", "title": "Canada is not to blame for America’s fentanyl crisis"}
+{"id": 26, "domain": "washingtonpost.com", "title": "Trump repeats claim that Obama has ‘done criminal acts’"}
+{"id": 27, "domain": "edition.cnn.com", "title": "Trump flees Washington controversies for golf-heavy trip to Scotland"}
+{"id": 28, "domain": "theguardian.com", "title": "‘People have seen through him and he’s not welcome’: Scotland tees up for Trump visit"}
+{"id": 29, "domain": "jsonline.com", "title": "Republican governor candidate Josh Schoemann floats dismantling the Wisconsin Elections Commission"}
+{"id": 30, "domain": "theguardian.com", "title": "Democrats request copy of Epstein ‘birthday book’ that reportedly contains Trump poem"}
+{"id": 31, "domain": "inews.co.uk", "title": "The dangers that lie ahead for ‘Trump-whisperer’ PM at golf-course summit"}
+{"id": 32, "domain": "nytimes.com", "title": "Fired Speechwriter From First Trump Term Appointed to Lead the Institute of Peace"}
+{"id": 33, "domain": "politico.com", "title": "Venezuelan Little League team denied entry into US amid Trump travel ban. The team will not be able to play in the Senior League World Series in South Carolina."}
+{"id": 34, "domain": "inews.co.uk", "title": "Trump is fleeing Epstein attention - if only he knew what Brits have in store"}
+{"id": 35, "domain": "salon.com", "title": "Anti-abortion Texas Republican denies funding “several abortions” in affair"}
+{"id": 36, "domain": "commondreams.org", "title": "Senate Urged to Block Bove After Second DOJ Whistleblower Comes Forward"}
+{"id": 37, "domain": "thenation.com", "title": "Tony Evers did what too many senior Democrats have not"}
+{"id": 38, "domain": "theverge.com", "title": "Breaking down Trump’s big gift to the AI industry | Trump wants everyone using AI — as long as he agrees with what it says."}
+{"id": 39, "domain": "theguardian.com", "title": "China calls for global AI cooperation days after Trump administration unveils low-regulation strategy | Chinese premier warns at global conference AI development must be weighed against security risks, urges ‘further consensus from the entire society’"}
+{"id": 40, "domain": "truthout.org", "title": "29 senators demand investigation into Israeli killing of American in West Bank"}
+{"id": 41, "domain": "reuters.com", "title": "Trump's distraction methods fall flat against Epstein uproar"}
+{"id": 42, "domain": "thenation.com", "title": "Zohran Mamdani must confront the NYPD. Here's what he can do."}
+{"id": 43, "domain": "apnews.com", "title": "In Epstein furor, Trump struggles to shake off a controversy his allies once stoked"}
+{"id": 44, "domain": "nytimes.com", "title": "Judge Demands Answers About Deal to Return MS-13 Gang Leaders to El Salvador"}
+{"id": 45, "domain": "wsj.com", "title": "Democrats Get Lowest Rating From Voters in 35 Years."}
+{"id": 46, "domain": "reuters.com", "title": "US EPA to withdraw foundation of greenhouse gas rules, sources say"}
+{"id": 47, "domain": "nbcnews.com", "title": "David Valadao battles backlash in his swing district after voting for Medicaid cuts that hit close to home"}
+{"id": 48, "domain": "democracynow.org", "title": "Rep. Rashida Tlaib on Gaza Siege, American Killed by Israeli Settlers & Epstein’s Financial Network"}
+{"id": 49, "domain": "techdirt.com", "title": "Trump Sends Medicaid Data To ICE, Turning This Service Into Another Weapon For His Racist ICE Goon Squads"}
+{"id": 50, "domain": "independent.co.uk", "title": "Texas AG Ken Paxton reportedly declared three primary residences, raising questions of mortgage fraud"}
+{"id": 51, "domain": "nbcnews.com", "title": "Gabbard and White House 'lying' about intel on Russian interference in 2016, ex-CIA official says"}
+{"id": 52, "domain": "thehill.com", "title": "Trump official says administration will change visa, citizenship tests"}
+{"id": 53, "domain": "nypost.com", "title": "Democratic Texas congressional candidate dragged out, arrested at redistricting hearing"}
+{"id": 54, "domain": "cnn.com", "title": "How Tulsi Gabbard is trying to rewrite the history of the 2016 election"}
+{"id": 55, "domain": "politico.com", "title": "The Epstein Conspiracy Is the Horror Story of Our Age"}
+{"id": 56, "domain": "nytimes.com", "title": "A Clash Over a Promotion Puts Hegseth at Odds With His Generals"}
+{"id": 57, "domain": "bloomberg.com", "title": "Malcolm Turnbull on How Not to Lose Respect in Washington"}
+{"id": 58, "domain": "texastribune.org", "title": "Texas GOP Rep. Giovanni Capriglione admits affair, denies abortion allegations"}
+{"id": 59, "domain": "latintimes.com", "title": "Trump Warns Europe Immigrants and Windmills Are 'Killing the Beauty of Your Countries'"}
+{"id": 60, "domain": "cbsnews.com", "title": "Trump yanks Alina Habba's nomination for U.S. attorney, enabling her to serve in acting capacity"}
+{"id": 61, "domain": "cnn.com", "title": "Federal judge dismisses Trump administration lawsuit against Chicago ‘sanctuary’ laws"}
+{"id": 62, "domain": "cnbc.com", "title": "Under Trump, Uncle Sam is becoming an active investor at a scale not seen outside war or major crises"}
+{"id": 63, "domain": "wsj.com", "title": "Washington Struggles to Rein In an Emboldened Israel"}
+{"id": 64, "domain": "thedailybeast.com", "title": "Trump Is the Icarus of Lies. Has He Flown Too Close to the Sun?"}
+{"id": 65, "domain": "thehill.com", "title": "Views from the front lines of Trump’s war on the science community"}
+{"id": 66, "domain": "msnbc.com", "title": "Israel is starving Gaza. And the U.S. is complicit."}
+{"id": 67, "domain": "scotsman.com", "title": "Swinney announces £180,000 of public money for golf contest at Trump International"}
+{"id": 68, "domain": "foxnews.com", "title": "Federal judge tosses Trump DOJ lawsuit against sanctuary policies in Chicago"}
+{"id": 69, "domain": "usatoday.com", "title": "How Trump and 'terrific guy' Jeffrey Epstein's party boy friendship ended badly"}
+{"id": 70, "domain": "washingtonpost.com", "title": "Trump’s MAGA allies zero in on Ghislaine Maxwell as Epstein furor persists"}
+{"id": 71, "domain": "theguardian.com", "title": "Will the ghost of Epstein finally bring down King Trump?"}
+{"id": 72, "domain": "thehill.com", "title": "Polls turn sour on Trump as he hits new lows with independents"}
+{"id": 73, "domain": "theatlantic.com", "title": "What Happened When Hitler Took On Germany’s Central Banker"}
+{"id": 74, "domain": "theverge.com", "title": "Online MAGA cope is now Congressional strategy"}
+{"id": 75, "domain": "snopes.com", "title": "Scottish newspaper headline about Trump visit referred to him as 'convicted US felon'?"}
+{"id": 76, "domain": "cnn.com", "title": "Trump flees Washington controversies for golf-heavy trip to Scotland"}
+{"id": 77, "domain": "nbcnews.com", "title": "Federal judge dismisses Trump administration's lawsuit against Chicago over its sanctuary city policies"}
+{"id": 78, "domain": "apnews.com", "title": "Trump plays golf in Scotland while protesters take to the streets and decry his visit"}
+{"id": 79, "domain": "the-independent.com", "title": "Hundreds protest Trump visit to Scotland as president golfs under heavy security"}
+{"id": 80, "domain": "thehill.com", "title": "‘Pod Save America’ on Gabbard’s Obama allegations: ‘Crock of s‑‑‑’"}
+{"id": 81, "domain": "independent.co.uk", "title": "What does Ghislaine Maxwell really know and why the Epstein files go deeper than you think"}
+{"id": 82, "domain": "theatlantic.com", "title": "The 2028 Presidential Race Has Begun"}
+{"id": 83, "domain": "news9.com", "title": "State lawmakers react to reports Ryan Walters displayed nude women on office TV during executive session"}
+{"id": 84, "domain": "cnbc.com", "title": "EU chief to meet Trump in Scotland in push to avoid a transatlantic trade war"}
+{"id": 85, "domain": "reuters.com", "title": "This family self-deported to Mexico, and lost everything"}
+
+====================Input File End======================
+
+
+
