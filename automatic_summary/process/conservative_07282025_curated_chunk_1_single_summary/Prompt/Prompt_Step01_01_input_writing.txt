@@ -1,0 +1,121 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-81, total number of articles is 81.**
+
+{"id": 1, "domain": "foxnews.com", "title": "DHS: Two Wisconsin teens would 'still be alive' if not for sanctuary policies protecting illegal immigrant"}
+{"id": 2, "domain": "dhs.gov", "title": "ICE Lodges Arrest Detainer for Honduran Illegal Alien Who Killed Two American Teens While Intoxicated in Sanctuary Jurisdiction of Wisconsin"}
+{"id": 3, "domain": "newsmax.com", "title": "US, China to Resume Tariff Talks in Effort to Extend Truce"}
+{"id": 4, "domain": "breitbart.com", "title": "‘Obama Phone’ Scam: Florida CEO Headed to Prison, Must Pay $128 Million Fine After Defrauding Government"}
+{"id": 5, "domain": "nypost.com", "title": "AOC ripped as her NYC district is overrun by seedy ‘Market of Sweethearts’ – and Dem pol nowhere in sight: ‘Community is suffering’"}
+{"id": 6, "domain": "townhall.com", "title": "Bomb Squad Deployed Near White House"}
+{"id": 7, "domain": "breitbart.com", "title": "Climate Activists Call for End to U.S. Navy's Blue Angels Seattle Airshow"}
+{"id": 8, "domain": "x.com", "title": "Viral vid of white male & female assaulted at Cincinnati Jazz festival. Police chief Teresa Theetge “The behavior displayed is nothing short of cruel and absolutely unacceptable”** Viewer Discretion Is Advised**"}
+{"id": 9, "domain": "rairfoundation.com", "title": "Terror Ties, Jihad Fatwas, and Sharia Courts: The Islamic Power Network Working With Texas Government"}
+{"id": 10, "domain": "breitbart.com", "title": "Wilders to Macron: Create New Palestinian State in Southern France -- 'Happy Suicide!’"}
+{"id": 11, "domain": "breitbart.com", "title": "UK Forms Police Taskforce to Monitor AntiMigration Posts Online: Report"}
+{"id": 12, "domain": "self.Conservative", "title": "Trump makes gains on economy, policy with small business owners, even among Democrats"}
+{"id": 13, "domain": "ice.gov", "title": "ICE arrests 243 illegal aliens in Denver metro area. Those arrested include Tren De Aragua gangbangers, murderers, human traffickers and child sex offenders"}
+{"id": 14, "domain": "standard.co.uk", "title": "Several Afghans with alleged links to the Taliban terrorists have reportedly arrived in the United Kingdom on secret flights, following a major data breach by a British military official."}
+{"id": 15, "domain": "nypost.com", "title": "Trump strikes 'biggest deal ever made' with EU: Europeans will buy $750M in US energy, invest $600B after meeting with prez"}
+{"id": 16, "domain": "twitchy.com", "title": "Eric Holder Bristles at the Idea of a U.S. President Using the Government to Attack Political Opponents"}
+{"id": 17, "domain": "dailywire.com", "title": "Trump Trashes Windmills In Meeting With Green-Loving EU Head: ‘Killing The Beauty Of Our Scenery’"}
+{"id": 18, "domain": "reason.com", "title": "This bill would fine social media companies $5 million every day for not fighting 'terrorism'"}
+{"id": 19, "domain": "foxnews.com", "title": "Florida county school board chair deletes comments celebrating Hulk Hogan's death as 'one less MAGA'"}
+{"id": 20, "domain": "newsmax.com", "title": "Stocks Cheer the Art of Trump's Trade Deals After EU Agreement"}
+{"id": 21, "domain": "nypost.com", "title": "Armed hero, Marine veteran Derrick Perry praised for confronting Michigan Walmart mass stabbing suspect in dramatic showdown"}
+{"id": 22, "domain": "breitbart.com", "title": "Islamic State-Backed Militant Group Attacks Catholic Church in Congo, Nearly Three Dozen Dead"}
+{"id": 23, "domain": "dailycaller.com", "title": "Trump Admin Drops The Hammer On Five Schools Who Let Boys In Girl’s Bathrooms"}
+{"id": 24, "domain": "foxnews.com", "title": "Meet Sholdon Daniels - the Republican who wants to unseat Jasmine Crockett"}
+{"id": 25, "domain": "extremism.gwu.edu", "title": "CCP Influence in U.S. Pro Palestinian Activism"}
+{"id": 26, "domain": "newsmax.com", "title": "CIA Director Ratcliffe: Statute of Limitations Not Up on Obama, Staff Plot"}
+{"id": 27, "domain": "dailycaller.com", "title": "Corporate Media Mostly Sidestepping Russiagate Revelations For Torrent Of Trump-Epstein Coverage"}
+{"id": 28, "domain": "foxnews.com", "title": "America’s crime drop isn’t a coincidence. Trump’s immigration policies are working"}
+{"id": 29, "domain": "foxnews.com", "title": "America must win the AI race — and prepare for the worst"}
+{"id": 30, "domain": "share.google", "title": "Facing fuel shortages, California seeks a buyer for a retiring refinery to increase production"}
+{"id": 31, "domain": "ktrh.iheart.com", "title": "Europe In Denial About Illegal Alien Crime Stats As Their Crisis Worsens"}
+{"id": 32, "domain": "nypost.com", "title": "The Democrat running to be Nassau County’s top prosecutor encouraged convicted criminals to apply for a job on her campaign that could pay them up to $7,000 a month."}
+{"id": 33, "domain": "gbnews.com", "title": "Sharia law court job advertised on DWP website sparks fury - 'No place in Britain!'"}
+{"id": 34, "domain": "iranwire.com", "title": "17-year-old-girl-murdered-in-honor-killing-in-iran"}
+{"id": 35, "domain": "belfastlive.co.uk", "title": "56 Irish illegal aliens arrested as part of President Trump's immigration crackdown"}
+{"id": 36, "domain": "townhall.com", "title": "Jay Leno Just Said What Everyone’s Thinking About Late-Night Comedy"}
+{"id": 37, "domain": "rightjournalism.com", "title": "Trump’s Epic Move Steals the Show as Starmer Lies About UK Free Speech in Viral Video"}
+{"id": 38, "domain": "self.Conservative", "title": "Good overview fed reserve policy pod"}
+{"id": 39, "domain": "united24media.com", "title": "Trump Slashes Ukraine Peace Deal Deadline to “10 or 12 Days” Amid Frustration Over Lack of Progress"}
+{"id": 40, "domain": "notthebee.com", "title": "Australian doctor found guilty of professional misconduct for sharing Babylon Bee jokes"}
+{"id": 41, "domain": "dailywire.com", "title": "Trump Shortens Initial 50-Day Deadline For Putin To Reach Peace Deal With Ukraine"}
+{"id": 42, "domain": "redstate.com", "title": "Marco Rubio Downplays '28 Presidential Aspirations, Pulls for Someone Else Instead"}
+{"id": 43, "domain": "realclearpolitics.com", "title": "DeSantis on Alligator Alcatraz: \"I Hope People Wouldn't Want To Come Here\""}
+{"id": 44, "domain": "europeanconservative.com", "title": "This ‘Dating Advice’ App Is Fuelling the Wars ━ The European Conservative"}
+{"id": 45, "domain": "spectator.org", "title": "Dems, Media Richly Deserve Their Dismal Ratings"}
+{"id": 46, "domain": "the-independent.com", "title": "Delta pilot arrested on child pornography charges by federal officers who stormed the cockpit moments after landing"}
+{"id": 47, "domain": "heraldtoday.com.ng", "title": "Christian convert in Egypt charged with terrorism over ID request"}
+{"id": 48, "domain": "foxnews.com", "title": "Bill Maher admits he was wrong about Trump on tariffs, doesn’t ‘see a country in a depression at all’"}
+{"id": 49, "domain": "foxnews.com", "title": "How Trump's 'no shrinking violets' DOJ is digging in on Schiff's mortgage dealings as legal peril looms"}
+{"id": 50, "domain": "nypost.com", "title": "Trump reduces Russia deadline to end Ukraine invasion to ‘10 to 12 days’ from original 50: ‘No reason to wait that long’"}
+{"id": 51, "domain": "dnyuz.com", "title": "Democrats wanted a makeover. They got Marxism and Molotov cocktails."}
+{"id": 52, "domain": "newsmax.com", "title": "Trump: No. 1 Gaza Priority Is Getting People Fed"}
+{"id": 53, "domain": "breitbart.com", "title": "Protest in Support of Stephen Colbert Bombs with Less than Two Dozen People"}
+{"id": 54, "domain": "townhall.com", "title": "U.S. Boycotts UN's AntiIsrael Circus"}
+{"id": 55, "domain": "notthebee.com", "title": "NOT Satire: UK Government Posts Job Opening For \"Sharia Law Administrator\""}
+{"id": 56, "domain": "frontpagemag.com", "title": "Treason and the Hunting of Hegseth | Frontpage Mag"}
+{"id": 57, "domain": "self.Conservative", "title": "\"Protest\" in support of Colbert & against his firing goes bust with 20 attendees."}
+{"id": 58, "domain": "nypost.com", "title": "Pol Leon El-Alamin, who had criminal record wiped under Dem law, is charged with assault"}
+{"id": 59, "domain": "newsmax.com", "title": "Trump: Name May Have Been Planted in Epstein Files by Dems"}
+{"id": 60, "domain": "foxnews.com", "title": "Police identify multiple suspects in brutal Cincinnati street fight: 'Cruel and absolutely unacceptable'"}
+{"id": 61, "domain": "breitbart.com", "title": "Sanctuary New York City: Illegal Alien, Freed into U.S. by Biden’s DHS, Charged with Attempting to Stab ICE Officers"}
+{"id": 62, "domain": "townhall.com", "title": "This Is What Marco Rubio Had to Say About JD Vance Running for President in 2028"}
+{"id": 63, "domain": "birminghammail.co.uk", "title": "UK households could face VPN 'ban' after use skyrockets following Online Safety Bill - Birmingham Live"}
+{"id": 64, "domain": "nypost.com", "title": "Sydney Sweeney's American Eagle ad slammed as 'Nazi propaganda' by crazed woke mob"}
+{"id": 65, "domain": "nrlc.org", "title": "Obama Appointed Judge Permanently blocks “One Big Beautiful Bill “from defunding Big Abortion"}
+{"id": 66, "domain": "notthebee.com", "title": "Liberal women say American Eagle's Sydney Sweeney ads are \"Nazi propaganda\" because they mention \"genes\""}
+{"id": 67, "domain": "breitbart.com", "title": "Nolte: Far-Left Axios Angry America Came Out Ahead in Trump Trade Deals"}
+{"id": 68, "domain": "reduxx.info", "title": "Gay Man Who Crowdfunded Surrogacy Journey With Husband Revealed As Child Sex Offender"}
+{"id": 69, "domain": "foxnews.com", "title": "CNBC’s Jim Cramer drops F-bomb live on air while marveling over Trump’s ‘great economy’"}
+{"id": 70, "domain": "pjmedia.com", "title": "Trump Doesn’t Tilt at Windmills — He Tears Them Down"}
+{"id": 71, "domain": "dailycaller.com", "title": "Trump Calls London Mayor A 'Nasty Person' Right To UK Prime Minister's Face"}
+{"id": 72, "domain": "dailywire.com", "title": "Media Share Misleading Images Of Gazan Child To Falsely Accuse Israel Of Mass Starvation"}
+{"id": 73, "domain": "redstate.com", "title": "'Democratic Brand Is So Bad': Panic Among Capitol Hill Dems After Release of Devastating New Poll"}
+{"id": 74, "domain": "freebeacon.com", "title": "EXCLUSIVE: Trump Administration Launches Probe of Duke Law Journal, Warns Medical School Could Be Next"}
+{"id": 75, "domain": "nepyork.com", "title": "Custom and Border Patrol Found Over 1,400 Green Card Holders Inadmissible at U.S. Ports of Entry in Five Months During the Trump Administration"}
+{"id": 76, "domain": "dailywire.com", "title": "Man Issues Mid-Flight Bomb Threat: ‘Death To Trump! Allahu Akbar!’"}
+{"id": 77, "domain": "dailywire.com", "title": "ICE Has Arrested Over 200 Illegal Alien Child Sex Offenders In Houston Over Last Six Months"}
+{"id": 78, "domain": "foxnews.com", "title": "FBI captures final illegal alien inmate who escaped ICE facility in New Jersey"}
+{"id": 79, "domain": "newsmax.com", "title": "Court Set to Hear Suit Against Trump's Emergency Tariffs"}
+{"id": 80, "domain": "acecomments.mu.nu", "title": "Even Left-Wing CNN and Axios Admit That Trump Has Won Completely on Tariffs"}
+{"id": 81, "domain": "foxnews.com", "title": "Democrat AGs sue Trump over effort to use SNAP to locate migrants"}
+
+====================Input File End======================
+
+
+
