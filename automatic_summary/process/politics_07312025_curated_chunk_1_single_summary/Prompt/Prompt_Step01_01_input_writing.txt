@@ -1,0 +1,124 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-84, total number of articles is 84.**
+
+{"id": 1, "domain": "msnbc.com", "title": "Trump has three Epstein scandals: Personal FL history, 2019 death, DOJ 'cover up'"}
+{"id": 2, "domain": "capitalandmain.com", "title": "Facing a ‘Federal Occupation’: An Interview with Councilmember Ysabel Jurado"}
+{"id": 3, "domain": "them.us", "title": "Pete Buttigieg Says Trans Athletes in Women’s Sports Raise “Serious Fairness Issues” | The former transportation secretary joins a list of Democrats who are conceding to the right on the issue."}
+{"id": 4, "domain": "nytimes.com", "title": "Brennan and Clapper: Let’s Set the Record Straight on Russia and 2016"}
+{"id": 5, "domain": "nbcnews.com", "title": "Renaming the Kennedy Center for Donald and Melania Trump would violate the law that created it"}
+{"id": 6, "domain": "axios.com", "title": "Trump's DOJ rewrites inclusion rules for grant programs"}
+{"id": 7, "domain": "cnbc.com", "title": "Trump announces trade deal with South Korea, setting tariffs at 15%"}
+{"id": 8, "domain": "politico.com", "title": "DHS' new ICE recruitment strategy: 50K signing bonuses, student loan forgiveness and Trump posters"}
+{"id": 9, "domain": "huffpost.com", "title": "Trump White House Puts ‘Absolutely Disgusting’ Spin On Viral Jet2 Holiday Meme"}
+{"id": 10, "domain": "techdirt.com", "title": "ICE Claims Officer Was ‘Assualted’ During An Illegal Search Of A Hospital But The Recording Shows Something Else"}
+{"id": 11, "domain": "thedailybeast.com", "title": "Bondi Blows Up Trump Claim Epstein Files Are a ‘Hoax’"}
+{"id": 12, "domain": "huffpost.com", "title": "Federal Reserve Leaves Interest Rates Unchanged Even As Trump Demands Cuts"}
+{"id": 13, "domain": "pbs.org", "title": "Medicaid recipients in Louisiana brace for impact of work requirements and cuts"}
+{"id": 14, "domain": "sacbee.com", "title": "Trump reminded men of their masculinity. Democrats must create space for it | Opinion"}
+{"id": 15, "domain": "independent.co.uk", "title": "Sen. Josh Hawley wants to exclude ‘Biden voters’ from $600 Trump tariff rebate checks"}
+{"id": 16, "domain": "wral.com", "title": "Trump administration freezes $108 million for Duke Health after accusing university of 'systemic racial discrimination'"}
+{"id": 17, "domain": "nytimes.com", "title": "Bill Barring Stock Trading for Congress Advances With Trump Carve-Out"}
+{"id": 18, "domain": "cnn.com", "title": "Treasury secretary calls new Trump accounts ‘a backdoor’ way to privatize Social Security"}
+{"id": 19, "domain": "washingtonpost.com", "title": "Canada endorses Palestinian state as U.S. envoy heads to Israel"}
+{"id": 20, "domain": "nytimes.com", "title": "Senate Approves Trump’s Pick for Top Counterterrorism Post"}
+{"id": 21, "domain": "uscis.gov", "title": "Executive Order on Birthright Citizenship"}
+{"id": 22, "domain": "reuters.com", "title": "Ontario cancels internet deal with Musk's Starlink as part of US tariff fight"}
+{"id": 23, "domain": "thehill.com", "title": "Virginia city council member set on fire in workplace attack"}
+{"id": 24, "domain": "thedailybeast.com", "title": "Mysterious ‘Orange Shape’ Raises More Questions About Epstein Footage"}
+{"id": 25, "domain": "politico.com", "title": "Trump stands firm on Aug. 1 tariff deadline: It ‘will not be extended’"}
+{"id": 26, "domain": "huffpost.com", "title": "Chuck Grassley ‘Offended’ By Trump Attack On Senate Rules For Judges"}
+{"id": 27, "domain": "kfoxtv.com", "title": "Texas Democrats consider leaving state to block redistricting vote"}
+{"id": 28, "domain": "thehill.com", "title": "Trump suspends exemption for low-value imports under $800"}
+{"id": 29, "domain": "usnews.com", "title": "Ethics Officials Say Georgia PAC Tied to Ponzi Scheme Illegally Sought to Influence Elections"}
+{"id": 30, "domain": "newsweek.com", "title": "Ron DeSantis says Trump admin \"considered\" new census ahead of schedule"}
+{"id": 31, "domain": "theguardian.com", "title": "Ice entices new recruits with patriotism pitch and pledge of $50,000 signing bonuses"}
+{"id": 32, "domain": "thehill.com", "title": "Sanders rips Netanyahu: ‘Disgusting liar’"}
+{"id": 33, "domain": "apnews.com", "title": "Trump calls GOP's Hawley 'second tier' senator after stock trading ban bill advances"}
+{"id": 34, "domain": "thedailybeast.com", "title": "‘Sleepy’ Trump, 79, Struggles to Stay Awake as Dr. Oz Rambles On"}
+{"id": 35, "domain": "nbcnews.com", "title": "Family of Epstein abuse survivor urges Trump not to pardon Ghislaine Maxwell: 'A monster who deserves to rot in prison'"}
+{"id": 36, "domain": "nytimes.com", "title": "Brown University Makes a Deal With the White House to Restore Funding"}
+{"id": 37, "domain": "theguardian.com", "title": "President Lula hits back as Trump tariffs threaten US-Brazil trade showdown | Brazil"}
+{"id": 38, "domain": "nbcnews.com", "title": "DOJ dismisses case against a Trump donor after White House fired career prosecutor"}
+{"id": 39, "domain": "orlandosentinel.com", "title": "Commentary: Americans must understand carnage of Israeli-Palestine conflict"}
+{"id": 40, "domain": "cbsnews.com", "title": "Epstein grand jury transcripts only contain testimony from 2 witnesses, DOJ officials say"}
+{"id": 41, "domain": "cnbc.com", "title": "Elon Musk's plan to build Boring Co. tunnels in Nashville sparks partisan feud"}
+{"id": 42, "domain": "nbcnews.com", "title": "House Democrats force Republicans to take vote after vote on Epstein files"}
+{"id": 43, "domain": "msnbc.com", "title": "'Protecting pedophiles?': Fmr. Congressman slams GOP over Epstein files handling"}
+{"id": 44, "domain": "theatlantic.com", "title": "Virginia Giuffre’s Family Was Shocked That Trump Described Her as ‘Stolen’"}
+{"id": 45, "domain": "washingtonpost.com", "title": "Senate Democrats say they are prepared to sue Trump administration over Epstein files"}
+{"id": 46, "domain": "forward.com", "title": "Marjorie Taylor Greene may be first Republican lawmaker to call Gaza war a ‘genocide’"}
+{"id": 47, "domain": "apnews.com", "title": "Epstein and Maxwell grand juries did not hear directly from victims, prosecutors tell judges"}
+{"id": 48, "domain": "ncnewsline.com", "title": "Justice Allison Riggs warns US senators right to vote could ‘crumble before our eyes’"}
+{"id": 49, "domain": "huffpost.com", "title": "‘Sleepy Don’: People Sure Think Trump Was Starting To Doze Off On Camera"}
+{"id": 50, "domain": "bbc.com", "title": "How Trump's tariffs are already impacting Americans"}
+{"id": 51, "domain": "nypost.com", "title": "Trump-Russia probe whistleblower ‘pressured’ by Obama intel officials to sign off of 2016 election report: ‘I need you to say you agree’"}
+{"id": 52, "domain": "newsweek.com", "title": "Epstein Scandal Is Just the Beginning of Government's Failures To Protect Kids | Opinion"}
+{"id": 53, "domain": "newsweek.com", "title": "Epstein Victim's Family Calls Trump Comment on Virginia Giuffre 'Shocking'"}
+{"id": 54, "domain": "ft.com", "title": "US trading partners rush to sign deals before Donald Trump’s tariffs hit"}
+{"id": 55, "domain": "ctvnews.ca", "title": "Trump says Canada backing statehood for Palestine makes it ‘very hard’ to negotiate U.S. trade deal"}
+{"id": 56, "domain": "boston.com", "title": "What to know about ‘Rage Against the Regime,’ a ‘festival of nonviolent resistance’ in Harvard Square this weekend"}
+{"id": 57, "domain": "newsweek.com", "title": "Donald Trump Issues Threat To Canada Over 'Statehood of Palestine' Move"}
+{"id": 58, "domain": "nytimes.com", "title": "India and Trump Still Don’t Have a Tariff Deal: Here’s Why That Matters"}
+{"id": 59, "domain": "bloomberg.com", "title": "Pakistan, US Sign Trade Deal to Boost Oil Reserves, Market Ties"}
+{"id": 60, "domain": "edition.cnn.com", "title": "Trump bludgeoned the EU on trade. Good luck doing the same to China"}
+{"id": 61, "domain": "commondreams.org", "title": "Bessent Admits Trump Tax Scam Offers 'Backdoor for Privatizing Social Security'"}
+{"id": 62, "domain": "foxnews.com", "title": "Anti-Trump NY Times columnist admits president is ‘much more successful’ than expected"}
+{"id": 63, "domain": "usatoday.com", "title": "She’s inmate No. 02879-509 in Florida. But once again, Ghislaine Maxwell is holding court"}
+{"id": 64, "domain": "politico.eu", "title": "Europe learned to love American gas. This is how Trump wrecks it."}
+{"id": 65, "domain": "theguardian.com", "title": "Divided Fed leaves interest rates unchanged despite Trump pressure"}
+{"id": 66, "domain": "silive.com", "title": "Shock poll shows dark horse Dem giving JD Vance the toughest fight in 2028 presidential matchup"}
+{"id": 67, "domain": "theguardian.com", "title": "Trump accused of ‘attack on Brazilian democracy’ after sanctioning Bolsonaro trial judge"}
+{"id": 68, "domain": "cnn.com", "title": "Trump’s frayed relationships with Putin and Netanyahu are impeding his foreign agenda"}
+{"id": 69, "domain": "ajc.com", "title": "Ossoff, Warnock vote to curb U.S. arms sales to Israel amid hunger crisis in Gaza"}
+{"id": 70, "domain": "thedailybeast.com", "title": "Epstein Victim’s Family Lash Trump for Talking to Ghislaine"}
+{"id": 71, "domain": "axios.com", "title": "Senate Dems' bid to block $675 million Israeli arms deal fails"}
+{"id": 72, "domain": "people.com", "title": "Singer Jess Glynne 'Sick' Over White House's Use of 'Hold My Hand' in Jet2 Holiday Meme to Promote ICE's Deporation of Immigrants"}
+{"id": 73, "domain": "aljazeera.com", "title": "Record number of Democrats join failed bid to block weapons sales to Israel"}
+{"id": 74, "domain": "nytimes.com", "title": "How Louisiana Built Trump’s Busiest ICE Deportation Hub"}
+{"id": 75, "domain": "salon.com", "title": "American democracy is crashing out and it will be hard to reverse, international rights group warns"}
+{"id": 76, "domain": "thehill.com", "title": "Trump tirade against Grassley irritates Republican senators"}
+{"id": 77, "domain": "commondreams.org", "title": "The Epstein Conspiracy Flames That Trump Fanned Are Now Blowing Back on Him | In 2019, then first-term President Donald Trump jumped aboard the Epstein conspiracy bandwagon. Six years later, he’s now trying desperately to stop it."}
+{"id": 78, "domain": "prospect.org", "title": "The Premature Guide to Post-Trump Reform"}
+{"id": 79, "domain": "newsweek.com", "title": "Virginia Giuffre's family speaks out on Trump's Mar-a-Lago comments"}
+{"id": 80, "domain": "chron.com", "title": "Democrat Jasmine Crockett says she's the party's future—not everyone agrees"}
+{"id": 81, "domain": "commondreams.org", "title": "NYT Condemned for Clarifying Starving Palestinian Child's 'Preexisting Health Condition'"}
+{"id": 82, "domain": "thetimes.com", "title": "Half of Americans think Trump economy getting worse, Times poll says"}
+{"id": 83, "domain": "huffpost.com", "title": "Donald Trump Goes On Wild Repost Rampage With Unhinged Memes Of Obama, Clinton And More"}
+{"id": 84, "domain": "newrepublic.com", "title": "Everybody Hates Trump Now | Six months after Trump bragged about a “historic” realignment, voters from across the political spectrum have soured on the president."}
+
+====================Input File End======================
+
+
+

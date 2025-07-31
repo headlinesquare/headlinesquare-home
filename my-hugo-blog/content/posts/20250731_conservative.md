@@ -1,0 +1,176 @@
++++
+date = '2025-07-31T19:15:00-04:00'
+draft = false
+title = '[Thursday, July 31] US News Headlines from r/Conservative'
++++
+
+This is an experimental AI project. 
+We are continuously improving it, but errors can still appear. 
+Feel free to contact us if you spot an error. 
+
+
+
+DAILY BRIEFING
+
+## 1. Justice, Law Enforcement, And Investigations
+
+### 1.1 Russia Investigation Legacy And Declassified Documents
+
+The central intelligence development of this cycle is the release of newly declassified documents, described as an annex to the Durham report. Multiple outlets claim these documents provide a "SMOKING GUN" showing that Hillary Clinton personally "orchestrated" or "greenlit" a plan to link Donald Trump to Russia [1, 2]. The stated purpose of this plan was reportedly to distract public attention from her own email scandal. Further reports on the declassified intelligence allege new connections between financier George Soros and the "Russiagate" plan, with one headline claiming the strategy involved a directive for the FBI to "put more oil into the fire" to intensify the federal investigation [3, 4]. In a related analysis, one media report asserts that the Wikipedia entry for the Steele Dossier, a foundational element of the original investigation, is untrustworthy and "laced with lies" [5].
+
+**References:**  
+[1] SMOKING GUN: Declassified Durham Annex Confirms Hillary Clinton Orchestrated Russia Hoax to Distract from Email Scandal (Screenshot), https://www.rightjournalism.com/smoking-gun-declassified-durham-annex-confirms-hillary-clinton-orchestrated-russia-hoax-to-distract-from-email-scandal-screenshot/  
+[2] Hillary Clinton Greenlit Russia Hoax To Hide Email Scandal, Declassified Docs Reveal, https://www.dailywire.com/news/hillary-clinton-greenlit-russia-hoax-to-hide-email-scandal-declassified-docs-reveal?topStoryPosition=undefined&author=Nathan+Gay&category=News&elementPosition=0&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Hillary+Clinton+Greenlit+Russia+Hoax+To+Hide+Email+Scandal%2C+Declassified+Docs+Reveal  
+[3] Soros' alleged ties to Russiagate exposed in declassified annex of Durham report, https://www.foxnews.com/politics/soros-alleged-ties-russiagate-exposed-declassified-annex-durham-report  
+[4] Declassified intel ties Soros to Clinton's Russiagate plan for FBI to 'put more oil into the fire', https://justthenews.com/government/federal-agencies/clinton-plan-tying-trump-russia-had-hope-fbi-will-put-more-oil-fire  
+[5] Wikipedia’s Steele Dossier Page Is Laced With Lies, https://thefederalist.com/2025/07/31/wikipedias-locked-steele-dossier-page-is-laced-with-lies-that-only-certain-users-can-correct/  
+
+### 1.2 Judiciary, DOJ, And Intelligence Agency Matters
+
+Significant personnel and policy developments are occurring across the justice and intelligence communities. A high-ranking attorney at the National Security Agency (NSA), described in a headline as a "Trump-Hating Russia Hoax Investigator," has been terminated from his post [1]. In Congress, Senator Mike Lee has introduced a bill specifically designed to "Halt Judges’ Control Of U.S. Attorneys," addressing the process for their appointment and supervision [2]. Concurrently, the Department of Justice has officially released new guidance for all entities receiving federal funding, outlining compliance standards to prevent unlawful discrimination [3]. Separately, an exclusive report details claims from a whistleblower who was allegedly threatened for refusing to approve what the headline calls a "Bogus ICA" (Intelligence Community Assessment) [4].
+
+**References:**  
+[1] Trump-Hating Russia Hoax Investigator Fired As Top NSA Lawyer, https://www.dailywire.com/news/trump-hating-russia-hoax-investigator-fired-as-top-nsa-lawyer  
+[2] Mike Lee Introduces Bill To Halt Judges’ Control Of U.S. Attorneys, https://thefederalist.com/2025/07/31/exclusive-sen-mike-lee-will-introduce-bill-to-halt-federal-judges-control-over-u-s-attorneys/  
+[3] Justice Department Releases Guidance for Recipients of Federal Funding Regarding Unlawful Discrimination, https://www.justice.gov/opa/pr/justice-department-releases-guidance-recipients-federal-funding-regarding-unlawful  
+[4] EXCLUSIVE: Whistleblower Threatened For Not Approving Bogus ICA, https://thefederalist.com/2025/07/30/exclusive-clapper-crew-threatened-whistleblower-who-refused-to-sign-off-on-fabricated-intel-assessment/  
+
+### 1.3 Jeffrey Epstein Case-Related Reports
+
+Reporting on the Jeffrey Epstein case is minimal, consisting of two disparate items. One report, citing an unnamed source, claims a "mystery orange shape" was observed near Epstein's jail cell on the night before his death [1]. No further context on the shape or its potential significance is provided. In a completely separate item, political activist David Hogg reportedly made a "profanity-laced Epstein accusation at Trump" during a public event [2]. The details of the accusation were not specified in the headline.
+
+**References:**  
+[1] Mystery orange shape spotted near Jeffrey Epstein's jail cell night before his death: report, https://nypost.com/2025/07/30/us-news/mystery-orange-shape-spotted-near-jeffrey-epsteins-jail-cell-night-before-his-death-report/  
+[2] David Hogg lobs profanity-laced Epstein accusation at Trump, https://www.foxnews.com/politics/david-hogg-lobs-profanity-laced-epstein-accusation-trump  
+
+## 2. Presidential Policy And Executive Actions
+
+### 2.1 International Trade And Tariffs
+
+The administration is actively implementing its trade policy through a combination of new agreements and aggressive tariff deployment. A significant achievement reported is the finalization of a "comprehensive trade agreement with South Korea" [1]. Simultaneously, the administration's tariff strategy is creating major ripples in global markets; an announced 25% tariff has directly caused Indian state-owned oil refiners to pause their purchases of Russian crude [2]. Tariffs are also being used as a direct instrument of foreign policy. The White House has unleashed what one headline calls a "Massive Tariff" and sanctions on Brazil, framing the move as a response to an "‘Extraordinary Threat’" posed by an "extremist judge" in that country [3]. President Trump also issued a sharp warning to Canada, stating that its support for a Palestinian state could mean it would be "hard for us to make a trade deal," a point he reiterated in a separate report [4, 5]. The President publicly maintains this strategy has made the U.S. the "‘Hottest Country’ in the World" [6].
+
+**References:**  
+[1] Trump reaches comprehensive trade agreement with South Korea, https://www.foxbusiness.com/politics/south-korea-invest-350b-us-under-new-trump-trade-agreement-tariff-rate-lowered-15  
+[2] Indian state refiners pause Russian oil purchases amid Trump's 25% tariff announcement, https://www.deccanherald.com/business/indian-state-refiners-pause-russian-oil-purchases-reports-3659323  
+[3] ‘Extraordinary Threat’: Trump Unleashes On Brazil With Massive Tariff, Sanctions On Extremist Judge, https://www.dailywire.com/news/extraordinary-threat-trump-unleashes-on-brazil-with-massive-tariff-sanctions-on-extremist-judge?topStoryPosition=undefined&author=Mary+Margaret+Olohan&category=News&elementPosition=2&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=%E2%80%98Extraordinary+Threat%E2%80%99%3A+Trump+Unleashes+On+Brazil+With+Massive+Tariff%2C+Sanctions+On+Extremist+Judge  
+[4] Trump Threatens Canada over Palestinian State: 'Hard for Us to Make a Trade Deal', https://www.breitbart.com/middle-east/2025/07/31/trump-threatens-canada-over-palestinian-state-hard-for-us-to-make-a-trade-deal/  
+[5] Trump Warns Canada: Backing Palestinian State Could Damage U.S. Trade Deal, https://www.dailywire.com/news/trump-warns-canada-backing-palestinian-state-could-damage-u-s-trade-deal?topStoryPosition=undefined&author=Leif+Le+Mahieu&category=News&elementPosition=0&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Trump+Warns+Canada%3A+Backing+Palestinian+State+Could+Damage+U.S.+Trade+Deal  
+[6] Trump: Tariffs Made US 'Hottest Country' in the World, https://www.newsmax.com/politics/donald-trump-tariffs-trade/2025/07/31/id/1220772/  
+
+### 2.2 Domestic Policy And Executive Orders
+
+The White House is advancing its domestic agenda through a series of executive actions and policy initiatives. President Trump signed an executive order to officially re-establish the Presidential Fitness Test in schools [1]. In the energy sector, a new order from the Bureau of Ocean Energy Management, under the direction of Secretary of the Interior Doug Burgum, has reportedly disrupted offshore wind development projects [2]. In urban policy, a media analysis focused on New York City warns the city risks a "$7.2 billion loss" if it chooses to ignore what the report calls President Trump's "sensible homeless orders" [3]. Separately, a legislative or policy initiative named "The Big Beautiful Bill" is being promoted with the goal of "Making Automobiles Great Again" [4].
+
+**References:**  
+[1] Trump executive order to reestablish Presidential Fitness Test, https://www.foxnews.com/sports/trump-executive-order-reestablish-presidential-fitness-test  
+[2] Off Shore Wind Blown Away by Sec Burgum's Latest Bureau of Ocean Energy Management Order, https://hotair.com/tree-hugging-sister/2025/07/31/off-shore-wind-blown-away-by-sec-burgums-latest-bureau-of-ocean-management-order-n3805353  
+[3] NYC risks a $7.2 billion loss — if it ignores Trump’s sensible homeless orders, https://nypost.com/2025/07/30/opinion/nyc-could-lose-billions-if-it-ignores-trumps-homeless-orders/  
+[4] The Big Beautiful Bill: Making Automobiles Great Again, https://www.dailysignal.com/2025/07/31/making-automobiles-great-again/?utm_source=TDS_Email&utm_medium=email&utm_campaign=it-boggles-the-mind-former-usaid-official-perplexed-why-republicans-would-fund-the-national-endowment-for-democracy&_bhlid=5b45d5591e878b6880c55f32a32435e5dda69391  
+
+### 2.3 Government Operations, Spending, And Reform
+
+Efforts to reform government spending and streamline operations are producing tangible results. In a major development, Congress has reportedly withdrawn all federal funding for National Public Radio (NPR). According to one account, the decision prompted members of the Public Broadcasting Board to cry and quote Shakespeare during a meeting [1]. In what appears to be part of a broader government efficiency push, reports indicate that some ".gov websites" are currently in the process of being decommissioned [2]. On a separate matter concerning White House finances, reports state that the estimated $200 million cost for a new ballroom is being paid for by President Trump and private donors, not by taxpayers [3].
+
+**References:**  
+[1] Public Broadcasting Board Members Cry, Quote Shakespeare and Russell Crowe After Congress Yanks NPR Funding, https://freebeacon.com/media/public-broadcasting-board-members-cry-quote-shakespeare-and-russell-crowe-after-congress-yanks-npr-funding/  
+[2] .gov websites being decommissioned, https://www.reddit.com/r/Conservative/comments/1me48bh/gov_websites_being_decommissioned/  
+[3] Trump and donors covering the $200M cost of a new White House ballroom, https://www.foxbusiness.com/politics/sprawling-new-200m-white-house-ballroom-paid-trump-donors  
+
+### 2.4 Financial Systems And The Federal Reserve
+
+Open friction is evident between the executive branch and the Federal Reserve. President Trump has launched a public and harsh verbal attack on Fed Chair Jerome Powell, using the direct quote "‘Too Angry, Too Stupid, & Too Political’" to describe him [1]. In a related but separate area of financial regulation, a conservative advocacy group is actively lobbying federal lawmakers to combat what it describes as "government-driven ‘debanking’" practices that target individuals and businesses for political reasons [2].
+
+**References:**  
+[1] Trump Unloads On Fed Chair Jerome Powell: ‘Too Angry, Too Stupid, & Too Political’, https://www.dailywire.com/news/trump-unloads-on-fed-chair-jerome-powell-too-angry-too-stupid-too-political?topStoryPosition=undefined&author=Zach+Jewell&category=News&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Trump+Unloads+On+Fed+Chair+Jerome+Powell%3A+%E2%80%98Too+Angry%2C+Too+Stupid%2C+%26+Too+Political%E2%80%99  
+[2] Conservative Group Calls For Lawmakers To Fight Government-Driven ‘Debanking’, https://www.dailywire.com/news/conservative-group-calls-for-lawmakers-to-fight-government-driven-debanking?topStoryPosition=undefined&author=Tim+Pearce&category=Exclusive&elementPosition=1&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=Conservative+Group+Calls+For+Lawmakers+To+Fight+Government-Driven+%E2%80%98Debanking%E2%80%99  
+
+## 3. Foreign Relations And National Security
+
+### 3.1 International Diplomacy And Geopolitical Tensions
+
+The administration is engaged in direct, high-stakes diplomatic exchanges amid shifting global alliances. President Trump reportedly issued a pointed warning to Russia's Medvedev to "‘watch his words’" after the Russian official issued what was characterized as a "‘war’ warning" [1]. In a landmark diplomatic shift in the Middle East, the Arab League, for the first time in its history, has officially condemned Hamas and publicly urged the terrorist group to disarm [2]. This development stands in stark contrast to the posture of Germany, whose government in Berlin is now demanding the formal start of a process to grant statehood recognition to Palestine [3]. Meanwhile, reports of global violence continue, including an eyewitness account of a "church massacre in Congo where 49 Christians were killed" [4].
+
+**References:**  
+[1] Trump brushes back Russia's Medvedev after 'war' warning: 'Watch his words', https://www.foxnews.com/politics/trump-brushes-back-russias-medvedev-after-war-warning-watch-his-words  
+[2] For the First Time, the Arab League Condemns Hamas and Urges the Terrorists to Disarm. But…, https://pjmedia.com/rick-moran/2025/07/31/for-the-first-time-the-arab-league-condemns-hamas-and-urges-the-terrorists-to-disarm-n4942269  
+[3] Berlin Demands Start of Process to Recognize Palestinian State, https://www.breitbart.com/europe/2025/07/31/german-fm-says-berlin-demands-start-of-process-to-recognize-palestinian-state/  
+[4] Eyewitnesses describe church massacre in Congo where 49 Christians were killed, https://www.foxnews.com/world/exclusive-eyewitness-testimony-reveals-horrific-details-deadly-church-attack-african-nation  
+
+### 3.2 Immigration And Homeland Security
+
+The administration is actively tightening U.S. immigration policies. A significant policy change is the decision to formally restore the "Tougher Citizenship Test," which was previously in place during the first Trump administration and is considered more stringent than the one used subsequently [1]. At the enforcement level, the Department of Homeland Security conducted a worksite operation at a Market Basket store in New Bedford, Massachusetts. The action identified 167 individuals as "illegal alien workers," resulting in the immediate suspension of 47 employees by the company [2].
+
+**References:**  
+[1] Tougher Citizenship Test From 1st Trump Admin to Be Restored, https://www.newsmax.com/us/joseph-edlow-uscis-citizenship/2025/07/30/id/1220724/  
+[2] New Bedford Market Basket suspends 47 employees as Department of Homeland Security identifies 167 illegal alien workers, https://www.boston.com/news/local-news/2025/07/29/new-bedford-market-basket-suspends-dozens-of-employees-as-dhs-identifies-167-unauthorized-workers/  
+
+## 4. Domestic Politics And Media
+
+### 4.1 Activities And Allegations Involving Political Figures
+
+Several high-profile political figures are the focus of intense media scrutiny. Former Vice President Kamala Harris has publicly ruled out a gubernatorial run in California, stating definitively that her future leadership "‘will not be in elected office’" [1]. She is also reported to be writing a book about her recent presidential bid, which one headline describes as "‘the shortest presidential campaign in modern history’" [2]. Separately, multiple reports are circulating about Nancy Pelosi's reaction during a CNN interview, stating she "panicked" or "erupted" when journalist Jake Tapper pressed her on specific allegations of insider trading [3, 4]. At the local level, a Cincinnati city councilwoman is at the center of a major controversy over her comments on a "downtown assault." One report alleges she posted on Facebook that she was "‘grateful’ for the intense viral beatdown," while another, more explicit report claims she said the "White Victims Deserved Brutal Beatdown" [5, 6].
+
+**References:**  
+[1] Kamala Harris Rules Out Running for California Governor: My Leadership ‘Will Not Be in Elected Office’, https://www.breitbart.com/politics/2025/07/30/kamala-harris-rules-out-running-for-california-governor-my-leadership-will-not-be-in-elected-office/  
+[2] Kamala Harris writing a book about 'the shortest presidential campaign in modern history', https://nypost.com/2025/07/31/us-news/unemployed-kamala-harris-says-shes-writing-a-book-about-the-shortest-presidential-campaign-in-modern-history/?utm_source=instagram&utm_medium=social&utm_campaign=nypost&utm_content=nypost_feed  
+[3] Nancy Pelosi erupts when asked by CNN's Jake Tapper about allegations of insider trading, https://www.foxnews.com/media/nancy-pelosi-erupts-when-asked-cnns-jake-tapper-about-allegations-insider-trading  
+[4] Nancy Pelosi was NOT happy that CNN asked her about insider trading, https://notthebee.com/article/nancy-pelosi-wasnt-happy-when-jake-tapper-asked-her-about-insider-trading  
+[5] Cincinnati city councilwoman 'grateful' for intense viral beatdown: Facebook post, https://www.foxnews.com/us/cincinnati-city-councilwoman-grateful-intense-viral-beatdown-post  
+[6] Councilwoman Says White Victims Deserved Brutal Beatdown, https://dailycaller.com/2025/07/31/black-cincinnati-councilwoman-white-victims-deserve-attack/  
+
+### 4.2 Activism, Protests, And Local Incidents
+
+A protest targeting a sitting Republican member of Congress is receiving media attention due to its methods. According to reports, activists identified as Democrats were "caught on camera delivering a coffin to GOP congressman's front door in a mock funeral procession" [1]. The target was Rep. Bryan Steil of Wisconsin, who notably oversees the congressional committee tasked with addressing the recent increase in threats to members of Congress. Separately, a piece of opinion commentary criticizes the tactics of climate activists, specifically citing the act of gluing themselves to roads as a strategy that is not "winning any climate converts" [2].
+
+**References:**  
+[1] Protesters caught on camera delivering a coffin to GOP congressman's front door in mock funeral procession - Democrat activists target Rep. Bryan Steil, R-Wis., who oversees committee addressing increased threats to Congress, https://www.foxnews.com/politics/protesters-caught-camera-delivering-coffin-gop-congressmans-front-door-mock-funeral-procession?lid=9fvx7kna2u3q  
+[2] Green Dreams Crash: When Gluing Yourself to the Road Isn’t Winning Any Climate Converts, https://twitchy.com/justmindy/2025/07/31/economist-greenlash-green-new-deal-n2416518  
+
+### 4.3 Political Commentary And Media Analysis
+
+Current political commentary is heavily focused on assessments of the Trump administration's early performance. A significant talking point is an admission from a New York Times columnist, described as an "anti-Trump" "Never-Trumper," who reportedly stated the President is "‘much more successful’ than expected" in his second term [1, 2]. This view is mirrored in economic commentary, with one op-ed asserting that "Trump’s economy is already proving the doomsayers completely wrong" [3]. On another front, a new analysis of polling data concludes that media advocacy for "pro-illegal immigration" policies "isn't working" to sway public opinion [4].
+
+**References:**  
+[1] Anti Trump NY Times columnist admits president is 'much more successful' than expected, https://www.foxnews.com/media/anti-trump-ny-times-columnist-admits-president-much-more-successful-than-expected  
+[2] NYT Never-Trumper: Trump’s Presidency ‘Much More Successful’ Than Expected, https://www.dailyfetched.com/never-trumper-at-nyt-admits-trumps-presidency-much-more-successful-than-expected/  
+[3] Trump’s economy is already proving the doomsayers completely wrong, https://nypost.com/2025/07/30/opinion/trumps-economy-is-already-proving-the-doomsayers-completely-wrong/  
+[4] Fail: New Polls Show the Left's Pro-Illegal Immigration Agitation Isn't Working, https://townhall.com/tipsheet/guybenson/2025/07/31/fail-new-polls-show-the-lefts-pro-illegal-immigration-agitation-isnt-working-n2661170  
+
+## 5. Social And Cultural Issues
+
+### 5.1 Abortion-Related Events
+
+The administration has taken a formal position against specific international abortion-related policies. A report indicates that President Trump has officially rejected certain measures proposed by the World Health Organization (WHO). The stated rationale is that these measures "threaten pro-life laws" currently in place in the United States [1]. On a local level, a "Memorial Service" was held to mark the closure of an abortion facility, with organizers stating it was to mourn the "60,000 babies killed there" [2].
+
+**References:**  
+[1] Trump Rejects WHO Measures That Threaten Pro-Life Laws, https://www.lifenews.com/2025/07/28/trump-rejects-who-measures-that-threaten-pro-life-laws/  
+[2] Memorial Service Celebrates Closed Abortion Center, Mourns 60,000 Babies Killed There, https://www.lifenews.com/2025/07/31/memorial-service-celebrates-closed-abortion-center-mourns-60000-babies-killed-there/  
+
+### 5.2 Crime And Public Safety
+
+The news feed contains a single, notable report on crime. The story centers on an individual in Louisiana who has been dubbed a "‘Medicaid millionaire.’" This person allegedly purchased a Lamborghini while having claimed government welfare benefits for years [1]. No other major public safety or crime incidents were highlighted in the provided source material for this period.
+
+**References:**  
+[1] Louisiana 'Medicaid millionaire' bought Lamborghini while claiming government benefits for years, https://www.foxnews.com/us/louisiana-medicaid-millionaire-lamborghini-claiming-government-benefits-years  
+
+### 5.3 Technology, Society, And Speech
+
+The intersection of technology, regulation, and political life is the subject of two reports. In the United Kingdom, the new Online Safety Act is reportedly encountering implementation issues, as users are discovering "workarounds" which in turn "raises compliance questions" for the government and tech companies [1]. Separately, a speculative opinion piece questions whether Apple's forthcoming iOS26 operating system will effectively "kill" the practice of political polling by changing how user data can be accessed [2].
+
+**References:**  
+[1] UK Online Safety Act Raises Compliance Questions as Internet Users Quickly Find Workarounds, https://www.breitbart.com/tech/2025/07/30/uk-online-safety-act-raises-compliance-questions-as-internet-users-quickly-find-workarounds/  
+[2] Should We Care If Apple's New iOS26 Kills Political Polling?, https://hotair.com/ed-morrissey/2025/07/31/should-we-care-if-apples-new-ios26-kills-political-polling-n3805339  
+
+### 5.4 Second Amendment And Gun Control
+
+The briefing contains a single report regarding gun control advocacy. Political figure Zohran Mamdani has publicly echoed New York Governor Hochul's call to institute a nationwide ban on all firearms classified as "‘assault rifles’" [1].
+
+**References:**  
+[1] Zohran Mamdani Echoes Gov. Hochul: Ban 'Assault Rifles' Nationwide, https://www.breitbart.com/2nd-amendment/2025/07/30/zohran-mamdani-echoes-gov-hochul-ban-assault-rifles-nationwide/  
+
+
+_This briefing was synthesized from a curated news feed from the subreddit r/Conservative. The report is intended as a summary of the feed's content and does not represent an independent intelligence assessment._
+
+
+
+==
