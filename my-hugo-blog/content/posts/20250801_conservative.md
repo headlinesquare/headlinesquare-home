@@ -1,0 +1,206 @@
++++
+date = '2025-08-01T19:15:00-04:00'
+draft = false
+title = '[Friday, August 01] US News Headlines from r/Conservative'
++++
+
+This is an experimental AI project. 
+We are continuously improving it, but errors can still appear. 
+Feel free to contact us if you spot an error. 
+
+
+
+DAILY BRIEFING
+
+**CONFIDENTIAL**
+**DATE: August 1, 2025**
+**TO: Congressional Leadership, Democratic & Republican**
+**FROM: Office of the Chief News Analyst**
+**RE: Synthesis of Public Intelligence from r/Conservative News Feed**
+
+This briefing provides an objective analysis of today's significant events and narratives based solely on curated news headlines. The purpose is to provide leadership with an unvarnished view of the information influencing key constituencies and driving political discourse. Information is structured by area and topic, prioritized by political importance. All claims are sourced directly from the provided headlines.
+
+---
+
+## 1. National Security and Foreign Relations
+
+### 1.1 U.S.-Russia Tensions and Military Posturing
+
+The administration has executed a significant and direct military response to Russian rhetoric. Multiple reports confirm President Trump ordered the repositioning of two nuclear submarines to a location closer to Russia [1, 2]. This action was explicitly taken in response to what the administration termed "highly provocative statements" from Moscow [3]. One headline attributes the comments to "Putin Aide Medvedev" and a specific "'Dead Hand' Warning" [1], while another refers to remarks from a "former Russian president" [2]. This deliberate naval movement indicates a sharp escalation in military signaling between the two powers and a low threshold for kinetic response to rhetorical threats.
+
+**References:**
+[1] Trump Deploys Nuclear Subs Near Russia After Putin Aide Medvedev's ‘Dead Hand’ Warning, https://www.news18.com/amp/world/trump-deploys-nuclear-subs-near-russia-after-putin-aide-medvedevs-dead-hand-warning-ws-l-9478979.html  
+[2] Trump repositions 2 nuclear submarines after comments from former Russian president, https://www.foxnews.com/politics/trump-repositions-2-nuclear-submarines-after-highly-provocative-russian-comments  
+[3] Trump Dispatches Nuclear Submarines After ‘Highly Provocative Statements’ From Russia, https://www.dailywire.com/news/trump-dispatches-nuclear-submarines-after-highly-provacative-statements-from-russia  
+
+### 1.2 Middle East Policy and Regional Conflicts
+
+The administration is intensifying its hardline policy regarding Palestinian entities and related international bodies. The State Department has officially sanctioned Palestinian Authority officials for their alleged "'Support of Terrorism'" [1]. Concurrently, the administration has formally notified Congress that UNRWA, the UN agency for Palestinian refugees, is "'Irredeemably Compromised'" due to reported Hamas links and therefore "Must Be Dismantled" [2]. In the ongoing conflict, the Israeli government has shifted its strategy, publicly stating there will be "'No More Partial Deals' With Hamas" [3], signaling a potential move toward a more decisive military endgame. A specific military incident involving an "IDF Attacks Catholic Church in Gaza" was reported, for which Prime Minister Netanyahu is noted as being "very sorry" [4].
+
+**References:**
+[1] State Department Sanctions Palestinian Authority Officials Over 'Support of Terrorism', https://freebeacon.com/israel/state-department-sanctions-palestinian-authority-officials-over-support-of-terrorism/  
+[2] ‘Irredeemably Compromised’: Trump Admin Tells Congress Hamas-Linked UNRWA Must Be Dismantled, https://freebeacon.com/trump-administration/trump-admin-tells-congress-hamas-linked-unrwa-is-irredeemably-compromised-and-must-be-dismantled/  
+[3] Israel: 'No More Partial Deals' With Hamas, https://hotair.com/ed-morrissey/2025/08/01/israel-no-more-partial-deals-with-hamas-n3805381  
+[4] IDF Attacks Catholic Church in Gaza - Netanyahu very sorry, /r/Conservative/comments/1mf5v15/idf_attacks_catholic_church_in_gaza_netanyahu/  
+
+### 1.3 International Trade and Tariffs
+
+The administration is actively pursuing its trade agenda, releasing a "New Tariff Plan" this week on the eve of a trade deadline [1]. A key component of this plan is a significant escalation of tariffs on Canadian goods, now set at 35%. The plan’s scope is broad, also setting "new tariff rates for dozens of other countries" [2]. Initial international reaction to the new tariff structure is reportedly "Mostly Positive" according to one source, though detailed breakdowns of country-specific responses are not available [3].
+
+**References:**
+[1] White House Drops New Tariff Plan On Eve Of Trump’s Trade Deadline, https://www.dailywire.com/news/white-house-drops-new-tariff-plan-on-eve-of-trumps-trade-deadline?topStoryPosition=undefined&author=Tim+Pearce&category=News&elementPosition=0&row=1&rowHeadline=Top+Stories&rowType=Top+Stories&title=White+House+Drops+New+Tariff+Plan+On+Eve+Of+Trump%E2%80%99s+Trade+Deadline  
+[2] Trump escalates Canada tariffs to 35% while setting new tariff rates for dozens of other countries, https://www.foxbusiness.com/politics/trump-escalates-canada-tariffs-35-while-setting-new-tariff-rates-dozens-other-countries  
+[3] US Trade Partners Mostly Positive About Latest Tariffs, https://www.newsmax.com/world/globaltalk/trump-tariffs-inflation-global-trade/2025/08/01/id/1220905/  
+
+### 1.4 Intelligence Community Oversight and Activities
+
+Discussions regarding the oversight and alleged past activities of the U.S. Intelligence Community are ongoing. In a notable public comment, Director of National Intelligence Tulsi Gabbard acknowledged that "Operation Mockingbird," a reported historical CIA program to influence media, is "Something We've Had To Deal With" [1]. In Congress, Senator Tom Cotton has put forward a "Bold Plan to Reform" what he describes as an "Overstaffed Intelligence Behemoth" [2], signaling a legislative push for structural changes within the intelligence agencies. Adding to the narrative of intelligence-media links, commentator Tucker Carlson reportedly admitted his father "WAS involved in that world" of the CIA [3].
+
+**References:**
+[1] Director of National Intelligence Tulsi Gabbard: Operation Mockingbird "Something We've Had To Deal With" | Video | RealClearPolitics, https://www.realclearpolitics.com/video/2025/07/31/director_of_national_intel_tulsi_gabbard_operation_mockingbird.html  
+[2] Senator Cotton’s Bold Plan to Reform an Overstaffed Intelligence Behemoth › American Greatness, https://amgreatness.com/2025/08/01/senator-cottons-bold-plan-to-reform-an-overstaffed-intelligence-behemoth/  
+[3] WOW! Tucker Carlson ADMiTS! that his FATHER was in the CIA! “My father dies and I learn actually YEAH He WAS involved in that world”, https://x.com/tpantheman/status/1951349133731672279?s=46  
+
+### 1.5 Global Affairs and Human Rights
+
+Reports indicate severe violence targeting Christians in Africa. One headline details the killing of "200 Christians in Nigeria," which has prompted a U.S. lawmaker to call for sanctions [1]. Another report describes a separate "massacre" of "49 Christians" in a different African nation by "Islamist Terrorists" [2]. In unrelated international news, the Australian state of Victoria has installed "machete drop boxes" as part of a statewide weapons ban initiative set to begin next month [3].
+
+**References:**
+[1] 200 Christians Killed in Nigeria: U.S. Lawmaker Calls for Sanctions, https://townhall.com/tipsheet/scott-mcclallen/2025/07/31/200-christians-killed-in-nigeria-us-lawmaker-calls-for-sanctions-n2661252  
+[2] Islamist Terrorists Kill 49 Christians In African Church Massacre, https://www.iheart.com/content/2025-07-31-islamist-terrorists-kill-49-christians-in-african-church-massacre/  
+[3] Victoria, Australia, sets up machete drop boxes ahead of next month's statewide ban, https://notthebee.com/article/victoria-australia-has-set-up-machete-drop-boxes-ahead-of-next-months-statewide-ban  
+
+## 2. U.S. Economy and Federal Policy
+
+### 2.1 Economic Indicators and Federal Reserve
+
+A weak July jobs report has triggered a forceful response from the White House and an escalatory public conflict with the Federal Reserve. The report, which indicated the U.S. economy added only 73,000 jobs amid "growing economic uncertainty," [1] was immediately followed by President Trump’s order to fire the Chief of the Bureau of Labor Statistics [2, 3]. Simultaneously, President Trump intensified his public attacks on the central bank, calling Federal Reserve Chair Jerome Powell a "'stubborn moron' over Fed interest rate policy" [4]. This direct confrontation is further complicated by the resignation of Fed Governor Adriana Kugler, which now gives the President a key opportunity to fill a vacant spot on the board and potentially reshape its policy direction [5].
+
+**References:**
+[1] July jobs report: US added 73K jobs amid growing economic uncertainty, https://www.foxbusiness.com/economy/us-jobs-report-july-2025  
+[2] Trump Orders Firing of Bureau of Labor Statistics Chief After Weak Jobs Report, https://www.wsj.com/livecoverage/jobs-report-today-stock-market-08-01-2025/card/trump-orders-firing-of-bls-chief-keetzmcmvG27bpHzzI6m?gaa_at=eafs&gaa_n=ASWzDAirCZZtdd-bzy2P9asQY-EVvpBJN878MDuZHeQqQpmymEa_Qa5Bz5ZGLHmMRg%3D%3D&gaa_ts=688d178a&gaa_sig=m-gRDAqQ_OsYTv-nWgEz3mvcov_-foj3enkmwwMQpWNSsQAi21QSOBcF5myyIrt8579MydING5xH_CDiXiS8ew%3D%3D  
+[3] Trump sacks Labor Statistics employee responsible for jobs numbers, https://justthenews.com/politics-policy/all-things-trump/trump-sacks-labor-statistics-employee-responsible-jobs-numbers  
+[4] Trump calls Powell 'stubborn moron' over Fed interest rate policy, https://www.foxbusiness.com/politics/trump-slams-powell-moron-calls-feds-board-take-control-policy-moves  
+[5] Fed governor Adriana Kugler resigning, giving Trump spot to fill, https://nypost.com/2025/08/01/business/fed-governor-adriana-kugler-resigning-giving-trump-spot-to-fill/  
+
+### 2.2 Federal Agency Actions and Funding
+
+The Department of Justice has undertaken a significant legal action reversing a decades-old policy. According to a direct release from the department, it has successfully moved to dismiss a "Race-Based 44-Year-Old Consent Decree" [1]. The provided information does not offer any further details on the specific nature, origin, or implications of this decree, requiring direct review of the source for analysis.
+
+**References:**
+[1] Justice Department Dismisses Race-Based 44-Year-Old Consent Decree, https://www.justice.gov/usao-dc/pr/justice-department-dismisses-race-based-44-year-old-consent-decree  
+
+### 2.3 Corporate and Industry News
+
+Major disruptions are affecting the U.S. commercial transportation sector. A report indicates that 1,500 commercial truck drivers have had their licenses suspended by law enforcement "for failing the English proficiency test" [1]. The potential impact of removing this many drivers from the national logistics chain is significant.
+
+**References:**
+[1] 1,500 commercial truck drivers have had their licenses placed out of service by law enforcement for failing the English proficiency test, https://www.dailysignal.com/2025/07/30/exclusive-transportation-department-suspends-1500-truck-drivers-poor-english/  
+
+## 3. Immigration and Border Security
+
+### 3.1 Border Enforcement and Administration Policy
+
+The administration is actively promoting a narrative of unprecedented success in its immigration policies. An exclusive report claims the U.S. has achieved the "'Most Secure Border in History,'" pointing to a "New Record Low Arrests in July" and "Zero Admissions for 3 Months" as evidence [1]. This messaging coincides with policy changes to the naturalization process; the U.S. citizenship test is reportedly being revised to be "tougher to pass" in what is described as a "'MAGA makeover'" [2]. On the enforcement front, a figure identified as "Homan" has publicly stated to Newsmax that an individual named "Khalil Will Be Deported" [3].
+
+**References:**
+[1] EXCLUSIVE: Trump Delivers 'Most Secure Border in History' with New Record Low Arrests in July -- Zero Admissions for 3 Months, https://www.breitbart.com/border/2025/08/01/exclusive-trump-delivers-most-secure-border-in-history-with-new-record-low-arrests-in-july-zero-admissions-for-3-months/  
+[2] US citizenship test to get a MAGA makeover, made tougher to pass, https://justthenews.com/government/white-house/us-citizenship-get-maga-makeover-made-tougher  
+[3] Homan to Newsmax: Khalil Will Be Deported, https://www.newsmax.com/newsmax-tv/tom-homan-newsmax-mahmoud-khalil/2025/07/31/id/1220897/  
+
+### 3.2 Legal and Judicial Developments in Immigration
+
+The administration’s immigration agenda is facing significant challenges in federal court and at the state level. A federal district judge, characterized in headlines as a "Rogue woke Biden-appointed" official, has blocked President Trump's plan to terminate Temporary Protection Status (TPS) for approximately "60,000 aliens from Central America and Nepal" [1]. Another headline described the decision as a "Wildly Insane Ruling" [2]. Separately, a report indicates that sheriff's deputies in Colorado "violated new state law" by coordinating and sharing information with federal immigration agents [3], highlighting ongoing federal-state friction on enforcement.
+
+**References:**
+[1] Rogue woke Biden-appointed district judge blocks Trump’ s plan to end temporay protection status (TPS) for 60,000 aliens from Central America and Nepal, https://www.thehindu.com/news/international/judge-blocks-trump-s-plan-to-end-protection-to-60000-people-from-central-america-and-nepal/article69882726.ece  
+[2] Judge Makes Wildly Insane Ruling on Trump Revoking TPS - May Have Topped Planned Parenthood Absurdity, https://redstate.com/bonchie/2025/08/01/judge-makes-wild-temporary-protective-status-ruling-may-have-topped-planned-parenthood-absurdity-n2192339  
+[3] Colorado deputies violated new state law when sharing information with federal immigration agents, https://www.foxnews.com/us/colorado-deputies-violated-new-state-law-when-sharing-information-federal-immigration-agents  
+
+### 3.3 Immigration-Related Crime and Public Safety
+
+Several headlines link individuals identified as "illegal aliens" to specific criminal acts. U.S. Immigration and Customs Enforcement (ICE) confirmed two such individuals allegedly attempted to ram a vehicle into ICE agents in Colorado [1]. In a separate incident, DHS announced the arrest of an alien in a sanctuary city who was "charged with heinous crime" and described as the "'worst of the worst'" [2]. Additionally, individuals identified as "Illegal Aliens" were charged in a multi-state crime ring accused of stealing over "$400,000" in electronics from semi-trucks across Florida and Texas [3].
+
+**References:**
+[1] U.S. Immigration and Customs Enforcement has confirmed that two ILLEGAL aliens tried to RAM! their CAR into ICE agents in Colorado., https://x.com/tpantheman/status/1951061825443025294?s=46  
+[2] DHS scoops up alien charged with heinous crime in sanctuary city: 'Worst of the worst, https://www.foxnews.com/politics/dhs-scoops-up-trans-illegal-alien-charged-heinous-crime-child-sanctuary-city-worst-worst  
+[3] Illegal Aliens Charged in Crime Ring for Committing Multiple Burglaries of Over $400,000 Worth of Electronic Control Modules from Freightliner Semi-Trucks Across Florida and Texas, https://floridianpress.com/2025/07/illegal-aliens-charged-in-400000-crime-ring-across-florida-texas/  
+
+## 4. Culture, Media, and Education
+
+### 4.1 Media Criticism and Industry Developments
+
+A major disruption to public broadcasting is underway following legislative action. The Corporation for Public Broadcasting, the parent company of both NPR and PBS, is reportedly "shutting down" after Congress enacted cuts of "billions in funding" [1, 2]. One source celebrated the move, characterizing the outcome as the "Successful Dismantling of a Propaganda Machine" [3]. In other media developments, The Daily Beast issued an apology and retracted an article that made allegations concerning Jeffrey Epstein and the meeting of Melania and Donald Trump [4].
+
+**References:**
+[1] NPR, PBS parent company shutting down after Congress cut billions in funding, https://wchstv.com/news/nation-world/npr-pbs-parent-company-corporation-for-public-broadcasting-shutting-down-after-congress-cut-billions-in-funding-trump-backed-rescission-package-patricia-harrison-ceo  
+[2] Corporation for Public Broadcasting will shut down after Congress pulled funding, https://www.foxnews.com/media/corporation-public-broadcasting-announces-shut-down-after-trump-congress-cut-funding  
+[3] Corporation for Public Broadcasting Statement Indicates Successful Dismantling of a Propaganda Machine, https://twitchy.com/dougp/2025/08/01/corporation-for-public-broadcasting-shutting-down-n2416579  
+[4] Daily Beast apologizes, retracts article alleging Jeffrey Epstein introduced Melania, Donald Trump, https://justthenews.com/accountability/media/daily-beast-apologizes-retracts-article-alleging-jeffrey-epstein-introduced  
+
+### 4.2 Higher Education Controversies
+
+Prominent U.S. universities are the target of federal action and discrimination allegations. The Trump administration has frozen "$339 Million" in federal funding for UCLA, citing unspecified "Civil Rights Violations" in an exclusive report [1]. Concurrently, an EEOC complaint has been filed against Cornell University by a complainant who states, "I was excluded from a candidate search on the basis of my race" [2]. In a separate case, a Harvard Divinity School project was reportedly "Shut Down After Allegations of Antisemitism" [3]. Finally, an undercover video claims to show a University of Iowa administrator admitting to "quietly relabeling" DEI programs to protect them from being eliminated [4].
+
+**References:**
+[1] EXCLUSIVE: Trump Admin Freezes $339 Million From UCLA Over Civil Rights Violations, https://dailycaller.com/2025/08/01/trump-admin-ucla-millions-federal-funds-civil-rights-violations/  
+[2] Cornell University Discriminated Against Me. I was excluded from a candidate search on the basis of my race and have filed an EEOC complaint., https://www.wsj.com/opinion/cornell-university-discriminated-against-me-1e2d6a1e  
+[3] Harvard Divinity School Project Was Shut Down After Allegations of Antisemitism, https://hotair.com/john-s-2/2025/07/31/harvard-divinity-school-project-shut-down-after-allegations-of-antisemitism-n3805371  
+[4] Undercover video: University of Iowa admin admits DEI programs are being quietly relabeled to protect them from destruction, https://notthebee.com/article/very-sneaky-university-of-iowa-undercover-video-catches-school-admin-admitting-dei-is-still-alive  
+
+### 4.3 Satire
+
+A number of headlines from the satirical website The Babylon Bee were present in the news feed. These articles are parodies of current events and should not be interpreted as factual reporting. Topics included a piece stating an "Investigation Concludes Trump Is The Only One Who Didn’t Collude With Russia" [1] and another announcing a mock 2028 Democratic campaign slogan, "Democrats Announce 2028 Campaign Slogan: 'We Loathe Capitalism, Hot Chicks, And The ‘" [2].
+
+**References:**
+[1] Investigation Concludes Trump Is The Only One Who Didn’t Collude With Russia, https://babylonbee.com/news/investigation-concludes-trump-is-the-only-one-who-didnt-collude-with-russia  
+[2] Democrats Announce 2028 Campaign Slogan: 'We Loathe Capitalism, Hot Chicks, And The ‘, https://babylonbee.com/news/democrats-announce-2028-campaign-slogan-we-hate-capitalism-hot-chicks-and-the-jews  
+
+## 5. Domestic Politics and Investigations
+
+### 5.1 Democratic Party and Opposition Figures
+
+Former Vice President Kamala Harris has re-entered the public sphere in her "First Interview After Historic Election Loss" with Stephen Colbert [1]. In it, she stated she is "Avoiding Running for Office" because she now believes "'The System is Broken'" [2]. Meanwhile, administration fiscal policy is creating friction with Congressional Democrats; comments on Social Security by Treasury Secretary Scott Bessent reportedly caused "Democrat Histrionics" [3] and "Glitched the Democrats" [4]. In legislative matters, the House Oversight Committee heard testimony alleging that a "Biden ally expected $4M for 2024 win" [5].
+
+**References:**
+[1] Kamala Harris to Join Stephen Colbert for First Interview After Historic Election Loss, https://www.breitbart.com/entertainment/2025/07/31/kamala-harris-to-join-stephen-colbert-for-first-interview-after-historic-election-loss/  
+[2] Kamala Harris Tells Stephen Colbert She’s Avoiding Running for Office Because ‘The System is Broken’, https://twitchy.com/warren-squire/2025/08/01/kamala-harris-stephen-colbert-n2416559  
+[3] Democrat Histrionics Over Treasury Sec. Bessent's Social Security Comment Leaves Them With Egg on Faces, https://redstate.com/bobhoge/2025/07/31/democrats-get-hysterical-over-treasury-sec-bessents-social-security-comment-end-up-with-egg-on-faces-n2192335  
+[4] Breitbart Business Digest: The Day Bessent Glitched the Democrats, https://www.breitbart.com/economy/2025/07/31/breitbart-business-digest-the-day-bessent-glitched-the-democrats/  
+[5] House Oversight Committee hears Biden ally expected $4M for 2024 win, https://www.foxnews.com/politics/longtime-biden-aide-testifies-he-stood-earn-up-8m-had-president-won-re-election  
+
+### 5.2 Republican Party and Midterm Strategy
+
+A single headline addresses Republican financial strategy for upcoming elections. The report claims that President Trump "Hoards $234M for Midterms" [1]. The available information provides no further context on the strategic allocation or intended use of these funds.
+
+**References:**
+[1] Trump Hoards $234M for Midterms, https://www.newsmax.com/politics/maga-inc-trump-never-surrender/2025/08/01/id/1220957/  
+
+### 5.3 Legacy Investigations (Russia Collusion Allegations)
+
+Narratives concerning the origins of the 2016 Russia investigation continue to surface. New information, reportedly from the "Durham Annex," is being used to claim the "Press Tried To Save Hillary In 2016" [1]. Another report claims that after U.S. intelligence intercepted an "alleged Clinton Russia ruse," it was then-Vice President Biden who "took first shot smearing Trump" [2]. A third report identifies a DOJ official, "Brian Netter," as the individual who allegedly "Approved $2 Million Payout To Disgraced Russia Hoaxers" [3].
+
+**References:**
+[1] 2Durham Annex Shows How Press Tried To Save Hillary In 2016, https://thefederalist.com/2025/08/01/how-the-propaganda-press-jumped-on-the-russia-hoax-and-tried-to-save-hillarys-floundering-campaign/  
+[2] After alleged Clinton Russia ruse was intercepted by US intel, Biden took first shot smearing Trump, https://justthenews.com/government/white-house/biden-took-lead-tying-trump-putin-following-alleged-approval-clintons  
+[3] EXCLUSIVE: DOJ Official Who Approved $2 Million Payout To Disgraced Russia Hoaxers Identified As Left-Wing Activist Brian Netter, https://thefederalist.com/2025/08/01/exclusive-doj-official-who-approved-2-million-payout-to-disgraced-russia-hoaxers-identified-as-left-wing-activist-brian-netter/  
+
+### 5.4 State and Local Political Issues
+
+Reports highlight several developing issues at the state and local level. A new book reportedly details alleged corruption by California Governor Gavin Newsom, including purported "ties to Chinese Communist Party" and claims he "Fleeced American citizens" [1]. In Los Angeles, a public dispute has emerged between Mayor Karen Bass and Secretary of Defense Pete Hegseth, after Bass celebrated "'Troops Retreating' From LA" [2].
+
+**References:**
+[1] Corrupted Democrat Governor Gavin Newsom's ties to Chinese Communist Party under microscope in new book exposing alleged corruption: 'Fleeced American citizens', https://www.foxnews.com/politics/newsoms-ties-to-ccp-under-microscope-in-new-book-exposing-alleged-corruption-fleeced-american-citizens  
+[2] Pete Hegseth Has a Chef's Kiss Response After Karen Bass Celebrates 'Troops Retreating' From LA, https://redstate.com/sister-toldjah/2025/07/31/pete-hegseth-has-a-chefs-kiss-response-after-karen-bass-celebrates-troops-retreating-from-la-n2192319  
+
+### 5.5 Domestic and Social Initiatives
+
+The administration is undertaking cultural and social initiatives that are drawing public notice. One headline reports that President Trump has revived the national "School Fitness Test" [1]. In a separate development attracting political reaction, the Smithsonian Institution "temporarily" removed "Trump impeachment references from history museum," a move that reportedly drew "liberal ire" [2].
+
+**References:**
+[1] Trump Revives School Fitness Test, https://townhall.com/tipsheet/scott-mcclallen/2025/08/01/trump-revives-school-fitness-test-n2661260  
+[2] Smithsonian temporarily removes Trump impeachment references from history museum, drawing liberal ire, https://www.foxnews.com/media/smithsonian-temporarily-removes-trump-impeachment-references-from-history-museum-drawing-liberal-ire  
+
+
+
+==
