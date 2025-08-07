@@ -1,0 +1,94 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-54, total number of articles is 54.**
+
+{"id": 1, "domain": "breitbart.com", "title": "Trump Donates First Presidential Paycheck to White House Historical Association"}
+{"id": 2, "domain": "breitbart.com", "title": "Free Speech Wins: Judge Sides with Elon Musk and X, Strikes Down California Law Restricting Election Parody Videos"}
+{"id": 3, "domain": "redstate.com", "title": "Report: What Ghislaine Maxwell Said About Trump During DOJ Interview Isn't Going to Make Dems Happy"}
+{"id": 4, "domain": "nypost.com", "title": "UK is facing migrant-crisis reality, and results will be ugly"}
+{"id": 5, "domain": "dailywire.com", "title": "White House Prepares Executive Order Targeting Politicized Debanking"}
+{"id": 6, "domain": "thefederalist.com", "title": "Democrats’ Sudden Obsession With Jeffrey Epstein Is An Opportunistic Ploy To Bash Trump"}
+{"id": 7, "domain": "twitchy.com", "title": "Denver Can't Fund Police, but It CAN Find Money to Host the 2030 Gay Games 🤔"}
+{"id": 8, "domain": "townhall.com", "title": "Trump and Putin Set to Meet In-Person. What Happens Next Could End the War in Ukraine"}
+{"id": 9, "domain": "thefp.com", "title": "The Ties That Bind Islamists and Progressives"}
+{"id": 10, "domain": "spiked-online.com", "title": "The hilarious breakdown of the Islamo-left alliance"}
+{"id": 11, "domain": "finance.yahoo.com", "title": "Where is Cuba’s money? Secret records show the military has massive cash hoard"}
+{"id": 12, "domain": "nypost.com", "title": "Hey, experts — admit how you got Trump's tariffs so wrong"}
+{"id": 13, "domain": "foxnews.com", "title": "Sen. Marsha Blackburn announced a Tennessee gubernatorial bid"}
+{"id": 14, "domain": "foxnews.com", "title": "AWOL Dems’ flight from Texas may have been funded illegally by Beto O'Rourke nonprofit"}
+{"id": 15, "domain": "thefp.com", "title": "The Democrats Have No Immigration Plan"}
+{"id": 16, "domain": "spiked-online.com", "title": "Meet the Zyklon B heiress who is sailing to Gaza"}
+{"id": 17, "domain": "jns.org", "title": "Republican schism on Israel is a mainstream media myth"}
+{"id": 18, "domain": "economist.com", "title": "MAGA’s disenchantment with Israel"}
+{"id": 19, "domain": "newsmax.com", "title": "Trump: Could Impose More Tariffs on China Over Russian Oil"}
+{"id": 20, "domain": "nypost.com", "title": "The truth about Bill Clinton’s cozy friendship with Jeffrey Epstein and his ‘lovely girls’ as House subpoenas testimony"}
+{"id": 21, "domain": "dailywire.com", "title": "The Real Reason Democrats Are Panicking About Redistricting"}
+{"id": 22, "domain": "redstate.com", "title": "‘It’s Slipping Away’: James Carville Calls For Democrats To Take Some Radical Actions To Hold Power"}
+{"id": 23, "domain": "thefp.com", "title": "GOP ‘Divide’ over Israel Is Mostly Fiction"}
+{"id": 24, "domain": "nypost.com", "title": "Miranda Devine: Biden abused his authority by turning FEMA into a far-left political machine"}
+{"id": 25, "domain": "the-independent.com", "title": "Sweden, Norway and Denmark to buy $500 million of US arms for Ukraine war"}
+{"id": 26, "domain": "self.Conservative", "title": "We don't have to own the left. They are extremely good at self-ownage..."}
+{"id": 27, "domain": "foxnews.com", "title": "Junk food banned from SNAP benefits in 6 more states, a win for MAHA advocates"}
+{"id": 28, "domain": "nypost.com", "title": "Israel has every right to finish the job in Gaza — by obliterating Hamas"}
+{"id": 29, "domain": "newsbusters.org", "title": "CBS Fears European-Style Colonization and Oppression of Moon People"}
+{"id": 30, "domain": "townhall.com", "title": "The NYT's Idea of a Conservative Is a Blithering Idiot"}
+{"id": 31, "domain": "newsmax.com", "title": "Texas Dem Lawmakers Could Face Nearly $400K in Fines"}
+{"id": 32, "domain": "foxnews.com", "title": "Border crisis shifts to Caribbean: Homeland Security fights silent war in Puerto Rico. Puerto Rico HSI chief says Mexico border closure pushes drugs to island route"}
+{"id": 33, "domain": "i.redd.it", "title": "AZ State Senator Impeding and Doxxing ICE"}
+{"id": 34, "domain": "cbp.gov", "title": "Customs and Border Protection officers seize over $1.1 millions in fentanyl and cocaine at Anzalduas International Bridge, Texas"}
+{"id": 35, "domain": "x.com", "title": "President Trump just directed his Department of Commerce to perform a NEW CENSUS that doesn’t include illegal aliens."}
+{"id": 36, "domain": "thefederalist.com", "title": "Harvard Continues Race-Based Admissions: Complaint “The American people deserve physicians chosen for skill and competency — not because they checked the right diversity box.”"}
+{"id": 37, "domain": "foxbusiness.com", "title": "Trump to sign debanking executive order | No scumbaggery for you ☝"}
+{"id": 38, "domain": "breitbart.com", "title": "U.N. Expert Dismayed to Report Afghanistan’s Taliban Oppress Women"}
+{"id": 39, "domain": "twitchy.com", "title": "Wesley Yang Exposes Left’s Math Meltdown: ‘Female’ Prodigy Is a Boy, and the Woke Can’t Cope"}
+{"id": 40, "domain": "lawenforcementtoday.com", "title": "(ActBlue) Billion-Dollar “Magic Mortgage” Fraud Scheme Unveiled by Arizona Election Watchdog"}
+{"id": 41, "domain": "dailycaller.com", "title": "Socialists Of America Are Drunk On Power. Videos Of Their Insane Meetings Prove It | The Daily Caller"}
+{"id": 42, "domain": "realclearpolitics.com", "title": "This Chapter of Left-Wing 'Debanking' Is Coming to an End"}
+{"id": 43, "domain": "x.com", "title": "JD Vance - I Finally Made it!"}
+{"id": 44, "domain": "click2houston.com", "title": "FBI to assist in locating ‘runaway’ Texas House Democrats amid quorum break"}
+{"id": 45, "domain": "dailywire.com", "title": "University of Maryland Will Pay AntiIsrael Group That Planned Campus Rally On October 7"}
+{"id": 46, "domain": "quillette.com", "title": "Against Palestinian Statehood"}
+{"id": 47, "domain": "news.sky.com", "title": "Ex-Superman Dean Cain to join ICE 'ASAP' to 'save America'"}
+{"id": 48, "domain": "newschannel5.com", "title": "Initially, Tennessee Valley Authority planned to close all of its coal power plants. They're now reconsidering due to power demand"}
+{"id": 49, "domain": "tomklingenstein.com", "title": "How Group Quotas Lost in California"}
+{"id": 50, "domain": "pjmedia.com", "title": "HUGE: Trump Orders New Census to Fix 2020’s Rigged Count Favoring Democrats"}
+{"id": 51, "domain": "foxbusiness.com", "title": "Intel CEO Lip-Bu Tan faces calls to quit amid alleged Chinese company links"}
+{"id": 52, "domain": "x.com", "title": "The Australian government has removed the free outdoor gym equipment from Bondi beach because was attracting “too much masculinity” and “alienating women”."}
+{"id": 53, "domain": "redstate.com", "title": "JB Pritzker Digs Even Deeper Hole on Gerrymandering Issue As Chickens Come Home to Roost"}
+{"id": 54, "domain": "hotair.com", "title": "BILD Does Journalism, Showing How Hamas Stages 'Starvation' Photos"}
+
+====================Input File End======================
+
+
+

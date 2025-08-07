@@ -1,0 +1,130 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 91-180, total number of articles is 90.**
+
+{"id": 91, "domain": "cnbc.com", "title": "Trump orders 'new' census that excludes undocumented immigrants"}
+{"id": 92, "domain": "americanprogress.org", "title": "State Fact Sheets: How the Trump Administration and Congressional Republicans Are Increasing Costs for American Families"}
+{"id": 93, "domain": "theguardian.com", "title": "Chris Cuomo mocked for response after falling for deepfake AOC video"}
+{"id": 94, "domain": "nytimes.com", "title": "Cornyn Says F.B.I. Will Help Find Texas Lawmakers Who Fled State"}
+{"id": 95, "domain": "newrepublic.com", "title": "“Bullsh*t”: Trump and JD Vance Snap Over Epstein Cover-Up Meeting"}
+{"id": 96, "domain": "justice.gov", "title": "Active-Duty Soldier Arrested and Charged with Espionage and Export Violations"}
+{"id": 97, "domain": "cnbc.com", "title": "Democrats question Google's Trump talks over censorship suit and possible 'quid-pro-quo' deal"}
+{"id": 98, "domain": "edition.cnn.com", "title": "Vance embraces his growing role as Trump's chief problem solver--and the implications for a 2028 run"}
+{"id": 99, "domain": "abcnews.go.com", "title": "Trump orders new census excluding undocumented immigrants amid redistricting battles"}
+{"id": 100, "domain": "nbcnews.com", "title": "Tulsi Gabbard declassified documents over CIA objections, sources say"}
+{"id": 101, "domain": "cnbc.com", "title": "India isn’t flinching: Why Trump might be misreading India’s tariff playbook"}
+{"id": 102, "domain": "csmonitor.com", "title": "Holed up near the Windy City, Texas Democrats brace for the coming storm"}
+{"id": 103, "domain": "reuters.com", "title": "Senator Cornyn says FBI will help track down Texas Democrats who fled over redistricting vote"}
+{"id": 104, "domain": "msnbc.com", "title": "Trump claims he’s launching a new census, seizing on an idea from the Republican fringe"}
+{"id": 105, "domain": "politico.com", "title": "Trump says he’s ordering new census"}
+{"id": 106, "domain": "aljazeera.com", "title": "US House panel subpoenas Epstein files from Trump administration, Clintons"}
+{"id": 107, "domain": "independent.co.uk", "title": "Marjorie Taylor Greene takes shot at Fox News viewers for being too old: ‘They are not the future of America’"}
+{"id": 108, "domain": "texastribune.org", "title": "Abbott’s bid to expel the House Democratic leader goes to a court filled with his appointees"}
+{"id": 109, "domain": "nytimes.com", "title": "As Trump Administration Plans to Burn Contraceptives, Europeans Are Alarmed"}
+{"id": 110, "domain": "yaleclimateconnections.org", "title": "Climate change brings more rapidly intensifying hurricanes; NOAA cuts makes forecasting them harder"}
+{"id": 111, "domain": "cleveland.com", "title": "5 things to know about the jobs report controversy that has economists defending government data"}
+{"id": 112, "domain": "expressnews.com", "title": "Sen. Cornyn says FBI has granted his request to help track down Texas House Democrats"}
+{"id": 113, "domain": "democracynow.org", "title": "From India to Brazil, Trump Intensifies Trade War Against BRICS Nations as New Tariffs Take Effect"}
+{"id": 114, "domain": "nbcnews.com", "title": "Sen. John Cornyn says the FBI granted his request to help find absent Texas Democrats"}
+{"id": 115, "domain": "mercurynews.com", "title": "President Trump calls on Intel CEO to resign"}
+{"id": 116, "domain": "bloomberg.com", "title": "Waller Emerges as Favorite for Fed Chair Among Trump Team"}
+{"id": 117, "domain": "inews.co.uk", "title": "Only someone as gullible as Trump would fall for Putin’s latest ruse"}
+{"id": 118, "domain": "nytimes.com", "title": "After Donations, Trump Backed Medicare Funds for Pricey Bandages"}
+{"id": 119, "domain": "thehill.com", "title": "John Cornyn says FBI approved request to locate runaway Texas Democrats"}
+{"id": 120, "domain": "theverge.com", "title": "Trump’s endless new tariffs are threatening businesses — and you"}
+{"id": 121, "domain": "miaminewtimes.com", "title": "South Florida Native Katie Miller Is Now a MAGA Podcaster"}
+{"id": 122, "domain": "nytimes.com", "title": "President Trump floats military use at L.A. Olympics, says there will be sex testing"}
+{"id": 123, "domain": "cbc.ca", "title": "Manitoba premier calls U.S. politicians 'attention-seekers' throwing a 'timber tantrum' over wildfire smoke"}
+{"id": 124, "domain": "theverge.com", "title": "Trump demands CEO of Intel resign over ties to China"}
+{"id": 125, "domain": "newrepublic.com", "title": "New detail blows huge hole in Trump’s story about Epstein friendship. Donald Trump said he ended the friendship in 2004. But that doesn’t appear to be the case."}
+{"id": 126, "domain": "thehill.com", "title": "California, New York signal they’re moving forward with redistricting"}
+{"id": 127, "domain": "apnews.com", "title": "Fact Focus: RFK Jr.'s reasons for cutting mRNA vaccine not supported by evidence"}
+{"id": 128, "domain": "newsweek.com", "title": "FBI to Aid Texas in Locating Democrats Over Redistricting"}
+{"id": 129, "domain": "reuters.com", "title": "Trump's higher tariffs hit major US trading partners, sparking defiance and concern"}
+{"id": 130, "domain": "vox.com", "title": "There’s only one type of American who still trusts the Supreme Court"}
+{"id": 131, "domain": "cnn.com", "title": "Energy chief suggests Trump administration is altering previously published climate reports"}
+{"id": 132, "domain": "thenation.com", "title": "The Trump Economy? Some Reagan Parallels"}
+{"id": 133, "domain": "citizensforethics.org", "title": "Trump businesses seek to hire more foreign workers as his administration supercharges deportations"}
+{"id": 134, "domain": "axios.com", "title": "FBI will help locate Texas Democrats who fled the state, Cornyn says"}
+{"id": 135, "domain": "thetimes.com", "title": "America is falling behind in drones arms race, general says"}
+{"id": 136, "domain": "commondreams.org", "title": "The Trump Administration Wants to Turn US Cities Into Occupied Territory"}
+{"id": 137, "domain": "apnews.com", "title": "Trump moves to shut down NASA missions that measure carbon dioxide and plant health"}
+{"id": 138, "domain": "time.com", "title": "Trump to Meet Putin in \"Coming Days,\" the Kremlin Confirms"}
+{"id": 139, "domain": "reuters.com", "title": "Trump administration plans $64 million cut to New York City security funding"}
+{"id": 140, "domain": "abcnews.go.com", "title": "FBI granted request to locate fleeing Texas House Democrats, Sen. Cornyn says"}
+{"id": 141, "domain": "thedailybeast.com", "title": "Billionaire Apple CEO Tim Cook Sucks Up to Trump With Tacky Gold Gift"}
+{"id": 142, "domain": "theverge.com", "title": "Truth Social’s new AI search engine basically just pushes Fox News"}
+{"id": 143, "domain": "abcnews.go.com", "title": "A woman accused of fraud hired the AG's brother as her lawyer. Months later, DOJ dropped charges"}
+{"id": 144, "domain": "reuters.com", "title": "Trump calls on 'highly conflicted' Intel CEO to resign over China ties"}
+{"id": 145, "domain": "thetimes.com", "title": "Miss USA accuses Florida congressman of revenge porn threat"}
+{"id": 146, "domain": "npr.org", "title": "Why Social Security's new ‘phone sharing’ system may slow help : NPR"}
+{"id": 147, "domain": "ctvnews.ca", "title": "‘Probably the most disliked politician in the world:’ Doug Ford on how Canadians view Trump"}
+{"id": 148, "domain": "cnn.com", "title": "US sides with El Salvador on eliminating presidential term limits, prompting democracy debate"}
+{"id": 149, "domain": "cbsnews.com", "title": "Florida Rep. Cory Mills accused of revenge porn threat after breakup with beauty queen"}
+{"id": 150, "domain": "wired.com", "title": "Trump Is Undermining Trust in Official Economic Statistics. China Shows Where That Path Can Lead"}
+{"id": 151, "domain": "nytimes.com", "title": "Trump to Require Universities to Submit Data on Applicants’ Race"}
+{"id": 152, "domain": "nbcnews.com", "title": "Education Department has a backlog of 27,000 complaints about student loans"}
+{"id": 153, "domain": "wgbh.org", "title": "Gerald Denis: \"Save Medical Research!\""}
+{"id": 154, "domain": "kltv.com", "title": "AG Paxton investigates Beto O’Rourke’s political action committee for funding Texas House Democrats in redistricting standoff"}
+{"id": 155, "domain": "apnews.com", "title": "US Rep. Cory Mills accused of threatening to release intimate videos after breakup"}
+{"id": 156, "domain": "apnews.com", "title": "Senior FBI official who resisted Trump administration demands is pushed out, AP sources say"}
+{"id": 157, "domain": "theguardian.com", "title": "The Voting Rights Act is facing the biggest threats in its 60 years"}
+{"id": 158, "domain": "democracydocket.com", "title": "Right-Wing Legal Group With Ties to DOJ Official Targets State Voter Rolls"}
+{"id": 159, "domain": "theatlantic.com", "title": "The Epstein ‘Client List’ Will Never Go Away"}
+{"id": 160, "domain": "abcnews.go.com", "title": "'Traditionally, it was a Democrat issue': How RFK Jr. is getting left-leaning food laws into deep-red states"}
+{"id": 161, "domain": "gazette.com", "title": "Legislators urge action as Colorado faces $955 million deficit, unresolved AI regulation"}
+{"id": 162, "domain": "peoplesworld.org", "title": "Trump revives threat of D.C. takeover and orders restoration of Confederate statue"}
+{"id": 163, "domain": "wired.com", "title": "Why the US Is Racing to Build a Nuclear Reactor on the Moon"}
+{"id": 164, "domain": "theguardian.com", "title": "Trump calls for new US census that excludes undocumented immigrants"}
+{"id": 165, "domain": "washingtonpost.com", "title": "Dozens of FEMA staffers involuntarily reassigned to support deportations"}
+{"id": 166, "domain": "theatlantic.com", "title": "How Democrats Tied Their Own Hands on Redistricting"}
+{"id": 167, "domain": "npr.org", "title": "Federal judge rules cuts to humanities grants were 'unlawful'"}
+{"id": 168, "domain": "reuters.com", "title": "Trump to sign order requiring universities disclose admissions data on race"}
+{"id": 169, "domain": "newrepublic.com", "title": "The Media Keeps Ignoring the Truth About American Politics"}
+{"id": 170, "domain": "newsweek.com", "title": "Trump Orders New Census Excluding Undocumented Immigrants"}
+{"id": 171, "domain": "thedailybeast.com", "title": "Trump, 79, Fails to Find People Standing Feet Away From Him: ‘Right Behind You’"}
+{"id": 172, "domain": "theverge.com", "title": "Senators are trying to force ISPs to block all foreign pirate sites"}
+{"id": 173, "domain": "semafor.com", "title": "‘You’re welcome:’ Biden’s antitrust chief points to Figma IPO as vindication of his policy"}
+{"id": 174, "domain": "cnbc.com", "title": "Murdoch to provide health updates to Trump in deal to delay Epstein case deposition"}
+{"id": 175, "domain": "news10.com", "title": "DOCCS mail scanning rule could compromise attorney-client privilege"}
+{"id": 176, "domain": "techdirt.com", "title": "DOJ Has Lost So Many Lawyers It Might Not Have Enough Left To Help Trump Destroy America"}
+{"id": 177, "domain": "nbcnews.com", "title": "Rep. Nancy Mace says she'll 'debate anyone' at a town hall where opponents were asked to leave"}
+{"id": 178, "domain": "stripes.com", "title": "VA ends contracts for most of its unionized employees"}
+{"id": 179, "domain": "msnbc.com", "title": "Trump administration to curtail veterans’ abortion rights at Veterans Affairs hospitals"}
+{"id": 180, "domain": "cbsnews.com", "title": "Trump wants to change the census to exclude undocumented immigrants. Here's how the census works"}
+
+====================Input File End======================
+
+
+
