@@ -1,0 +1,92 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 1-52, total number of articles is 52.**
+
+{"id": 1, "domain": "foxnews.com", "title": "Border Patrol makes arrest outside Gavin Newsom rally in LA"}
+{"id": 2, "domain": "spiked-online.com", "title": "As Bono now knows, you criticise Hamas at your peril"}
+{"id": 3, "domain": "foxnews.com", "title": "Newsom unveils California redistricting effort to counter Trump-backed push in Texas"}
+{"id": 4, "domain": "nypost.com", "title": "‘Gold Bar’ Bob Menendez’s most brazen abuse of power — helping Egypt cover up the murder of Jamal Khashoggi"}
+{"id": 5, "domain": "thefederalist.com", "title": "DC Sub Chucker Loses His Lunch, His Cool, And His DOJ Job"}
+{"id": 6, "domain": "dhs.gov", "title": "Secretary Noem Announces 1.6 Million Illegal Aliens Have Left the U.S. | Homeland Security"}
+{"id": 7, "domain": "newsmax.com", "title": "Amir Ohana to Newsmax: Put Palestinian State in Paris, London"}
+{"id": 8, "domain": "breitbart.com", "title": "Democrats Fume over Federal Agents Gathering for Immigration Raid"}
+{"id": 9, "domain": "nypost.com", "title": "Chicago voters stuck with ‘America’s Worst Mayor’ Brandon Johnson send urgent warning to NYC about Zohran Mamdani"}
+{"id": 10, "domain": "apnews.com", "title": "Rogue Obama-appointed district judge orders RFK Jr.'s health department to stop sharing Medicaid data of millions of illegal alien enrollees with deportation officials"}
+{"id": 11, "domain": "nypost.com", "title": "Jasmine Crockett denounces Republicans as ‘racist’ – after Al Sharpton heaps praise on ‘Jasmine Campbell’ in brutal gaffe"}
+{"id": 12, "domain": "nypost.com", "title": "Delusional Jussie Smollett remains as shameless as ever as he points the finger of blame at everyone else"}
+{"id": 13, "domain": "nypost.com", "title": "Ashley Biden shared a photo of husband Howard Krein hand in hand with ‘his girlfriend’ hours before bombshell divorce filing"}
+{"id": 14, "domain": "espn.com", "title": "NFL: Social justice messages to continue in end zones"}
+{"id": 15, "domain": "foxnews.com", "title": "Obama praises Democrats who fled Texas redistricting vote as ‘inspiring’"}
+{"id": 16, "domain": "nypost.com", "title": "Jasmine Crockett denounces Republicans as ‘racist’ – after Al Sharpton heaps praise on ‘Jasmine Campbell’ in brutal gaffe"}
+{"id": 17, "domain": "townhall.com", "title": "Sorry Libs, People Love Trump's D.C. Takeover"}
+{"id": 18, "domain": "foxnews.com", "title": "New York Times essay hoping military would 'stand up to Trump' draws fire on social media"}
+{"id": 19, "domain": "x.com", "title": "Man killed after being struck by car while fleeing Home Depot ICE raid in Monrovia, California"}
+{"id": 20, "domain": "redstate.com", "title": "Excellent: Border Patrol Scooping Up Illegal Aliens Outside Newsom Presser"}
+{"id": 21, "domain": "foxnews.com", "title": "American history won't be displayed 'in a woke manner' at Smithsonian, Trump says"}
+{"id": 22, "domain": "nypost.com", "title": "AG Pam Bondi declares DC ‘will not remain a sanctuary city’ under Trump — cops ‘must’ alert ICE to illegal migrants"}
+{"id": 23, "domain": "breitbart.com", "title": "Schiff Complains Democracy Under Attack — After Getting Caught Plotting Against Democratically Elected President"}
+{"id": 24, "domain": "townhall.com", "title": "DOJ Seeks Death Penalty After Seattle Woman Indicted for Killing Border Patrol Agent"}
+{"id": 25, "domain": "jpost.com", "title": "Amnesty UK draws criticism for arguing journalist death toll in Gaza higher than in any other war"}
+{"id": 26, "domain": "foxnews.com", "title": "Bondi strips power from DC police chief, rescinds sanctuary city protections"}
+{"id": 27, "domain": "washingtonexaminer.com", "title": "A man went to prison for assaulting me. DC Police crime stats show he was never arrested"}
+{"id": 28, "domain": "breitbart.com", "title": "Schumer Roasted for Inventing Fake Long Island Couple He Based Entire Career On"}
+{"id": 29, "domain": "nypost.com", "title": "Decades of disturbing clergy abuse at elite NJ Catholic school set to be exposed — and its former leader could be state’s next cardinal"}
+{"id": 30, "domain": "jpost.com", "title": "'No life': Hezbollah sends direct threat to Lebanon's gov't | The Jerusalem Post"}
+{"id": 31, "domain": "nypost.com", "title": "Hillary Clinton says she'd nominate Trump for Nobel Peace Prize if he helps end Ukraine war"}
+{"id": 32, "domain": "foxnews.com", "title": "Trump warns Putin of consequences if he blocks Ukraine peace process"}
+{"id": 33, "domain": "foxnews.com", "title": "DC sues Trump administration over 'unlawful' federal takeover"}
+{"id": 34, "domain": "redstate.com", "title": "More Lies: D.C. Quietly Settles With Police Sergeant Who Sued Over Falsified Crime Stats"}
+{"id": 35, "domain": "thefederalist.com", "title": "Democrats Don’t Get To Act Thoughtful About Solving The Crime Problem They Created"}
+{"id": 36, "domain": "thefp.com", "title": "The Ties That Bind Islamists and Progressives"}
+{"id": 37, "domain": "newsmax.com", "title": "Merlin/Azoria Capital Poll: Trump Tariffs Met With Strong Approval"}
+{"id": 38, "domain": "foxnews.com", "title": "Judge orders RFK Jr's HHS to stop sharing Medicaid data with immigration officials"}
+{"id": 39, "domain": "c-span.org", "title": "President Trump Departs for Meeting with Russian President"}
+{"id": 40, "domain": "thefederalist.com", "title": "Smithsonian's American History Museum"}
+{"id": 41, "domain": "babylonbee.com", "title": "10 Telltale Signs Of Dangerous Authoritarianism"}
+{"id": 42, "domain": "twitchy.com", "title": "Leftist, Elitist DBag D.C. AG Brian Schwalb Suing Trump to Make Sure D.C. Stays a Crime-Infested Craphole"}
+{"id": 43, "domain": "newsmax.com", "title": "DOJ: Trump Administration to Review State Laws That Harm Economy"}
+{"id": 44, "domain": "nypost.com", "title": "Putin’s foreign minister trolls Ukraine by wearing USSR sweatshirt to high-stakes summit between Trump, Putin"}
+{"id": 45, "domain": "notthebee.com", "title": "NEW: DC Sues Trump Admin For Stopping Crime By Taking Federal Control Of Police In Federal City"}
+{"id": 46, "domain": "breitbart.com", "title": "Internal Documents Show Meta Allowed AI Chatbots to Have Romantic Discussions with Children"}
+{"id": 47, "domain": "rightjournalism.com", "title": "Breaking Video: Abu Musa Caught on Camera Dropping Stacks of Ballots — He Won by Just 76 Votes, and Law Enforcement Is Responding"}
+{"id": 48, "domain": "news.bloomberglaw.com", "title": "Trump Cleared to Fire Most CFPB Workers as Court Lifts Hold"}
+{"id": 49, "domain": "nypost.com", "title": "DC woman goes viral after sharing she feels ‘more safe than ever’ in capital after ‘Trump’s law’"}
+{"id": 50, "domain": "nypost.com", "title": "DC woman goes viral after sharing she feels ‘more safe than ever’ in capital after ‘Trump’s law’"}
+{"id": 51, "domain": "nypost.com", "title": "It's the Age of Trump — and he's forging a new political era"}
+{"id": 52, "domain": "nypost.com", "title": "Michigan receives fine of over $20 million for sign-stealing scandal that rocked college football"}
+
+====================Input File End======================
+
+
+

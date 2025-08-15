@@ -273,8 +273,6 @@ On the other hand, if it is for GitHub, run the following:
 git remote add origin https://github.com/thomas-router/thomas-router.github.io.git
 ```
 
-
-
 We note that GitHub usernames only allow hyphens rather than underscores.
 
 **d. Verify the Remote:**  
