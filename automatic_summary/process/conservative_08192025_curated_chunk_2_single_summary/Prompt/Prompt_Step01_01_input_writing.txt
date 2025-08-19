@@ -1,0 +1,90 @@
+**Step 1 (logic-heavy)**
+
+Define the Categories: 
+
+Read through the titles of hundreds of news articles and think carefully.  Use your memory fully. Define major areas, and define specific topics under each area, in a hierarchical way. Every news article should have its best-fitting category. There should be two hierarchical tiers (area, topic), instead of three, and then we get down to individual articles. You should consider this very carefully, making the categories the most helpful for human cognition. Control the total number of areas to 5-8, depending on how diverse and complex the topics are. Remember to group similar categories together closely. Do not let similar categories stay far from each other.  Compile all your in a simple text file (step1.txt).
+
+You will create a list of numerically ordered areas and topics like this.
+
+Area 1: xxxxx
+    Topic 1.1: xxxxx
+	Topic 1.2: xxxxx
+	Topic 1.3: xxxxx
+	Topic 1.4: xxxxx
+Area 2: xxxxx
+    Topic 2.1: xxxxx
+	Topic 2.2: xxxxx
+	Topic 2.3: xxxxx
+Area 3: xxxxx
+    Topic 3.1: xxxxx
+	Topic 3.2: xxxxx
+	Topic 3.3: xxxxx
+......
+(xxxxx means any titles of areas and topics)
+This is only a formatting template. It doesn't mean you should have exactly 4, 3, 3 topics in Area 1, 2, 3, as shown above.
+ 
+
+You will be dealing with very long inputs and outputs. Please be very patient. You must do all the work and output everything in one go, no matter how long it is. But you can use your output as a part of your chain of thought. Just provide your final output after you finish your thinking.
+
+**Here are the JSONL lines (news_list.jsonl):**
+
+
+====================Input File Start====================
+
+**ID range is 52-101, total number of articles is 50.**
+
+{"id": 52, "domain": "lifenews.com", "title": "Pope Leo‘s Pro-Life Message: Reject the “Voices of Death,” “Choose Life”"}
+{"id": 53, "domain": "hotair.com", "title": "How's That Big MSNBC Rebrand Going? Peacock Gone, Multiple Sclerosis Trending"}
+{"id": 54, "domain": "newsmax.com", "title": "Poll: Trump Approval Rating Jumps After Putin Summit"}
+{"id": 55, "domain": "nypost.com", "title": "Shari Redstone hoped Trump’s ‘60 Minutes’ suit would root out anti Israel bias at CBS News — and she sold Paramount partly over Oct. 7"}
+{"id": 56, "domain": "newsbusters.org", "title": "NY Times Laments Success of Trump’s ‘Echo Chamber’ on Crime as Perception Over Reality"}
+{"id": 57, "domain": "breitbart.com", "title": "Christian Revival: Belief in God Triples Among 18-24 Year Old Britons"}
+{"id": 58, "domain": "x.com", "title": "President Trump says NO US troops on the ground in Ukraine: \"You have my assurance.\""}
+{"id": 59, "domain": "foxbusiness.com", "title": "Bank executives blow the whistle on how Obama, Biden admins pressured them to debank conservatives"}
+{"id": 60, "domain": "foxnews.com", "title": "Trump offers 'assurance' of no US troops in Ukraine, believes Putin-Zelenskyy meeting will happen"}
+{"id": 61, "domain": "i.redd.it", "title": "DC crime since federal control"}
+{"id": 62, "domain": "c-span.org", "title": "White House Press Secretary Holds Briefing - Aug. 19, 2025"}
+{"id": 63, "domain": "dailycaller.com", "title": "Trump Says US May Give Ukraine Air Support As Part Of Peace Deal | The Daily Caller"}
+{"id": 64, "domain": "foxnews.com", "title": "Boston’s Wu fires back at Bondi, citing Revolution, as other cities slam feds over ‘sanctuary’ warnings"}
+{"id": 65, "domain": "townhall.com", "title": "Joy Reid Declares White People Never Invented Anything—History Says Otherwise"}
+{"id": 66, "domain": "breitbart.com", "title": "CNN Is Outraged that Oklahoma Wants Leftist Teachers to Pass PragerU's Common Sense Assessment to Get a Job"}
+{"id": 67, "domain": "newsmax.com", "title": "Trump: 'You Have My Assurance,' No US Troops in Ukraine"}
+{"id": 68, "domain": "nypost.com", "title": "Hamas accepts cease-fire deal to free more than half the hostages for 60-day truce in Gaza"}
+{"id": 69, "domain": "foxnews.com", "title": "Trump admin slams ACLU for comparing ICE center to Japanese internment camp: 'Deranged and lazy'"}
+{"id": 70, "domain": "thefederalist.com", "title": "Defense Department May Adopt Pro-America Test For K-12 Schools, Military Academies"}
+{"id": 71, "domain": "hotair.com", "title": "The U.S. Department of Education has begun the process of cutting federal funding to five schools..."}
+{"id": 72, "domain": "breitbart.com", "title": "Christian Revival: Belief in God Triples Among 18-24 Year Old Britons"}
+{"id": 73, "domain": "redstate.com", "title": "I Voted for This: The Trump Administration Just Massively Raised the Bar on Who Can Become a U.S. Citizen"}
+{"id": 74, "domain": "redstate.com", "title": "'The Use of Slave Labor Is Repulsive': DHS Ramps Up War on Chinese Goods From Uyghur Region"}
+{"id": 75, "domain": "babylonbee.com", "title": "Chuck Schumer Said He’s Never Felt In Danger Walking In DC And Neither Have His Ten Bodyguards"}
+{"id": 76, "domain": "theblaze.com", "title": "Trump admin raises the bar for who can become a US citizen"}
+{"id": 77, "domain": "wfxb.com", "title": "Mississippi, Tennessee and Louisiana have joined South Carolina, West Virginia, and Ohio to add to President Trump’s “make the capital safe” order"}
+{"id": 78, "domain": "dailywire.com", "title": "STATS ARE IN: D.C. Crime Already Dramatically Lower After Trump Crackdown"}
+{"id": 79, "domain": "washingtonexaminer.com", "title": "Judge hands Trump partial win in Alligator Alcatraz case"}
+{"id": 80, "domain": "dailycaller.com", "title": "Top California Dem Lawmaker Reportedly Had House Seat Gerrymandered For Him In Exchange For Support"}
+{"id": 81, "domain": "ft.com", "title": "UK fails to stop removal of asylum seekers from Essex hotel at centre of immigration debate"}
+{"id": 82, "domain": "foxnews.com", "title": "Ella Emhoff showed off plastic bag use before complaining about ‘climate anxiety’"}
+{"id": 83, "domain": "foxnews.com", "title": "Illegal immigrant truck driver accused in deadly Florida crash got Biden work permit after Trump denial: DHS"}
+{"id": 84, "domain": "wabe.org", "title": "Georgia Republicans, against backdrop of 2026 election, push to eliminate state income tax"}
+{"id": 85, "domain": "breitbart.com", "title": "Josh Hawley to Investigate if Meta AI Bots Enabled ‘Criminal Harms to Children’"}
+{"id": 86, "domain": "x.com", "title": "Trump pledges to clean up and remove the wokeness from American Museums"}
+{"id": 87, "domain": "reformcalifornia.org", "title": "DeMaio Takes Legal Action to Stop Newsom’s Redistricting Scheme"}
+{"id": 88, "domain": "x.com", "title": "A ILLEGAL migrant working as a Maine POLICE Officer was detained by ICE and has agreed to SELF-DEPORT"}
+{"id": 89, "domain": "kdvr.com", "title": "30 indicted after undercover investigation targeting Tren de Aragua in Colorado"}
+{"id": 90, "domain": "truthpress.com", "title": "Woman Arrested in DC After Threatening to Kill President Trump"}
+{"id": 91, "domain": "redstate.com", "title": "The Story of the Illegal Immigrant Who Killed Three After Getting a CDL From California Gets Even Worse"}
+{"id": 92, "domain": "nypost.com", "title": "Exclusive | Tulsi Gabbard strips 37 security clearances over Obama-ordered intel report that launched Russiagate"}
+{"id": 93, "domain": "foxnews.com", "title": "Tulsi Gabbard strips security clearances from 37 intelligence officials"}
+{"id": 94, "domain": "washingtonexaminer.com", "title": "Biden ignored DOJ warnings over legally flawed autopen pardons"}
+{"id": 95, "domain": "victorhanson.com", "title": "Putin, Trump, and the Elusive “Peace”"}
+{"id": 96, "domain": "nypost.com", "title": "Exclusive | Biden DOJ ripped White House over clemency grant to 'non-violent offenders'"}
+{"id": 97, "domain": "townhall.com", "title": "Teamsters Back GOP Rep, Another Sign That Working-Class America Is Bucking the Dems"}
+{"id": 98, "domain": "nypost.com", "title": "NYC voters sour on socialist Democrat Zohran Mamdani in latest mayoral poll"}
+{"id": 99, "domain": "foxnews.com", "title": "Migrant crimes against children pile up in Boston area as mayor slams Bondi over ‘sanctuary’ warning"}
+{"id": 100, "domain": "nypost.com", "title": "RI prosecutor threatens cops to shut off body cameras while being arrested for alleged trespassing: ‘You’re going to regret it’"}
+{"id": 101, "domain": "redstate.com", "title": "Watch the Wild Video of Rhode Island Assistant AG Arrest, What Her Boss Says About Consequences"}
+
+====================Input File End======================
+
+
+
